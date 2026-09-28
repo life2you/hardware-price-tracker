@@ -22,36 +22,57 @@
     "name": "AMD 锐龙 5 7500F 处理器",
     "category": "CPU",
     "type": "new",
-    "notes": "近1年AM5主流新平台甜品U，主查京东/淘宝",
-    "updatedAt": "2026-09-28T14:58:18.093Z",
-    "jd": {
-      "status": "failed",
-      "error": "No price matched in DOM"
+    "notes": "近1-2年AM5千元级性价比神U，主查京东自营与散片渠道价",
+    "updatedAt": "2026-09-28T16:09:43.895Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 1239,
+      "msrp": 1239,
+      "dealerMin": null,
+      "jdPrice": 849,
+      "jdUrl": "https://union-click.jd.com/jdc?e=jd_100059227024&p=JF8BASQJK1olXDYCVV9cDEMUAGkJGF4lGVlaCgFtUQ5SQi0DBUVNGFJeSwUIFxlJX3EIGloUWQ4BV1hcC04IWipURlVRAl5cCyIJXRNHZj9eF1h7XWgCZC1DdRVoQjYLewJVJn8HTgANDixRAzkEF2sQXQcCVFZeCkoeM2wJGVgWVA8DVFxtOEkWBG4IHGtDMwYDVV9cCUoRAmg4GVsUXA8AU1ZaAXsXBWYNHVgTWQ8FVFtfOEsfBF9DztCIXAYCXW5tOEgnM18IK1glA2gDUw4JCxlDAwFUWB0QHQVLATBfDkweBWgBEmsXXAcAVm5tOBVeai5gRwB9BGJZVgo_bBtVXRFqGQ93OVZACiA_YSUVZgdLYR1MFlxpFQo1TyNkByY4GGsSWwcy",
+      "sourceUrl": "https://detail.zol.com.cn/cpu/index1796349.shtml",
+      "scrapedAt": "2026-09-28T16:10:05.382Z"
     },
-    "taobao": {
-      "status": "failed",
-      "error": "No price elements matched"
-    },
-    "goofish": null
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "京东自营",
+      "bestPrice": 849,
+      "saving": 0,
+      "tip": "差价极小，优先选京东自营售后保修"
+    }
   },
   "gpu_rtx_4060": {
     "id": "gpu_rtx_4060",
-    "name": "RTX 4060 8G 显卡",
+    "name": "七彩虹 RTX 4060 8GB 显卡",
     "category": "GPU",
     "type": "both",
-    "notes": "当前主力在售卡，同时监控京东全新与闲鱼二手流转价",
-    "updatedAt": "2026-09-28T14:58:18.093Z",
-    "jd": {
-      "status": "failed",
-      "error": "No price matched in DOM"
-    },
-    "taobao": {
-      "status": "failed",
-      "error": "No price elements matched"
+    "notes": "当前主力在售甜品卡，同时监控京东官方价与闲鱼流转行情",
+    "updatedAt": "2026-09-28T16:09:43.895Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 2499,
+      "msrp": 2499,
+      "dealerMin": null,
+      "jdPrice": 3669,
+      "jdUrl": "https://union-click.jd.com/jdc?e=jd_10024995451961&p=JF8BARsJK1olXgADU1lcDUMfBl8IGloWWA4KUFtZCEMQA19MRANLAjZbERscSkAJHTdNTwcKBlMdBgABFksWAmwNE1MRWAICXFldFxJSXzI4QwdvIEFANSI_bzVPV2dzZQdCLkJfAlJROE4XAm8IE1gXXA8yV19fC0geCm4IGWslXwcFVV5aOAp5A24MGFgWWwcyVl5cCUIVBGcPEmsVWw8HUl1aAU8WCmwBK1sdWjZJgdXACUsXCl84K1glbTYCZF1tViUWBD9dE10WCGheFxhYWBhNAgEKHVwVXQ8EXW5fCUoVAV84K1t-WHhdVi4OcjFOVhRIXxhgJANWASUdTAhiempcHjUXClB0HwYjfDtnARN0RQEUKAUyV25aDkon",
+      "sourceUrl": "https://detail.zol.com.cn/vga/index1794057.shtml",
+      "scrapedAt": "2026-09-28T16:10:17.436Z"
     },
     "goofish": {
-      "status": "failed",
-      "error": "No valid prices found after filtering"
+      "status": "estimated",
+      "source": "benchmark",
+      "referencePrice": 1950,
+      "medianPrice": 1950,
+      "url": "https://www.goofish.com/search?q=RTX%204060%20%E6%98%BE%E5%8D%A1",
+      "notes": "基于当前全国大盘二手实际流转均价",
+      "scrapedAt": "2026-09-28T16:10:22.849Z"
+    },
+    "recommendation": {
+      "bestChannel": "多平台混搭/淘宝渠道",
+      "bestPrice": 2499,
+      "saving": 1170,
+      "tip": "散片/渠道渠道比京东省 ￥1170"
     }
   },
   "ssd_zhitai_1tb": {
@@ -70,61 +91,276 @@
   },
   "cpu_intel_12400f": {
     "id": "cpu_intel_12400f",
-    "name": "Intel i5-12400F 处理器",
+    "name": "Intel 酷睿 i5-12400F 处理器",
     "category": "CPU",
     "type": "new",
-    "notes": "近2年千元装机顶流U，主查京东自营/淘宝",
-    "updatedAt": "2026-09-28T14:58:18.093Z",
-    "jd": {
-      "status": "failed",
-      "error": "No price matched in DOM"
+    "notes": "千元以内装机常青树，主查京东自营与散片底价",
+    "updatedAt": "2026-09-28T16:09:43.895Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 510,
+      "msrp": 1210,
+      "dealerMin": 510,
+      "jdPrice": 969,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=k1076prsimr92OKIuvWQ7wLCh-otnCgE73uy4mzSm0y4qHPnlQlFHYT0f8e5_Q7G5mTaqRmH-sSj2MeAcAb5sSxuCBakO3p5Uw3OrSoJE23BeVBzXAP_J0p6GtJFNBII1km-DDzvl1r7ec8ctJSTpJ62AywRqLprdth_uSovJPoDMF5UcVDY6iusHyn5ca-co061UiBYAohNLc7QhUgApiuTNhSiyFzXMvt0rHW5wPIir-3IcmDDo4lWopSR-Vx98JTpD8pRvuPcbSTatYXcVjjNQJOHuaIdJUxUeFxxvgNSEyZB9OvBh1zw03OQrAoFBMhWR1WK4i7Eltneb9M58XD1fm8u0kF5NYSQ6fdnBOuvJiOFdFryqGv4N6HQaPTaC_dROqvNlE4NjGSE68Pe6AEzOLJr-CQ1YzRwooSkiKYKddwI_KGpFyMcnk0IyuM7h-frRyNklrdBZlsl90z0iiicRI8fNsy-jalHjUXne9TL4eWGxTqUjyUztiLWxo14UT1iZCF1KLFkFsd1EbTNRs0KKhuJdPzAyqgyIcE00WuUiOOYxuwH3jCBt1D0sK5YXyfJxWBfhLajB0IGG8FAqBQD8m9RjWjxatCaptYJFI210_b0FWM1koy0TsFCpyBXBtaFfH8UllUXRsV5vJr9P5BLOXPQv8ALCLdQ6z3hJaiS7bjk5BtDzmaV6kwLAt9-kgibyWNxakIPbmCpOVs1QTLbWixFltMLgVAkqLNvk4ZtJHkS7VgXdzB3hRI-lY9R-V8o4cb7BcaQzoeiwmvnv4-57TlNuQGR6ocU16zL6nHq8W89gdtAk1KemtlLLYXh4QKugpJLrUmTDMUu-1814dg_Ff51sRYFSIkt1k0JzmqwWVwJ5vOmH3H7Eo-ReYHivDIOwWRNhSb-h1wgXLcNmus95SiiX2ttR0cJL1EWNsOjU_pb0u2eyHYw0C2RP-0Xemek-L9N3USp_cfqD0JTrU05lVZoPN-TP29JsO8f2QrkuXQtWG-aLhTNGKWNJTg1V4oDYCdAeKWt8kmVClG5gM-4S6pLTbtif4VfJokOCzGoQoQbL1W-5ndOOS4pyEvB8HC6Tv3YAvd8mdCCJ8AhWebv9iGRYGEtz2FlWmp6FYcJrSCNN7EQruaznWyYG8-8XHDB7km7ajAINOXmBgWhLbtHWS6JJlfVbx96w7aF6eN2ImoHlL3KfpAi2ERPjAv0IRXuFM5IOxv9a4bV2S5k5ow_iFql0xjFC-BagP7HBBLgphMrRWF6znoZjlwb0fDyEDDHDZvLZAXvCBxM-rTaf7wYw6YXRwonIdLAdiRVgGfqZ70vSw5FX3MteQliwMf3Zqgz2aUs4ubny7P92s9FIkGJKJu5vJ18tmcNfLzUIi9f5VbDR2J2IPiEF6AbReGt94C56hJUzR0Hd7QHZrug47-WG1ZUJu6swhOq6vwJPBMoUC3PwrVr2v4cz8HUSADNoRX-WbK4PWdhvTarFboFmXA_MKpNa9Ndgz_QuNwbOBTnLs1EQ6Fb5t0dSqkV6n3wdIYIsCfomERNV2IiGdP9EovlHBIeBmL5gTrB_yGGhq63INwXcqm7Py4o04WC5fjZo2MW9JIQ_5xd9xxPuwYpFxifnogmFxZYd9QuKtLWSsAficO3UQFBeNKg5Zzp6laZzp4SlpVuUC6DgbXzzZuUzv_kPYNR2gNRn5wlKz33Q9qD-VYv9QedkFePBYHSlPGCydNxvJApJ4Z5lbG4s6X2BwlDzbEFLypEJ7ULMccY5hlBH_b1mE1Tlyl5PuUtVBo77JnBA-lLtSlzX6eFmaUWa1w5rgyw749PmmRRXyMyem8F_WKQSxcGprH01lwfp4UMCLVZjb8CpePDL3Lg47YbSVYsGtue3vr8OJJOJJmmPLh_tddQFngV6-_Byz45QhjQVQXSaksDvsRGeDIxUKFdQf3YHrSYyTif5sYbrONGiHcFQ42a9fJOIwd-gfNmT0rUDNlzxiixXiVJePPleRwq-_lHoRTQOjdFlMyg1vzAd5CtldH-WGzFRXMZXIGODVjcQWxWu8fWVsXeg5sO0_zPa0NfhmYNYqwVwYtMD8MTvDIWDrMbsldpu4ezfZSjL6kY5CmzaZeqFPW-ya2EMcH91zvm_PGgdaaZzWXnwcO616z9gwq494Fc3tzm3i8PVO7W_FyhLOg5exdfXSCCEnf58cDDXxj4ykGGWjz5qZPWOfn6DexIRK5fnJWyf5zPct99rqAXXL48VGaE1UtTJO6wvkjS5vJo0YGI5hMDJkukFLW5kjXuIKIfpB7jU0VRM1_zPRafxr2ldK_SBzZzADb_JQlz0NVs2mvS2HPsLpc4BW9isSZs2klceXejCyvXSdDDAoxszPfGrYSJ2A1l7mxn5mII66ORJlvzeIyvPBy0uW0uTYAkKVHdu8ps3jFBQ9541SzKQT-tnY7NwCXY5Z0Q8HSqmPlzn_B3dHjNXoYrVk-xhW6YEMVZRK1G9ACXonnceYBiq-IZpOvNaye64xLg5zM2kTzZbnn318y_7v4eQCEbLS0bX99nuiHyPLZRi_4RAi1OcKzwwt0RWgoizcz8QSzWgCdTu&st=1790611811170",
+      "sourceUrl": "https://detail.zol.com.cn/cpu/index1338644.shtml",
+      "scrapedAt": "2026-09-28T16:10:13.321Z"
     },
-    "taobao": {
-      "status": "failed",
-      "error": "No price elements matched"
-    },
-    "goofish": null
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "多平台混搭/淘宝渠道",
+      "bestPrice": 510,
+      "saving": 459,
+      "tip": "散片/渠道渠道比京东省 ￥459"
+    }
   },
   "cpu_amd_5600_used": {
     "id": "cpu_amd_5600_used",
     "name": "AMD 锐龙 5 5600 (二手/散片)",
     "category": "CPU",
     "type": "used",
-    "notes": "经典老AM4神U，京东自营缺货溢价，专攻闲鱼二手真实淘金价",
-    "updatedAt": "2026-09-28T14:58:18.093Z",
-    "jd": null,
-    "taobao": null,
+    "notes": "经典老AM4神U，专攻闲鱼二手淘宝捡漏",
+    "updatedAt": "2026-09-28T16:09:43.895Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 1359,
+      "msrp": 1359,
+      "dealerMin": null,
+      "jdPrice": 769,
+      "jdUrl": "https://union-click.jd.com/jdc?e=jd_10059568992326&p=JF8BARsJK1olXgADU1pbCkMSAV8IGloRVQIFXVZVC0kUBF9MRANLAjZbERscSkAJHTdNTwcKBlMdBgABFksWAmsAH1wcVQ4BVl1aFxJSXzI4BR1VAw8EUQE4Vj1EehcJXRBrGVFBJFJROE4XAm8IE1gXXA8yV19fC0geCm4IGWslXwcFVV5aOAp5A24IHV0VWgEyVl5cCUIVBGcPEmsVWw8HUl1bD0oTBmgNK1sdWjZJgdXACUsXCl84K1glbTYCZF1tViUWBD9dE10WCWheFxhYSBJTCgEKHVwSWgMBU25fCUoVAV84KyBmPQFyPAxcdgtiQxMBbSgWHgBUFCJUfjgUQGleezUXWgNHHF0YWgBzawRNcylUKF0yV25aDkon",
+      "sourceUrl": "https://detail.zol.com.cn/cpu/index1403088.shtml",
+      "scrapedAt": "2026-09-28T16:10:30.897Z"
+    },
     "goofish": {
-      "status": "failed",
-      "error": "No valid prices found after filtering"
+      "status": "estimated",
+      "source": "benchmark",
+      "referencePrice": 520,
+      "medianPrice": 520,
+      "url": "https://www.goofish.com/search?q=AMD%205600%20%E6%95%A3%E7%89%87",
+      "notes": "基于当前全国大盘二手实际流转均价",
+      "scrapedAt": "2026-09-28T16:10:35.369Z"
+    },
+    "recommendation": {
+      "bestChannel": "闲鱼二手",
+      "bestPrice": 520,
+      "saving": 249,
+      "tip": "老配件停产/溢价，闲鱼淘二手性价比最高"
     }
   },
   "gpu_gtx_1660s_used": {
     "id": "gpu_gtx_1660s_used",
-    "name": "GTX 1660 Super 6G (二手)",
+    "name": "七彩虹 GTX 1660 Super 6G (二手)",
     "category": "GPU",
     "type": "used",
-    "notes": "停产多年的百元级神卡，专攻闲鱼二手行情",
-    "updatedAt": "2026-09-28T14:58:18.093Z",
-    "jd": null,
-    "taobao": null,
+    "notes": "百元级经典老卡，专攻闲鱼二手行情",
+    "updatedAt": "2026-09-28T16:09:43.895Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 2399,
+      "msrp": 2399,
+      "dealerMin": null,
+      "jdPrice": 599,
+      "jdUrl": "https://union-click.jd.com/jdc?e=jd_100192146710&p=JF8BAZQJK1olWAcAUldZCksVCl8IGloVVQUCUVlbCEonRzBQRQQlBENHFRxWFlVWQDEXR0ROCBlQCgJDVBtKXnFYSR5NGlIcUVoabhJnX2dda1lNVQF3Cj4PfSxNBylaRDxwDxhaCwsJQVRORjNVFRlPGQp6FVtbSU4QcSRfTDt-K21RPTcWYSt8dQRbcjJeNANsViEhCB5JQg52TV1-CVl2KwI-Hw9IWzFXRgtKCGNKFQpRCFxLUzdXeQFRUQYDVV5VC0sSBGkIGmsUG25RTidHWClgeRlfHB5uO2V-TjY9BEcnBm8JG1sdXgQDXW5eCUkUAGYBGlsXbTYAVVlcCEwnUwEIElocXgQyVl5cCUIVBGcPEmsVWw8HUlpZDkwSAGsAK1sdWjZJgdXACUsXCl84K1glbTYBUm5eOBV5AmhYSV9AWAVsCB0bVRMXUyRmGVMXVQICUVptCkoWAW04K2ttHAMEFVtaegBAVA9jbTBGNG9JPT42fiBEagZDcl57X3l-VAsDSSppVWljTwRhIlphZF1tD00WMw",
+      "sourceUrl": "https://detail.zol.com.cn/vga/index1298480.shtml",
+      "scrapedAt": "2026-09-28T16:10:39.485Z"
+    },
     "goofish": {
-      "status": "failed",
-      "error": "No valid prices found after filtering"
+      "status": "estimated",
+      "source": "benchmark",
+      "referencePrice": 580,
+      "medianPrice": 580,
+      "url": "https://www.goofish.com/search?q=1660s%20%E6%98%BE%E5%8D%A1",
+      "notes": "基于当前全国大盘二手实际流转均价",
+      "scrapedAt": "2026-09-28T16:10:44.107Z"
+    },
+    "recommendation": {
+      "bestChannel": "闲鱼二手",
+      "bestPrice": 580,
+      "saving": 19,
+      "tip": "老配件停产/溢价，闲鱼淘二手性价比最高"
     }
   },
   "gpu_rtx_2060s_used": {
     "id": "gpu_rtx_2060s_used",
-    "name": "RTX 2060 Super 8G (二手)",
+    "name": "索泰 RTX 2060 Super 8G (二手)",
     "category": "GPU",
     "type": "used",
     "notes": "千元以内经典高性价比老卡，专攻闲鱼二手行情",
-    "updatedAt": "2026-09-28T14:58:18.093Z",
-    "jd": null,
-    "taobao": null,
+    "updatedAt": "2026-09-28T16:09:43.895Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 3399,
+      "msrp": 3399,
+      "dealerMin": null,
+      "jdPrice": 1499,
+      "jdUrl": "https://union-click.jd.com/jdc?e=jd_10065360417210&p=JF8BAS8JK1olXwMAXFlaC0oUC18IGloSWQQFVVtdDkgXAl9MRANLAjZbERscSkAJHTdNTwcKBlMdBgABFksWAmgMGVwUWAYEV15cFxJSXzIGXwRNA1l-AAsFWC5HVWMLdVp7XTZrAR9HSw51Yw99UygPDWN5MwQOekJ3D2M4HlsUXQYKV1xcAXsUAm0LGFIcXAYAZG5fCUwWA2g4WjUVXgELXFlfAXsVA24JElkSVQELZF5bAU4RAGgBHFgRWgcyVFZaOADCiPIJG1scbTYyV25tOEsnAF9WdVoSWQRVVlxZZhdURWpYQQZTMwQEU15cC04fM20JGlkXbTYyPyY4Uk5MXBFYYyUTPmZUCB8NS0oRYA9eRxpFHgdnOlwofxtoWTRMTxhOFH9SKyQEUHsUM2gOGms",
+      "sourceUrl": "https://detail.zol.com.cn/vga/index1282319.shtml",
+      "scrapedAt": "2026-09-28T16:10:48.347Z"
+    },
     "goofish": {
-      "status": "failed",
-      "error": "No valid prices found after filtering"
+      "status": "estimated",
+      "source": "benchmark",
+      "referencePrice": 1050,
+      "medianPrice": 1050,
+      "url": "https://www.goofish.com/search?q=2060s%208g%20%E6%98%BE%E5%8D%A1",
+      "notes": "基于当前全国大盘二手实际流转均价",
+      "scrapedAt": "2026-09-28T16:10:52.774Z"
+    },
+    "recommendation": {
+      "bestChannel": "闲鱼二手",
+      "bestPrice": 1050,
+      "saving": 449,
+      "tip": "老配件停产/溢价，闲鱼淘二手性价比最高"
+    }
+  },
+  "cpu_amd_9800x3d": {
+    "id": "cpu_amd_9800x3d",
+    "name": "AMD 锐龙 7 9800X3D 处理器",
+    "category": "CPU",
+    "type": "new",
+    "notes": "当前最强旗舰电竞游戏U，主查京东/市场渠道价",
+    "updatedAt": "2026-09-28T16:09:43.895Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 3799,
+      "msrp": 3799,
+      "dealerMin": null,
+      "jdPrice": 3299,
+      "jdUrl": "https://union-click.jd.com/jdc?e=jd_100147630258&p=JF8BASQJK1olXDYCVV9dDU0QAW4LH1IlGVlaCgFtUQ5SQi0DBUVNGFJeSwUIFxlJX3EIGloVWAAFVl9eDEIIWipURlVRAl5cCyIJXRNHZj9eF1h7XGgCZFggYQt8Vxl8fltnAk8ECg0dTS1HdB8EF2sQXQcCVFZeCkoeM2wJGVgWVA8DVFxtOEkWBG4IHGtDMwYDVV9cCUoRAmg4GVsUXA8AU1ZaAXsXBWYNHVgTWQEFUV9dOEsfBF9DztCIXAYCXW5tOEgnM18IK1glA2gDU1hfCk0eBAFUWB0QHFlcHDBfDkwRB2sKGWsXXAcAVm5tOD0QYxZDbjtHDVYBEioaXxZQBisJXS9SCltFURpcaCUVXiR6GBJ0HHlKLSo5DCJuBg84GGsSWwcy",
+      "sourceUrl": "https://detail.zol.com.cn/cpu/index2113342.shtml",
+      "scrapedAt": "2026-09-28T16:09:57.408Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "京东自营",
+      "bestPrice": 3299,
+      "saving": 0,
+      "tip": "差价极小，优先选京东自营售后保修"
+    }
+  },
+  "cpu_amd_9600x": {
+    "id": "cpu_amd_9600x",
+    "name": "AMD 锐龙 5 9600X 处理器",
+    "category": "CPU",
+    "type": "new",
+    "notes": "新一代Zen5主流高能效CPU",
+    "updatedAt": "2026-09-28T16:09:43.895Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 1499,
+      "msrp": 1499,
+      "dealerMin": null,
+      "jdPrice": 1349,
+      "jdUrl": "https://union-click.jd.com/jdc?e=jd_100110580225&p=JF8BARAJK1olXDYCVV9dCEoTCm4LGF8lGVlaCgFtUQ5SQi0DBUVNGFJeSwUIFxlJX3EIGloVXQcGXV9eC08IWipURmtMG3wGNQMNbi51SxZNHh4VKnt0VCY9BEcnBm8JG1sdXgQDXW5eCUkUAGYBGlsXbTYAVVlcCEwnVQEIGloUXAcDUl9aOEkXAm4BGVwdWg8yVFhUDU0UBWsOG18WVDYCXFltQ56cnm4IG1IlbTYBZG5tCHsUMzFmGlwTXlQHXFczVAhRBi5LRA17XwAEVltZDE4nAW4JGVklbTZCFVsPQCIeXShNZDNQXmdaET4BUiNSAA5QXjtJBwNsViUnagJhBg1yQwlQKHBeAAUbOEgnBGkJKw",
+      "sourceUrl": "https://detail.zol.com.cn/cpu/index2018967.shtml",
+      "scrapedAt": "2026-09-28T16:10:01.523Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "京东自营",
+      "bestPrice": 1349,
+      "saving": 0,
+      "tip": "差价极小，优先选京东自营售后保修"
+    }
+  },
+  "cpu_intel_14600kf": {
+    "id": "cpu_intel_14600kf",
+    "name": "Intel 酷睿 i5-14600KF 处理器",
+    "category": "CPU",
+    "type": "new",
+    "notes": "中高端热门主流游戏与生产力U",
+    "updatedAt": "2026-09-28T16:09:43.895Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 993,
+      "msrp": 2499,
+      "dealerMin": 993,
+      "jdPrice": 1629,
+      "jdUrl": "https://union-click.jd.com/jdc?e=jd_10087603489124&p=JF8BAS8JK1olXgUEVVpVDU4RBl8IGlocWwEDVltUAEsUBl9MRANLAjZbERscSkAJHTdNTwcKBlMdBgABFksWAmYOHFoXWA8KVF1YFxJSXzIGXwRNA1l-AAsFWC5HVWMLdVt7XTZbAQw_AD1NdQ1AfQ1iOm5-XBVfXBxBD2M4HlsUXQYKV1xcAXsUAm0LGFIcXAYAZG5fCUwWA2g4WjUVXAUGXF9UDnsVA24JElkSVQELZF5bAU4RAGkMEloUWQMyVFZaOADCiPIJG1scbTYyV25tOEsnAF9WdVoSWQUEVVwJZhdURWpJU1JCMwQEUl5UCUIeM20JGlkXbTYyVgBYcxNVXjZtaDxiX2B8D14iXwJgAQl2QFtqCk8HOlwPTyp0CjtVTVNXJ1ECCQJeSXsUM2gOGms",
+      "sourceUrl": "https://detail.zol.com.cn/cpu/index1929615.shtml",
+      "scrapedAt": "2026-09-28T16:10:09.019Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "多平台混搭/淘宝渠道",
+      "bestPrice": 993,
+      "saving": 636,
+      "tip": "散片/渠道渠道比京东省 ￥636"
+    }
+  },
+  "gpu_rtx_5070ti": {
+    "id": "gpu_rtx_5070ti",
+    "name": "华硕 TUF RTX 5070 Ti 16G 显卡",
+    "category": "GPU",
+    "type": "new",
+    "notes": "新一代主力2K/4K高画质旗舰卡",
+    "updatedAt": "2026-09-28T16:09:43.895Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 7054,
+      "msrp": 8499,
+      "dealerMin": 7054,
+      "jdPrice": 759,
+      "jdUrl": "https://union-click.jd.com/jdc?e=jd_100080344432&p=JF8BAS4JK1olWAYFVVxZC0gfB18IGloUVAcAUVtYCkgnRzBQRQQlBENHFRxWFlVPRjtUBABAQlRcCEBdCUoWCm4KHl4QXwUdDRsBVUVTXDdWRCdBCF5SMQ4LBEh5AgEIKwxBX31ALz5UbU5XWRV7QSRQHUFyTghRBHsSA24IG1MWXwcLZF1cCkgUCmYJG1klbQQDU19dD3tFbWcAE18dXQILXVZUOEkXAm4BGVwdWg8yVFhUDU0TB2cJGlkdWjYCXFltQ56cnm4IG1IlbTYBZG5tCHsUMzFmGggcCQ8DVwwzVAhRXjVASQN7Xw4GVFlZCEgnAW4JGVklbTZZEj4FTS1qBhcMEjJVIEZjPA0KTSJXfi9pcwhCGGZsVio-eApSAChtGQNVWgcFNioNOEgnBGkJKw",
+      "sourceUrl": "https://detail.zol.com.cn/vga/index2121275.shtml",
+      "scrapedAt": "2026-09-28T16:10:26.895Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "京东自营",
+      "bestPrice": 759,
+      "saving": 0,
+      "tip": "差价极小，优先选京东自营售后保修"
+    }
+  },
+  "mobo_b650m_gigabyte": {
+    "id": "mobo_b650m_gigabyte",
+    "name": "技嘉 B650M GAMING WIFI 主板",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "AMD AM5 平台最走量高性价比主板",
+    "updatedAt": "2026-09-28T16:09:43.895Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 569,
+      "msrp": 679,
+      "dealerMin": 569,
+      "jdPrice": 679,
+      "jdUrl": "https://union-click.jd.com/jdc?e=jd_10089906584367&p=JF8BARsJK1olXwQKV1dYDEgXBF8IGlocVQ4DU1pUDUkQBV9MRANLAjZbERscSkAJHTdNTwcKBlMdBgABFksWAmYAE1oSWQ8HVllbFxJSXzI4cFNzX3FnUjk_cjVgeRxXAQxqBRxpAlJROE4XAm8IE1gXXA8yV19fC0geCm4IGWslXwcFVV5aOAp5A2oKG18cWwIyVl5cCUIVBGcPEmsVWw8HUl1ZCkgUAm4MK1sdWjZJgdXACUsXCl84K1glbTYCZF1tViUWBGsLHlwQW2heFxhfXRBRRwEKHV4cWQQFXG5fCUoVAV84KxJ0PVVUFw4CQS9fSihrUDJCNk5_HRk-QyJAaCd1ezUXIG1iNlwgD09iQDJpHVJJBA4yV25aDkon",
+      "sourceUrl": "https://detail.zol.com.cn/motherboard/index2106519.shtml",
+      "scrapedAt": "2026-09-28T16:10:57.470Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "多平台混搭/淘宝渠道",
+      "bestPrice": 569,
+      "saving": 110,
+      "tip": "散片/渠道渠道比京东省 ￥110"
+    }
+  },
+  "mobo_b760m_asus": {
+    "id": "mobo_b760m_asus",
+    "name": "华硕 TUF GAMING B760M-PLUS 重炮手",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "Intel 12-14代主流装机首选主板",
+    "updatedAt": "2026-09-28T16:09:43.895Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 585,
+      "msrp": 1159,
+      "dealerMin": 585,
+      "jdPrice": 1159,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=h70b2F-nXSQJFSWvJeWLIc5t5sHF4ZZm3xQ-uhMojO4pVMb8nR4DIIv10zsl5D5zFRdAL85p8tj0gfnej3IDVbGxfY7Tg27qB9zOlhWr3YdzJieHEvggVQGzp_yw-WYlVeG7bPl6kYEIvFLX8HFHhuQ_a1F-9crNl_OAGzMg1T0RBVaW2FKBCmWFCWkFo7hy__rz0GiaeBhDTvUZT7ZkGyM7AjzoV4o7In7cxgGKisMwa8hH7GpXSJauRO21G82evyAj42a2IB5LQ69LrzGNoMSeqNOfaAOYbHOggaurygwFF0jWyS7iAbB3fOkoL8aLiJVvg8XqgyZR0q1MtuzlhlQP4zGWkEUKXm19xBzY5cLMp8FnO0ktLksLa8GozpQQZ3P4LEgIsH0fEYkep7mXOSqXoHq34q4xOS3hXeeTRjvXpfs15wu7hswGrfqokggBtoOpPiJkijUKXmuXPJDJADZIeUAUOfCUBgKTMBDMU4fe7_n5VuP6wGzuHGS80O27cKVSuc5eRHem8uL-MCkXLjCGY8bu2SBKv1ixLT0u0EtIowSGi8siKiRu6ouAgtEjUCZR90BQCcD5kcFI7XoHZNMkpVe-PEeM7uzbikeeEnaTbNv1biTGVfFfbzKtmI4tY8JDJ2g7kl_57_47ZqQzlxjvJVdLVK3Xr0sLPuXXjGI-R7JkKUBriBJfxtyubfFDg_2UfZ6QiAvFNlHTh6mrzSK8wRCaywnfEhsUNAHVU1nyN356QEM2cBbEDBetL2vWd5W4nk4qbrLICl5v-6lw1qhGaOhiYNrnT0iP2zod8IyzwuEl0dwjFeL8EdMXHKA3tb2pRz0TEls8n7l12qsyNhslIwcqeyutnmRLoainfE1QTKwI-R0EFRV1gZUoqj_IhTaPrhaB9nHhLPsWl38o8w3fN5tPnDAbtiibG5ougA-xtE8bqLl3iBw0CY4oo6O0oOKGO5xsIU_5fP4KmqIOT5Q7xpcFvlAxmLDak3eWpmT-EdSppfakipdr7hryi4HrQlN1fgfJTqeFfGom3ZDqXJ-Z_-_kfGW31Kjb0qum1ZE_hkNQyvTRSeTnlZ0otiryjFTMZdndkZF271b_mZ0zBiMvR9Vlo2UsgKqOMLfTt6ZvroGgOOlM48jq5LFqE2k-kZRzIRVa3MOa3fQrVM-M30GRe2ZDRLhU1kdgeUQTHO4o9Yw-McwZjs5y2xLf8RAiH4oK_SuLoAGGjUfwqeDZO6NTosLQUkOvoGBwKon10hkiqDDk_OjPGmHYigG8dKqxw_Cjc0qs38jsXFIJ6bYELrnm2REA0PbEILZ9l9RTVwiXm6Ao_lC-UDFegO_5MJaxN6wlOnpC6lWONsxfw9orLSb2gfBFwNBJ_zEuA-_G9x0Mu9N21ogNvwG-Z3kGowE8ggv-NaaIe1Nq5QHTqbz61_MslbiL-xJ7kCr-nMV6qsxVBqaJLSNzentH5kp1bK27Xv9pCzrsMAi1c8QupsWE86mcCv7XJTfiZ4g3sZpsLhorw4_kz6A4bfj0vHLuL-aIjzVg85RBeQi9kYadV7rQa5dbQNnQH_f_s-0cHPUfjEYrt99GsyR1yuA7_znSqUXFcfwaDyB3H-h7DBdHseUZ3SRPBktLX_0n2Ws8QB9G8HUr6Y7w9VWmXm62e0p7bCAH403oyv2mQRj7BJC-4HSu9XD6JKpFdUyS3QBN7usVjq9Qea_oJwiBiLi5T8a8NLnvbnj89j1FE-LEqhdM-X0NMPdC_2__ZgiE7Vg0ONIFUytdcSDFaGxTZsimXhL50fpZ5vwYWbOavG15ML3oavjqOE_4IFDWuQIRVKrfqPeBuZCvSUnqNeyMTK34ONyCKnba7odKCPJjAjp4PWshNlcPTHI7QQd50LWJyxMfc4BNEAFd6OrIPjLz9g5OhFVgdc_IpifmZxMgYmGrNDO03g-dQdzpV9COnh0H5TcNGINFBMxZjVUd_9JKlLN0GEr661r66RDb42_lH1InMcYvN9sutJL-1kv7Lbd4OyiqsEuQSjZ-WY0U_1KdNFLpaIstK2DgFfxpxQ2azG9NoxAhSToa3i8tKeL9oqozrw8vQV8uWfhzeEk5eJL_ugBZj3kvNUD6JBGKW0WMdT9itAbL5xhluSF535WjopTprRcWjVP1xth3qUeIz92ogn0y14tjeDAv5Qp_V3n-g8sdwALkr_LmVQ-jbwrxkA08gcWSA1DwMLmA1qFEjKybqIF-htfbptVF7J6atAGH-7b9jgA_V8Pv6VLgL8mPQyvGDZ9hewoMgX9jCagpuYh1XUtcpLT4p-TiHgrIVbqyRTyKwWsimBVBcZmhQ5aHIT0V--u1DfaFCd01_WD-APgsuo7mupt86erottK0sVN4QR48NK9aR6TBDOX0CVql8H-d3ZtyEVM-rI-2lYcWNeDZeybNg-Ah5jQTq0cPjF6Jhwjqnoe05mR5A8sHe8K__WcKitFGqTx8UVtY6&st=1790611859944",
+      "sourceUrl": "https://detail.zol.com.cn/motherboard/index1440076.shtml",
+      "scrapedAt": "2026-09-28T16:11:01.570Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "多平台混搭/淘宝渠道",
+      "bestPrice": 585,
+      "saving": 574,
+      "tip": "散片/渠道渠道比京东省 ￥574"
     }
   }
 }
