@@ -21,7 +21,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
 
       - name: Install Dependencies
         run: npm install
@@ -36,13 +35,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # 检查是否有数据更新
-          if [ -n "$(git status --porcelain data/prices.json)" ]; then
-            git add data/prices.json
-            git commit -m "chore(data): auto-update hardware prices [skip ci]"
-            git push
-            echo "✅ 价格数据已成功更新并提交回仓库！"
-          else
-            echo "ℹ️ 数据未发生变动，无需提交。"
-          fi
+          git add data/prices.json
+          git commit -m "chore(data): auto-update hardware prices [skip ci]" || echo "No changes to commit"
+          git push || echo "Push skipped"
