@@ -1,25 +1,10 @@
 [
   {
-    "id": "cpu_amd_5600",
-    "name": "AMD 锐龙 5 5600 处理器",
-    "category": "CPU",
-    "jd": {
-      "sku": "100021995874",
-      "url": "https://item.jd.com/100021995874.html"
-    },
-    "taobao": {
-      "keyword": "AMD 5600 散片 CPU",
-      "url": "https://s.taobao.com/search?q=AMD+5600+%E6%95%A3%E7%89%87"
-    },
-    "goofish": {
-      "keyword": "AMD 5600 散片",
-      "url": "https://www.goofish.com/search?q=AMD+5600+%E6%95%A3%E7%89%87"
-    }
-  },
-  {
     "id": "cpu_amd_7500f",
     "name": "AMD 锐龙 5 7500F 处理器",
     "category": "CPU",
+    "type": "new",
+    "notes": "近1年AM5主流新平台甜品U，主查京东/淘宝",
     "jd": {
       "sku": "100059882345",
       "url": "https://item.jd.com/100059882345.html"
@@ -27,16 +12,29 @@
     "taobao": {
       "keyword": "AMD 7500F 散片",
       "url": "https://s.taobao.com/search?q=AMD+7500F+%E6%95%A3%E7%89%87"
+    }
+  },
+  {
+    "id": "cpu_intel_12400f",
+    "name": "Intel i5-12400F 处理器",
+    "category": "CPU",
+    "type": "new",
+    "notes": "近2年千元装机顶流U，主查京东自营/淘宝",
+    "jd": {
+      "sku": "100032014866",
+      "url": "https://item.jd.com/100032014866.html"
     },
-    "goofish": {
-      "keyword": "7500F 散片",
-      "url": "https://www.goofish.com/search?q=7500F+%E6%95%A3%E7%89%87"
+    "taobao": {
+      "keyword": "i5 12400F 散片",
+      "url": "https://s.taobao.com/search?q=i5+12400F+%E6%95%A3%E7%89%87"
     }
   },
   {
     "id": "gpu_rtx_4060",
     "name": "RTX 4060 8G 显卡",
     "category": "GPU",
+    "type": "both",
+    "notes": "当前主力在售卡，同时监控京东全新与闲鱼二手流转价",
     "jd": {
       "sku": "100059639535",
       "url": "https://item.jd.com/100059639535.html"
@@ -46,25 +44,52 @@
       "url": "https://s.taobao.com/search?q=RTX+4060+8G"
     },
     "goofish": {
-      "keyword": "RTX 4060 8G",
-      "url": "https://www.goofish.com/search?q=RTX+4060+8G"
+      "keyword": "RTX 4060 8G 显卡",
+      "url": "https://www.goofish.com/search?q=RTX+4060+8G+%E6%98%BE%E5%8D%A1"
     }
   },
   {
     "id": "ssd_zhitai_1tb",
-    "name": "致态 TiPlus7100 1TB PCIe 4.0 SSD",
+    "name": "致态 TiPlus7100 1TB SSD",
     "category": "SSD",
+    "type": "new",
+    "notes": "主流在售PCIe 4.0固态，主查京东自营",
     "jd": {
       "sku": "100045464161",
       "url": "https://item.jd.com/100045464161.html"
-    },
-    "taobao": {
-      "keyword": "致态 TiPlus7100 1TB",
-      "url": "https://s.taobao.com/search?q=%E8%87%B4%E6%80%81+TiPlus7100+1TB"
-    },
+    }
+  },
+  {
+    "id": "cpu_amd_5600_used",
+    "name": "AMD 锐龙 5 5600 (二手/散片)",
+    "category": "CPU",
+    "type": "used",
+    "notes": "经典老AM4神U，京东自营缺货溢价，专攻闲鱼二手真实淘金价",
     "goofish": {
-      "keyword": "致态 7100 1TB",
-      "url": "https://www.goofish.com/search?q=%E8%87%B4%E6%80%81+7100+1TB"
+      "keyword": "AMD 5600 散片",
+      "url": "https://www.goofish.com/search?q=AMD+5600+%E6%95%A3%E7%89%87"
+    }
+  },
+  {
+    "id": "gpu_gtx_1660s_used",
+    "name": "GTX 1660 Super 6G (二手)",
+    "category": "GPU",
+    "type": "used",
+    "notes": "停产多年的百元级神卡，专攻闲鱼二手行情",
+    "goofish": {
+      "keyword": "1660s 显卡",
+      "url": "https://www.goofish.com/search?q=1660s+%E6%98%BE%E5%8D%A1"
+    }
+  },
+  {
+    "id": "gpu_rtx_2060s_used",
+    "name": "RTX 2060 Super 8G (二手)",
+    "category": "GPU",
+    "type": "used",
+    "notes": "千元以内经典高性价比老卡，专攻闲鱼二手行情",
+    "goofish": {
+      "keyword": "2060s 8g 显卡",
+      "url": "https://www.goofish.com/search?q=2060s+8g+%E6%98%BE%E5%8D%A1"
     }
   }
 ]
