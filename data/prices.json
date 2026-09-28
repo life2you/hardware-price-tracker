@@ -21,59 +21,110 @@
     "id": "cpu_amd_7500f",
     "name": "AMD 锐龙 5 7500F 处理器",
     "category": "CPU",
-    "updatedAt": "2026-09-28T14:52:42.869Z",
+    "type": "new",
+    "notes": "近1年AM5主流新平台甜品U，主查京东/淘宝",
+    "updatedAt": "2026-09-28T14:58:18.093Z",
     "jd": {
       "status": "failed",
-      "error": "page.waitForSelector: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator('.price, .big-price, [class*=\"price\"]') to be visible\n    20 × locator resolved to 61 elements. Proceeding with the first one: <p class=\"price\" id=\"priceSale2\">…</p>\n"
+      "error": "No price matched in DOM"
     },
     "taobao": {
       "status": "failed",
       "error": "No price elements matched"
     },
-    "goofish": {
-      "status": "failed",
-      "error": "page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.goofish.com/search?q=7500F%20%E6%95%A3%E7%89%87\", waiting until \"networkidle\"\n"
-    }
+    "goofish": null
   },
   "gpu_rtx_4060": {
     "id": "gpu_rtx_4060",
     "name": "RTX 4060 8G 显卡",
     "category": "GPU",
-    "updatedAt": "2026-09-28T14:52:42.869Z",
+    "type": "both",
+    "notes": "当前主力在售卡，同时监控京东全新与闲鱼二手流转价",
+    "updatedAt": "2026-09-28T14:58:18.093Z",
     "jd": {
       "status": "failed",
-      "error": "page.waitForSelector: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator('.price, .big-price, [class*=\"price\"]') to be visible\n    20 × locator resolved to 61 elements. Proceeding with the first one: <p class=\"price\" id=\"priceSale2\">…</p>\n"
+      "error": "No price matched in DOM"
     },
     "taobao": {
       "status": "failed",
       "error": "No price elements matched"
     },
     "goofish": {
-      "status": "success",
-      "minPrice": 80,
-      "medianPrice": 180,
-      "avgPrice": 808,
-      "sampleCount": 8,
-      "url": "https://www.goofish.com/search?q=RTX%204060%208G",
-      "scrapedAt": "2026-09-28T14:54:59.015Z"
+      "status": "failed",
+      "error": "No valid prices found after filtering"
     }
   },
   "ssd_zhitai_1tb": {
     "id": "ssd_zhitai_1tb",
-    "name": "致态 TiPlus7100 1TB PCIe 4.0 SSD",
+    "name": "致态 TiPlus7100 1TB SSD",
     "category": "SSD",
-    "updatedAt": "2026-09-28T14:52:42.869Z",
+    "type": "new",
+    "notes": "主流在售PCIe 4.0固态，主查京东自营",
+    "updatedAt": "2026-09-28T14:58:18.093Z",
     "jd": {
       "status": "failed",
-      "error": "page.waitForSelector: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator('.price, .big-price, [class*=\"price\"]') to be visible\n    20 × locator resolved to 61 elements. Proceeding with the first one: <p class=\"price\" id=\"priceSale2\">…</p>\n"
+      "error": "No price matched in DOM"
+    },
+    "taobao": null,
+    "goofish": null
+  },
+  "cpu_intel_12400f": {
+    "id": "cpu_intel_12400f",
+    "name": "Intel i5-12400F 处理器",
+    "category": "CPU",
+    "type": "new",
+    "notes": "近2年千元装机顶流U，主查京东自营/淘宝",
+    "updatedAt": "2026-09-28T14:58:18.093Z",
+    "jd": {
+      "status": "failed",
+      "error": "No price matched in DOM"
     },
     "taobao": {
       "status": "failed",
       "error": "No price elements matched"
     },
+    "goofish": null
+  },
+  "cpu_amd_5600_used": {
+    "id": "cpu_amd_5600_used",
+    "name": "AMD 锐龙 5 5600 (二手/散片)",
+    "category": "CPU",
+    "type": "used",
+    "notes": "经典老AM4神U，京东自营缺货溢价，专攻闲鱼二手真实淘金价",
+    "updatedAt": "2026-09-28T14:58:18.093Z",
+    "jd": null,
+    "taobao": null,
     "goofish": {
       "status": "failed",
-      "error": "page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.goofish.com/search?q=%E8%87%B4%E6%80%81%207100%201TB\", waiting until \"networkidle\"\n"
+      "error": "No valid prices found after filtering"
+    }
+  },
+  "gpu_gtx_1660s_used": {
+    "id": "gpu_gtx_1660s_used",
+    "name": "GTX 1660 Super 6G (二手)",
+    "category": "GPU",
+    "type": "used",
+    "notes": "停产多年的百元级神卡，专攻闲鱼二手行情",
+    "updatedAt": "2026-09-28T14:58:18.093Z",
+    "jd": null,
+    "taobao": null,
+    "goofish": {
+      "status": "failed",
+      "error": "No valid prices found after filtering"
+    }
+  },
+  "gpu_rtx_2060s_used": {
+    "id": "gpu_rtx_2060s_used",
+    "name": "RTX 2060 Super 8G (二手)",
+    "category": "GPU",
+    "type": "used",
+    "notes": "千元以内经典高性价比老卡，专攻闲鱼二手行情",
+    "updatedAt": "2026-09-28T14:58:18.093Z",
+    "jd": null,
+    "taobao": null,
+    "goofish": {
+      "status": "failed",
+      "error": "No valid prices found after filtering"
     }
   }
 }
