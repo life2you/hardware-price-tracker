@@ -7,10 +7,19 @@
     "start": "node src/index.js",
     "test": "node src/index.js"
   },
-  "keywords": ["hardware", "price-tracker", "playwright", "jd", "taobao", "goofish"],
+  "keywords": [
+    "hardware",
+    "price-tracker",
+    "playwright",
+    "jd",
+    "taobao",
+    "goofish"
+  ],
   "author": "life2you",
   "license": "MIT",
   "dependencies": {
-    "playwright": "^1.50.0"
+    "playwright": "^1.50.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
 }

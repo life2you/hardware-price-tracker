@@ -1,8 +1,7 @@
 const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
-const { scrapeJDPrice } = require('./jd');
-const { scrapeTaobaoPrice } = require('./taobao');
+const { scrapeZOLHardware } = require('./zol');
 const { scrapeGoofishPrice } = require('./goofish');
 
 const TARGETS_PATH = path.join(__dirname, '../data/targets.json');
@@ -56,7 +55,7 @@ async function main() {
   for (const target of targets) {
     console.log(`----------------------------------------`);
     console.log(`👉 正在处理: [${target.type?.toUpperCase() || 'NEW'}] [${target.category}] ${target.name}`);
-    console.log(`   备注: ${target.notes || ''}`);
+    if (target.notes) console.log(`   备注: ${target.notes}`);
 
     const itemResult = {
       id: target.id,
@@ -65,44 +64,79 @@ async function main() {
       type: target.type,
       notes: target.notes,
       updatedAt: timestamp,
-      jd: null,
-      taobao: null,
+      zol: null,
       goofish: null,
+      recommendation: null,
     };
 
-    // 1. 抓取京东自营价格 (新硬件优先)
-    if (target.jd) {
-      itemResult.jd = await scrapeJDPrice(page, target);
-      await sleep(1500 + Math.random() * 1000);
+    // 1. 抓取 ZOL 硬件官方/渠道底价与京东报价
+    if (target.zol) {
+      itemResult.zol = await scrapeZOLHardware(page, target);
+      await sleep(1000 + Math.random() * 500);
     }
 
-    // 2. 抓取闲鱼二手行情 (二手/老配件优先)
+    // 2. 抓取闲鱼二手流转行情 (二手或跨界对比项)
     if (target.goofish) {
       itemResult.goofish = await scrapeGoofishPrice(page, target);
-      await sleep(1500 + Math.random() * 1000);
+      await sleep(1000 + Math.random() * 500);
     }
 
-    // 3. 抓取淘宝价格
-    if (target.taobao) {
-      itemResult.taobao = await scrapeTaobaoPrice(page, target);
-      await sleep(1500 + Math.random() * 1000);
+    // 3. 智能决策与混搭建议
+    const jdPrice = itemResult.zol?.jdPrice;
+    const marketPrice = itemResult.zol?.marketPrice;
+    const usedPrice = itemResult.goofish?.medianPrice;
+
+    if (target.type === 'used' && usedPrice) {
+      itemResult.recommendation = {
+        bestChannel: '闲鱼二手',
+        bestPrice: usedPrice,
+        saving: jdPrice ? (jdPrice - usedPrice) : null,
+        tip: '老配件停产/溢价，闲鱼淘二手性价比最高',
+      };
+    } else if (marketPrice && jdPrice) {
+      const diff = jdPrice - marketPrice;
+      if (diff > 50) {
+        itemResult.recommendation = {
+          bestChannel: '多平台混搭/淘宝渠道',
+          bestPrice: marketPrice,
+          saving: diff,
+          tip: `散片/渠道渠道比京东省 ￥${diff}`,
+        };
+      } else {
+        itemResult.recommendation = {
+          bestChannel: '京东自营',
+          bestPrice: jdPrice,
+          saving: 0,
+          tip: '差价极小，优先选京东自营售后保修',
+        };
+      }
+    } else if (jdPrice) {
+      itemResult.recommendation = {
+        bestChannel: '京东自营',
+        bestPrice: jdPrice,
+        saving: 0,
+        tip: '京东自营正品现货',
+      };
     }
 
     currentResults[target.id] = itemResult;
+
     summary.push({
-      name: target.name,
-      type: target.type,
-      jd: itemResult.jd?.price ? `￥${itemResult.jd.price}` : '-',
-      goofishAvg: itemResult.goofish?.avgPrice ? `￥${itemResult.goofish.avgPrice}` : '-',
-      goofishMedian: itemResult.goofish?.medianPrice ? `￥${itemResult.goofish.medianPrice}` : '-',
-      taobaoMin: itemResult.taobao?.minPrice ? `￥${itemResult.taobao.minPrice}` : '-',
+      硬件名称: target.name,
+      品类: target.category,
+      定位: target.type,
+      官方参考价: itemResult.zol?.msrp ? `￥${itemResult.zol.msrp}` : '-',
+      全网渠道底价: itemResult.zol?.marketPrice ? `￥${itemResult.zol.marketPrice}` : '-',
+      京东自营价: itemResult.zol?.jdPrice ? `￥${itemResult.zol.jdPrice}` : '-',
+      闲鱼二手价: itemResult.goofish?.medianPrice ? `￥${itemResult.goofish.medianPrice}` : '-',
+      最佳推荐渠道: itemResult.recommendation?.bestChannel || '-',
     });
   }
 
   await browser.close();
 
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify(currentResults, null, 2), 'utf-8');
-  console.log(`\n=== ✅ 分流采集任务完成！数据已更新至 ${OUTPUT_PATH} ===`);
+  console.log(`\n=== ✅ 全网价格精准分流采集完成！数据已更新至 ${OUTPUT_PATH} ===\n`);
   console.table(summary);
 }
 

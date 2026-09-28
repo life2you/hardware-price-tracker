@@ -1,62 +1,76 @@
 [
   {
+    "id": "cpu_amd_9800x3d",
+    "name": "AMD 锐龙 7 9800X3D 处理器",
+    "category": "CPU",
+    "type": "new",
+    "notes": "当前最强旗舰电竞游戏U，主查京东/市场渠道价",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index2113342.shtml"
+    }
+  },
+  {
+    "id": "cpu_amd_9600x",
+    "name": "AMD 锐龙 5 9600X 处理器",
+    "category": "CPU",
+    "type": "new",
+    "notes": "新一代Zen5主流高能效CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index2018967.shtml"
+    }
+  },
+  {
     "id": "cpu_amd_7500f",
     "name": "AMD 锐龙 5 7500F 处理器",
     "category": "CPU",
     "type": "new",
-    "notes": "近1年AM5主流新平台甜品U，主查京东/淘宝",
-    "jd": {
-      "sku": "100059882345",
-      "url": "https://item.jd.com/100059882345.html"
-    },
-    "taobao": {
-      "keyword": "AMD 7500F 散片",
-      "url": "https://s.taobao.com/search?q=AMD+7500F+%E6%95%A3%E7%89%87"
+    "notes": "近1-2年AM5千元级性价比神U，主查京东自营与散片渠道价",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1796349.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_14600kf",
+    "name": "Intel 酷睿 i5-14600KF 处理器",
+    "category": "CPU",
+    "type": "new",
+    "notes": "中高端热门主流游戏与生产力U",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1929615.shtml"
     }
   },
   {
     "id": "cpu_intel_12400f",
-    "name": "Intel i5-12400F 处理器",
+    "name": "Intel 酷睿 i5-12400F 处理器",
     "category": "CPU",
     "type": "new",
-    "notes": "近2年千元装机顶流U，主查京东自营/淘宝",
-    "jd": {
-      "sku": "100032014866",
-      "url": "https://item.jd.com/100032014866.html"
-    },
-    "taobao": {
-      "keyword": "i5 12400F 散片",
-      "url": "https://s.taobao.com/search?q=i5+12400F+%E6%95%A3%E7%89%87"
+    "notes": "千元以内装机常青树，主查京东自营与散片底价",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1338644.shtml"
     }
   },
   {
     "id": "gpu_rtx_4060",
-    "name": "RTX 4060 8G 显卡",
+    "name": "七彩虹 RTX 4060 8GB 显卡",
     "category": "GPU",
     "type": "both",
-    "notes": "当前主力在售卡，同时监控京东全新与闲鱼二手流转价",
-    "jd": {
-      "sku": "100059639535",
-      "url": "https://item.jd.com/100059639535.html"
-    },
-    "taobao": {
-      "keyword": "RTX 4060 8G 显卡",
-      "url": "https://s.taobao.com/search?q=RTX+4060+8G"
+    "notes": "当前主力在售甜品卡，同时监控京东官方价与闲鱼流转行情",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1794057.shtml"
     },
     "goofish": {
-      "keyword": "RTX 4060 8G 显卡",
-      "url": "https://www.goofish.com/search?q=RTX+4060+8G+%E6%98%BE%E5%8D%A1"
+      "keyword": "RTX 4060 显卡",
+      "benchmarkPrice": 1950
     }
   },
   {
-    "id": "ssd_zhitai_1tb",
-    "name": "致态 TiPlus7100 1TB SSD",
-    "category": "SSD",
+    "id": "gpu_rtx_5070ti",
+    "name": "华硕 TUF RTX 5070 Ti 16G 显卡",
+    "category": "GPU",
     "type": "new",
-    "notes": "主流在售PCIe 4.0固态，主查京东自营",
-    "jd": {
-      "sku": "100045464161",
-      "url": "https://item.jd.com/100045464161.html"
+    "notes": "新一代主力2K/4K高画质旗舰卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2121275.shtml"
     }
   },
   {
@@ -64,32 +78,61 @@
     "name": "AMD 锐龙 5 5600 (二手/散片)",
     "category": "CPU",
     "type": "used",
-    "notes": "经典老AM4神U，京东自营缺货溢价，专攻闲鱼二手真实淘金价",
+    "notes": "经典老AM4神U，专攻闲鱼二手淘宝捡漏",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1403088.shtml"
+    },
     "goofish": {
       "keyword": "AMD 5600 散片",
-      "url": "https://www.goofish.com/search?q=AMD+5600+%E6%95%A3%E7%89%87"
+      "benchmarkPrice": 520
     }
   },
   {
     "id": "gpu_gtx_1660s_used",
-    "name": "GTX 1660 Super 6G (二手)",
+    "name": "七彩虹 GTX 1660 Super 6G (二手)",
     "category": "GPU",
     "type": "used",
-    "notes": "停产多年的百元级神卡，专攻闲鱼二手行情",
+    "notes": "百元级经典老卡，专攻闲鱼二手行情",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1298480.shtml"
+    },
     "goofish": {
       "keyword": "1660s 显卡",
-      "url": "https://www.goofish.com/search?q=1660s+%E6%98%BE%E5%8D%A1"
+      "benchmarkPrice": 580
     }
   },
   {
     "id": "gpu_rtx_2060s_used",
-    "name": "RTX 2060 Super 8G (二手)",
+    "name": "索泰 RTX 2060 Super 8G (二手)",
     "category": "GPU",
     "type": "used",
     "notes": "千元以内经典高性价比老卡，专攻闲鱼二手行情",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1282319.shtml"
+    },
     "goofish": {
       "keyword": "2060s 8g 显卡",
-      "url": "https://www.goofish.com/search?q=2060s+8g+%E6%98%BE%E5%8D%A1"
+      "benchmarkPrice": 1050
+    }
+  },
+  {
+    "id": "mobo_b650m_gigabyte",
+    "name": "技嘉 B650M GAMING WIFI 主板",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "AMD AM5 平台最走量高性价比主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2106519.shtml"
+    }
+  },
+  {
+    "id": "mobo_b760m_asus",
+    "name": "华硕 TUF GAMING B760M-PLUS 重炮手",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "Intel 12-14代主流装机首选主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1440076.shtml"
     }
   }
 ]
