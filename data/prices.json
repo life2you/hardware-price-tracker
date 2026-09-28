@@ -1,0 +1,79 @@
+{
+  "cpu_amd_5600": {
+    "id": "cpu_amd_5600",
+    "name": "AMD 锐龙 5 5600 处理器",
+    "category": "CPU",
+    "updatedAt": "2026-09-28T14:52:42.869Z",
+    "jd": {
+      "status": "failed",
+      "error": "page.waitForSelector: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator('.price, .big-price, [class*=\"price\"]') to be visible\n    20 × locator resolved to 61 elements. Proceeding with the first one: <p class=\"price\" id=\"priceSale2\">…</p>\n"
+    },
+    "taobao": {
+      "status": "failed",
+      "error": "No price elements matched"
+    },
+    "goofish": {
+      "status": "failed",
+      "error": "No valid prices found"
+    }
+  },
+  "cpu_amd_7500f": {
+    "id": "cpu_amd_7500f",
+    "name": "AMD 锐龙 5 7500F 处理器",
+    "category": "CPU",
+    "updatedAt": "2026-09-28T14:52:42.869Z",
+    "jd": {
+      "status": "failed",
+      "error": "page.waitForSelector: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator('.price, .big-price, [class*=\"price\"]') to be visible\n    20 × locator resolved to 61 elements. Proceeding with the first one: <p class=\"price\" id=\"priceSale2\">…</p>\n"
+    },
+    "taobao": {
+      "status": "failed",
+      "error": "No price elements matched"
+    },
+    "goofish": {
+      "status": "failed",
+      "error": "page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.goofish.com/search?q=7500F%20%E6%95%A3%E7%89%87\", waiting until \"networkidle\"\n"
+    }
+  },
+  "gpu_rtx_4060": {
+    "id": "gpu_rtx_4060",
+    "name": "RTX 4060 8G 显卡",
+    "category": "GPU",
+    "updatedAt": "2026-09-28T14:52:42.869Z",
+    "jd": {
+      "status": "failed",
+      "error": "page.waitForSelector: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator('.price, .big-price, [class*=\"price\"]') to be visible\n    20 × locator resolved to 61 elements. Proceeding with the first one: <p class=\"price\" id=\"priceSale2\">…</p>\n"
+    },
+    "taobao": {
+      "status": "failed",
+      "error": "No price elements matched"
+    },
+    "goofish": {
+      "status": "success",
+      "minPrice": 80,
+      "medianPrice": 180,
+      "avgPrice": 808,
+      "sampleCount": 8,
+      "url": "https://www.goofish.com/search?q=RTX%204060%208G",
+      "scrapedAt": "2026-09-28T14:54:59.015Z"
+    }
+  },
+  "ssd_zhitai_1tb": {
+    "id": "ssd_zhitai_1tb",
+    "name": "致态 TiPlus7100 1TB PCIe 4.0 SSD",
+    "category": "SSD",
+    "updatedAt": "2026-09-28T14:52:42.869Z",
+    "jd": {
+      "status": "failed",
+      "error": "page.waitForSelector: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator('.price, .big-price, [class*=\"price\"]') to be visible\n    20 × locator resolved to 61 elements. Proceeding with the first one: <p class=\"price\" id=\"priceSale2\">…</p>\n"
+    },
+    "taobao": {
+      "status": "failed",
+      "error": "No price elements matched"
+    },
+    "goofish": {
+      "status": "failed",
+      "error": "page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.goofish.com/search?q=%E8%87%B4%E6%80%81%207100%201TB\", waiting until \"networkidle\"\n"
+    }
+  }
+}
