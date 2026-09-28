@@ -1,0 +1,70 @@
+[
+  {
+    "id": "cpu_amd_5600",
+    "name": "AMD 锐龙 5 5600 处理器",
+    "category": "CPU",
+    "jd": {
+      "sku": "100021995874",
+      "url": "https://item.jd.com/100021995874.html"
+    },
+    "taobao": {
+      "keyword": "AMD 5600 散片 CPU",
+      "url": "https://s.taobao.com/search?q=AMD+5600+%E6%95%A3%E7%89%87"
+    },
+    "goofish": {
+      "keyword": "AMD 5600 散片",
+      "url": "https://www.goofish.com/search?q=AMD+5600+%E6%95%A3%E7%89%87"
+    }
+  },
+  {
+    "id": "cpu_amd_7500f",
+    "name": "AMD 锐龙 5 7500F 处理器",
+    "category": "CPU",
+    "jd": {
+      "sku": "100059882345",
+      "url": "https://item.jd.com/100059882345.html"
+    },
+    "taobao": {
+      "keyword": "AMD 7500F 散片",
+      "url": "https://s.taobao.com/search?q=AMD+7500F+%E6%95%A3%E7%89%87"
+    },
+    "goofish": {
+      "keyword": "7500F 散片",
+      "url": "https://www.goofish.com/search?q=7500F+%E6%95%A3%E7%89%87"
+    }
+  },
+  {
+    "id": "gpu_rtx_4060",
+    "name": "RTX 4060 8G 显卡",
+    "category": "GPU",
+    "jd": {
+      "sku": "100059639535",
+      "url": "https://item.jd.com/100059639535.html"
+    },
+    "taobao": {
+      "keyword": "RTX 4060 8G 显卡",
+      "url": "https://s.taobao.com/search?q=RTX+4060+8G"
+    },
+    "goofish": {
+      "keyword": "RTX 4060 8G",
+      "url": "https://www.goofish.com/search?q=RTX+4060+8G"
+    }
+  },
+  {
+    "id": "ssd_zhitai_1tb",
+    "name": "致态 TiPlus7100 1TB PCIe 4.0 SSD",
+    "category": "SSD",
+    "jd": {
+      "sku": "100045464161",
+      "url": "https://item.jd.com/100045464161.html"
+    },
+    "taobao": {
+      "keyword": "致态 TiPlus7100 1TB",
+      "url": "https://s.taobao.com/search?q=%E8%87%B4%E6%80%81+TiPlus7100+1TB"
+    },
+    "goofish": {
+      "keyword": "致态 7100 1TB",
+      "url": "https://www.goofish.com/search?q=%E8%87%B4%E6%80%81+7100+1TB"
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "hardware-price-tracker",
+  "version": "1.0.0",
+  "description": "Automated hardware price tracker for JD, Taobao, and Goofish via Playwright and GitHub Actions",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/index.js"
+  },
+  "keywords": ["hardware", "price-tracker", "playwright", "jd", "taobao", "goofish"],
+  "author": "life2you",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.50.0"
+  }
+}
