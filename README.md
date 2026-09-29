@@ -69,16 +69,17 @@ python scripts/login_helper.py taobao
 ```
 在弹出的浏览器中手机扫码，终端自动检测 Cookie 并保存到 `state/` 目录。
 
-### 3. 抓取硬件真实价格
+### 3. 开始抓取
 ```bash
-# 单型号抓取测试
-python run_cpu_crawl_pw.py "i5-12400F" --pages 2
+# 全品类抓取
+python run_tracker.py
 
-# 带图形界面调试（遇到滑块可人工拖动）
-python run_cpu_crawl_pw.py "R7 7800X3D" --headed
+# 按指定品类抓取（例如只抓显卡或 CPU，抓完自动推送到云端）
+python run_tracker.py --category GPU --push
+python run_tracker.py --category CPU --push
 
-# 批量爬取多个型号
-python run_cpu_crawl_pw.py --keywords "9600X,7800X3D,RTX 4060 Ti" --pages 2
+# 抓取单个硬件测试
+python run_tracker.py --keyword "9600X" --headed
 ```
 爬取完成后，详细数据会自动保存在 `logs/report_pw_*.json`。
 

@@ -4,10 +4,15 @@
   "description": "Automated hardware price tracker for JD, Taobao, and Goofish via Playwright and GitHub Actions",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "login": "node src/login.js",
-    "sync": "node src/pusher.js",
-    "test": "node src/index.js"
+    "start": "python3 run_tracker.py",
+    "crawl:cpu": "python3 run_tracker.py --category CPU --push",
+    "crawl:gpu": "python3 run_tracker.py --category GPU --push",
+    "login": "python3 scripts/login_helper.py all",
+    "login:jd": "python3 scripts/login_helper.py jd",
+    "login:tb": "python3 scripts/login_helper.py taobao",
+    "login:xy": "python3 scripts/login_helper.py xianyu",
+    "push": "python3 sync_to_cloud.py",
+    "sync": "python3 sync_to_cloud.py"
   },
   "keywords": [
     "hardware",
