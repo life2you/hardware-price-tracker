@@ -100,38 +100,34 @@ async function main() {
 
       // 3. 智能决策与混搭建议
       const jdPrice = itemResult.zol?.jdPrice;
+      const taobaoPrice = itemResult.zol?.taobaoPrice;
       const marketPrice = itemResult.zol?.marketPrice;
+      const msrp = itemResult.zol?.msrp;
       const usedPrice = itemResult.goofish?.medianPrice;
 
-      if (target.type === 'used' && usedPrice) {
+      if (target.type === 'used') {
+        const effectiveUsed = usedPrice || marketPrice;
         itemResult.recommendation = {
           bestChannel: '闲鱼二手',
-          bestPrice: usedPrice,
-          saving: jdPrice ? (jdPrice - usedPrice) : (marketPrice ? (marketPrice - usedPrice) : null),
-          tip: '老配件停产/溢价，闲鱼淘二手性价比最高',
+          bestPrice: effectiveUsed,
+          saving: msrp ? (msrp - (effectiveUsed || 0)) : null,
+          tip: '该型号已停产或处于二手流转期，建议闲鱼/二手平台淘货',
         };
-      } else if (marketPrice && jdPrice) {
+      } else if (jdPrice && marketPrice) {
         const diff = jdPrice - marketPrice;
-        if (diff > 50) {
+        if (diff > 80) {
           itemResult.recommendation = {
-            bestChannel: '多平台混搭/淘宝渠道',
+            bestChannel: '多平台混搭/渠道现货',
             bestPrice: marketPrice,
             saving: diff,
-            tip: `散片/渠道比京东省 ￥${diff}`,
-          };
-        } else if (diff < -50) {
-          itemResult.recommendation = {
-            bestChannel: '京东自营',
-            bestPrice: jdPrice,
-            saving: Math.abs(diff),
-            tip: `京东自营价格优势明显，比官方参考价省 ￥${Math.abs(diff)}`,
+            tip: `渠道散片/现货比京东自营便宜 ￥${diff}`,
           };
         } else {
           itemResult.recommendation = {
             bestChannel: '京东自营',
             bestPrice: jdPrice,
             saving: 0,
-            tip: '差价极小，优先选京东自营售后保修',
+            tip: '差价极小或自营更优，优先选京东自营享受正品售后',
           };
         }
       } else if (jdPrice) {
@@ -141,12 +137,19 @@ async function main() {
           saving: 0,
           tip: '京东自营正品现货',
         };
+      } else if (taobaoPrice) {
+        itemResult.recommendation = {
+          bestChannel: '天猫/淘宝直达',
+          bestPrice: taobaoPrice,
+          saving: 0,
+          tip: '品牌天猫/淘宝旗舰现货',
+        };
       } else if (marketPrice) {
         itemResult.recommendation = {
           bestChannel: '主流电商/渠道商',
           bestPrice: marketPrice,
           saving: 0,
-          tip: '全网渠道行情参考',
+          tip: '全网渠道行情与批发参考价',
         };
       }
 
@@ -156,10 +159,11 @@ async function main() {
         硬件名称: target.name,
         品类: target.category,
         定位: target.type,
-        官方参考价: itemResult.zol?.msrp ? `￥${itemResult.zol.msrp}` : '-',
-        全网渠道底价: itemResult.zol?.marketPrice ? `￥${itemResult.zol.marketPrice}` : '-',
-        京东自营价: itemResult.zol?.jdPrice ? `￥${itemResult.zol.jdPrice}` : '-',
-        闲鱼二手价: itemResult.goofish?.medianPrice ? `￥${itemResult.goofish.medianPrice}` : '-',
+        官方参考价: msrp ? `￥${msrp}` : '-',
+        全网渠道底价: marketPrice ? `￥${marketPrice}` : '-',
+        京东自营价: jdPrice ? `￥${jdPrice}` : '-',
+        淘宝直达价: taobaoPrice ? `￥${taobaoPrice}` : '-',
+        闲鱼二手价: usedPrice ? `￥${usedPrice}` : '-',
         最佳推荐渠道: itemResult.recommendation?.bestChannel || '-',
       });
 
