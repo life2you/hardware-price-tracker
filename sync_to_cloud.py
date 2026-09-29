@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """云端数据同步脚本 (sync_to_cloud.py)
 
-将 Product-Crawling (run_cpu_crawl_pw.py) 产生的多平台爬取报告与 data/targets.json 对齐，
-清洗并计算各平台最优到手价，推送到硬件商业云服务 (POST /api/v1/sync/prices)。
+默认从本地 MySQL (hardware_db) 捞取最新硬件与价格数据，推送到远端商业云服务 (POST /api/v1/sync/prices)。
+也支持从本地 report_pw_*.json 报告或 data/prices.json 提取推送。
 
 用法：
-    python sync_to_cloud.py                     # 自动寻找 logs/ 下最新的 report_pw_*.json 推送
-    python sync_to_cloud.py --report logs/xxx.json
-    python sync_to_cloud.py --dry-run           # 仅清洗展示，不实际发起网络推送
+    python sync_to_cloud.py                     # 默认从本地 MySQL 读取全部已持久化硬件推送到云端
+    python sync_to_cloud.py --category CPU      # 只推送本地 MySQL 中的某一品类
+    python sync_to_cloud.py --source report     # 从最新的 report_pw_*.json 清洗推送
+    python sync_to_cloud.py --dry-run           # 仅展示数据，不发起实际网络请求
 """
 
 from __future__ import annotations
@@ -43,31 +44,43 @@ def load_targets() -> dict[str, dict]:
         return {}
     with open(TARGETS_FILE, "r", encoding="utf-8") as f:
         data = json.load(f)
-    
+
     mapping = {}
-    for cat in data:
-        for it in cat.get("items", []):
-            mapping[it["name"].lower()] = {
-                "id": it["id"],
-                "name": it["name"],
-                "category": cat["category"],
-                "type": it.get("type", "常规"),
-                "notes": it.get("notes", "")
-            }
+    if isinstance(data, list):
+        for it in data:
+            if not isinstance(it, dict):
+                continue
+            if "items" in it and isinstance(it["items"], list):
+                cat_name = it.get("category", "")
+                for sub_it in it["items"]:
+                    mapping[sub_it["name"].lower()] = {
+                        "id": sub_it["id"],
+                        "name": sub_it["name"],
+                        "category": cat_name,
+                        "type": sub_it.get("type", "常规"),
+                        "notes": sub_it.get("notes", "")
+                    }
+            else:
+                cat_name = it.get("category", "")
+                mapping[it["name"].lower()] = {
+                    "id": it["id"],
+                    "name": it["name"],
+                    "category": cat_name,
+                    "type": it.get("type", "常规"),
+                    "notes": it.get("notes", "")
+                }
     return mapping
 
 
 def match_target(target_map: dict[str, dict], keyword: str) -> dict:
-    """根据搜索关键词在 targets 库中做最佳匹配"""
     kw = keyword.lower().strip()
     if kw in target_map:
         return target_map[kw]
-    
+
     for name, item in target_map.items():
         if kw in name or name in kw:
             return item
-    
-    # 未匹配到则临时生成合理 ID
+
     clean_id = "hw_" + "".join(c if c.isalnum() else "_" for c in kw.lower())
     return {
         "id": clean_id,
@@ -95,7 +108,6 @@ def clean_and_normalize(report_data: dict, target_map: dict[str, dict]) -> list[
         jd_res = platforms.get("jd", {})
         if jd_res.get("success") and jd_res.get("products"):
             jd_prods = jd_res["products"]
-            # 优先自营
             valid_jd = [p for p in jd_prods if p.get("current_price") and p["current_price"] > 100]
             if valid_jd:
                 best_jd = min(valid_jd, key=lambda x: x["current_price"])
@@ -159,7 +171,7 @@ def clean_and_normalize(report_data: dict, target_map: dict[str, dict]) -> list[
 def push_to_cloud(items: list[dict], cloud_url: str, token: str) -> bool:
     url = f"{cloud_url.rstrip('/')}/api/v1/sync/prices"
     payload = {
-        "synced_at": datetime.now().isoformat(),
+        "synced_at": datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"),
         "items": items
     }
     data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
@@ -178,41 +190,67 @@ def push_to_cloud(items: list[dict], cloud_url: str, token: str) -> bool:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="将 Product-Crawling 结果推送到云端服务")
-    parser.add_argument("--report", help="指定的 report_pw_*.json 路径")
+    parser = argparse.ArgumentParser(description="将本地硬件数据推送到云端商业服务")
+    parser.add_argument("--source", choices=["mysql", "report", "json"], default="mysql", help="数据源 (默认优先从本地 mysql 读取)")
+    parser.add_argument("--category", choices=["CPU", "Motherboard", "GPU", "Cooler", "RAM", "SSD", "Case", "PSU"], help="限定推送的品类")
+    parser.add_argument("--report", help="若指定 --source report，指定的 report_pw_*.json 路径")
     parser.add_argument("--cloud-url", default=DEFAULT_CLOUD_URL, help="云端 API 地址")
     parser.add_argument("--token", default=DEFAULT_TOKEN, help="同步密钥 Token")
     parser.add_argument("--dry-run", action="store_true", help="演练模式，不实际发起推送")
     args = parser.parse_args()
 
-    report_path = Path(args.report) if args.report else find_latest_report()
-    if not report_path or not report_path.exists():
-        print(f"[WARN] 未找到有效的抓取报告文件 (logs/report_pw_*.json)。")
-        print("请先运行爬虫抓取数据，例如：")
-        print("    python run_cpu_crawl_pw.py \"i5-12400F\" --pages 2")
-        return 1
+    items = []
 
-    print(f"📖 正在读取抓取报告: {report_path}")
-    with open(report_path, "r", encoding="utf-8") as f:
-        report_data = json.load(f)
+    # 1. 默认优先从本地 MySQL 读取
+    if args.source == "mysql":
+        try:
+            from src.storage_mysql import load_hardware_from_local_mysql
+            items = load_hardware_from_local_mysql(args.category)
+            print(f"🗄️  已从本地 MySQL (hardware_db) 捞取 {len(items)} 条已持久化硬件行情。")
+        except Exception as e:
+            print(f"⚠️  从本地 MySQL 读取失败 ({e})，尝试回退到本地 JSON 快照...")
+            args.source = "json"
 
-    target_map = load_targets()
-    normalized_items = clean_and_normalize(report_data, target_map)
-    print(f"✨ 成功清洗归一化 {len(normalized_items)} 条硬件真实报价。")
+    # 2. 回退从本地 data/prices.json 读取
+    if args.source == "json" and not items:
+        if PRICES_FILE.exists():
+            with open(PRICES_FILE, "r", encoding="utf-8") as f:
+                d = json.load(f)
+                if isinstance(d, dict):
+                    items = list(d.values())
+                else:
+                    items = d
+            if args.category:
+                items = [it for it in items if it.get("category", "").upper() == args.category.upper()]
+            print(f"💾 从本地 data/prices.json 读取到 {len(items)} 条记录。")
+        else:
+            print("❌ 未找到本地 data/prices.json")
+            return 1
 
-    # 同时回写更新本地 data/prices.json 保证单机可用
-    with open(PRICES_FILE, "w", encoding="utf-8") as f:
-        json.dump(normalized_items, f, ensure_ascii=False, indent=2)
-    print(f"💾 本地 data/prices.json 已同步更新。")
+    # 3. 从临时爬取报告中读取
+    if args.source == "report":
+        report_path = Path(args.report) if args.report else find_latest_report()
+        if not report_path or not report_path.exists():
+            print(f"[WARN] 未找到有效的抓取报告文件 (logs/report_pw_*.json)。")
+            return 1
+        print(f"📖 正在读取抓取报告: {report_path}")
+        with open(report_path, "r", encoding="utf-8") as f:
+            report_data = json.load(f)
+        target_map = load_targets()
+        items = clean_and_normalize(report_data, target_map)
+        print(f"✨ 成功清洗归一化 {len(items)} 条硬件真实报价。")
+
+    if not items:
+        print("⚠️ 没有需要推送的数据。")
+        return 0
 
     if args.dry_run:
         print("🔍 [Dry-Run] 预览第一条推送数据:")
-        if normalized_items:
-            print(json.dumps(normalized_items[0], ensure_ascii=False, indent=2))
+        print(json.dumps(items[0], ensure_ascii=False, indent=2))
         return 0
 
-    print(f"🚀 正在推送到云服务: {args.cloud_url} ...")
-    success = push_to_cloud(normalized_items, args.cloud_url, args.token)
+    print(f"🚀 正在推送到云服务: {args.cloud_url} (共 {len(items)} 条)...")
+    success = push_to_cloud(items, args.cloud_url, args.token)
     return 0 if success else 1
 
 

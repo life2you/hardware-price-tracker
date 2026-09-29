@@ -25,8 +25,9 @@ import time
 from datetime import datetime
 from pathlib import Path
 
-# 导入 Product-Crawling 的底层爬虫核心
+# 导入 Product-Crawling 的底层爬虫核心与本地存储
 import run_cpu_crawl_pw as pw_crawler
+from src.storage_mysql import save_hardware_to_local_mysql
 from sync_to_cloud import push_to_cloud
 
 ROOT = Path(__file__).resolve().parent
@@ -69,18 +70,36 @@ def load_targets(category: str | None = None) -> list[dict]:
         data = json.load(f)
 
     results = []
-    for cat_block in data:
-        cat_name = cat_block.get("category")
-        if category and cat_name.upper() != category.upper():
-            continue
-        for it in cat_block.get("items", []):
-            results.append({
-                "id": it["id"],
-                "name": it["name"],
-                "category": cat_name,
-                "type": it.get("type", "标准"),
-                "notes": it.get("notes", "")
-            })
+    # 兼容扁平列表与嵌套列表两种结构
+    if isinstance(data, list):
+        for it in data:
+            if not isinstance(it, dict):
+                continue
+            if "items" in it and isinstance(it["items"], list):
+                # 嵌套模式
+                cat_name = it.get("category", "")
+                if category and cat_name.upper() != category.upper():
+                    continue
+                for sub_it in it["items"]:
+                    results.append({
+                        "id": sub_it["id"],
+                        "name": sub_it["name"],
+                        "category": cat_name,
+                        "type": sub_it.get("type", "标准"),
+                        "notes": sub_it.get("notes", "")
+                    })
+            else:
+                # 扁平模式 (当前 targets.json 格式)
+                cat_name = it.get("category", "")
+                if category and cat_name.upper() != category.upper():
+                    continue
+                results.append({
+                    "id": it["id"],
+                    "name": it["name"],
+                    "category": cat_name,
+                    "type": it.get("type", "标准"),
+                    "notes": it.get("notes", "")
+                })
     return results
 
 
@@ -220,15 +239,21 @@ def crawl_targets(
         prices_map[item_id] = existing
         updated_items.append(existing)
 
-    # 回写到本地 data/prices.json
-    all_final_list = list(prices_map.values())
+    # 1. 优先保存落库到本地 MySQL (hardware_db)
+    try:
+        mysql_count = save_hardware_to_local_mysql(all_final_list)
+        logger.info(f"🗄️  已成功将 {mysql_count} 款硬件与最新报价持久化到本地 MySQL (hardware_db)！")
+    except Exception as e:
+        logger.warning(f"⚠️  本地 MySQL 写入出现异常 (请检查 MySQL 是否启动): {e}")
+
+    # 2. 同时回写本地 data/prices.json 作为单机快照备用
     with open(PRICES_FILE, "w", encoding="utf-8") as f:
         json.dump(all_final_list, f, ensure_ascii=False, indent=2)
-    logger.info(f"💾 本地 data/prices.json 更新完成，累计已维护 {len(all_final_list)} 款硬件价格行情。")
+    logger.info(f"💾 本地 data/prices.json 同步更新完成。")
 
-    # 自动推送到云端服务
+    # 3. 自动推送到远端云服务
     if auto_push and updated_items:
-        logger.info(f"🚀 正在将最新采集的 {len(updated_items)} 条行情推送到云端服务 ({cloud_url})...")
+        logger.info(f"🚀 正在将最新采集的 {len(updated_items)} 条行情从本地推送到远端云服务 ({cloud_url})...")
         push_to_cloud(updated_items, cloud_url, token)
 
 
