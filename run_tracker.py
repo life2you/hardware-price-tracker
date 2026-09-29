@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
-"""硬件价格追踪总控入口 (run_tracker.py)
+"""硬件价格采集总入口 (run_tracker.py)
 
-基于 Product-Crawling 改造的工业级硬件价格追踪总入口。
-整合 targets.json (8大品类504款型号)，调度 Playwright 拦截爬虫，执行真实买价清洗过滤，
-自动生成 data/prices.json，并支持一键推送到 Go 云端服务。
+专注于高效、真实地采集硬件价格数据，并分批增量落库到本地 MySQL (hardware_db)。
+无需解析复杂规格（后续 AI 可实时联网检索规格），核心任务是：
+1. 抓取京东自营/官方现货实付价；
+2. 抓取淘宝/天猫现货实付价（过滤预售定金）；
+3. 抓取闲鱼二手市场价格（过滤异常标价，取中位数）；
+4. 分批原子写入本地 MySQL hardware 与 price_history 表，支持随时中断，数据不丢。
 
-常用命令：
-    python run_tracker.py --category CPU --pages 2       # 抓取 CPU 品类最新行情
-    python run_tracker.py --category GPU --pages 2       # 抓取显卡品类最新行情
-    python run_tracker.py --keyword "9600X"              # 抓取单型号
-    python run_tracker.py --category CPU --push          # 抓取完成后自动推送到云端服务
-    python run_tracker.py --headed                       # 弹出浏览器界面 (过滑块用)
+用法：
+    python run_tracker.py --pages 1                             # 全量 504 款挂机增量爬取入库
+    python run_tracker.py --category CPU --pages 1              # 单品类抓取
+    python run_tracker.py --keyword "i5-12400F" --pages 1       # 单型号抓取
+    python run_tracker.py --batch-size 10                       # 每批次 10 款硬件实时落库
 """
 
 from __future__ import annotations
@@ -25,10 +27,11 @@ import time
 from datetime import datetime
 from pathlib import Path
 
-# 导入 Product-Crawling 的底层爬虫核心与本地存储
-import run_cpu_crawl_pw as pw_crawler
+from playwright.sync_api import sync_playwright
+
+# 导入 Product-Crawling 爬虫执行核心
+import run_cpu_crawl_pw as pw
 from src.storage_mysql import save_hardware_to_local_mysql
-from sync_to_cloud import push_to_cloud
 
 ROOT = Path(__file__).resolve().parent
 TARGETS_FILE = ROOT / "data" / "targets.json"
@@ -43,13 +46,13 @@ logging.basicConfig(
 )
 logger = logging.getLogger("tracker")
 
-# 负向关键词过滤词表（彻底排除周边配件包、虚假订金与服务）
+# 负向关键词过滤词表（彻底排除周边配件包、虚假定金与服务）
 NEGATIVE_KEYWORDS = [
     "定金", "订金", "预付款", "补差价", "专拍", "链接", "配件包",
     "防尘网", "螺丝", "支架", "硅脂", "贴纸", "代装", "维修", "回收"
 ]
 
-# 品类合理单价下限（低于此价格判定为定金或配件包，直接过滤）
+# 各品类合理买价下限（低于此价格判定为订金或配件包，直接过滤）
 CATEGORY_MIN_PRICE = {
     "CPU": 200.0,
     "GPU": 500.0,
@@ -70,215 +73,235 @@ def load_targets(category: str | None = None) -> list[dict]:
         data = json.load(f)
 
     results = []
-    # 兼容扁平列表与嵌套列表两种结构
     if isinstance(data, list):
         for it in data:
             if not isinstance(it, dict):
                 continue
-            if "items" in it and isinstance(it["items"], list):
-                # 嵌套模式
-                cat_name = it.get("category", "")
-                if category and cat_name.upper() != category.upper():
-                    continue
-                for sub_it in it["items"]:
-                    results.append({
-                        "id": sub_it["id"],
-                        "name": sub_it["name"],
-                        "category": cat_name,
-                        "type": sub_it.get("type", "标准"),
-                        "notes": sub_it.get("notes", "")
-                    })
-            else:
-                # 扁平模式 (当前 targets.json 格式)
-                cat_name = it.get("category", "")
-                if category and cat_name.upper() != category.upper():
-                    continue
-                results.append({
-                    "id": it["id"],
-                    "name": it["name"],
-                    "category": cat_name,
-                    "type": it.get("type", "标准"),
-                    "notes": it.get("notes", "")
-                })
+            cat_name = it.get("category", "")
+            if category and cat_name.upper() != category.upper():
+                continue
+            results.append({
+                "id": it["id"],
+                "name": it["name"],
+                "category": cat_name,
+                "type": it.get("type", "标准"),
+                "notes": it.get("notes", "")
+            })
     return results
 
 
-def is_valid_product(title: str, price: float | None, category: str, keyword: str) -> bool:
-    """真实买价过滤器：排除虚假预售定金、周边配件、异常诱导低价"""
+def is_valid_price_record(title: str, price: float | None, category: str) -> bool:
+    """真实买价有效性验证：排除0元、负数、品类订金异常及负向配件词"""
     if price is None or price <= 0:
         return False
 
-    min_price = CATEGORY_MIN_PRICE.get(category, 50.0)
-    if price < min_price:
+    min_p = CATEGORY_MIN_PRICE.get(category, 50.0)
+    if price < min_p:
         return False
 
-    # 排除负向词
+    title_lower = title.lower()
     for neg in NEGATIVE_KEYWORDS:
-        if neg in title:
+        if neg in title_lower:
             return False
 
     return True
 
 
-def crawl_targets(
-    targets: list[dict],
+def execute_batch_crawl(
+    batch_targets: list[dict],
     platforms: list[str],
     max_pages: int,
     headed: bool,
-    auto_push: bool,
-    cloud_url: str,
-    token: str
-) -> None:
-    logger.info(f"🚀 开始采集硬件行情：共 {len(targets)} 款型号，平台: {platforms}，每平台 {max_pages} 页")
+    p: Any
+) -> list[dict]:
+    """执行单个小批次的多平台抓取并清洗"""
+    keywords = [t["name"] for t in batch_targets]
+    target_by_kw = {t["name"]: t for t in batch_targets}
 
-    # 载入现有 prices.json，支持增量合并
-    prices_map = {}
-    if PRICES_FILE.exists():
-        try:
-            with open(PRICES_FILE, "r", encoding="utf-8") as f:
-                old_list = json.load(f)
-                for it in old_list:
-                    prices_map[it["id"]] = it
-        except Exception:
-            pass
+    batch_aggregated: dict[str, dict[str, pw.SearchResult]] = {kw: {} for kw in keywords}
 
-    keywords = [t["name"] for t in targets]
-    target_by_kw = {t["name"]: t for t in targets}
+    for pf_idx, pf_name in enumerate(platforms):
+        if pf_idx > 0:
+            time.sleep(pw.PLATFORM_DELAY_SEC)
 
-    # 调用 Product-Crawling 的 Playwright 核心
-    crawl_results = pw_crawler.crawl_multi_keywords_pw(
-        keywords=keywords,
-        platforms=platforms,
-        max_pages=max_pages,
-        headed=headed
-    )
+        pf_batch_res = pw.run_platform_batch(
+            p=p,
+            platform=pf_name,
+            keywords=keywords,
+            max_pages=max_pages,
+            headed=headed
+        )
+        for kw, sr in pf_batch_res.items():
+            batch_aggregated[kw][pf_name] = sr
 
-    # 清洗并更新到标准格式
     updated_items = []
-    for kw, p_results in crawl_results.items():
+    now_iso = datetime.now().isoformat()
+
+    for kw, p_map in batch_aggregated.items():
         t = target_by_kw.get(kw)
         if not t:
             continue
 
         item_id = t["id"]
         cat = t["category"]
-        existing = prices_map.get(item_id, {
-            "id": item_id,
-            "name": t["name"],
-            "category": cat,
-            "type": t["type"],
-            "notes": t["notes"],
-            "platforms": {},
-            "recommendation": {}
-        })
-
-        plat_payload = existing.get("platforms", {})
+        platforms_payload = {}
         all_valid_prices = []
 
-        # 1. 清洗京东数据
-        if "jd" in p_results and p_results["jd"].success:
-            jd_prods = p_results["jd"].products
+        # 1. 清洗京东价格
+        jd_res = p_map.get("jd")
+        if jd_res and jd_res.success and jd_res.products:
             valid_jd = [
-                p for p in jd_prods
-                if is_valid_product(p.title, p.current_price, cat, kw)
+                p for p in jd_res.products
+                if is_valid_price_record(p.title, p.current_price, cat)
             ]
             if valid_jd:
-                # 优先挑出自营且价格最低
-                best_jd = min(valid_jd, key=lambda x: x.current_price)
-                plat_payload["jd"] = {
+                best_jd = min(valid_jd, key=lambda x: x.current_price or 1e9)
+                platforms_payload["jd"] = {
                     "price": float(best_jd.current_price),
                     "name": best_jd.title,
-                    "url": best_jd.url,
-                    "stock": True
+                    "url": best_jd.url
                 }
                 all_valid_prices.append((best_jd.current_price, "京东自营", best_jd.url))
 
-        # 2. 清洗淘宝天猫数据
-        if "taobao" in p_results and p_results["taobao"].success:
-            tb_prods = p_results["taobao"].products
+        # 2. 清洗淘宝现货价格
+        tb_res = p_map.get("taobao")
+        if tb_res and tb_res.success and tb_res.products:
             valid_tb = [
-                p for p in tb_prods
-                if is_valid_product(p.title, p.current_price, cat, kw)
+                p for p in tb_res.products
+                if is_valid_price_record(p.title, p.current_price, cat)
             ]
             if valid_tb:
-                best_tb = min(valid_tb, key=lambda x: x.current_price)
-                plat_payload["taobao"] = {
+                best_tb = min(valid_tb, key=lambda x: x.current_price or 1e9)
+                platforms_payload["taobao"] = {
                     "price": float(best_tb.current_price),
                     "name": best_tb.title,
                     "url": best_tb.url
                 }
-                all_valid_prices.append((best_tb.current_price, "天猫/淘宝现货", best_tb.url))
+                all_valid_prices.append((best_tb.current_price, "淘宝现货", best_tb.url))
 
-        # 3. 清洗闲鱼二手数据 (求合理中位数)
-        if "xianyu" in p_results and p_results["xianyu"].success:
-            xy_prods = p_results["xianyu"].products
-            valid_xy = [
-                p.current_price for p in xy_prods
-                if is_valid_product(p.title, p.current_price, cat, kw)
+        # 3. 清洗闲鱼二手价格 (中位数)
+        xy_res = p_map.get("xianyu")
+        if xy_res and xy_res.success and xy_res.products:
+            valid_xy_prices = [
+                p.current_price for p in xy_res.products
+                if is_valid_price_record(p.title, p.current_price, cat) and p.current_price
             ]
-            if valid_xy:
-                valid_xy.sort()
-                median_price = valid_xy[len(valid_xy) // 2]
-                plat_payload["goofish"] = {
-                    "price": float(median_price),
-                    "sample_count": len(valid_xy)
+            if valid_xy_prices:
+                valid_xy_prices.sort()
+                median_p = valid_xy_prices[len(valid_xy_prices) // 2]
+                platforms_payload["goofish"] = {
+                    "price": float(median_p),
+                    "sample_count": len(valid_xy_prices)
                 }
 
-        # 4. 生成综合省钱购买建议
+        # 4. 推荐最优到手价
+        recom_payload = {}
         if all_valid_prices:
             all_valid_prices.sort(key=lambda x: x[0])
-            best_p, best_plat, best_u = all_valid_prices[0]
-            existing["recommendation"] = {
+            best_val, best_plat, best_url = all_valid_prices[0]
+            recom_payload = {
                 "best_platform": best_plat,
-                "best_price": float(best_p),
-                "strategy": f"推荐在 {best_plat} 入手，当前实付到手价 ￥{best_p:.0f} 元"
+                "best_price": float(best_val),
+                "strategy": f"推荐在 {best_plat} 购买，实付 ￥{best_val:.0f}"
             }
 
-        existing["platforms"] = plat_payload
-        existing["updated_at"] = datetime.now().isoformat()
-        prices_map[item_id] = existing
-        updated_items.append(existing)
+        if platforms_payload:
+            updated_items.append({
+                "id": item_id,
+                "name": t["name"],
+                "category": cat,
+                "type": t["type"],
+                "notes": t["notes"],
+                "specs": {},
+                "platforms": platforms_payload,
+                "recommendation": recom_payload,
+                "updated_at": now_iso
+            })
 
-    # 1. 优先保存落库到本地 MySQL (hardware_db)
-    try:
-        mysql_count = save_hardware_to_local_mysql(all_final_list)
-        logger.info(f"🗄️  已成功将 {mysql_count} 款硬件与最新报价持久化到本地 MySQL (hardware_db)！")
-    except Exception as e:
-        logger.warning(f"⚠️  本地 MySQL 写入出现异常 (请检查 MySQL 是否启动): {e}")
+    return updated_items
 
-    # 2. 同时回写本地 data/prices.json 作为单机快照备用
-    with open(PRICES_FILE, "w", encoding="utf-8") as f:
-        json.dump(all_final_list, f, ensure_ascii=False, indent=2)
-    logger.info(f"💾 本地 data/prices.json 同步更新完成。")
 
-    # 3. 自动推送到远端云服务
-    if auto_push and updated_items:
-        logger.info(f"🚀 正在将最新采集的 {len(updated_items)} 条行情从本地推送到远端云服务 ({cloud_url})...")
-        push_to_cloud(updated_items, cloud_url, token)
+def execute_crawl_and_save(
+    targets: list[dict],
+    platforms: list[str],
+    max_pages: int,
+    headed: bool,
+    batch_size: int = 8
+) -> int:
+    total_targets = len(targets)
+    num_batches = (total_targets + batch_size - 1) // batch_size
+    logger.info(f"📋 总计采集目标: {total_targets} 款型号，拆分为 {num_batches} 个批次，每批次 {batch_size} 款增量落库")
+
+    total_saved = 0
+
+    with sync_playwright() as p:
+        for b_idx in range(num_batches):
+            start_i = b_idx * batch_size
+            end_i = min(start_i + batch_size, total_targets)
+            batch = targets[start_i:end_i]
+
+            logger.info(f"▶️ 正在推进第 {b_idx + 1}/{num_batches} 批次 ({start_i + 1}~{end_i}/{total_targets})...")
+            try:
+                batch_updated = execute_batch_crawl(
+                    batch_targets=batch,
+                    platforms=platforms,
+                    max_pages=max_pages,
+                    headed=headed,
+                    p=p
+                )
+
+                if batch_updated:
+                    saved = save_hardware_to_local_mysql(batch_updated)
+                    total_saved += saved
+                    logger.info(f"💾 第 {b_idx + 1}/{num_batches} 批次增量落库成功！本批入库 {saved} 条，累计入库 {total_saved} 条。")
+                else:
+                    logger.info(f"ℹ️ 第 {b_idx + 1}/{num_batches} 批次未匹配到有效商品。")
+
+                # 批次间适当冷却保护账号
+                if b_idx < num_batches - 1:
+                    logger.info("☕ 批次间保护休眠 12 秒...")
+                    time.sleep(12.0)
+
+            except Exception as e:
+                logger.error(f"❌ 第 {b_idx + 1} 批次抓取发生异常: {e}", exc_info=True)
+                # 单个批次异常不中断整个挂机任务，稍作休眠后继续下一批次
+                time.sleep(10.0)
+
+    logger.info(f"🏁 全量采集任务圆满完成！累计向本地 MySQL 成功写入/刷新 {total_saved} 款硬件价格！")
+    return total_saved
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="硬件价格追踪总控 (基于 Product-Crawling 改造)")
+    parser = argparse.ArgumentParser(description="硬件价格采集总入口 (本地 MySQL 增量挂机专供)")
     parser.add_argument("--category", choices=["CPU", "Motherboard", "GPU", "Cooler", "RAM", "SSD", "Case", "PSU"], help="指定抓取的品类")
     parser.add_argument("--keyword", help="指定单独抓取的硬件名称/关键词")
-    parser.add_argument("--limit", type=int, default=0, help="最多抓取目标数量 (调试用)")
-    parser.add_argument("--pages", type=int, default=2, help="每个平台爬取的页数 (默认 2 页)")
-    parser.add_argument("--only", choices=["jd", "taobao", "xianyu"], action="append", help="仅跑指定电商平台")
-    parser.add_argument("--headed", action="store_true", help="显示浏览器窗口 (便于调试或过滑块)")
-    parser.add_argument("--push", action="store_true", help="抓取完成后自动推送到云端服务")
-    parser.add_argument("--cloud-url", default=os.getenv("CLOUD_SERVER_URL", "http://localhost:8899"), help="云端 API 地址")
-    parser.add_argument("--token", default=os.getenv("SYNC_SECRET_TOKEN", "pc-tracker-secret-2026"), help="云端同步 Token")
+    parser.add_argument("--limit", type=int, default=0, help="限制抓取目标数量")
+    parser.add_argument("--pages", type=int, default=1, help="每个平台爬取的页数 (默认 1 页以提升挂机效率)")
+    parser.add_argument("--batch-size", type=int, default=8, help="每批增量落库的型号数量 (默认 8 款)")
+    parser.add_argument("--only", choices=["jd", "taobao", "xianyu"], action="append", help="仅跑指定平台 (jd/taobao/xianyu)")
+    parser.add_argument("--headed", action="store_true", help="显示浏览器窗口")
     args = parser.parse_args()
 
-    # 选定抓取目标
     if args.keyword:
-        targets = [{
-            "id": "hw_" + re.sub(r"\W+", "_", args.keyword.lower()),
-            "name": args.keyword,
-            "category": args.category or "CPU",
-            "type": "通用",
-            "notes": ""
-        }]
+        all_targets = load_targets(args.category)
+        matched = None
+        kw_clean = args.keyword.lower().replace(" ", "")
+        for t in all_targets:
+            t_clean = t["name"].lower().replace(" ", "")
+            if kw_clean in t_clean or t_clean in kw_clean:
+                matched = t
+                break
+        if matched:
+            targets = [matched]
+            logger.info(f"🎯 关键词 '{args.keyword}' 精准匹配到预设硬件: [{matched['id']}] {matched['name']}")
+        else:
+            targets = [{
+                "id": "hw_" + re.sub(r"\W+", "_", args.keyword.lower()),
+                "name": args.keyword,
+                "category": args.category or "CPU",
+                "type": "通用",
+                "notes": ""
+            }]
     else:
         targets = load_targets(args.category)
 
@@ -289,24 +312,22 @@ def main() -> int:
     if args.limit > 0:
         targets = targets[:args.limit]
 
-    platforms = args.only or ["jd", "taobao", "xianyu"]
+    platforms = args.only or ["taobao", "xianyu"] # 默认跑已完美实测的淘宝和闲鱼
 
     try:
-        crawl_targets(
+        execute_crawl_and_save(
             targets=targets,
             platforms=platforms,
             max_pages=args.pages,
             headed=args.headed,
-            auto_push=args.push,
-            cloud_url=args.cloud_url,
-            token=args.token
+            batch_size=args.batch_size
         )
         return 0
     except KeyboardInterrupt:
-        logger.warning("用户主动中止爬取。")
+        logger.warning("用户手动中止爬虫任务。")
         return 130
     except Exception as e:
-        logger.error(f"执行爬取任务失败: {e}", exc_info=True)
+        logger.error(f"爬虫执行异常: {e}", exc_info=True)
         return 1
 
 
