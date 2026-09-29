@@ -312,7 +312,7 @@ def main() -> int:
     if args.limit > 0:
         targets = targets[:args.limit]
 
-    platforms = args.only or ["taobao", "xianyu"] # 默认跑已完美实测的淘宝和闲鱼
+    platforms = args.only or ["jd", "taobao", "xianyu"] # 默认全量覆盖三大平台：京东自营 + 淘宝现货 + 闲鱼二手
 
     try:
         execute_crawl_and_save(

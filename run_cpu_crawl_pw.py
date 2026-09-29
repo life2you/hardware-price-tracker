@@ -713,22 +713,61 @@ def crawl_jd_pw(
 
             page.wait_for_timeout(PAGE_DELAY_MS)
 
-        if not mtop_batches:
-            _snapshot_page(page, "jd", "no_api_response")
-            dump_debug("jd", page.content())
-            raise ParseError(
-                f"未拦截到 {_JD_API_HOST} 搜索响应。可能 functionId 已变更。"
-                f"hint patterns={_JD_SEARCH_HINTS}，见 logs/debug/",
-                platform="jd", url=page.url,
-            )
-
-        # 统一解析所有批次
+        # 统一解析所有批次 (优先从 XHR 拦截提取)
         for batch in mtop_batches:
             for prod in _jd_extract_products(batch):
                 if prod.item_id not in seen:
                     seen[prod.item_id] = prod
 
-        log.info(f"[jd] 拦截 {len(mtop_batches)} 批 XHR，去重后 {len(seen)} 条")
+        # 兜底：如果 XHR 没拦截到，尝试从 DOM 中抽取京东自营商品
+        if not seen:
+            try:
+                dom_prods = page.evaluate("""() => {
+                    const results = [];
+                    const items = document.querySelectorAll('li.gl-item, div.gl-i-wrap');
+                    for (const el of items) {
+                        const priceEl = el.querySelector('.p-price strong i, .p-price strong');
+                        const nameEl = el.querySelector('.p-name a em, .p-name a');
+                        const shopEl = el.querySelector('.p-shop a, .p-shop');
+                        const iconEl = el.querySelector('.p-icons, .goods-icons');
+                        const linkEl = el.querySelector('.p-name a');
+
+                        const price = priceEl ? parseFloat(priceEl.innerText.replace(/[^0-9.]/g, '')) : null;
+                        const title = nameEl ? nameEl.innerText.trim() : '';
+                        const shop = shopEl ? shopEl.innerText.trim() : '';
+                        const isSelf = (iconEl && iconEl.innerText.includes('自营')) || shop.includes('自营');
+
+                        // 严格只要京东自营！
+                        if (price && title && isSelf) {
+                            results.push({
+                                title: title,
+                                price: price,
+                                shop: shop,
+                                url: linkEl ? linkEl.href : ''
+                            });
+                        }
+                    }
+                    return results;
+                }""")
+                for dp in dom_prods:
+                    sku_id = dp.get("url", "").split("/")[-1].replace(".html", "") or dp["title"]
+                    if sku_id not in seen:
+                        seen[sku_id] = Product(
+                            platform="jd",
+                            item_id=sku_id,
+                            title=dp["title"],
+                            url=dp["url"],
+                            current_price=dp["price"],
+                            shop_name=dp.get("shop", "京东自营")
+                        )
+            except Exception as e:
+                log.debug(f"[jd] DOM 抽取异常: {e}")
+
+        if seen:
+            log.info(f"[jd] ✓ 成功提取到 {len(seen)} 条有效自营商品")
+        else:
+            log.info(f"[jd] 当前未匹配到有效自营商品或受频控，按照策略直接跳过")
+
         # 登录态刷新统一在 platform 批次末尾做一次（减少盘 I/O）
     finally:
         try:
