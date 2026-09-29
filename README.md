@@ -1,17 +1,28 @@
-# 🖥️ Hardware Price Tracker (全网硬件价格与闲鱼行情监控)
+# 🖥️ Hardware Price Tracker (本地硬件价格采集与云端同步引擎)
 
-基于 **Playwright 无头浏览器** 和 **GitHub Actions** 的全自动化硬件价格追踪系统。
+基于 **Node.js + Playwright** 构建的本地电商真实买价采集与云端同步系统。
 
-每天定时无感监控 **京东自营全新价**、**淘宝/天猫最低价** 以及 **闲鱼二手参考均价**，自动将数据写入 `data/prices.json` 并提交持久化。
+本项目利用**开发者本地原生家用宽带（Residential IP）**与**可视化扫码登录持久化机制**，精准绕过国内主流电商平台（京东、淘宝/天猫、闲鱼、拼多多）对机房公网 IP 的风控拉黑，抓取真实无虚标的实付到手价，并定时同步推送给云端 Go 业务服务。
+
+---
+
+## 📚 完整项目与开发文档导航
+
+为了方便人类工程师与外部 AI Agent（Cursor、Claude Code、Codex 等）独立接管本项目开发，请查阅以下专门文档：
+
+- 🏛️ **[架构设计文档 (docs/ARCHITECTURE.md)](docs/ARCHITECTURE.md)**：深入了解为什么爬虫必须限制在本地、反爬与会话持久化机制、数据契约规范及云端推送协议。
+- 🛠️ **[开发者与维护指南 (docs/DEVELOPMENT.md)](docs/DEVELOPMENT.md)**：包含本地开发环境安装、扫码登录操作、单品类调试抓取、如何新增硬件、以及真实买价（排除虚假定金/配件包）的业务铁律。
+- 🤖 **[AI 编码助手准则 (AGENTS.md)](AGENTS.md)**：给后续接入的 AI Agent 设定的开发准则、红线约束与验收测试清单。
 
 ---
 
 ## 🌟 核心特性
 
-- **多平台比价**：同时覆盖京东（JD）、淘宝（Taobao）与闲鱼二手（Goofish）；
-- **闲鱼二手行情算法**：自动清洗异常收卡/诈骗标价，计算真实二手市场中位数与均价；
-- **0 服务器成本**：完全依托 GitHub Actions 免费算力每天定时执行；
-- **为个人主页赋能**：你的前端网站直接读取本仓库生成的 `data/prices.json`，即可拥有全网最优混搭比价能力。
+- **本地原生住宅 IP 驱动**：彻底杜绝云服务器机房 IP 触发短信验证码、滑块阻断或封号；
+- **可视化扫码登录工具 (`npm run login`)**：支持京东、淘宝、闲鱼会话一键持久化保存到 `state/`，长期免登；
+- **504 款主流硬件全覆盖**：覆盖 CPU、主板、显卡、散热、内存、固态、机箱、电源 8 大核心品类；
+- **零 MSRP 真实买价准则**：全面杜绝官方发售价，抓取用户实际能买到的到手价，过滤淘宝预售定金、分期首付及无货僵尸价；
+- **端云数据推送器 (`src/pusher.js`)**：内置 Bearer Token 安全认证与重试机制，采集完成即刻原子性推送到云端服务。
 
 ---
 
@@ -19,39 +30,56 @@
 
 ```text
 hardware-price-tracker/
-├── .github/workflows/
-│   └── tracker.yml      # GitHub Actions 每日定时执行工作流 (支持手动触发)
+├── AGENTS.md            # 给 AI Agent 的开发规则与修改红线
+├── docs/
+│   ├── ARCHITECTURE.md  # 系统架构设计、会话持久化设计与推送契约
+│   └── DEVELOPMENT.md   # 快速开发指南、调试技巧与数据真实性铁律
 ├── data/
-│   ├── targets.json     # 监控的硬件清单 (可随意增减 CPU、显卡、主板)
-│   └── prices.json      # 自动化脚本抓取并更新的最新价格结果
+│   ├── targets.json     # 504 款主流硬件目标库 (含规格备忘)
+│   └── prices.json      # 实时抓取的全平台真实实付价格明细
+├── state/               # 本地扫码登录生成的 Session Cookie (已忽略防泄漏)
 ├── src/
-│   ├── jd.js            # 京东自营价格抓取器
-│   ├── goofish.js       # 闲鱼二手行情抓取器
-│   ├── taobao.js        # 淘宝价格抓取器
-│   └── index.js         # 自动化调度主入口
+│   ├── login.js         # 本地可视化交互式扫码登录工具
+│   ├── zol.js           # 中关村在线真实行情清洗 (防御预售定金)
+│   ├── jd.js            # 京东自营现货与促销价提取
+│   ├── taobao.js        # 淘宝/天猫现货价格提取
+│   ├── goofish.js       # 闲鱼二手个人挂牌中位数提取
+│   ├── pusher.js        # 云端 Go 服务安全数据推送器
+│   └── index.js         # 采集调度主入口
 ├── package.json
 └── README.md
 ```
 
 ---
 
-## 🛠️ 本地运行与调试
+## 🚀 极速上手
 
+### 1. 安装依赖
 ```bash
-# 安装依赖
 npm install
-
-# 安装 Playwright 浏览器内核
 npx playwright install chromium
-
-# 运行抓取
-npm start
 ```
 
----
+### 2. 扫码登录（首次或 Cookie 失效时）
+```bash
+npm run login
+```
+在弹出的浏览器中用手机扫码登录京东/淘宝/闲鱼，登录态将自动写入 `state/` 目录。
 
-## 🚀 部署到 GitHub Actions
+### 3. 开始抓取
+```bash
+# 全量抓取
+npm start
 
-只要将代码推送到你的 GitHub 仓库，GitHub Actions 就会在每天**北京时间凌晨 04:00** 自动启动无头浏览器抓取，并将最新的 `prices.json` 自动 commit 回仓库！
+# 或单品类测试抓取
+CATEGORY=CPU npm start
+```
 
-你也可以进入 GitHub 仓库页面的 **Actions -> Daily Hardware Price Tracker -> 点击 Run workflow** 随时手动测试。
+### 4. 推送数据到云服务
+```bash
+# 推送到本地 Go 服务 (端口 8899)
+npm run push
+
+# 推送到远程服务器
+CLOUD_SERVER_URL="https://your-domain.com" SYNC_SECRET_TOKEN="your-token" npm run push
+```
