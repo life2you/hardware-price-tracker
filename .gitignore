@@ -1,6 +1,12 @@
 node_modules/
 .DS_Store
 *.log
+logs/
 state/
 *.tmp
-
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+vendor/
+.pytest_cache/
