@@ -612,5 +612,4455 @@
     "zol": {
       "url": "https://detail.zol.com.cn/solid_state_drive/index1977299.shtml"
     }
+  },
+  {
+    "id": "gpu_igame_geforce_rtx_5070_ti",
+    "name": "七彩虹iGame GeForce RTX 5070 Ti Ultra W OC 16GB",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2121268.shtml"
+    }
+  },
+  {
+    "id": "gpu_nvidia_rtx_5070",
+    "name": "NVIDIA RTX 5070",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2118119.shtml"
+    }
+  },
+  {
+    "id": "gpu_nvidia_geforce_rtx_4090_2",
+    "name": "NVIDIA GeForce RTX 4090 24GB公版FE",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1406879.shtml"
+    }
+  },
+  {
+    "id": "gpu_nvidia_geforce_rtx_3060_1",
+    "name": "NVIDIA GeForce RTX 3060 12G",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1355946.shtml"
+    }
+  },
+  {
+    "id": "gpu_geforce_rtx_5080_hof_oc_l",
+    "name": "影驰GeForce RTX 5080 HOF OC LAB Deluxe-X",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2144020.shtml"
+    }
+  },
+  {
+    "id": "gpu_geforce_rtx_5070_ti_gamin",
+    "name": "技嘉GeForce RTX 5070 Ti Gaming OC 16G魔鹰",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2121247.shtml"
+    }
+  },
+  {
+    "id": "gpu_geforce_rtx_5070_ti_16gb",
+    "name": "七彩虹战斧 GeForce RTX 5070 Ti 豪华版 16GB",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2121271.shtml"
+    }
+  },
+  {
+    "id": "gpu_nvidia_rtx_5070_ti",
+    "name": "NVIDIA RTX 5070 Ti",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2118118.shtml"
+    }
+  },
+  {
+    "id": "gpu_nvidia_rtx_5090fe",
+    "name": "NVIDIA RTX 5090FE公版",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2124917.shtml"
+    }
+  },
+  {
+    "id": "gpu_igame_geforce_rtx_5090_d_",
+    "name": "七彩虹iGame GeForce RTX 5090 D Vulcan OC 32GB",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2119727.shtml"
+    }
+  },
+  {
+    "id": "gpu_nvidia_geforce_rtx_3050",
+    "name": "NVIDIA GeForce RTX 3050显卡",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1395284.shtml"
+    }
+  },
+  {
+    "id": "gpu_igame_geforce_gtx_1650_ul",
+    "name": "七彩虹iGame GeForce GTX 1650 Ultra 4G",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1269637.shtml"
+    }
+  },
+  {
+    "id": "gpu_nvidia_rtx_5080",
+    "name": "NVIDIA RTX 5080",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2118117.shtml"
+    }
+  },
+  {
+    "id": "gpu_igame_geforce_gtx_1660_ul",
+    "name": "七彩虹iGame GeForce GTX 1660 Ultra 6G",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1262090.shtml"
+    }
+  },
+  {
+    "id": "gpu_amd_radeon_rx_6500_xt",
+    "name": "AMD Radeon RX 6500 XT显卡",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1395282.shtml"
+    }
+  },
+  {
+    "id": "gpu_igame_geforce_rtx_3060_ad",
+    "name": "七彩虹iGame GeForce RTX 3060 Advanced OC 12G",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1355974.shtml"
+    }
+  },
+  {
+    "id": "gpu_geforce_rtx_5070_ti_oc",
+    "name": "影驰GeForce RTX 5070 Ti 魔刃 OC",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2121384.shtml"
+    }
+  },
+  {
+    "id": "gpu_pulse_rx_9070_xt_16g_d6",
+    "name": "蓝宝石PULSE 脉动 RX 9070 XT 16G D6",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2126097.shtml"
+    }
+  },
+  {
+    "id": "gpu_geforce_rtx_3050_duo_v2_8",
+    "name": "七彩虹战斧 GeForce RTX 3050 DUO V2 8G",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1993042.shtml"
+    }
+  },
+  {
+    "id": "gpu_dual_rtx_3050_o6g",
+    "name": "华硕DUAL RTX 3050 O6G",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1993043.shtml"
+    }
+  },
+  {
+    "id": "gpu_geforce_rtx_5070_ti",
+    "name": "影驰GeForce RTX 5070 Ti 魔刃",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2121385.shtml"
+    }
+  },
+  {
+    "id": "gpu_intel_arc_a380_photon_6g_",
+    "name": "蓝戟Intel Arc A380 Photon 6G OC",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1414380.shtml"
+    }
+  },
+  {
+    "id": "gpu_geforce_rtx_3060_ti",
+    "name": "七彩虹战斧 GeForce RTX 3060 Ti",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1350171.shtml"
+    }
+  },
+  {
+    "id": "gpu_geforce_rtx_5080_oc",
+    "name": "影驰GeForce RTX 5080 魔刃 OC",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2119808.shtml"
+    }
+  },
+  {
+    "id": "gpu_nvidia_geforce_rtx_3090",
+    "name": "NVIDIA GeForce RTX 3090显卡",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1338284.shtml"
+    }
+  },
+  {
+    "id": "gpu_nvidia_geforce_rtx_4090_4",
+    "name": "NVIDIA GeForce RTX 4090 48GB涡轮",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2126436.shtml"
+    }
+  },
+  {
+    "id": "gpu_nvidia_geforce_rtx_3080",
+    "name": "NVIDIA GeForce RTX 3080显卡",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1338280.shtml"
+    }
+  },
+  {
+    "id": "gpu_nvidia_geforce_rtx_2080ti",
+    "name": "NVIDIA GeForce RTX 2080Ti Founders Edition",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1228698.shtml"
+    }
+  },
+  {
+    "id": "gpu_nvidia_rtx_4070",
+    "name": "NVIDIA RTX 4070",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1406873.shtml"
+    }
+  },
+  {
+    "id": "gpu_nvidia_geforce_gtx_1650_g",
+    "name": "NVIDIA GeForce GTX 1650 GDDR5显卡",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1350318.shtml"
+    }
+  },
+  {
+    "id": "gpu_rog_strix_rtx_2080ti_o11g",
+    "name": "华硕ROG STRIX-RTX 2080Ti-O11G-GAMING",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1232259.shtml"
+    }
+  },
+  {
+    "id": "gpu_nvidia_geforce_rtx_3070",
+    "name": "NVIDIA GeForce RTX 3070显卡",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1338260.shtml"
+    }
+  },
+  {
+    "id": "gpu_geforce_rtx_5080_gaming_o",
+    "name": "技嘉GeForce RTX 5080 GAMING OC 16G",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2119960.shtml"
+    }
+  },
+  {
+    "id": "gpu_geforce_rtx_5070_ti_windf",
+    "name": "技嘉GeForce RTX 5070 Ti WindForce OC SFF 16G风魔",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2121252.shtml"
+    }
+  },
+  {
+    "id": "gpu_geforce_rtx_3050_6gb",
+    "name": "七彩虹GeForce RTX 3050 灵动 6GB",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1993041.shtml"
+    }
+  },
+  {
+    "id": "gpu_rog_rtx_5090_oc",
+    "name": "华硕ROG RTX 5090夜神OC",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2149746.shtml"
+    }
+  },
+  {
+    "id": "gpu_geforce_rtx_5070_ti_16gb_",
+    "name": "索泰GeForce RTX 5070 Ti 16GB SOLID CORE OC WHITE",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2148943.shtml"
+    }
+  },
+  {
+    "id": "gpu_igame_geforce_rtx_3080_vu",
+    "name": "七彩虹iGame GeForce RTX 3080 Vulcan 10G",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1338286.shtml"
+    }
+  },
+  {
+    "id": "gpu_rx_7700_xt_12g_d6_oc",
+    "name": "蓝宝石RX 7700 XT 12G D6 极地版OC",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1857623.shtml"
+    }
+  },
+  {
+    "id": "gpu_igame_geforce_rtx_2060_ul",
+    "name": "七彩虹iGame GeForce RTX 2060 Ultra",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1251900.shtml"
+    }
+  },
+  {
+    "id": "gpu_nvidia_geforce_rtx_4090_d",
+    "name": "NVIDIA GeForce RTX 4090 D 24G涡轮",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2126434.shtml"
+    }
+  },
+  {
+    "id": "gpu_rtx_4060_oc",
+    "name": "技嘉RTX 4060 风魔 OC",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1794063.shtml"
+    }
+  },
+  {
+    "id": "gpu_igame_geforce_rtx_5070_ti_1",
+    "name": "七彩虹iGame GeForce RTX 5070 Ti Advanced OC 16GB",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2121269.shtml"
+    }
+  },
+  {
+    "id": "gpu_geforce_rtx_5070_ti_aero_",
+    "name": "技嘉GeForce RTX 5070 Ti AERO OC 16G雪鹰",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2121248.shtml"
+    }
+  },
+  {
+    "id": "gpu_amd_radeon_rx_6700_xt",
+    "name": "AMD Radeon RX 6700 XT显卡",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1361600.shtml"
+    }
+  },
+  {
+    "id": "gpu_geforce_rtx_3060",
+    "name": "影驰GeForce RTX 3060骁将",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1350217.shtml"
+    }
+  },
+  {
+    "id": "gpu_aorus_geforce_rtx_5090_d_",
+    "name": "技嘉AORUS GeForce RTX 5090 D MASTER 32G",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2119965.shtml"
+    }
+  },
+  {
+    "id": "gpu_nvidia_geforce_rtx_3070_t",
+    "name": "NVIDIA GeForce RTX 3070 Ti",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1373070.shtml"
+    }
+  },
+  {
+    "id": "gpu_nvidia_geforce_rtx_2080_f",
+    "name": "NVIDIA GeForce RTX 2080 Founders Edition",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1228706.shtml"
+    }
+  },
+  {
+    "id": "gpu_rog_rtx_5090_oc_1",
+    "name": "华硕ROG RTX 5090水夜神OC",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2149747.shtml"
+    }
+  },
+  {
+    "id": "gpu_amd_radeon_rx_6600",
+    "name": "AMD Radeon RX 6600显卡",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1370319.shtml"
+    }
+  },
+  {
+    "id": "gpu_geforce_rtx_4060",
+    "name": "影驰GeForce RTX 4060 大将",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1794117.shtml"
+    }
+  },
+  {
+    "id": "gpu_geforce_rtx_4060_duo_8gb",
+    "name": "七彩虹战斧 GeForce RTX 4060 DUO 8GB",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1794060.shtml"
+    }
+  },
+  {
+    "id": "gpu_nvidia_geforce_rtx_3060_t",
+    "name": "NVIDIA GeForce RTX 3060 Ti显卡",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1350133.shtml"
+    }
+  },
+  {
+    "id": "gpu_igame_geforce_rtx_5070_ti_2",
+    "name": "七彩虹iGame GeForce RTX 5070 Ti Vulcan OC 16GB",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2121270.shtml"
+    }
+  },
+  {
+    "id": "gpu_amd_radeon_rx_6600_xt",
+    "name": "AMD Radeon RX 6600 XT显卡",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1370318.shtml"
+    }
+  },
+  {
+    "id": "gpu_geforce_rtx_5080_oc_1",
+    "name": "影驰GeForce RTX 5080 金属大师黑金版 OC",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2119812.shtml"
+    }
+  },
+  {
+    "id": "gpu_geforce_rtx_5070_ti_luna_",
+    "name": "影驰GeForce RTX 5070 Ti 星曜LUNA OC",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2130264.shtml"
+    }
+  },
+  {
+    "id": "gpu_igame_geforce_rtx_2060_su",
+    "name": "七彩虹iGame GeForce RTX 2060 SUPER Vulcan X OC",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1282334.shtml"
+    }
+  },
+  {
+    "id": "gpu_nvidia_geforce_rtx_5090_3",
+    "name": "NVIDIA GeForce RTX 5090 32G 涡轮",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2161603.shtml"
+    }
+  },
+  {
+    "id": "gpu_amd_rx_7800_xt",
+    "name": "AMD RX 7800 XT 显卡",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1857618.shtml"
+    }
+  },
+  {
+    "id": "gpu_dual_gtx_1660s_o6g_evo",
+    "name": "华硕DUAL-GTX 1660S-O6G-EVO",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1298477.shtml"
+    }
+  },
+  {
+    "id": "gpu_igame_geforce_rtx_5070_ul",
+    "name": "七彩虹iGame GeForce RTX 5070 Ultra W OC 12GB",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2162878.shtml"
+    }
+  },
+  {
+    "id": "gpu_geforce_rtx_4060_ti_8gb",
+    "name": "七彩虹战斧 GeForce RTX 4060 Ti 豪华版 8GB",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1616145.shtml"
+    }
+  },
+  {
+    "id": "gpu_igame_geforce_gtx_1660_su",
+    "name": "七彩虹iGame GeForce GTX 1660 SUPER Advanced OC 6G",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1298480.shtml"
+    }
+  },
+  {
+    "id": "gpu_nvidia_geforce_rtx_3090_2",
+    "name": "NVIDIA GeForce RTX 3090 24G 涡轮",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2161598.shtml"
+    }
+  },
+  {
+    "id": "gpu_nvidia_geforce_rtx_4080_1",
+    "name": "NVIDIA GeForce RTX 4080 16G",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1395268.shtml"
+    }
+  },
+  {
+    "id": "gpu_nvidia_geforce_gtx_1660",
+    "name": "NVIDIA GeForce GTX 1660显卡",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1350323.shtml"
+    }
+  },
+  {
+    "id": "gpu_geforce_rtx_5070_ti_x3_oc",
+    "name": "映众GeForce RTX 5070 Ti 曜夜 X3 OC",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2121428.shtml"
+    }
+  },
+  {
+    "id": "gpu_igame_geforce_rtx_4080_su",
+    "name": "七彩虹iGame GeForce RTX 4080 SUPER Ultra W OC 16GB",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1980420.shtml"
+    }
+  },
+  {
+    "id": "gpu_igame_geforce_rtx_5090_d__1",
+    "name": "七彩虹iGame GeForce RTX 5090 D Vulcan W OC 32GB",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2119724.shtml"
+    }
+  },
+  {
+    "id": "gpu_igame_geforce_rtx_5090_d__2",
+    "name": "七彩虹iGame GeForce RTX 5090 D Neptune OC 32GB",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2119725.shtml"
+    }
+  },
+  {
+    "id": "gpu_geforce_rtx_5090_d_gaming",
+    "name": "技嘉GeForce RTX 5090 D GAMING 32G",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2119966.shtml"
+    }
+  },
+  {
+    "id": "gpu_geforce_rtx_3050_gaming_o",
+    "name": "技嘉GeForce RTX 3050 GAMING OC 8G",
+    "category": "GPU",
+    "type": "new",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1396597.shtml"
+    }
+  },
+  {
+    "id": "gpu_igame_geforce_rtx_3070_ad",
+    "name": "七彩虹iGame GeForce RTX 3070 Advanced OC",
+    "category": "GPU",
+    "type": "used",
+    "notes": "主流电竞与二手热门显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1345081.shtml"
+    }
+  },
+  {
+    "id": "mobo_battle_ax_b850m_plus_s_wi",
+    "name": "七彩虹BATTLE-AX B850M-PLUS S WIFI7 V14",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2143402.shtml"
+    }
+  },
+  {
+    "id": "mobo_tuf_gaming_b850m_plus_wif",
+    "name": "华硕TUF GAMING B850M-PLUS WIFI",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2118288.shtml"
+    }
+  },
+  {
+    "id": "mobo_prime_b660m_k_d4",
+    "name": "华硕PRIME B660M-K D4",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1396983.shtml"
+    }
+  },
+  {
+    "id": "mobo_rog_strix_z890_a_gaming_w",
+    "name": "华硕ROG STRIX Z890-A GAMING WIFI S吹雪",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2110130.shtml"
+    }
+  },
+  {
+    "id": "mobo_rog_strix_z790_a_gaming_w",
+    "name": "华硕ROG STRIX Z790-A GAMING WIFI吹雪",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1465548.shtml"
+    }
+  },
+  {
+    "id": "mobo_tuf_gaming_b760m_plus_wif",
+    "name": "华硕TUF GAMING B760M-PLUS WIFI D4重炮手",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1440077.shtml"
+    }
+  },
+  {
+    "id": "mobo_prime_h510m_k",
+    "name": "华硕PRIME H510M-K",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1377132.shtml"
+    }
+  },
+  {
+    "id": "mobo_prime_b650m_k",
+    "name": "华硕PRIME B650M-K",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1929864.shtml"
+    }
+  },
+  {
+    "id": "mobo_prime_h610m_a_d4",
+    "name": "华硕PRIME H610M-A D4",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1396658.shtml"
+    }
+  },
+  {
+    "id": "mobo_rog_strix_b850_e_gaming_w",
+    "name": "华硕ROG STRIX B850-E GAMING WIFI",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2118270.shtml"
+    }
+  },
+  {
+    "id": "mobo_pro_b650m_b",
+    "name": "微星PRO B650M-B",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2071210.shtml"
+    }
+  },
+  {
+    "id": "mobo_prime_b760m_k_d4",
+    "name": "华硕PRIME B760M-K D4",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1465772.shtml"
+    }
+  },
+  {
+    "id": "mobo_mpg_z890_edge_ti_wifi",
+    "name": "微星MPG Z890 EDGE TI WIFI",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2109652.shtml"
+    }
+  },
+  {
+    "id": "mobo_pro_h610m_e_ddr4",
+    "name": "微星PRO H610M-E DDR4",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1544325.shtml"
+    }
+  },
+  {
+    "id": "mobo_z790_z790_gaming_plus_wif",
+    "name": "微星Z790 Z790 GAMING PLUS WIFI",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1984940.shtml"
+    }
+  },
+  {
+    "id": "mobo_msi_mag_b860m_mortar_wifi",
+    "name": "msi微星MAG B860M MORTAR WIFI",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2118276.shtml"
+    }
+  },
+  {
+    "id": "mobo_ms_h610m",
+    "name": "铭瑄 MS-挑战者 H610M",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1396661.shtml"
+    }
+  },
+  {
+    "id": "mobo_mag_b550m_mortar_wifi",
+    "name": "微星MAG B550M MORTAR WIFI",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1327592.shtml"
+    }
+  },
+  {
+    "id": "mobo_rog_strix_b850_a_gaming_w",
+    "name": "华硕ROG STRIX B850-A GAMING WIFI S",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2118290.shtml"
+    }
+  },
+  {
+    "id": "mobo_mag_b560m_mortar",
+    "name": "微星MAG B560M MORTAR",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1366086.shtml"
+    }
+  },
+  {
+    "id": "mobo_prime_a520m_k",
+    "name": "华硕PRIME A520M-K",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1336341.shtml"
+    }
+  },
+  {
+    "id": "mobo_tuf_gaming_b760m_plus_ii_",
+    "name": "华硕TUF GAMING B760M-PLUS II D5重炮手",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2099261.shtml"
+    }
+  },
+  {
+    "id": "mobo_rog_maximus_z790_extreme",
+    "name": "华硕ROG MAXIMUS Z790 EXTREME",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1429480.shtml"
+    }
+  },
+  {
+    "id": "mobo_tuf_gaming_b550m_plus",
+    "name": "华硕TUF GAMING B550M-PLUS",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1327761.shtml"
+    }
+  },
+  {
+    "id": "mobo_prime_h610m_k_d4",
+    "name": "华硕PRIME H610M-K D4",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1397600.shtml"
+    }
+  },
+  {
+    "id": "mobo_rog_strix_z890_h_gaming_w",
+    "name": "华硕ROG STRIX Z890-H GAMING WIFI S RO姬",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2118274.shtml"
+    }
+  },
+  {
+    "id": "mobo_mag_z890_tomahawk_wifi",
+    "name": "微星MAG Z890 TOMAHAWK WIFI",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2109653.shtml"
+    }
+  },
+  {
+    "id": "mobo_pro_h610m_s_ddr4",
+    "name": "微星PRO H610M-S DDR4",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2103771.shtml"
+    }
+  },
+  {
+    "id": "mobo_pro_b760m_a_ddr4_ii",
+    "name": "微星PRO B760M-A DDR4 II",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1984971.shtml"
+    }
+  },
+  {
+    "id": "mobo_prime_z690_p",
+    "name": "华硕PRIME Z690-P",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1395088.shtml"
+    }
+  },
+  {
+    "id": "mobo_tuf_gaming_b550m_plus_wif",
+    "name": "华硕TUF GAMING B550M-PLUS WIFI II",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1398379.shtml"
+    }
+  },
+  {
+    "id": "mobo_tx_gaming_b760m_wifi_d4",
+    "name": "华硕TX GAMING B760M WIFI D4",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1462815.shtml"
+    }
+  },
+  {
+    "id": "mobo_rog_strix_b450_i_gaming",
+    "name": "华硕ROG STRIX B450-I GAMING",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1218691.shtml"
+    }
+  },
+  {
+    "id": "mobo_pro_b760m_a_wifi_ddr4_ii",
+    "name": "微星PRO B760M-A WIFI DDR4 II",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2103759.shtml"
+    }
+  },
+  {
+    "id": "mobo_mpg_b760i_edge_wifi_ddr4",
+    "name": "微星MPG B760I EDGE WIFI DDR4",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1440298.shtml"
+    }
+  },
+  {
+    "id": "mobo_rog_strix_z790_a_gaming_w_1",
+    "name": "华硕ROG STRIX Z790-A GAMING WIFI D4",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1429477.shtml"
+    }
+  },
+  {
+    "id": "mobo_b560m_aorus_elite",
+    "name": "技嘉小雕 B560M AORUS ELITE",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1367247.shtml"
+    }
+  },
+  {
+    "id": "mobo_rog_strix_x870_i_gaming_w",
+    "name": "华硕ROG STRIX X870-I GAMING WIFI",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2110113.shtml"
+    }
+  },
+  {
+    "id": "mobo_prime_z790_p_wifi",
+    "name": "华硕PRIME Z790-P WIFI",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1465973.shtml"
+    }
+  },
+  {
+    "id": "mobo_rog_strix_b760_i_gaming_w",
+    "name": "华硕ROG STRIX B760-I GAMING WIFI",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1440079.shtml"
+    }
+  },
+  {
+    "id": "mobo_prime_b650m_r",
+    "name": "华硕PRIME B650M-R",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2104539.shtml"
+    }
+  },
+  {
+    "id": "mobo_tuf_gaming_z790_plus_wifi",
+    "name": "华硕TUF GAMING Z790-PLUS WIFI D4",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1429483.shtml"
+    }
+  },
+  {
+    "id": "mobo_battle_ax_b860m_plus_s_wi",
+    "name": "七彩虹BATTLE-AX B860M-PLUS S WIFI7 V20",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2164623.shtml"
+    }
+  },
+  {
+    "id": "mobo_tuf_gaming_b850_plus_wifi",
+    "name": "华硕TUF GAMING B850-PLUS WIFI",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2118289.shtml"
+    }
+  },
+  {
+    "id": "mobo_proart_x870e_creator_wifi",
+    "name": "华硕PROART X870E-CREATOR WIFI",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2109001.shtml"
+    }
+  },
+  {
+    "id": "mobo_prime_b550m_k_argb",
+    "name": "华硕PRIME B550M-K ARGB",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2104537.shtml"
+    }
+  },
+  {
+    "id": "mobo_tuf_gaming_b660m_plus_d4",
+    "name": "华硕TUF GAMING B660M-PLUS D4",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1396653.shtml"
+    }
+  },
+  {
+    "id": "mobo_rog_crosshair_x870e_hero",
+    "name": "华硕ROG CROSSHAIR X870E HERO",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2109015.shtml"
+    }
+  },
+  {
+    "id": "mobo_prime_z590_p",
+    "name": "华硕PRIME Z590-P",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1359112.shtml"
+    }
+  },
+  {
+    "id": "mobo_prime_z890_p",
+    "name": "华硕PRIME Z890-P",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2109721.shtml"
+    }
+  },
+  {
+    "id": "mobo_tuf_gaming_b850m_plus",
+    "name": "华硕TUF GAMING B850M-PLUS",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2118287.shtml"
+    }
+  },
+  {
+    "id": "mobo_tuf_gaming_b760m_plus_wif_1",
+    "name": "华硕TUF GAMING B760M-PLUS WIFI II重炮手",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2099262.shtml"
+    }
+  },
+  {
+    "id": "mobo_tuf_gaming_b650m_plus",
+    "name": "华硕TUF GAMING B650M-PLUS",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1430242.shtml"
+    }
+  },
+  {
+    "id": "mobo_rog_strix_z690_a_gaming_w",
+    "name": "华硕ROG STRIX Z690-A GAMING WIFI",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1393517.shtml"
+    }
+  },
+  {
+    "id": "mobo_rog_strix_b850_i_gaming_w",
+    "name": "华硕ROG STRIX B850-I GAMING WIFI",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2118292.shtml"
+    }
+  },
+  {
+    "id": "mobo_ms_b650m_wifi6",
+    "name": "铭瑄 MS-终结者 B650M WIFI6",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2106116.shtml"
+    }
+  },
+  {
+    "id": "mobo_pro_z690_p_ddr4",
+    "name": "微星PRO Z690-P DDR4",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1395311.shtml"
+    }
+  },
+  {
+    "id": "mobo_tuf_gaming_b560m_plus",
+    "name": "华硕TUF GAMING B560M-PLUS",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1361396.shtml"
+    }
+  },
+  {
+    "id": "mobo_prime_b550m_k",
+    "name": "华硕PRIME B550M-K",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1327750.shtml"
+    }
+  },
+  {
+    "id": "mobo_prime_b650m_f",
+    "name": "华硕PRIME B650M-F",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2104538.shtml"
+    }
+  },
+  {
+    "id": "mobo_b760_battle_ax_b760m_whit",
+    "name": "七彩虹B760 BATTLE-AX B760M-WHITE WIFI V20",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1968620.shtml"
+    }
+  },
+  {
+    "id": "mobo_prime_h610m_f_d4",
+    "name": "华硕PRIME H610M-F D4",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1426394.shtml"
+    }
+  },
+  {
+    "id": "mobo_rog_maximus_z890_extreme",
+    "name": "华硕ROG MAXIMUS Z890 EXTREME",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2109728.shtml"
+    }
+  },
+  {
+    "id": "mobo_tuf_gaming_x870_plus_wifi",
+    "name": "华硕TUF GAMING X870-PLUS WIFI",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2109002.shtml"
+    }
+  },
+  {
+    "id": "mobo_battle_ax_b450m_t_m_2_v14",
+    "name": "七彩虹BATTLE-AX B450M-T M.2 V14",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "主流在售兼容主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2114642.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_i5_12490f",
+    "name": "Intel 酷睿 i5 12490F",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1396551.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_i7_14700k",
+    "name": "Intel 酷睿 i7 14700K",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1814492.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_ultra_9_285k",
+    "name": "Intel 酷睿 Ultra 9 285K",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index2110066.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_i9_14900k",
+    "name": "Intel 酷睿 i9 14900K",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1805095.shtml"
+    }
+  },
+  {
+    "id": "cpu_amd_ryzen_7_5700x",
+    "name": "AMD Ryzen 7 5700X",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1403089.shtml"
+    }
+  },
+  {
+    "id": "cpu_amd_ryzen_7_9700x",
+    "name": "AMD Ryzen 7 9700X",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index2018966.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_i3_12100",
+    "name": "Intel 酷睿 i3 12100",
+    "category": "CPU",
+    "type": "used",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1394655.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_i7_12700kf",
+    "name": "Intel 酷睿 i7 12700KF",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1393369.shtml"
+    }
+  },
+  {
+    "id": "cpu_amd_ryzen_5_5600gt",
+    "name": "AMD Ryzen 5 5600GT",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1980887.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_i5_13490f",
+    "name": "Intel 酷睿 i5 13490F",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1457696.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_i5_13400f",
+    "name": "Intel 酷睿 i5 13400F",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1440555.shtml"
+    }
+  },
+  {
+    "id": "cpu_amd_ryzen_9_7950x",
+    "name": "AMD Ryzen 9 7950X",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1424741.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_i5_14600k",
+    "name": "Intel 酷睿 i5 14600K",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1929614.shtml"
+    }
+  },
+  {
+    "id": "cpu_amd_ryzen_5_5600g",
+    "name": "AMD Ryzen 5 5600G",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1366838.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_ultra_5_245k",
+    "name": "Intel 酷睿 Ultra 5 245K",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index2110069.shtml"
+    }
+  },
+  {
+    "id": "cpu_amd_ryzen_5_3600",
+    "name": "AMD Ryzen 5 3600",
+    "category": "CPU",
+    "type": "used",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1277878.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_i5_13600k",
+    "name": "Intel 酷睿 i5 13600K",
+    "category": "CPU",
+    "type": "used",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1428846.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_i7_14700kf",
+    "name": "Intel 酷睿 i7 14700KF",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1929613.shtml"
+    }
+  },
+  {
+    "id": "cpu_amd_ryzen_5_5600x",
+    "name": "AMD Ryzen 5 5600X",
+    "category": "CPU",
+    "type": "used",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1342305.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_i7_13700k",
+    "name": "Intel 酷睿 i7 13700K",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1428845.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_i5_14490f",
+    "name": "Intel 酷睿 i5 14490F",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index2111489.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_ultra_7_265kf",
+    "name": "Intel 酷睿 Ultra 7 265KF",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index2110068.shtml"
+    }
+  },
+  {
+    "id": "cpu_amd_ryzen_9_9950x3d",
+    "name": "AMD Ryzen 9 9950X3D",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index2118101.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_i5_13600kf",
+    "name": "Intel 酷睿 i5 13600KF",
+    "category": "CPU",
+    "type": "used",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1429351.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_i9_12900k",
+    "name": "Intel 酷睿 i9 12900K",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1356715.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_i5_12600k",
+    "name": "Intel 酷睿 i5 12600K",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1393370.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_i7_12700",
+    "name": "Intel 酷睿 i7 12700",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1394648.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_i5_12400",
+    "name": "Intel 酷睿 i5 12400",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1394653.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_i9_13900k",
+    "name": "Intel 酷睿 i9 13900K",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1428844.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_i5_14400f",
+    "name": "Intel 酷睿 i5 14400F",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1972500.shtml"
+    }
+  },
+  {
+    "id": "cpu_amd_ryzen_9_9950x",
+    "name": "AMD Ryzen 9 9950X",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index2018964.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_i7_13700",
+    "name": "Intel 酷睿 i7 13700",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1440476.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_i5_14400",
+    "name": "Intel 酷睿 i5 14400",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1972499.shtml"
+    }
+  },
+  {
+    "id": "cpu_amd_ryzen_7_5700g",
+    "name": "AMD Ryzen 7 5700G",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1355716.shtml"
+    }
+  },
+  {
+    "id": "cpu_amd_ryzen_5_5500",
+    "name": "AMD Ryzen 5 5500",
+    "category": "CPU",
+    "type": "new",
+    "notes": "主流在售与热门流通CPU",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1403086.shtml"
+    }
+  },
+  {
+    "id": "ram_16gb_ddr5_5600",
+    "name": "英睿达16GB DDR5 5600 台式机内存条",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1857413.shtml"
+    }
+  },
+  {
+    "id": "ram_16gb_2_8gb_ddr5_6000",
+    "name": "金百达银爵 16GB（2×8GB）DDR5 6000",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1440042.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_6800_64gb_32gbx2",
+    "name": "金百达黑刃 DDR5 6800 64GB(32GBx2)",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1985006.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_6000_32gb_16gbx2",
+    "name": "金百达黑刃 DDR5 6000 三星颗粒 32GB(16GBx2)",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1985005.shtml"
+    }
+  },
+  {
+    "id": "ram_32gb_ddr5_5600",
+    "name": "英睿达32GB DDR5 5600 台式机内存条",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1857414.shtml"
+    }
+  },
+  {
+    "id": "ram_16gb_ddr5_5600_1",
+    "name": "英睿达16GB DDR5 5600 笔记本内存条",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1708969.shtml"
+    }
+  },
+  {
+    "id": "ram_32gb_2_16gb_ddr5_6000",
+    "name": "金百达银爵 32GB（2×16GB）DDR5 6000",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1440043.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_6400_64gb_2_32gb",
+    "name": "芝奇皇家戟 DDR5 6400 64GB（2×32GB）银色",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index2099550.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_7200_32gb_16gbx2",
+    "name": "金百达黑刃 DDR5 7200 32GB(16GBx2)",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1985007.shtml"
+    }
+  },
+  {
+    "id": "ram_xpg_d300_ddr5_6000_c30_16",
+    "name": "威刚XPG 威龙 D300 DDR5 6000 C30 16GB 釉白",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1984584.shtml"
+    }
+  },
+  {
+    "id": "ram_hermes_32g_16g_2_ddr5_640",
+    "name": "宏碁 Hermes冰刃系列 32G(16G×2) DDR5 6400 C32",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1955978.shtml"
+    }
+  },
+  {
+    "id": "ram_16gb_ddr5_6000",
+    "name": "美商海盗船复仇者 16GB DDR5 6000",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1461004.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_6400_64gb_2_32gb_1",
+    "name": "阿斯加特吹雪 DDR5 6400 64GB（2×32GB）",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1985150.shtml"
+    }
+  },
+  {
+    "id": "ram_32gb_2_16gb_ddr5_5600",
+    "name": "海盗船复仇者 32GB（2×16GB）DDR5 5600",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1395743.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_6000_64gb_32gbx2",
+    "name": "金百达黑刃 DDR5 6000 64GB(32GBx2)",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1985004.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_6000_c30_32gb_2_16gb",
+    "name": "阿斯加特瓦尔基里女武神二代 DDR5 6000 C30 32GB（2×16GB）",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index2099472.shtml"
+    }
+  },
+  {
+    "id": "ram_32gb_2_16gb_ddr5_6400",
+    "name": "金百达银爵  32GB（2×16GB）DDR5 6400",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1447494.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_6000_64gb_2_32gb_c30",
+    "name": "芝奇焰锋戟 DDR5 6000 64GB（2×32GB）C30",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1985128.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_6400_32gb_2_16gb",
+    "name": "芝奇皇家戟 DDR5 6400 32GB（2×16GB）银色",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index2099549.shtml"
+    }
+  },
+  {
+    "id": "ram_16gb_ddr4_3200",
+    "name": "威刚万紫千红 16GB DDR4 3200",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1373451.shtml"
+    }
+  },
+  {
+    "id": "ram_16gb_ddr4_3600",
+    "name": "金百达银爵 16GB DDR4 3600",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1465799.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_5600_16gb",
+    "name": "金百达笔记本内存条 DDR5 5600 16GB",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1985892.shtml"
+    }
+  },
+  {
+    "id": "ram_lpx_16gb_ddr4_3600_cm4x16",
+    "name": "海盗船复仇者LPX 16GB DDR4 3600（CM4X16GC3600C18K2D-CN）",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1328675.shtml"
+    }
+  },
+  {
+    "id": "ram_d300_32gb_16gb_2_ddr5_600",
+    "name": "威刚威龙D300 32GB(16GB*2) DDR5 6000",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1948455.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_6000_32gb_2_16gb_m_d",
+    "name": "阿斯加特女武神 DDR5 6000 32GB（2×16GB） 海力士M-die",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1985139.shtml"
+    }
+  },
+  {
+    "id": "ram_32gb_2_16gb_ddr4_3200",
+    "name": "光威天策 32GB（2×16GB）DDR4 3200",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1382784.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_6000_32gb_16gbx2_1",
+    "name": "金百达星刃 DDR5 6000 32GB(16GBx2)",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1985000.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_6400_96gb_2_48gb",
+    "name": "芝奇皇家戟 DDR5 6400 96GB（2×48GB）银色",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index2099551.shtml"
+    }
+  },
+  {
+    "id": "ram_expo_ddr5_6000_32gb_2_16g",
+    "name": "芝奇皇家戟 EXPO版  DDR5 6000 32GB（2×16GB）银色",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index2130169.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_5600_c40_32gb_2_16gb",
+    "name": "阿斯加特海拉 DDR5 5600 C40 32GB（2×16GB）",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1985252.shtml"
+    }
+  },
+  {
+    "id": "ram_32gb_ddr5_5600_1",
+    "name": "英睿达32GB DDR5 5600 笔记本内存条",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1857393.shtml"
+    }
+  },
+  {
+    "id": "ram_hermes_64g_32g_2_ddr5_640",
+    "name": "宏碁 Hermes冰刃系列 64G(32G×2) DDR5 6400 C32",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1955979.shtml"
+    }
+  },
+  {
+    "id": "ram_16gb_ddr4_3200_1",
+    "name": "金百达黑爵 16GB DDR4 3200",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1327689.shtml"
+    }
+  },
+  {
+    "id": "ram_32gb_2_16gb_ddr5_4800",
+    "name": "海盗船复仇者 32GB（2×16GB）DDR5 4800",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1395774.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_64gb_2_32gb_ddr5_640",
+    "name": "芝奇幻锋戟 DDR5 64GB（2×32GB）DDR5 6400 黯雾黑",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1985115.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_6400_32gb_2_16gb_1",
+    "name": "阿斯加特吹雪 DDR5 6400 32GB（2×16GB）",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1985149.shtml"
+    }
+  },
+  {
+    "id": "ram_16gb_2_8gb_ddr4_3600",
+    "name": "金百达银爵 16GB（2×8GB）DDR4 3600",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1465800.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_32gb_2_16gb_ddr5_780",
+    "name": "芝奇幻锋戟 DDR5 32GB（2×16GB）DDR5 7800 科技银",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1985124.shtml"
+    }
+  },
+  {
+    "id": "ram_xpg_d500_ddr5_6000_16gb",
+    "name": "威刚XPG 威龙 D500 DDR5 6000 16GB 釉白",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1984548.shtml"
+    }
+  },
+  {
+    "id": "ram_xpg_d300_ddr5_6000_c36_16",
+    "name": "威刚XPG 威龙 D300 DDR5 6000 C36 16GB 酷黑",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1984593.shtml"
+    }
+  },
+  {
+    "id": "ram_lpx_32gb_ddr4_3200_cm4x32",
+    "name": "海盗船复仇者LPX 32GB DDR4 3200（CM4X32GC3200C16K2E-CN）",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1380238.shtml"
+    }
+  },
+  {
+    "id": "ram_16gb_ddr4_3600_f4_3600c18",
+    "name": "芝奇皇家戟 16GB DDR4 3600（F4-3600C18D-16GTRS）",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1264898.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_5200_16gb",
+    "name": "光威天策系列 DDR5 5200 16GB",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1984338.shtml"
+    }
+  },
+  {
+    "id": "ram_16gb_ddr4_3200_f4_3200c16",
+    "name": "芝奇幻光戟 16GB DDR4 3200（F4-3200C16S-16GTZR）",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1345405.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_6400_32gb_16gb_2_m_d",
+    "name": "光威龙武系列 DDR5 6400 32GB(16GB×2) 海力士M-die",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1984003.shtml"
+    }
+  },
+  {
+    "id": "ram_256gb_8_32gb_ddr4_3600_f4",
+    "name": "芝奇皇家戟 256GB（8×32GB）DDR4 3600（F4-3600C18Q2-256GTRS）",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1333495.shtml"
+    }
+  },
+  {
+    "id": "ram_xpg_d300_ddr5_6000_c30_32",
+    "name": "威刚XPG 威龙 D300 DDR5 6000 C30 32GB(16GBx2) 酷黑",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1984587.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_6000_32gb_2_16gb_c30",
+    "name": "芝奇焰锋戟 DDR5 6000 32GB（2×16GB）C30",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1985125.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_5600_32gb_16gb_2",
+    "name": "光威天策系列 DDR5 5600  32GB(16GB×2)",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1984344.shtml"
+    }
+  },
+  {
+    "id": "ram_lpx_16gb_ddr4_3200",
+    "name": "海盗船复仇者LPX 16GB DDR4 3200",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1380239.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_32gb_2_16gb_ddr5_640",
+    "name": "芝奇幻锋戟 DDR5 32GB（2×16GB）DDR5 6400 黯雾黑",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1985113.shtml"
+    }
+  },
+  {
+    "id": "ram_32gb_16gbx2_ddr5_5600",
+    "name": "威刚万紫千红  32GB（16GBx2） DDR5 5600台式机内存",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1991170.shtml"
+    }
+  },
+  {
+    "id": "ram_16gb_2_8gb_ddr4_3200",
+    "name": "光威天策 16GB（2×8GB）DDR4 3200",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1382782.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_5200_32gb_16gb_2",
+    "name": "光威天策系列 DDR5 5200  32GB(16GB×2)",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1984340.shtml"
+    }
+  },
+  {
+    "id": "ram_32gb_2_16gb_ddr5_6000_1",
+    "name": "金百达星刃白 32GB（2×16GB）DDR5 6000",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index2110033.shtml"
+    }
+  },
+  {
+    "id": "ram_rgb_ddr4_3600_32gb_16gb_2",
+    "name": "金百达刃RGB DDR4 3600 32GB(16GB×2)海力士C16黑刃",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index2099495.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_6000_32gb_2_16gb_c36",
+    "name": "芝奇焰刃 DDR5 6000 32GB（2×16GB） C36 黯夜黑",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1985131.shtml"
+    }
+  },
+  {
+    "id": "ram_acer_pallas_ii_ddr5_6000_",
+    "name": "Acer宏碁 Pallas II 凌霜系列 DDR5 6000 32G(16G*2)石耀黑",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1948461.shtml"
+    }
+  },
+  {
+    "id": "ram_xpg_d300g_ddr5_6000_16gb",
+    "name": "威刚XPG 龙耀 D300G DDR5 6000 16GB 酷黑",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1984533.shtml"
+    }
+  },
+  {
+    "id": "ram_32gb_2_16gb_ddr5_5600_1",
+    "name": "芝奇幻锋戟 32GB（2×16GB）DDR5 5600",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1395769.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_7200_32gb_16gbx2_1",
+    "name": "金百达星刃 DDR5 7200 32GB(16GBx2)",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1985003.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_8000_48gb_2_24gb",
+    "name": "芝奇皇家戟 DDR5 8000 48GB（2×24GB）银色",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index2099555.shtml"
+    }
+  },
+  {
+    "id": "ram_64gb_32gbx2_ddr5_5600",
+    "name": "威刚万紫千红 64GB（32GBx2） DDR5 5600台式机内存",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1991172.shtml"
+    }
+  },
+  {
+    "id": "ram_rgb_ddr5_6400_32gb_16gb_2",
+    "name": "光威神策RGB系列 DDR5 6400 32GB(16GB×2)",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1984124.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_6400_c32_32gb_2_16gb",
+    "name": "阿斯加特海拉 DDR5 6400 C32 32GB（2×16GB）",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1985253.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_32gb_2_16gb_ddr5_720",
+    "name": "芝奇幻锋戟 DDR5 32GB（2×16GB）DDR5 7200 科技银",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1985120.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_6400_96gb_48gbx2",
+    "name": "金百达星刃 DDR5 6400 96GB(48GBx2)",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1985001.shtml"
+    }
+  },
+  {
+    "id": "ram_gloway_rgb_ddr5_6400_32gb",
+    "name": "Gloway（光威）神武RGB系列 DDR5 6400 32GB(16GB×2) 海力士M-die",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1984109.shtml"
+    }
+  },
+  {
+    "id": "ram_xpg_d300g_ddr5_6000_16gb_1",
+    "name": "威刚XPG 龙耀 D300G DDR5 6000 16GB 釉白",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1984532.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_6000_48gb_2_24gb_c40",
+    "name": "芝奇焰锋戟 DDR5 6000 48GB（2×24GB）C40",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1985127.shtml"
+    }
+  },
+  {
+    "id": "ram_32gb_2_16gb_ddr5_6400_1",
+    "name": "海盗船复仇者 32GB（2×16GB）DDR5 6400",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1401822.shtml"
+    }
+  },
+  {
+    "id": "ram_32gb_ddr5_6000",
+    "name": "美商海盗船复仇者 32GB DDR5 6000",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1461006.shtml"
+    }
+  },
+  {
+    "id": "ram_16gb_ddr4_3200_ct16g4dfd8",
+    "name": "英睿达16GB DDR4 3200（CT16G4DFD832A）",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1286176.shtml"
+    }
+  },
+  {
+    "id": "ram_a_16gb_ddr5_4800",
+    "name": "阿斯加特A系列 16GB DDR5 4800",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1990771.shtml"
+    }
+  },
+  {
+    "id": "ram_acer_hermes_32g_16g_2_ddr",
+    "name": "Acer宏碁 Hermes冰刃系列 32G(16G×2) DDR5 6800 C32",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1955982.shtml"
+    }
+  },
+  {
+    "id": "ram_24gb_ddr5_5600",
+    "name": "英睿达24GB DDR5 5600 笔记本内存条",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1857392.shtml"
+    }
+  },
+  {
+    "id": "ram_acer_pallas_ii_ddr5_6000__1",
+    "name": "Acer宏碁 Pallas II 凌霜系列 DDR5 6000 32G(16G*2)星光银",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1948462.shtml"
+    }
+  },
+  {
+    "id": "ram_64gb_2_32gb_ddr5_6000",
+    "name": "金百达银爵 64GB（2×32GB）DDR5 6000",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1440044.shtml"
+    }
+  },
+  {
+    "id": "ram_rgb_ddr4_4000_32gb_16gb_2",
+    "name": "金百达刃RGB DDR4 4000 32GB(16GB×2)海力士C19白刃",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index2099500.shtml"
+    }
+  },
+  {
+    "id": "ram_16gb_ddr5_5600_2",
+    "name": "威刚万紫千红  16GB DDR5 5600台式机内存",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1991169.shtml"
+    }
+  },
+  {
+    "id": "ram_ddr5_32gb_2_16gb_ddr5_760",
+    "name": "芝奇幻锋戟 DDR5 32GB（2×16GB）DDR5 7600 科技银",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1985122.shtml"
+    }
+  },
+  {
+    "id": "ram_vengeance_16gb_ddr4_3000_",
+    "name": "海盗船Vengeance  16GB DDR4 3000（CMU16GX4M2C3000C15R）",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1152698.shtml"
+    }
+  },
+  {
+    "id": "ram_16gb_2_8gb_ddr5_5600",
+    "name": "金百达银爵 16GB（2×8GB）DDR5 5600",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1447484.shtml"
+    }
+  },
+  {
+    "id": "ram_rgb_pro_16gb_ddr4_3200_cm",
+    "name": "海盗船复仇者RGB PRO 16GB DDR4 3200（CM4X16GC3200C16W2E-CN）",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1328795.shtml"
+    }
+  },
+  {
+    "id": "ram_expo_ddr5_8000_32gb_2_16g",
+    "name": "芝奇皇家戟 EXPO版  DDR5 8000 32GB（2×16GB）银色",
+    "category": "RAM",
+    "type": "new",
+    "notes": "主流高频低延迟装机内存",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index2130168.shtml"
+    }
+  },
+  {
+    "id": "ssd_9100_pro",
+    "name": "三星9100 PRO",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/10912519_1.html"
+    }
+  },
+  {
+    "id": "ssd_tiplus7100",
+    "name": "长江存储·致态TiPlus7100",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/10719652_1.html"
+    }
+  },
+  {
+    "id": "ssd_850_evo_sata_iii",
+    "name": "三星 850 EVO SATA III系列",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/18545_1.html"
+    }
+  },
+  {
+    "id": "ssd_tiplus7100s",
+    "name": "长江存储·致态TiPlus7100s",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/10921058_1.html"
+    }
+  },
+  {
+    "id": "ssd_990_pro_nvme_m_2",
+    "name": "三星990 PRO NVMe M.2",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/10716525_1.html"
+    }
+  },
+  {
+    "id": "ssd_750_evo_sata_iii",
+    "name": "三星 750 EVO SATA III系列",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/19722_1.html"
+    }
+  },
+  {
+    "id": "ssd_980_pro_nvme_m_2",
+    "name": "三星980 PRO NVMe M.2",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/29038_1.html"
+    }
+  },
+  {
+    "id": "ssd_tiplus5000",
+    "name": "长江存储·致态致态 TiPlus5000",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/38000_1.html"
+    }
+  },
+  {
+    "id": "ssd_990_evo_plus",
+    "name": "三星990 EVO Plus",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/10907337_1.html"
+    }
+  },
+  {
+    "id": "ssd_acer_gm7",
+    "name": "Acer宏碁掠夺者 GM7",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/10852076_1.html"
+    }
+  },
+  {
+    "id": "ssd_s500_pro",
+    "name": "梵想S500 PRO",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/10717519_1.html"
+    }
+  },
+  {
+    "id": "ssd_970_evo_plus_nvme_m_2",
+    "name": "三星970 EVO Plus NVMe M.2",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/29949_1.html"
+    }
+  },
+  {
+    "id": "ssd_m_2",
+    "name": "金士顿 M.2系列",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/19860_1.html"
+    }
+  },
+  {
+    "id": "ssd_860_evo_m_2_sata_iii",
+    "name": "三星 860 EVO M.2 SATA III系列",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/23074_1.html"
+    }
+  },
+  {
+    "id": "ssd_acer_acer_gm7000",
+    "name": "Acer宏碁Acer 掠夺者 GM7000",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/38132_1.html"
+    }
+  },
+  {
+    "id": "ssd_pm871_m_2_sata_512gb",
+    "name": "三星PM871 M.2 SATA（512GB）",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index1238677.shtml"
+    }
+  },
+  {
+    "id": "ssd_970_pro_nvme_m_2",
+    "name": "三星970 PRO NVMe M.2",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/23570_1.html"
+    }
+  },
+  {
+    "id": "ssd_lsd10z002tc8",
+    "name": "铠侠LSD10Z002TC8",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index1976973.shtml"
+    }
+  },
+  {
+    "id": "ssd_9100_pro_1",
+    "name": "三星9100 PRO 散热片版",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/10921196_1.html"
+    }
+  },
+  {
+    "id": "ssd_tiplus7100_1",
+    "name": "长江存储·致态TiPlus7100固态硬盘《黑神话·悟空》联",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/10890069_1.html"
+    }
+  },
+  {
+    "id": "ssd_sm883_1_92t",
+    "name": "三星SM883（1.92T）",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index1410566.shtml"
+    }
+  },
+  {
+    "id": "ssd_983_m_2",
+    "name": "三星 983 M.2系列",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/25577_1.html"
+    }
+  },
+  {
+    "id": "ssd_960_pro_nvme_m_2",
+    "name": "三星960 PRO NVMe M.2",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/21740_1.html"
+    }
+  },
+  {
+    "id": "ssd_p3_plus",
+    "name": "英睿达P3 Plus",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/10717559_1.html"
+    }
+  },
+  {
+    "id": "ssd_990_pro_nvme_m_2_1",
+    "name": "三星990 PRO NVMe M.2散热片版",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/10716527_1.html"
+    }
+  },
+  {
+    "id": "ssd_pm893_1_92t",
+    "name": "三星PM893（1.92T）",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index1410572.shtml"
+    }
+  },
+  {
+    "id": "ssd_860_qvo_sata_iii",
+    "name": "三星 860 QVO SATA III系列",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/24937_1.html"
+    }
+  },
+  {
+    "id": "ssd_blue_sn500_500gb",
+    "name": "西部数据BLUE SN500（500GB）",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index1262389.shtml"
+    }
+  },
+  {
+    "id": "ssd_uv400",
+    "name": "金士顿 UV400系列",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/20679_1.html"
+    }
+  },
+  {
+    "id": "ssd_pm871_msata_256gb",
+    "name": "三星PM871 mSATA（256GB）",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index1238679.shtml"
+    }
+  },
+  {
+    "id": "ssd_pm961_pcie_nvme_512gb",
+    "name": "三星PM961 PCIE NVME（512GB）",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index1238669.shtml"
+    }
+  },
+  {
+    "id": "ssd_g2g0b",
+    "name": "西部数据G2G0B",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/23857_1.html"
+    }
+  },
+  {
+    "id": "ssd_860_evo_msata_sataiii",
+    "name": "三星 860 EVO mSATA SATAIII系列",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/23097_1.html"
+    }
+  },
+  {
+    "id": "ssd_860_pro_sata_iii",
+    "name": "三星 860 PRO SATA III系列",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/23089_1.html"
+    }
+  },
+  {
+    "id": "ssd_kc400",
+    "name": "金士顿 KC400系列",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/21940_1.html"
+    }
+  },
+  {
+    "id": "ssd_850_evo_msata",
+    "name": "三星 850 EVO mSATA系列",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/19546_1.html"
+    }
+  },
+  {
+    "id": "ssd_pm1735_3_2t",
+    "name": "三星PM1735(3.2T)",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index1410556.shtml"
+    }
+  },
+  {
+    "id": "ssd_980_pro_with_heatsink",
+    "name": "三星980 PRO With Heatsink",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/37351_1.html"
+    }
+  },
+  {
+    "id": "ssd_970_pro_nvme_m_2_2tb",
+    "name": "三星970 PRO NVMe M.2（2TB）",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index1270574.shtml"
+    }
+  },
+  {
+    "id": "ssd_983_u_2",
+    "name": "三星 983 U.2系列",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/25578_1.html"
+    }
+  },
+  {
+    "id": "ssd_cm871_m_2_sata_256gb",
+    "name": "三星CM871 M.2 SATA（256GB）",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index1238682.shtml"
+    }
+  },
+  {
+    "id": "ssd_pm871_m_2_sata_256gb",
+    "name": "三星PM871 M.2 SATA（256GB）",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index1238676.shtml"
+    }
+  },
+  {
+    "id": "ssd_s301_pro",
+    "name": "梵想S301 PRO",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/10851261_1.html"
+    }
+  },
+  {
+    "id": "ssd_s100_pro",
+    "name": "梵想S100 PRO",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/10770985_1.html"
+    }
+  },
+  {
+    "id": "ssd_p1_m_2_500gb",
+    "name": "英睿达P1 M.2（500GB）",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index1248730.shtml"
+    }
+  },
+  {
+    "id": "ssd_s101",
+    "name": "梵想 S101系列",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/27386_1.html"
+    }
+  },
+  {
+    "id": "ssd_wds500g2x0c",
+    "name": "西部数据WDS500G2X0C",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index1225174.shtml"
+    }
+  },
+  {
+    "id": "ssd_uv500",
+    "name": "金士顿 UV500系列",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/24141_1.html"
+    }
+  },
+  {
+    "id": "ssd_hyperx_fury",
+    "name": "金士顿 HyperX FURY系列",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/18791_1.html"
+    }
+  },
+  {
+    "id": "ssd_sp610se_1tb",
+    "name": "梵想SP610SE（1TB）",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index2115111.shtml"
+    }
+  },
+  {
+    "id": "ssd_pm961_pcie_nvme_1tb",
+    "name": "三星PM961 PCIE NVME（1TB）",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index1238670.shtml"
+    }
+  },
+  {
+    "id": "ssd_m_2_sata_g2",
+    "name": "金士顿 M.2 SATA G2系列",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/20315_1.html"
+    }
+  },
+  {
+    "id": "ssd_skc300",
+    "name": "金士顿 SKC300系列",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/18793_1.html"
+    }
+  },
+  {
+    "id": "ssd_ms200",
+    "name": "金士顿 MS200系列",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/series/626/16335_1.html"
+    }
+  },
+  {
+    "id": "ssd_blue_sn550_nvme_ssd_2tb",
+    "name": "西部数据BLUE SN550 NVME SSD（2TB）",
+    "category": "SSD",
+    "type": "new",
+    "notes": "256GB-2TB主流PCIe/SATA高速固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index1347358.shtml"
+    }
+  },
+  {
+    "id": "psu_leadex_vii_1000w",
+    "name": "振华LEADEX VII 1000W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1980872.shtml"
+    }
+  },
+  {
+    "id": "psu_1650w",
+    "name": "长城巨龙1650W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1913259.shtml"
+    }
+  },
+  {
+    "id": "psu_prime_tx_atx_3_0_1300w",
+    "name": "海韵PRIME TX ATX 3.0 1300W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1980562.shtml"
+    }
+  },
+  {
+    "id": "psu_gx850w",
+    "name": "长城GX850W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1466894.shtml"
+    }
+  },
+  {
+    "id": "psu_plus_750w",
+    "name": "长城泱泱华夏 秦PLUS-750W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index2034393.shtml"
+    }
+  },
+  {
+    "id": "psu_an550w",
+    "name": "鑫谷AN550W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1913277.shtml"
+    }
+  },
+  {
+    "id": "psu_leadex_iii_hg_750w",
+    "name": "振华LEADEX III HG 750W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1342457.shtml"
+    }
+  },
+  {
+    "id": "psu_gx_450w_rs_450_acaa",
+    "name": "酷冷至尊GX-450W（RS-450-ACAA）",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index285562.shtml"
+    }
+  },
+  {
+    "id": "psu_vic_bd_650w",
+    "name": "全汉VIC BD 650W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index2151430.shtml"
+    }
+  },
+  {
+    "id": "psu_1200w",
+    "name": "长城泱泱华夏 唐-1200W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index2034397.shtml"
+    }
+  },
+  {
+    "id": "psu_v7_750w",
+    "name": "长城机电V7+全模组版（750W）",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index2113576.shtml"
+    }
+  },
+  {
+    "id": "psu_700w",
+    "name": "长城泱泱华夏 秦-700W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index2034392.shtml"
+    }
+  },
+  {
+    "id": "psu_650w_btx_650s",
+    "name": "长城大白鲨 650W（BTX-650S）",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index2116542.shtml"
+    }
+  },
+  {
+    "id": "psu_plus_850w",
+    "name": "长城泱泱华夏 汉PLUS-850W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index2034395.shtml"
+    }
+  },
+  {
+    "id": "psu_leadex_iii_hg_850w",
+    "name": "振华LEADEX III HG 850W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1342461.shtml"
+    }
+  },
+  {
+    "id": "psu_crps_550w",
+    "name": "长城机电CRPS服务器电源-550W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1913363.shtml"
+    }
+  },
+  {
+    "id": "psu_gx_850w",
+    "name": "长城GX 850W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1913285.shtml"
+    }
+  },
+  {
+    "id": "psu_450w",
+    "name": "振华铜皇450W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1282431.shtml"
+    }
+  },
+  {
+    "id": "psu_ii_600w_mpw_6001_acabn1",
+    "name": "酷冷至尊战剑II 600W（MPW-6001-ACABN1）",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1225863.shtml"
+    }
+  },
+  {
+    "id": "psu_850w_btx_850s",
+    "name": "长城大白鲨 850W（BTX-850S）",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index2116544.shtml"
+    }
+  },
+  {
+    "id": "psu_1000w",
+    "name": "长城泱泱华夏 宋-1000W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index2034396.shtml"
+    }
+  },
+  {
+    "id": "psu_v7_750w_1",
+    "name": "长城机电V7+直出线版（750W）",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index2113574.shtml"
+    }
+  },
+  {
+    "id": "psu_vita_gm_750w",
+    "name": "全汉VITA GM 750W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index2034293.shtml"
+    }
+  },
+  {
+    "id": "psu_leadex_vii_850w",
+    "name": "振华LEADEX VII 850W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1980873.shtml"
+    }
+  },
+  {
+    "id": "psu_prime_750w",
+    "name": "长城PRIME 750W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1899926.shtml"
+    }
+  },
+  {
+    "id": "psu_gm750w",
+    "name": "鑫谷GM750W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1465843.shtml"
+    }
+  },
+  {
+    "id": "psu_gm750w_1",
+    "name": "鑫谷GM750W冰山版",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1388464.shtml"
+    }
+  },
+  {
+    "id": "psu_v8_850w",
+    "name": "长城机电V8+全模组版（850W）",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index2113577.shtml"
+    }
+  },
+  {
+    "id": "psu_v6_650w",
+    "name": "长城机电V6+全模组版（650W）",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index2113575.shtml"
+    }
+  },
+  {
+    "id": "psu_v6_650w_1",
+    "name": "长城机电V6+直出线版（650W）",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index2113573.shtml"
+    }
+  },
+  {
+    "id": "psu_leadex_iii_atx3_1_650w",
+    "name": "振华LEADEX III ATX3.1 650W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index2085591.shtml"
+    }
+  },
+  {
+    "id": "psu_v7_700w",
+    "name": "长城V7-700W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1913295.shtml"
+    }
+  },
+  {
+    "id": "psu_an650w",
+    "name": "鑫谷AN650W冰山版",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1913279.shtml"
+    }
+  },
+  {
+    "id": "psu_650w",
+    "name": "酷冷至尊雷霆650W铜牌",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1906690.shtml"
+    }
+  },
+  {
+    "id": "psu_an750w",
+    "name": "鑫谷AN750W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1396363.shtml"
+    }
+  },
+  {
+    "id": "psu_500w",
+    "name": "先马金牌500W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index389597.shtml"
+    }
+  },
+  {
+    "id": "psu_750w_btx_750s",
+    "name": "长城大白鲨 750W（BTX-750S）",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index2116543.shtml"
+    }
+  },
+  {
+    "id": "psu_2600w",
+    "name": "长城黑匣子2600W铝盒装",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1980968.shtml"
+    }
+  },
+  {
+    "id": "psu_g12_gc_750w",
+    "name": "海韵G12 GC 750W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1980556.shtml"
+    }
+  },
+  {
+    "id": "psu_am650w",
+    "name": "鑫谷AM650W 冰山版",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1901993.shtml"
+    }
+  },
+  {
+    "id": "psu_prime_450w",
+    "name": "长城PRIME 450W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1899928.shtml"
+    }
+  },
+  {
+    "id": "psu_550w",
+    "name": "振华铜皇550W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1282432.shtml"
+    }
+  },
+  {
+    "id": "psu_vita_gm_850w",
+    "name": "全汉VITA GM 850W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index2034292.shtml"
+    }
+  },
+  {
+    "id": "psu_tf1200w_atx3_0",
+    "name": "长城TF1200W ATX3.0",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1980578.shtml"
+    }
+  },
+  {
+    "id": "psu_fire_1200w",
+    "name": "长城Fire 1200W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1913369.shtml"
+    }
+  },
+  {
+    "id": "psu_hydro_ti_pro1000w",
+    "name": "全汉Hydro Ti Pro1000W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1907037.shtml"
+    }
+  },
+  {
+    "id": "psu_leadex_iii_hg_650w",
+    "name": "振华LEADEX III HG 650W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1342452.shtml"
+    }
+  },
+  {
+    "id": "psu_leadex_iii_argb_550w",
+    "name": "振华LEADEX III ARGB 550W",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1297761.shtml"
+    }
+  },
+  {
+    "id": "psu_ii_500w_mpw_5001_acabn1",
+    "name": "酷冷至尊战剑II 500W（MPW-5001-ACABN1）",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1227521.shtml"
+    }
+  },
+  {
+    "id": "psu_gx_650w_rs_650_acaa_e3",
+    "name": "酷冷至尊GX-650W（RS-650-ACAA-E3）",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高转换效率金牌/白金电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index285572.shtml"
+    }
+  },
+  {
+    "id": "case_x400",
+    "name": "乔思伯X400",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index2150533.shtml"
+    }
+  },
+  {
+    "id": "case_",
+    "name": "富善能守望先锋",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1276883.shtml"
+    }
+  },
+  {
+    "id": "case_s900",
+    "name": "航嘉S900沙尘暴",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1999765.shtml"
+    }
+  },
+  {
+    "id": "case_g10",
+    "name": "爱国者炫影 G10",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index2161177.shtml"
+    }
+  },
+  {
+    "id": "case_w5",
+    "name": "半岛铁盒W5",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1950014.shtml"
+    }
+  },
+  {
+    "id": "case_m2",
+    "name": "先马平头哥M2",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1389602.shtml"
+    }
+  },
+  {
+    "id": "case_vk03",
+    "name": "瓦尔基里VK03",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index2090335.shtml"
+    }
+  },
+  {
+    "id": "case_gx750a",
+    "name": "航嘉GX750A掠夺者",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1999756.shtml"
+    }
+  },
+  {
+    "id": "case_x100_usb3_0",
+    "name": "动力火车未知玩家X100 USB3.0版",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1980881.shtml"
+    }
+  },
+  {
+    "id": "case__1",
+    "name": "爱国者星璨 小岚",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1935497.shtml"
+    }
+  },
+  {
+    "id": "case__2",
+    "name": "先马黑洞",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1099796.shtml"
+    }
+  },
+  {
+    "id": "case_p40",
+    "name": "动力火车未知玩家P40",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index2125072.shtml"
+    }
+  },
+  {
+    "id": "case__3",
+    "name": "爱国者星璨 岚",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1947816.shtml"
+    }
+  },
+  {
+    "id": "case_mb520",
+    "name": "酷冷至尊MB520",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1277799.shtml"
+    }
+  },
+  {
+    "id": "case_g63",
+    "name": "航嘉G63战戟",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index2109051.shtml"
+    }
+  },
+  {
+    "id": "case_mini",
+    "name": "玩嘉孤勇者MINI",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1950085.shtml"
+    }
+  },
+  {
+    "id": "case_m1",
+    "name": "先马平头哥M1商务版",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1265938.shtml"
+    }
+  },
+  {
+    "id": "case_vk03_m",
+    "name": "瓦尔基里VK03-M",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index2115692.shtml"
+    }
+  },
+  {
+    "id": "case_in_win_z_tower",
+    "name": "IN WIN Z-Tower",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1277148.shtml"
+    }
+  },
+  {
+    "id": "case__4",
+    "name": "华硕海王星 标准",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index2118284.shtml"
+    }
+  },
+  {
+    "id": "case_proart_pa602",
+    "name": "华硕ProArt PA602",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1935499.shtml"
+    }
+  },
+  {
+    "id": "case_s960_x",
+    "name": "航嘉S960暴风雪 X（黑）",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1435136.shtml"
+    }
+  },
+  {
+    "id": "case_s980",
+    "name": "航嘉S980 龙卷风（黑色）",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1433193.shtml"
+    }
+  },
+  {
+    "id": "case_yogo_m2",
+    "name": "爱国者YOGO M2",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1268457.shtml"
+    }
+  },
+  {
+    "id": "case__5",
+    "name": "爱国者星璨 辰 屏显版",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index2157712.shtml"
+    }
+  },
+  {
+    "id": "case_u3",
+    "name": "乔思伯U3",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index377901.shtml"
+    }
+  },
+  {
+    "id": "case_rog_gr701",
+    "name": "华硕ROG GR701 创世神",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1466473.shtml"
+    }
+  },
+  {
+    "id": "case_s920",
+    "name": "航嘉S920暴风雪（白）",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1425871.shtml"
+    }
+  },
+  {
+    "id": "case_air",
+    "name": "先马朱雀air",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1389598.shtml"
+    }
+  },
+  {
+    "id": "case_haf_ii_500",
+    "name": "酷冷至尊HAF II 500",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index2173465.shtml"
+    }
+  },
+  {
+    "id": "case_pag_pano_m110l",
+    "name": "微星PAG PANO M110L 水晶塔",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index2125241.shtml"
+    }
+  },
+  {
+    "id": "case__6",
+    "name": "爱国者黑曼巴",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1146801.shtml"
+    }
+  },
+  {
+    "id": "case_mx600",
+    "name": "骨伽乘风MX600",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1955915.shtml"
+    }
+  },
+  {
+    "id": "case__7",
+    "name": "航嘉小黑",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1146652.shtml"
+    }
+  },
+  {
+    "id": "case_gs680c",
+    "name": "航嘉GS680C",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index2145974.shtml"
+    }
+  },
+  {
+    "id": "case_haf_500",
+    "name": "酷冷至尊HAF 500",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1958481.shtml"
+    }
+  },
+  {
+    "id": "case_umx3",
+    "name": "乔思伯UMX3",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1136138.shtml"
+    }
+  },
+  {
+    "id": "case_m2_air",
+    "name": "先马平头哥 平头哥M2 Air",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1980292.shtml"
+    }
+  },
+  {
+    "id": "case_g5",
+    "name": "航嘉G5",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1467459.shtml"
+    }
+  },
+  {
+    "id": "case_pro",
+    "name": "先马黑洞PRO",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流全透海景房与紧凑箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1948729.shtml"
+    }
+  },
+  {
+    "id": "cooler_mini",
+    "name": "超频三红海Mini静音版",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index196601.shtml"
+    }
+  },
+  {
+    "id": "cooler_rog_iii_360_argb",
+    "name": "华硕ROG龙神III 360 ARGB",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index2034260.shtml"
+    }
+  },
+  {
+    "id": "cooler_nh_d15",
+    "name": "猫头鹰NH-D15",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index1166760.shtml"
+    }
+  },
+  {
+    "id": "cooler_400",
+    "name": "九州风神玄冰400",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index315192.shtml"
+    }
+  },
+  {
+    "id": "cooler_pa120_se_argb",
+    "name": "利民PA120 SE ARGB",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index1424152.shtml"
+    }
+  },
+  {
+    "id": "cooler_b360_gt",
+    "name": "瓦尔基里B360-GT",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index2129968.shtml"
+    }
+  },
+  {
+    "id": "cooler_fc140",
+    "name": "利民FC140 纯黑版",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index1424258.shtml"
+    }
+  },
+  {
+    "id": "cooler_frozen_magic_360",
+    "name": "利民Frozen Magic 360",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index1346515.shtml"
+    }
+  },
+  {
+    "id": "cooler_rz500",
+    "name": "超频三RZ500",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index2111819.shtml"
+    }
+  },
+  {
+    "id": "cooler_aqua_elite_360_black_v2_a",
+    "name": "利民AQUA ELITE 360 BLACK V2 ARGB",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index2004656.shtml"
+    }
+  },
+  {
+    "id": "cooler_aqua_elite_240_black_v2_a",
+    "name": "利民AQUA ELITE 240 BLACK V2 ARGB",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index2004651.shtml"
+    }
+  },
+  {
+    "id": "cooler_",
+    "name": "超频三红海至尊版",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index189906.shtml"
+    }
+  },
+  {
+    "id": "cooler_300",
+    "name": "九州风神玄冰300",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index314734.shtml"
+    }
+  },
+  {
+    "id": "cooler_cq125_argb_black",
+    "name": "瓦尔基里CQ125 ARGB BLACK",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index2153721.shtml"
+    }
+  },
+  {
+    "id": "cooler_4",
+    "name": "九州风神阿萨辛4",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index2143732.shtml"
+    }
+  },
+  {
+    "id": "cooler_1s",
+    "name": "先马冰晶1S",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index2017306.shtml"
+    }
+  },
+  {
+    "id": "cooler_rog_strix_lc_ii_360",
+    "name": "华硕ROG STRIX LC II 360",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index2005274.shtml"
+    }
+  },
+  {
+    "id": "cooler_aqua_elite_360_black_v3",
+    "name": "利民AQUA ELITE 360 BLACK V3",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index2004657.shtml"
+    }
+  },
+  {
+    "id": "cooler_aqua_elite_360_black_argb",
+    "name": "利民AQUA ELITE 360 BLACK ARGB",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index1466440.shtml"
+    }
+  },
+  {
+    "id": "cooler_gl360_vk",
+    "name": "瓦尔基里GL360 VK",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index1425275.shtml"
+    }
+  },
+  {
+    "id": "cooler_ak120_plus",
+    "name": "利民AK120 PLUS",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index1424140.shtml"
+    }
+  },
+  {
+    "id": "cooler__1",
+    "name": "超频三野马普及版",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index273674.shtml"
+    }
+  },
+  {
+    "id": "cooler_mini_1",
+    "name": "九州风神冰凌MINI旗舰版",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index259930.shtml"
+    }
+  },
+  {
+    "id": "cooler_pa120",
+    "name": "利民PA120 数显版",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index2143956.shtml"
+    }
+  },
+  {
+    "id": "cooler_ae_360_white_argb_v2",
+    "name": "利民AE 360 WHITE ARGB V2版",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index1769415.shtml"
+    }
+  },
+  {
+    "id": "cooler_cr_1400",
+    "name": "乔思伯CR-1400",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index1339775.shtml"
+    }
+  },
+  {
+    "id": "cooler_rog_ryuo_4_360_argb",
+    "name": "华硕ROG RYUO 龙王4代 360 ARGB 颜值版",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index2140066.shtml"
+    }
+  },
+  {
+    "id": "cooler_v2",
+    "name": "骨伽星链V2（正叶）",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index2124151.shtml"
+    }
+  },
+  {
+    "id": "cooler_aqua_elite_240_white_v2_a",
+    "name": "利民AQUA ELITE 240 WHITE V2 ARGB",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index2004652.shtml"
+    }
+  },
+  {
+    "id": "cooler__2",
+    "name": "九州风神阿萨辛",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index1980598.shtml"
+    }
+  },
+  {
+    "id": "cooler_500",
+    "name": "九州风神冰立方500 暗夜",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index1980592.shtml"
+    }
+  },
+  {
+    "id": "cooler_axp90_x47",
+    "name": "利民AXP90-X47",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index1424274.shtml"
+    }
+  },
+  {
+    "id": "cooler_ak120_se",
+    "name": "利民AK120 SE 标准",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index1424147.shtml"
+    }
+  },
+  {
+    "id": "cooler_pro",
+    "name": "超频三大白鲨PRO",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index1337801.shtml"
+    }
+  },
+  {
+    "id": "cooler_tl_c12",
+    "name": "利民TL-C12",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index1286443.shtml"
+    }
+  },
+  {
+    "id": "cooler_500_1",
+    "name": "九州风神玄冰500",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index1980547.shtml"
+    }
+  },
+  {
+    "id": "cooler_e360",
+    "name": "瓦尔基里E360",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index1775047.shtml"
+    }
+  },
+  {
+    "id": "cooler_pa120_se_argb_1",
+    "name": "利民PA120 SE ARGB版",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index1424265.shtml"
+    }
+  },
+  {
+    "id": "cooler_ba120",
+    "name": "利民BA120 标准",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index1424252.shtml"
+    }
+  },
+  {
+    "id": "cooler_ax120r_se_argb",
+    "name": "利民AX120R SE ARGB",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "单双塔风冷与高颜值水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index1424115.shtml"
+    }
   }
 ]
