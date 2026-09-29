@@ -26,29 +26,38 @@ async function scrapeZOLHardware(page, target) {
         if (altMatch) msrp = parseInt(altMatch[1]);
       }
 
-      // 2. 提取经销商底价（如 ¥2124-3119 或 商家报价：¥701）
+      // 2. 提取经销商底价（如 ¥2124-3119 或 商家报价：¥701 或 商家报价：¥229）
       let dealerMin = null;
-      const dealerRangeMatch = bodyText.match(/商家报价[：:]\s*[￥¥]?\s*(\d+)\s*[-~至]/);
-      if (dealerRangeMatch) {
-        dealerMin = parseInt(dealerRangeMatch[1]);
+      const dealerMatch = bodyText.match(/商家报价[：:]\s*[￥¥]?\s*(\d+)/);
+      if (dealerMatch) {
+        dealerMin = parseInt(dealerMatch[1]);
       } else {
         const simpleRange = bodyText.match(/[￥¥](\d+)\s*[-~至]\s*\d+/);
         if (simpleRange) dealerMin = parseInt(simpleRange[1]);
       }
 
-      // 3. 提取京东官方/直达价格与购买链接
-      const jdEl = document.querySelector('._j_price_jd, .b2c-item.jd, a[href*="union-click.jd.com"], a[href*="item.jd.com"]');
+      // 3. 提取京东官方/直达价格与购买链接 (限制在商品主详情区域内，避免侧边栏或搭配推荐干扰)
+      const mainScope = document.querySelector('.product-detail, .pro-intro, #first-screen-diy');
       let jdPrice = null;
       let jdUrl = null;
-      if (jdEl) {
-        jdUrl = jdEl.href;
-        const priceNumEl = jdEl.querySelector('._j_price_num, .m-price, em');
-        const rawText = priceNumEl ? priceNumEl.innerText : jdEl.innerText;
-        const match = rawText.match(/[￥¥]\s*(\d+)/) || rawText.match(/(\d{3,6})/);
-        if (match) {
-          const val = parseInt(match[1]);
-          // 过滤异常过低的配件/优惠券价格
-          if (val >= 100) jdPrice = val;
+
+      if (mainScope) {
+        let jdEl = mainScope.querySelector('a._j_price_jd, a.new-shop-go, a.link_jd, ._j_price_jd');
+        if (!jdEl) {
+          jdEl = mainScope.querySelector('.price__b2c a[href*="jd.com"], .price_commerce a[href*="jd.com"]');
+        }
+
+        if (jdEl) {
+          jdUrl = jdEl.href;
+          const container = jdEl.closest('.price__b2c, .price_commerce, .select-mol') || jdEl;
+          const priceNumEl = container.querySelector('._j_price_num, .m-price, em');
+          const rawText = priceNumEl ? priceNumEl.innerText : jdEl.innerText;
+          const match = rawText.match(/[￥¥]\s*(\d+)/) || rawText.match(/(\d{3,6})/);
+          if (match) {
+            const val = parseInt(match[1]);
+            // 过滤异常过低的配件/优惠券价格
+            if (val >= 100) jdPrice = val;
+          }
         }
       }
 

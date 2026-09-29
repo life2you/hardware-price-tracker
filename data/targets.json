@@ -10,6 +10,20 @@
     }
   },
   {
+    "id": "cpu_amd_7800x3d",
+    "name": "AMD 锐龙 7 7800X3D 处理器",
+    "category": "CPU",
+    "type": "both",
+    "notes": "上一代经典大缓存电竞神U，兼顾散片与二手",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1440585.shtml"
+    },
+    "goofish": {
+      "keyword": "7800X3D 散片",
+      "benchmarkPrice": 2250
+    }
+  },
+  {
     "id": "cpu_amd_9600x",
     "name": "AMD 锐龙 5 9600X 处理器",
     "category": "CPU",
@@ -24,19 +38,33 @@
     "name": "AMD 锐龙 5 7500F 处理器",
     "category": "CPU",
     "type": "new",
-    "notes": "近1-2年AM5千元级性价比神U，主查京东自营与散片渠道价",
+    "notes": "AM5千元级性价比神U，主查京东自营与散片渠道价",
     "zol": {
       "url": "https://detail.zol.com.cn/cpu/index1796349.shtml"
     }
   },
   {
-    "id": "cpu_intel_14600kf",
-    "name": "Intel 酷睿 i5-14600KF 处理器",
+    "id": "cpu_amd_5700x3d",
+    "name": "AMD 锐龙 7 5700X3D 处理器",
     "category": "CPU",
     "type": "new",
-    "notes": "中高端热门主流游戏与生产力U",
+    "notes": "老AM4平台升级神U，大缓存网游利器",
     "zol": {
-      "url": "https://detail.zol.com.cn/cpu/index1929615.shtml"
+      "url": "https://detail.zol.com.cn/cpu/index1794821.shtml"
+    }
+  },
+  {
+    "id": "cpu_amd_5600_used",
+    "name": "AMD 锐龙 5 5600 (散片/二手)",
+    "category": "CPU",
+    "type": "used",
+    "notes": "经典老AM4神U，专攻闲鱼二手淘宝捡漏",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1403088.shtml"
+    },
+    "goofish": {
+      "keyword": "AMD 5600 散片",
+      "benchmarkPrice": 520
     }
   },
   {
@@ -50,8 +78,118 @@
     }
   },
   {
-    "id": "gpu_rtx_4060",
-    "name": "七彩虹 RTX 4060 8GB 显卡",
+    "id": "cpu_intel_12600kf",
+    "name": "Intel 酷睿 i5-12600KF 处理器",
+    "category": "CPU",
+    "type": "new",
+    "notes": "甜品级生产力与游戏高性价比U",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1393371.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_14600kf",
+    "name": "Intel 酷睿 i5-14600KF 处理器",
+    "category": "CPU",
+    "type": "new",
+    "notes": "中高端热门主流游戏与生产力U",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index1929615.shtml"
+    }
+  },
+  {
+    "id": "cpu_intel_ultra7_265k",
+    "name": "Intel 酷睿 Ultra 7 265K 处理器",
+    "category": "CPU",
+    "type": "new",
+    "notes": "新一代酷睿Ultra 200系列高端U，LGA1851接口",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cpu/index2110067.shtml"
+    }
+  },
+  {
+    "id": "mobo_asus_tuf_b760m_plus",
+    "name": "华硕 TUF GAMING B760M-PLUS 重炮手",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "Intel 12-14代主流装机首选主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1440076.shtml"
+    }
+  },
+  {
+    "id": "mobo_msi_mag_b760m_mortar",
+    "name": "微星 MAG B760M MORTAR 迫击炮",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "Intel主流迫击炮经典用料标杆",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1440303.shtml"
+    }
+  },
+  {
+    "id": "mobo_maxsun_terminator_b760m",
+    "name": "铭瑄 MS-终结者 B760M D4 WIFI",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "百元性价比卷王主板，供电强劲接口丰富",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1441184.shtml"
+    }
+  },
+  {
+    "id": "mobo_gigabyte_b650m_gaming",
+    "name": "技嘉 B650M GAMING WIFI 主板",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "AMD AM5 平台最走量高性价比主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2106519.shtml"
+    }
+  },
+  {
+    "id": "mobo_asus_tuf_b650m_plus",
+    "name": "华硕 TUF GAMING B650M-PLUS WIFI 重炮手",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "AM5平台综合用料与BIOS标杆主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1430243.shtml"
+    }
+  },
+  {
+    "id": "mobo_msi_mag_b650m_mortar",
+    "name": "微星 MAG B650M MORTAR WIFI 迫击炮",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "微星AM5主力迫击炮，扩展散热扎实",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1430732.shtml"
+    }
+  },
+  {
+    "id": "mobo_asrock_a620m_hdv",
+    "name": "华擎 A620M-HDV/M.2 主板",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "AM5入门百元极简实用高性价比板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index1991949.shtml"
+    }
+  },
+  {
+    "id": "mobo_asus_tuf_z890_plus",
+    "name": "华硕 TUF GAMING Z890-PLUS WIFI",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "新一代Intel Core Ultra 200系列Z890大板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/motherboard/index2109716.shtml"
+    }
+  },
+  {
+    "id": "gpu_rtx_4060_igame",
+    "name": "七彩虹 iGame RTX 4060 Ultra W 8GB",
     "category": "GPU",
     "type": "both",
     "notes": "当前主力在售甜品卡，同时监控京东官方价与闲鱼流转行情",
@@ -64,7 +202,31 @@
     }
   },
   {
-    "id": "gpu_rtx_5070ti",
+    "id": "gpu_rtx_4060ti_msi",
+    "name": "微星 RTX 4060 Ti VENTUS 3X 16G OC",
+    "category": "GPU",
+    "type": "both",
+    "notes": "大显存甜品主力，AI画图与2K游戏热门",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1958490.shtml"
+    },
+    "goofish": {
+      "keyword": "4060Ti 16G 显卡",
+      "benchmarkPrice": 2850
+    }
+  },
+  {
+    "id": "gpu_rtx_4070_super",
+    "name": "NVIDIA GeForce RTX 4070 SUPER 12GB",
+    "category": "GPU",
+    "type": "new",
+    "notes": "2K高画质高刷全开核心主力卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1972474.shtml"
+    }
+  },
+  {
+    "id": "gpu_rtx_5070ti_asus",
     "name": "华硕 TUF RTX 5070 Ti 16G 显卡",
     "category": "GPU",
     "type": "new",
@@ -74,17 +236,33 @@
     }
   },
   {
-    "id": "cpu_amd_5600_used",
-    "name": "AMD 锐龙 5 5600 (二手/散片)",
-    "category": "CPU",
-    "type": "used",
-    "notes": "经典老AM4神U，专攻闲鱼二手淘宝捡漏",
+    "id": "gpu_rtx_5090_nvidia",
+    "name": "NVIDIA GeForce RTX 5090 32GB 显卡",
+    "category": "GPU",
+    "type": "new",
+    "notes": "新一代卡皇，顶奢性能与AI生产力标杆",
     "zol": {
-      "url": "https://detail.zol.com.cn/cpu/index1403088.shtml"
-    },
-    "goofish": {
-      "keyword": "AMD 5600 散片",
-      "benchmarkPrice": 520
+      "url": "https://detail.zol.com.cn/vga/index2118113.shtml"
+    }
+  },
+  {
+    "id": "gpu_rx_9070xt_hankai",
+    "name": "瀚铠 Radeon RX 9070 XT 超合金PRO 16G",
+    "category": "GPU",
+    "type": "new",
+    "notes": "AMD新一代RDNA4架构主力性能旗舰",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index2141540.shtml"
+    }
+  },
+  {
+    "id": "gpu_rx_6750gre_amd",
+    "name": "AMD Radeon RX 6750 GRE 12GB",
+    "category": "GPU",
+    "type": "new",
+    "notes": "两千元以内性价比突出的2K游戏卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/vga/index1929728.shtml"
     }
   },
   {
@@ -94,7 +272,7 @@
     "type": "used",
     "notes": "百元级经典老卡，专攻闲鱼二手行情",
     "zol": {
-      "url": "https://detail.zol.com.cn/vga/index1298480.shtml"
+      "url": "https://detail.zol.com.cn/vga/index1350324.shtml"
     },
     "goofish": {
       "keyword": "1660s 显卡",
@@ -116,23 +294,323 @@
     }
   },
   {
-    "id": "mobo_b650m_gigabyte",
-    "name": "技嘉 B650M GAMING WIFI 主板",
-    "category": "Motherboard",
+    "id": "cooler_thermalright_ax120r_se",
+    "name": "利民 AX120R SE CPU散热器",
+    "category": "Cooler",
     "type": "new",
-    "notes": "AMD AM5 平台最走量高性价比主板",
+    "notes": "百元以内单塔风冷标杆，通吃中低功耗CPU",
     "zol": {
-      "url": "https://detail.zol.com.cn/motherboard/index2106519.shtml"
+      "url": "https://detail.zol.com.cn/cooling_product/index1424114.shtml"
     }
   },
   {
-    "id": "mobo_b760m_asus",
-    "name": "华硕 TUF GAMING B760M-PLUS 重炮手",
-    "category": "Motherboard",
+    "id": "cooler_thermalright_pa120_se",
+    "name": "利民 PA120 SE 青春版 双塔散热器",
+    "category": "Cooler",
     "type": "new",
-    "notes": "Intel 12-14代主流装机首选主板",
+    "notes": "百元级六热管双塔风冷神塔，压制主流i5/R7",
     "zol": {
-      "url": "https://detail.zol.com.cn/motherboard/index1440076.shtml"
+      "url": "https://detail.zol.com.cn/cooling_product/index1424264.shtml"
+    }
+  },
+  {
+    "id": "cooler_deepcool_frostwin",
+    "name": "九州风神 大霜塔 双塔散热器",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "经典高性价比双塔散热器",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index330336.shtml"
+    }
+  },
+  {
+    "id": "cooler_deepcool_lt720",
+    "name": "九州风神 冰魔方 360 一体式水冷",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "多维无限镜高颜值高性能水冷，压制14700K/9800X3D",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index1980618.shtml"
+    }
+  },
+  {
+    "id": "cooler_valkyrie_b360",
+    "name": "瓦尔基里 B360 一体式水冷",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "网红爆款高颜值高解热水冷",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index2034278.shtml"
+    }
+  },
+  {
+    "id": "cooler_thermalright_ae240",
+    "name": "利民 AQUA ELITE 240 WHITE V3 水冷",
+    "category": "Cooler",
+    "type": "new",
+    "notes": "紧凑型机箱专用240水冷，兼容性好",
+    "zol": {
+      "url": "https://detail.zol.com.cn/cooling_product/index2004654.shtml"
+    }
+  },
+  {
+    "id": "case_jonsbo_z20",
+    "name": "乔思伯 Z20 紧凑便携机箱",
+    "category": "Case",
+    "type": "new",
+    "notes": "带提手紧凑便携M-ATX机箱，兼容363mm长显卡",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1970858.shtml"
+    }
+  },
+  {
+    "id": "case_jonsbo_d31",
+    "name": "乔思伯 D31 M-ATX机箱",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流副屏紧凑M-ATX箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1948884.shtml"
+    }
+  },
+  {
+    "id": "case_sama_new_border",
+    "name": "先马 新镜界 海景房机箱",
+    "category": "Case",
+    "type": "new",
+    "notes": "270°无界全透海景房，支持背插主板",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1546838.shtml"
+    }
+  },
+  {
+    "id": "case_sama_quzao_2",
+    "name": "先马 趣造 2 小型变形机箱",
+    "category": "Case",
+    "type": "new",
+    "notes": "模块化可扩展紧凑型机箱",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1948017.shtml"
+    }
+  },
+  {
+    "id": "case_sama_yingxiang",
+    "name": "先马 映像 全透海景房机箱",
+    "category": "Case",
+    "type": "new",
+    "notes": "百元高性价比双面玻璃海景房",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1990875.shtml"
+    }
+  },
+  {
+    "id": "case_lianli_o11d_evo",
+    "name": "联力 包豪斯 O11D EVO 机箱",
+    "category": "Case",
+    "type": "new",
+    "notes": "旗舰双腔海景房标杆，顶级走线与散热兼容",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1466488.shtml"
+    }
+  },
+  {
+    "id": "case_asus_ap201",
+    "name": "华硕 AP201 冰立方 机箱",
+    "category": "Case",
+    "type": "new",
+    "notes": "极简全冲孔全透气紧凑M-ATX箱体",
+    "zol": {
+      "url": "https://detail.zol.com.cn/case/index1422299.shtml"
+    }
+  },
+  {
+    "id": "psu_greatwall_x7_750w",
+    "name": "长城 X7 750W 金牌全模组电源",
+    "category": "PSU",
+    "type": "new",
+    "notes": "国产高口碑老牌金牌全模，台系电容稳定静音",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1629088.shtml"
+    }
+  },
+  {
+    "id": "psu_sama_black_diamond_650",
+    "name": "先马 黑钻 650W 金牌全模电源",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高性价比金牌全模，压纹线好走线",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1975190.shtml"
+    }
+  },
+  {
+    "id": "psu_seasonic_focus_gx850",
+    "name": "海韵 FOCUS GX-850 金牌全模组",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高品质金牌标杆，10年质保售后无忧",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1379628.shtml"
+    }
+  },
+  {
+    "id": "psu_superflower_leadex3_850",
+    "name": "振华 LEADEX III ATX3.1 850W 电源",
+    "category": "PSU",
+    "type": "new",
+    "notes": "原生ATX 3.1与12V-2x6接口，高端装机首选",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index2085593.shtml"
+    }
+  },
+  {
+    "id": "psu_msi_mag_a850gl",
+    "name": "微星 MAG A850GL PCIE5 金牌全模",
+    "category": "PSU",
+    "type": "new",
+    "notes": "原生PCIe 5.0接口，支持40/50系显卡直连",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index1935434.shtml"
+    }
+  },
+  {
+    "id": "psu_sama_gold_750w",
+    "name": "先马 金牌750W 台式机电源",
+    "category": "PSU",
+    "type": "new",
+    "notes": "300元内走量性价比金牌电源",
+    "zol": {
+      "url": "https://detail.zol.com.cn/power/index385267.shtml"
+    }
+  },
+  {
+    "id": "ram_kingbank_silver_d4_16g",
+    "name": "金百达 银爵 16GB (2×8GB) DDR4 3200",
+    "category": "RAM",
+    "type": "new",
+    "notes": "入门DDR4绝对主力套条，低成本首选",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1403967.shtml"
+    }
+  },
+  {
+    "id": "ram_kingbank_silver_d4_32g",
+    "name": "金百达 银爵 32GB (2×16GB) DDR4 3600",
+    "category": "RAM",
+    "type": "new",
+    "notes": "DDR4大容量主流套条",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1465801.shtml"
+    }
+  },
+  {
+    "id": "ram_kingbank_blade_rgb_d5_32g",
+    "name": "金百达 白刃 RGB DDR5 6000 32GB(16GBx2)",
+    "category": "RAM",
+    "type": "new",
+    "notes": "海力士原厂颗粒超频套条，AMD 6000甜品频段",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1984986.shtml"
+    }
+  },
+  {
+    "id": "ram_gloway_tiance_d5_32g",
+    "name": "光威 天策系列 DDR5 6000 32GB(16GB×2)",
+    "category": "RAM",
+    "type": "new",
+    "notes": "高性价比DDR5主力装机马甲条",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1983943.shtml"
+    }
+  },
+  {
+    "id": "ram_gloway_longwu_d5_32g",
+    "name": "光威 龙武系列 DDR5 6000 32GB(16GB×2)",
+    "category": "RAM",
+    "type": "new",
+    "notes": "海力士颗粒低时序高能效马甲条",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1983942.shtml"
+    }
+  },
+  {
+    "id": "ram_gskill_trident_z5_d5_32g",
+    "name": "芝奇 幻锋戟 32GB(2×16GB) DDR5 6000",
+    "category": "RAM",
+    "type": "new",
+    "notes": "高端旗舰RGB灯效内存标杆",
+    "zol": {
+      "url": "https://detail.zol.com.cn/memory/index1395770.shtml"
+    }
+  },
+  {
+    "id": "ssd_zhitai_tiplus7100_1tb",
+    "name": "长江存储·致态 TiPlus7100 1TB",
+    "category": "SSD",
+    "type": "new",
+    "notes": "长江存储原厂晶圆无缓PCIe 4.0标杆神盘",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index1432187.shtml"
+    }
+  },
+  {
+    "id": "ssd_zhitai_tiplus7100_2tb",
+    "name": "长江存储·致态 TiPlus7100 2TB",
+    "category": "SSD",
+    "type": "new",
+    "notes": "原厂颗粒大容量高速游戏库标配盘",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index1432188.shtml"
+    }
+  },
+  {
+    "id": "ssd_samsung_990pro_1tb",
+    "name": "三星 990 PRO NVMe M.2 1TB",
+    "category": "SSD",
+    "type": "new",
+    "notes": "独立缓存旗舰固态，4K读写与重度生产力首选",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index1425885.shtml"
+    }
+  },
+  {
+    "id": "ssd_samsung_990pro_2tb",
+    "name": "三星 990 PRO NVMe M.2 2TB",
+    "category": "SSD",
+    "type": "new",
+    "notes": "旗舰独缓2TB大容量顶配固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index1425886.shtml"
+    }
+  },
+  {
+    "id": "ssd_wd_sn850x_1tb",
+    "name": "西部数据 WD_BLACK SN850X 1TB",
+    "category": "SSD",
+    "type": "new",
+    "notes": "顶级黑盘游戏加速固态，带专属Game Mode",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index1427476.shtml"
+    }
+  },
+  {
+    "id": "ssd_kioxia_rc20_1tb",
+    "name": "铠侠 EXCERIA G2 (RC20) 1TB",
+    "category": "SSD",
+    "type": "new",
+    "notes": "自带独立DRAM缓存高性价比PCIe 3.0系统盘",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index1380785.shtml"
+    }
+  },
+  {
+    "id": "ssd_predator_gm7_1tb",
+    "name": "宏碁掠夺者 GM7 1TB NVMe M.2",
+    "category": "SSD",
+    "type": "new",
+    "notes": "联芸主控PCIe 4.0走量高性价比固态",
+    "zol": {
+      "url": "https://detail.zol.com.cn/solid_state_drive/index1977299.shtml"
     }
   }
 ]

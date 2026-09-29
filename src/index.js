@@ -49,6 +49,13 @@ async function main() {
     } catch {}
   }
 
+  const targetIds = new Set(targets.map(t => t.id));
+  for (const k of Object.keys(currentResults)) {
+    if (!targetIds.has(k)) {
+      delete currentResults[k];
+    }
+  }
+
   const timestamp = new Date().toISOString();
   const summary = [];
 
@@ -90,7 +97,7 @@ async function main() {
       itemResult.recommendation = {
         bestChannel: '闲鱼二手',
         bestPrice: usedPrice,
-        saving: jdPrice ? (jdPrice - usedPrice) : null,
+        saving: jdPrice ? (jdPrice - usedPrice) : (marketPrice ? (marketPrice - usedPrice) : null),
         tip: '老配件停产/溢价，闲鱼淘二手性价比最高',
       };
     } else if (marketPrice && jdPrice) {
@@ -100,7 +107,14 @@ async function main() {
           bestChannel: '多平台混搭/淘宝渠道',
           bestPrice: marketPrice,
           saving: diff,
-          tip: `散片/渠道渠道比京东省 ￥${diff}`,
+          tip: `散片/渠道比京东省 ￥${diff}`,
+        };
+      } else if (diff < -50) {
+        itemResult.recommendation = {
+          bestChannel: '京东自营',
+          bestPrice: jdPrice,
+          saving: Math.abs(diff),
+          tip: `京东自营价格优势明显，比官方参考价省 ￥${Math.abs(diff)}`,
         };
       } else {
         itemResult.recommendation = {
@@ -116,6 +130,13 @@ async function main() {
         bestPrice: jdPrice,
         saving: 0,
         tip: '京东自营正品现货',
+      };
+    } else if (marketPrice) {
+      itemResult.recommendation = {
+        bestChannel: '主流电商/渠道商',
+        bestPrice: marketPrice,
+        saving: 0,
+        tip: '全网渠道行情参考',
       };
     }
 

@@ -1,20 +1,85 @@
 {
-  "cpu_amd_5600": {
-    "id": "cpu_amd_5600",
-    "name": "AMD 锐龙 5 5600 处理器",
+  "cpu_amd_9800x3d": {
+    "id": "cpu_amd_9800x3d",
+    "name": "AMD 锐龙 7 9800X3D 处理器",
     "category": "CPU",
-    "updatedAt": "2026-09-28T14:52:42.869Z",
-    "jd": {
-      "status": "failed",
-      "error": "page.waitForSelector: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator('.price, .big-price, [class*=\"price\"]') to be visible\n    20 × locator resolved to 61 elements. Proceeding with the first one: <p class=\"price\" id=\"priceSale2\">…</p>\n"
+    "type": "new",
+    "notes": "当前最强旗舰电竞游戏U，主查京东/市场渠道价",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 2969,
+      "msrp": 3799,
+      "dealerMin": 2969,
+      "jdPrice": 3299,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=k3daapnqLQYTOMTcZfyJwgY5nTMRvTWIK7Q_4Xe8SL5bpxhGicLz-N1meeLFuLnWQxtcRllkenjc-MWSqF8Mqm-rzO_lQpQO_tnJ-OdWpPcy3x0fIPJEN0M8DVGxV6_pVqcKW1qZHUFSTI8dCPsI6ZCAumCHYo8bzhqfbNRLFYBE4DbBidDzcLSEbPSo7sR1MFHHwNltEcxvTNui-imYlGXzLzoNDPbmZV2OEBFvkU_vJxUDXLNnMT0IVeevXGM8q0dTqf6DrM7_m4XFeAwlmv3IaYzHk3UBcamWxrtj4PywTEMKB0UXdYFTNp_etZw02P09kE4s6KSvd2zwprr7M-YeX0xbDzEIJBe7lvqicj20fj0Trv0xdbk5ozOy0L_l6P_gMB6Gt4MjwMp5UvQpnEPsysjSrh45Bat8ayzU5cHkdUPe2BumzzyU6KXUd8KfAL6LBzVvCAlv4K8M7naE4ZgDLZnn4zNzf1nS4IBXqGpKeHQ7XsFde32gmkFAO0TyuUV2EbI9fmSjcNrC3deRV6bH_vTa9NhNTMg-tkQZE2p6yVW-kN1RPDjxuO4YcTO5XkG0YHXASQKapmK74Ut04-IvIeYb-NY8XKp6z99xg7Fy0_RB2qmKKTzZWl1i0uLbumabttV5pf-K9aNNHYdntyaaEYvqJQquBeFo5R92x39Rp184lv-BNgzyLrZaBe_jvk2Dkqe7960m4UUCUxFh3PYmi1bEz81sMXdSFvmS3XUQ63d_67dSTRvoYv1ZULTmSAM63sIxnc8cONwD765iWyoLixO08d1Ri3r2Gd2pn0l4wmmhyJqrQqx1V7u6X4ydHeqsRvQJYyZlhkF6pfR_AOrICJs7sOywXNojymV2BK0kQaJnNuNaHLigFdh_LUVy8RH9RkwveFCEPMPVpAd9BPqZLk0O5DvKsXNp_rZduE7VtzRWYLyxuMrNLgbBDG92VH3DqIqz4Ra50DyHDjcs6IvfFF3yxvZz31KecwmyCpGfG5_3os9UvAGxeadNbmegPkAX5DdjFLcGDjtjGDEbnRr5cKoUtpvLn7_jXQdjKZr5CTYoC_-Z6A1wVACWTxLSDJqhV6utf1SsYIl4qONJnOoPHJSBiK7Uf9YYcoSbjyWhA3fS9U6tIx82fZgBLQExx293G0SNGAto3wIExvGUU5fzyyjBpe_TMqcgjVZ3THIkzY0NLQx7vFVRPKAy6ZTyK-bqx_8NrT7nXa3aMbv0xMEZBf6n9SXdBfAX0AbRnNITRg37_A5B0dIHWa5juAvU5MKWNL72PBDLykr1N9bWhoP1TLYm0Aux6KEXttJDUI6BJCbL0_J_QMT4Wks7hsdm7yDAkZI7ESGFb5AtRTx7B8n7STOvH-YKX38aKCN_n4pqB5RF8nFk59NS0ttH2jPf1yl_cjf732AljAGG3JNcaipKqZ78gLanTSns43bxXHLBtgG-gJ4QSdcRTCEIhIgJhU00SleLwAp_nR67TGTodK00SKPhEnjtlLDrJcLIkFLIkVlgXGoNCVBxGRg2GAAdY-tuT9oZgxWQomtU-rNI1sZkcUQbxtszGhz5xoCP1QXI0daHqpPcsGXwOs43mjGos4sXwnve284T93idk18fC8VxiDFZ-TftQabXnD-AShqagRhkAW9V3EctAdtZa9W3DYmArZeyoAp3_LzwndeYntTzWrb_iOo_89VOKxU1gI9qs9vf7Uy4es4CZVPgSIiHhQ97Mx3Xj5D9P5qMAjYVbOiH44m8cY-O14FvaSzaqvDYRrOEXpUGEEeTnnm-YM2qiAT5YRnxiEf1JCh6DEB56spWmZZmQz3MkOtJevwTNNyvX5GklZEVo3GzDNxE3VUtOXkekpzXChKP8R1j0t8ls41tjh7kMwHU49q_qPbGLQF34mQz1rf4YBKMmMUR553qyBidt2dRjTH0WWltp_8Mm1cyvyOVz71ggHE2aA-PUjg4FNAYfq0dkjpBTRXRY5cP7xpuU7NoSaSJMy6SunX74KKhGnUHPTPYPXU6Cwpy6r6k6bQCUZSRITA-Je-6juYZRIiyyDAeu9BoeCwJkQVXMoR_C9DFDndUEvuovZDHD8Pl3G_Xri8IujmVAPEIK1xAzXkf_1gChlAAS71VAqoDDEXYjIsjCeyroN32nvcfks1WOoLw1XbOC8vj40dWBRIQtMro_vx9lH033DQbCmffM6mwg99192AOcl7ObQEhrrjV73rSLW7uogvqf_ePY9SoVDUmpAuFBql_3dfUIi0N2jhgQ_R2RIS9dtOTSXvRmIynUOF26sUB8zqJ9YG_dZAtOUc_6aY5ZqZGp7qYPDAidYxC5KVnZpwf1ZML7gsAuZ_5NQTWHNEodY0GDO6rCt5ffaQiz6jRRFiM6jrgEnGWkEF96OpXc_nl0Q4xqZexGi6vGc0vxfQ&st=1790661849426",
+      "sourceUrl": "https://detail.zol.com.cn/cpu/index2113342.shtml",
+      "scrapedAt": "2026-09-29T06:04:11.055Z"
     },
-    "taobao": {
-      "status": "failed",
-      "error": "No price elements matched"
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "多平台混搭/淘宝渠道",
+      "bestPrice": 2969,
+      "saving": 330,
+      "tip": "散片/渠道比京东省 ￥330"
+    }
+  },
+  "cpu_amd_7800x3d": {
+    "id": "cpu_amd_7800x3d",
+    "name": "AMD 锐龙 7 7800X3D 处理器",
+    "category": "CPU",
+    "type": "both",
+    "notes": "上一代经典大缓存电竞神U，兼顾散片与二手",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 1862,
+      "msrp": 3099,
+      "dealerMin": 1862,
+      "jdPrice": 2069,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=ka7c8Wph47bTmgs47pLgEXZZZSxEXAO5cpmJlEQ5wZj4VH9uxDdYmM_WGtHoHQAux_dX0J5btOLSKxd0933jKzt-E-JstW-Z67cQkHxgbbG7I9AqQJp6R3U0mIl4bltXM5gUCaKW8wINqxdQxOzb5DDwZBH6Djdz8YbGvqBjfkblj5x1VFOrwlqr_YTK8R09v4CCKE_HCncDX5KrqnaPb4pWez86PANHlbS7Dg9bLcyDTPBzeBopgcf7pl25B3_zlwL3BdA1jNGYgKlXqkUmuymF2Heh7Z2iA_gta3_4eOmwwKOaU2lHiz2aJ_ExCwRsW-YVGe2Dq3tl3G4Dsc-VClQPh5K86m2Lwtb-qK_CAMAl2cbaarJgThYo5Qz5VwZOv56LbHpDOmVJRd25C9-oElAuFVUoqk2_zLdE8kHjH5hKRJyvHOVCII6Rp7MAAhX0AzkVdl4zGt__H-ueTY74G1DdZ3LSrOYspDSCjELN_kSzK8y1_Mhk2IKieQ6XKAKRr_ZTPKZUrmuZ6721B2YTmvxwrPiophjEtAA798fWIvHw0jocpdRhWkgQ4_z_-syMmlKjwbkTHIXLE0UlWv2J7lNm4ozdrQhp3rGXzGGnX4F0HFd2yrOD_cK6BXtL_oIlLnTliCa1XDix47GHkicp25YrLKepM2hlxYdFOh0tL_O2P1h9iVlR8wvfm079zXQsDVtxBvVoTkrAWzrufO9h7latsPr-sC4E-e9ws5u7Y6k19i8CuUFOTWYF1kLQG9esbIAWwFSs4Ys1ZrdHzB7PM59vyycHvqVNlyWsZSW1RC6yIlTSTfXolwJNBZh4BOsiepA09BQUaWZxNBg38de8E1VVC_HwHs-O1O4luG8jj053n1BG6t9lFkLJW0XIkchIvGdWypv3yPvZXk99ATk0kVGESfvl_3dEWkRQ5XluMwGBkDyNvezz4rY2AkLJCQePbTHq82UIf5DSjDHU6_PlGn30aE_Ib8RonYjlZcGH8XgHLkf--tzeaw6ZUbIR4dXFT2reWxDG0nDklo1K4z5UBLSLLDUSthGI3bd58tIokLL9uCyEZ4v-hGcWTrQxKkR2FYWZm-yG04VwllQQWJp4Sy0S_l6x_JuuXvknpk9c-eaSe_vlLCNmk7Bc0ELXfNo1Dho7uca9EYZMQU9_rlmDLmVFyQkGBckwo3gUf5K4NHJF1MeH8vh9pQLY9rAQ5oaQZmpnx4EKFeCCt10v46gZz6xm1m4WLjSYxpZ0IObZD_R4lilZGPkDhzhbkB4Ymdiu2bbywQ3iTfOBZm6bF5n6ZnSVy0GcdLVwO1io2G52FVeCLDPtHSy_0fvUanmcb3cfsEKGMYJNfgeRjj11pvP-9TIa-JEH_QrbQ2xLYfCH-iJ5C8lhSANCrhXoG0090J-8Wr8OWPIl8Fii43XJnEFDqCBBpG2SnQ0mP74ezQSnbh0PFJ170Tku0hw1X-NRGaiGCz4V8TfOmOlZvKGHW0qC-w_WannN1BEEoQ33Od0ZK04_BogaYpwx3CIj8Z_eaEquCuAyQW5eXOt9nr4KO0iSFtVPwHTaQI5qldWNqg6iCWvidb1zdHPJYTAEEK9MqimU6fh9hAqJFr4JtDXoautzl-tVQ8YTBuLU01ZegBBoA1Qv9pDVSOnRs_dpBi5ixhrmNlSrFDEfd0hUfeJ0MuVkIZpWAAjVY2_dctOJ2akq4cWuUuC0Eg6S7LZd_fZxDH8_JyAc7TtAQ6RqBJN20GOUPe3-Mb4VbW15YXUhbRvx1OsfhBHqJvxvjj0IK9CevgsI2aDaQdUo_U15sqKNlMUal53cnD-kkO4Yct8mdC0Y3NodImB6KvWc2mPpYynONhcDN7O_7jyPeHxchvDiiMiEm1odMXGWFo7mfd34vawqI0VWw0ke9dO9myAFGdc-AMBkIG24g-0_o0VDbgy5sf9XnoNdKybvuYoOckt1_FnJ04HpOCFocX5AUNh5XBDrxNrlUrhB_OwJSgPxTx5cLEVdd9ACRQ0mznCa8yImGabrM0xTtSMAi4POZKyBOpZuqwRW5q4rvPaye6RaETGaqb7iA9r4QX8nRUMUSc65BpGqSjvGOzBGsnJO6LsToAUkoA9gtkzLnOfyA5yu93HWZbnxuX1gKbu-mxLnsnWOTom2fVFatIkb5I7QwmyZIOi071yKr48-ZPPI0BbLNUdeDGc2WwJXn96nbzXCmM43ENd38vaOBawzMXFt-gnh99q0t9r97IjYbUhaCv12RniIGxThAjVHCLkTHMpXlpbglW_8Ad_8Hd_vspS7y8w8-aMrTBYzT3CdFqJotNm-PuqPAucF3sdCGDCkoB37AQh_GMvH1W3zyx9KCI9b4uv5e23HS5NXA8KmjLR-proixwy0Xt7V_wgJnEH6e7U8pK7N6_1aIqIF65xD06ZO91uekCiZ-dH6Qd-kDcwiMRzF9dBxST5VV86UPu-wKAWXnyXZ9Tq7wG4FRmT-3_g0MEzb7ZlHAps15nIQPi43Z3SCh53mFBIu5&st=1790661852384",
+      "sourceUrl": "https://detail.zol.com.cn/cpu/index1440585.shtml",
+      "scrapedAt": "2026-09-29T06:04:13.951Z"
     },
     "goofish": {
-      "status": "failed",
-      "error": "No valid prices found"
+      "status": "estimated",
+      "source": "benchmark",
+      "referencePrice": 2250,
+      "medianPrice": 2250,
+      "url": "https://www.goofish.com/search?q=7800X3D%20%E6%95%A3%E7%89%87",
+      "notes": "基于当前全国大盘二手实际流转均价",
+      "scrapedAt": "2026-09-29T06:04:18.764Z"
+    },
+    "recommendation": {
+      "bestChannel": "多平台混搭/淘宝渠道",
+      "bestPrice": 1862,
+      "saving": 207,
+      "tip": "散片/渠道比京东省 ￥207"
+    }
+  },
+  "cpu_amd_9600x": {
+    "id": "cpu_amd_9600x",
+    "name": "AMD 锐龙 5 9600X 处理器",
+    "category": "CPU",
+    "type": "new",
+    "notes": "新一代Zen5主流高能效CPU",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 1052,
+      "msrp": 1499,
+      "dealerMin": 1052,
+      "jdPrice": 1349,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=k96daTSXUTp-6ZTTAofXPUc8aAEybeHGwB7iTsAsenLRfcupz1E9fbzC6w1Nbi0_ongb3QNNx-uuH-2kvOOJQi1199LPbKrn6Fz-e2OOMHOAQuJkV4c0_1AYR9KVtKO9GDw4cXE9LgdZIJofw31bj4roItp36CQ30v3WY70s9gIe-8yjmaQR5qPcoycL3rFAYuVvpObaFaJ9yvPaKxS4CBDBiI5F3PLrKTJbsW7j66GEx-PdutZ8RXOJcCAr3stuayHbVr-Aas_vkcK6cUzMxVeR5ofwEJAQ75d2OLuFW77NVyDkqcn85rJJoQ1AzautMd8bWcw55CiT5eIqkjelQzdFs-MKLYkSH2ofH5ZEpQd98tLe-_tBTu99uomGESTE7KG4qzSVh6KnxgkKWLQNBfDqj09tSAaESuf243kKH1kNb6FzOWzuxycsyocdhYzZeTMXbUAOj4DRUeK7sNFggOpVl80WZTWAhYHjRzJ31O70vC0lO708Hdn4R3MlpEStXdL9QdbwNmO8NlUYcHA7NpWPpZjdFvm0gcqatyTGLyMgK9ApYxoRnFpo5sgOj2uggYNFQ61zWPvm6iPCs4wwYw_2OVNUDYxTTAm43RZUG3BnaPzOCZd9ojtsPMEvS9hI7K1NWk303mTr1-aIyKH0hkvoElxJJjIrm6AxT2Ile8qAbtFpcvSlVS4_O-Mv5qp_VNCP5WiDyg6nlOz8AfHnPW41OTno6s3Ps0ykfZn9NSfOA-7J7x88lDztg1Y9ne-_qyzPgJ3vHi2IcB3kfvNPAT4M8U9FDadSa_OSd_MyVe9EDO9S1lm8KHAuvctzat-ITbRLK70gpz1EVs_gQw1pg9mW5h4fBe9INQPNWpPqq_N1Skhx-2LtNvZxhvM4BSasKEJyIfmcLiT1f8u84ZIMTqKrfBZenYBgxPFM8FW91dzqLhR4zENJ7a8cAPWJwhSYutiVYEwW393xlT1TFbXW2IdqIsGSG9g9cohnrNZBWn5RPZQ1RVAnVwC3dG1S4k7hGUtDu7nU_EsgN2dseynhCYCIX6qyRt7hBLLcnzd-FJItDIAX9NIt_VdriKeXE20VoFgE_xL5sYoHvGT1jo0ZYNCVuQTPAhmMD5RTTx4uMEzADOTY4lCza-1p0Hl0GproUK4jI29VSAXXRzD7SWAE5PBrNKzeZB0O3zYmdsuL0q6x2UULiPAzYmsIDlbb8U8q7d5GJC2-SHVpQqOBtMYzOIJ65hgJ9_GJh3cSoT7XG5t-sDmY7YFdjhH7q12CV0apsWbSePHAhb27fKsJObDazw6wGQ-sRhc7MF1a7plPWQCOg0VsDfrB6LY1xLtQ6AxJyx-sSqnHZorw0A4s-nhCeigSac9JjrwtyGKEUQa6wiPRqMAIY0M6bug36biB1wEqtBQPyhsAl5UsJO45coRFi1D3K4NoSbQE0mGwAHmX3l3p3mvKKdU59l02AX0HnEUKtvN3djesTsuJJT8BDlRWt2pv_4tsVFgoV4L3ZbprYkjd5XB5L-rq6qao-janMEiJf38Vc1GPhxeay7r-XjuDYNCiv_W6_kkVY6rw1Hv3o70CcTMDWf6CSp1ysgj-Q46fF5DrdvZVlerWIu8C6jv8pVzlzsJtGV2D5ydFFnxyrjV8PHCgHJ8CRwUX1u1-Zl71mEioYxmnGvr351NNKi7IH4nmb557I77Zne8oaD8l-EweUq_Bj2iRksU4ex9hbwE84m3PAgkqfHEEGyA8CFP7annNoETNJTFo5IH7-eOqOUjjguFRlLv5TeUlN8Fi-7vi_zA4UJvfoWovtBBaeEIUe-v2oEFM5V695oW6xXTMjbiTFdENjCj8F_y-tuLVV_C8J4YbeAHMpHfPFBUoNAVDud9jeRUaj8ZQ3cfGUjL5PSDAmpGdYMZhQynWLrSm62Qh8R6q1AbQc-DIYVwwn1KEggd5fySFsemZisyffZgMM1O-ud4GHxveoflGHDzj3SvZxzmVWe4RjP-Fvy0mKoubyqU5qJr47Q5SiGUeZuovLmXsbt5a3uuxwP2DMFdgJVglZH3OYRmDRH3TH_c9vVahF-LqBosgxwyb7t5dGU9yAQ5GabrfchM8viC0DncmY2XWyCwFkYpu71sEHSRkKdnb5RNIXHX4AT-tCNMTp5uuwOxrJu-7e-sxp2PZj-kuyP-C2_YzNEn93Ay63a2Amq1OY7phXDAhvVNnKy_2ZENfSW8vKX4OPUCJpBn74VdMbmNnzls7zqabfuYzHkdE6VF0Qw48y5tSN-H0I204IDbG0aRTyz7obggMWIOAw0P9-r7y6wCbiZX5-ojSD9s-_7bab4xFtlTQ8qIQDQ1490eMYZ0KW7mGVV-OMXw6ooBOZX_6RS_Vq5li89u2PFIWw9u7OY98RMqllwSBF3MGR&st=1790661860210",
+      "sourceUrl": "https://detail.zol.com.cn/cpu/index2018967.shtml",
+      "scrapedAt": "2026-09-29T06:04:21.760Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "多平台混搭/淘宝渠道",
+      "bestPrice": 1052,
+      "saving": 297,
+      "tip": "散片/渠道比京东省 ￥297"
     }
   },
   "cpu_amd_7500f": {
@@ -22,114 +87,67 @@
     "name": "AMD 锐龙 5 7500F 处理器",
     "category": "CPU",
     "type": "new",
-    "notes": "近1-2年AM5千元级性价比神U，主查京东自营与散片渠道价",
-    "updatedAt": "2026-09-29T00:11:37.350Z",
+    "notes": "AM5千元级性价比神U，主查京东自营与散片渠道价",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
     "zol": {
       "status": "success",
-      "marketPrice": 1239,
+      "marketPrice": 701,
       "msrp": 1239,
-      "dealerMin": null,
+      "dealerMin": 701,
       "jdPrice": 849,
-      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=ic4aaMXXJ0Rv7gQXP_g5cgX5diElOWUoI9t9H4ofAVjUbHs07qg1ZOcxwy8IRENmoIm96m_A4PfTrl0FxUHIy1dWArM9ZJ2ZAjq0HEmt3Cu8q1HJRZ2viFFVlF82jnDvGdTPermr7a0x6Bl9NFe3pv8KX9bFlLo9hhzvp-QsJdH9_oupMqPC1tnJSnSPod-_MzTIDexDSX4aCKWyF8uBJzZ24j4dP5BUkGTN6g7AEa_UrIcbeqzQHg3NaZ1edf-fcGZ_rs39VN1ez2fbIzwATOTbUEjW2ZVI8CPZCiDtDQzb2QCeE-NfUPL3zITaNcArSOemslLyL9qm3dPgUXPFXbvbEVaOsYH91Mdk2ZsPum2_pSG4HEmHIEJEi_TjHaIB8vR0SA7XAGbrihw6H8FIpREJ63oP2qE8UiN0UxTK3OvOJeHB7cUQrsL-khsnyxD6L2zEUtLtZ3LFZgZ5mnInjIfrSwzQJl8GT4Ufv2Eo0z4RHUbtz0sex9mF_ewkjFy5kFClSvALOQyJP984sKIYkWQnyyz__hD3zjn4jVERy3OAYG7KLbI0_c28agGm2iVn_M8GghCiaHToaSAFvzMsLQrOWk7SwfxinUDLsBgf-GB2uLGZgu9ehCSd7NDffNBtelHLfdmj7cSJCVQWVGX8DPqLw-WckGOwXSZDkpZMOxxGPBzuYqm2xw1fUHXvw_4Bs21k_XMoJUw0ITaMgeNemt4RPlbVxpk7Xk8HWmXn5Zl7FIIg0Q5mnhB72lqwqXPq6mtSA2OkRKeZ-6b7muCAVaSe_EcWsUN0pICCQh_1hQkC_NzpCIA4XOrgqzpQ3sjrE9ZqWbpqearszumfg3knOP1gi2HH5fg0YDAH2NelYdYevjFbA2txFc1wOuOQP2N1NqveRf26ateQm76QUw-OxkeYlnh8_aP2HaCs2Ht5wrqzvgliF_fHz-37zr-ejQYVmMDH_4Y9WS1cQTLT7j_AhfmSF_qUjBgMXAD3oiaLCN_ehIRLYMgZ9VGEruS7XGD46rCBwohsxwWLlxR62nw-1MQWDJizoeL2RdFx9WG89kljmAuTwfj6wVphoyNNMLKTQAL_fyTxOswEs87cO2owlkBPkk3_2AjZZhPXplruWcjhxBbLYqgqL-IBWim2qJyegGyhHAOWeI1P_Ti30txYmX0vYtkO6B8_SnrMmSjoxJOZTPtzboj8VuHiMacJgqXeoQeuhtTQOuk9c4dj6u-FtHwJPxiMHpwI7tS-qODIebrfNHBautKXQDIBwffUYOQdu2lO68lwRJRD85MR4xSyyFDaqUm30DVN1NQtbJqC0cNABNPmItwNkNZD65VzA3CAJyd_ZI-Lq9HLNf3lfODj1GNjj8l1ixGYD8FGBiWP9P0u-KxAZpIiZ4ERGJ3UhlyqXbic6uiY9ZMYWhzLlgtjPJN93e_Nx9Onag378pj37HZqCf3Q_XAvN5aM1FTjH3-rGLXHigu-r_HDL7_ErVs5OyNWrmh9Ul2lp6EyAyt9Rvb4ri0v90uULEKzjH2VLdGOhtePxDvOrxG-4U9Jj32Fn-7zG02Vj25ImnA5pTaF0xSoQ9pqgE2Nnp0xF_-fqAXf3y8-SRl_zZDjOXJmoctpBNDtJSJGPWrMd-Azsgf1O-w7jpm4zt1dCyQIwXtf8u7_KNFd0cCbDbjXzNs32njSlgvB5ReWd4bqUfz1mMN8vQyqgRCldsOxLHZqFjPCdkoEdO6mv_q4cVC3GvrjBkEMHPr9fvg2vuxDRYxstZ5EZxdAEsB1nT5cIjP1CBAifmFZeDHHJQLaCw4dNp7GxIpccTcFI2Vk90u6GsUueQRBHkg-JvElfY9Pkp-8yluW0bgRTUskXLfdHmAfdTyFuWsECcoJ-9hBk3c0812PctqqQD6JwxNdfrHMoGajTWfnLBM6E9-b31OeJxod4BhiH-jVe2U9aE-KmEk0KuM8zm1BCI37CzFbozl9aT0B7Y6fzDc46MG6yt1skmP_xN1uNgfe7Ck5epkwRQ1abD_TWVmfOJoIwfphAECkgeGyZo6gc99F5ziDOOuKDVAGkpVDIN7zLif9wvJHv_I2PifP0NXDgawGv3foeJKEaUaFZU1pGggbE-tcJHOHm6k-_qNmxAreC0_qtFB8v8AhVHZIxPoW1ms2ibLoHferyNojIvCQfDF3XRKfhMxLHIxGo3HMRpHP8ZakkKvwGVPMUSBjFX8L3VT8Y-ZSzM3fLZNILeqBbPRAAfejXwAab9y9v2eZ8r2C8RB1K8Ow-j48Rk_4BDlxTlamYQP72Iok7KS090p_3qNyZ0872ojqz_0Pyrpr6sQnqSLFFfUjrAit3Zhivj1swDK-lehzGnESD_GR2qeIVN4auVr4iC-pe4mPc3Y5V9GCnfKGSKqcY96kpXndFN5QXO7I0pFYo6ps4Wzt4tRN_19k6boyiYOI&st=1790640710965",
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=ldc2ebj4K6HPivmMdbXr30rDjFUfmHQRIPhKCwrkt8zO8RDpgBwU89vtnFbqZnQ0RUXq7IA1Accja5ylEXtqbMF-_zt9-oieBmnx61dF3pu25UyHtKLVI72L-alLLI4r7ia3VBn_7tA0wosBHqP4cV-1hKu6-bprEqhhlDksovDLGHa20F8WPDsolSlcULuvBg61U_EqKI8zY8ywyN4xsJNjNRz8yrfbiPkegKaPQCcPVtKH5ZnMT6v6WciKTo0AYeluDL1neS3jgumJKsgSJOwUfxVn9QQCTh-Y1IcAmkAecN8_SmnFly_USlw166mEnzPGd0gZO_gn9QykCDAxsiCNX0C8ktp6yj-PHB19SOYyxj2LDjVoIuwi_LpAvsErpCVdx7Ux16EpfWZGG7M-zFhqQp5w07Yf6_Ri3Ukd1PQGUw1YSq-JmtKaHFrdQ5vGcyN9CVzHUxSGiBE0x-FdNSngVxGoDEQ1piAECA40L6ZTdHqyrkyXZ0lSBakji3vuoR6u8-rmgj2zc_kXkJOIBrESwWWsnSBEDMLTj_QngdNYZTwOQaBYWDCNR7qK1Z1_Fb8FZ8guff0JpTvAQEasTqdoCbz-CGaWSdN6vN1iqBocYCfk7XbZMM-1HkPadgw9hbnlJORAtQeJyVBz09i_-mJMB1gdcHtm1UUWPFZ3yksMPTehBtqNHENwOZr813dqGCqGr5fbbyjA_m9jzq8d-Wtj9MWf5OTHhQNwKfl7iGwfQxFHKCaGOJ0JWuje6DnWEE3lRoH42DvATOu4zsM-NEXRBORdJsUTdFOeP42mnYvT1swAcBzGI_RA1adAGP_yRJvYZeYtW3jM_yRhHkPW3XNWaiOTQwgTq65CkiDGBFexIzP_lPFT1gEBFtQqsk5rP14HomPbfpfjiOAFrhn--VfxLR9fMyyFqmgQj4QMSlfQt11uc7umdThHPNWNsB773dYxJyk6Z9UZXDTJ-KEH3UABPKwtdeT7g2Qjk7HHFWdPqMKcCL8P67NYTufHQCxNTvucmdeg1Q-B4jq8hDoJ3oTlXnCZqVg_YSszad8WFPqlLX9DyKssWqXDj6dIOScHZC1NDi2LeurFAISptkG9Zj4k5cx00s_PvX7Ne1i1nux3M57nVIt8xgckF8joFFZp9P7hGHa6RBhD4hKUHa9Cn2wMzq2V4LjcqvjMPc39Vzh1gihCUrn5zq8uXiTp7DAhjr4Q3hJxJjfvFskxQnxVGivbHect5e7XXITIuMO4kqt7xVebVgkhMKlK9WN0w4au6YTtoxKR89va4DYyFAC8-cu272px6Z2pC6Xue8TMKH4idcS1NJ5_3l1UGjQs77S6zwD1plHwN06voGDFkQjLSWJ-YK8D16isXPPYkMss2wzJtJH6T69-L7DEt5VF9Z8PxMM5pv9t9ZtHlk3jvzWjQLN_9EK8RkfsQ61SZLz1NTD5hptJx7p7aYOq8DViNrvcy5huRqmG_t477UAhQkQQWo6bx9xTB6dbVkxFAT4WacAlOKy9cuKId2s8LNRwEn7HkvIvgdTShhkZGBkbt4LCCFIOgax60KnHo8Yh1io-Kp3THN1KYN_347HXHwPGQiqcFBT0XMt9HBc2UMicCd8_OJA4JnH9Xh1pw0HYO5Vh7NES5Q9CFUTBGL0b2ufrd2rWWAdUN0z8XX3PvvXdFwHaBAcLwq_I5diU4zXerSpe3_h1zgZSKYPnVa2Sn2NpJaBav3rVOHgT304ZbvrKp90PKuo1SNtrNwaQFBnTT-awYxCPHw2OOTHAPd6KqWZwyP7jCnIAUw7ijCJsJb2HJaTY09Q6MGe58Bl3uN1VyA57QMzcRonHvKnaxnM1zjUApVBG0qoAKNSZgNQltiz3wVZQ9UyRTB1uUXOW-Km2lrFmveH3EdG3IjDa7fJDb62t8JdbTQQvJZCI4LpQZyXCd3_593QE8f8ohhOkt_-kPwk-gKRFxGC2UIvPfYFOFAJATlyxcvMyT0s7Vrxr4UzyalXfl09zw5rZdjLCL_-Ji9yJ31ZTqTh76nJrXvjPo-RciRluozg9_RKlx1y9c1Av8oi12JYz_-NR9EEbg9KY_XIBRBb9LIjhGt2cG05OdihFdqFB6TJ51uXmHpfWonD18-LCMlmSFs3zuXs4NT0rOMl3mI-JykdsmV9qqlLXi40gn24HaNdhowH21IsjZN5lpIOEMLyaoZju_4buN4XhjJgEjvKRAQvVhRASVxVSBKFl_bcE7aUxYtu8ZQpY0qlss_7h_ovJDCFkAFUlGeFxLjXqKseoBW3R2OJg8Xzegp-QBvvjC3xCXlPZuAfhp4pzWpKyO3qwYNifRbQDt5rjBNFsQjdiLyk8ANrvhM-cYvHOvf2LfRy-3FhW61dDFT2Ry0fw5ZMGerJ2YdaiiWilsJS8M8JtgYQ&st=1790661864096",
       "sourceUrl": "https://detail.zol.com.cn/cpu/index1796349.shtml",
-      "scrapedAt": "2026-09-29T00:11:52.641Z"
+      "scrapedAt": "2026-09-29T06:04:25.646Z"
     },
     "goofish": null,
-    "recommendation": {
-      "bestChannel": "京东自营",
-      "bestPrice": 849,
-      "saving": 0,
-      "tip": "差价极小，优先选京东自营售后保修"
-    }
-  },
-  "gpu_rtx_4060": {
-    "id": "gpu_rtx_4060",
-    "name": "七彩虹 RTX 4060 8GB 显卡",
-    "category": "GPU",
-    "type": "both",
-    "notes": "当前主力在售甜品卡，同时监控京东官方价与闲鱼流转行情",
-    "updatedAt": "2026-09-29T00:11:37.350Z",
-    "zol": {
-      "status": "success",
-      "marketPrice": 2499,
-      "msrp": 2499,
-      "dealerMin": null,
-      "jdPrice": 3669,
-      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=ib4e4lrlRK_lHsEPF2eeSxe3Iu-jv9g-MurzA1EzabHhJGj6g3JMnafskzrICWbrTq-qI9ysmztanfEZdMPSm4D7oozvt1F3C3r8kuf8SURY8oqXH1h1ZHrOtHFStjFxvbLpharSbFbJlDF6dBBc7j6ZP9ujqENDwjXymopkITQ9UKbW4hY89wpayGAFjCrTQz2kHzl74wwyjSgR03echsoDs_OZ6lc8ogQvUUKLyCrNb9JlMa2n4v7WyVAjhOSeFR4h1oIeUbWJ4rcQHgV5hD3nyQu_w-kjw3bAotidgHLUgD6LtD8eiq_SxHlOqqbciYkexdSVR9u4M7OW-wX9n40on2dGxKPO1lOb-pF1jxwM7ieOdLkQ0MOp8PQ58KuAR32C4p_A3Z2e5j3VYyVe32Y0XoeM6fB83WxfqKqUeqo3It3_WTPJZvVB2nDI6KRHbcgFZ9mGVq5jTuFiunf69ZfFcHtlLBOwLafnzYVSZo31kS5m9M6YgQ2YvdF_PGHv85QFoXczj-ZJiuFjvfzShlIjgIPW1fCu2DQ3x7vfKUQyLrb0Tpcl3GZXVns-zL0vjI84Wvo5jVgWZvy4O5NFYzCDSw-scryBaJJCOsiNZpgqi7GsYnYn-JARHpYwxoAkFbBfRC3sGBCLuJqA-vv2p4RlqMjyLYLWlh50gQU8KaDt-RWHSeCpqXvESl7QwbGthxjTle52BOS0n1qPH4ETNKVyYM40Gf3RPT-mMXCT6BRw43WxUsd4eHqg1zet6K-xGQiAYR-J06gKVmeF2n0Rkwts1cL2lY0M4Lui8lSdbYNIqktcW79aKwYDfe-BLVjs5f7B5FlS4F3Y-L1W-KjCUq-a2AP0z5yTnZTHJcqJJ29PEbtBO2jBZJ4BPj4kt_DDnp1GisPbpS_LNn5wkqWIw4uux6E1vQLbptqqRAnHh1Acm2KZoBwzuVdU_Me__A3sxu37HPYOlq5Afa64r39aNZkbX3OoeXxtxfRyA0z8NUfZrvUlRtbjZQ89VsP8kmyXXm-0dIYINNYf-GOdJrRAAljcJW_LqiKzwFHsVxuzKqTnBeObCRUoyIXiMPLpOeva9mLQ7l7t4GhDUl0V2L4BIUuf9jPwCpy_MKgNjkYy3tdf0Cr7D7pmO05__qNLx0-Tl4mBVJ3vD1itl3lrsrBn96EzDPqBTmuEFVP_XCGsHOqIQX3f0bcpmErIbDZp34jH8QfR0ZdoVdiPsyOt5gvInEJ52EARHKBydUJWQhe6GIUUiYuiViQyaoBHzr4jVhKtGQUpjo3TtdhCLBZ-4L74VD2F5SfWMses81blsl90l5wKPGmE9GpR00uGhh2mHh2FCnTrL-BSkqQ9WvkURmg367YpbapkXsFZFAdujWp_q-Db27tLag-t2SBxf1RM-zdM2t8nReJ5BedZ8EW2SteK-Qi2pzZsIQISy4foL6dDdGPsMDqANVYpAKb65HylV68QLQfhYIJ1BxtThMo4wEMpjpLWUZFdDLbZOLmNvXCj9CYy2TTLaqXom10WnKn8M41HWqb_PkuP04S02mnQ9d3wDuC3eK_4snAxJGlCvD77h6LZ-h4By4f1SJjkdXOpfI7ko2X7dVTJf7alEa_K6QtbxjyibCPXg67kdDi9JDZN86okyMcISMDVgALlzjEZVx6mvZnNubqjGzFbPJlRexJB-BYRjd0p8k6Mr7v_Zszr3iG9fk5oW1XyqjnoAVZEPMTf1xqsJt5rdLLnVTbYxxdlfs4y3dIKUc4anDmWX9rR1FaqlWajQcKIglA7zHVRiXTTmgWZ66c8LeHgivY1Uu90xn9jhK-nhKyxQHAmfg6sV2WAAdQXgBUuR_G_uQg785xgYU90AA5y7b_Ozd7yNF0IOhP5goXPC7fH8MGlvarzPn1Ajme0UKi9GzS5CIuhLyrrl0a7QaQlytlKKtTFVSmTGyDCZWMJTKnx4aJA_0SXB0HtJf1SGItK1ju_WAsg_hpDlQSZp7dPejCuaep8Pc4Hv47HVsMePP6k2Mp9FZBKfLxUQHrjCGIELVJDU1o7e5DzS_IU_IxPQnBETNyGjzVI7Lb56tr0NFuHcafJAdgs46J9x12_4pWA3lYcmfg9H2268gRt3vTpXYIVmTzu3g9huL-Vo3aBWS8zLVF3VW4n0CZ1LKkM0Ol0SQ3v4iOmTTxXj2KwS8zQSRyO8ujLoIKD5XmaBM6uv5EUWflAxEBUTzaJtq9nM5MJHMdM4DPN3tK5KXvUireCc3qqjNPXSpUR-voXeAKuq3LgGHfTmUsi1_SpB5C_ElTEPra48x_w67nq7AG_2dXoP-BYUJ_XwYr0KvIUGUSmfRmWZi3U8WTsvuV7sw2hMeSjNKYhrmMFbpVXZl4Z2_fHYQ8Qo_hHYgMLYo3DPbB5rUBbPG-6FZdZxjp3q6C1lwHt1kK3gV2hzhhYmtVzRHBG-_INXSKiKbYkw4lYX63vKlp4-sU4cZRt6k4-z4xE&st=1790640722313",
-      "sourceUrl": "https://detail.zol.com.cn/vga/index1794057.shtml",
-      "scrapedAt": "2026-09-29T00:12:04.108Z"
-    },
-    "goofish": {
-      "status": "estimated",
-      "source": "benchmark",
-      "referencePrice": 1950,
-      "medianPrice": 1950,
-      "url": "https://www.goofish.com/search?q=RTX%204060%20%E6%98%BE%E5%8D%A1",
-      "notes": "基于当前全国大盘二手实际流转均价",
-      "scrapedAt": "2026-09-29T00:12:09.510Z"
-    },
     "recommendation": {
       "bestChannel": "多平台混搭/淘宝渠道",
-      "bestPrice": 2499,
-      "saving": 1170,
-      "tip": "散片/渠道渠道比京东省 ￥1170"
+      "bestPrice": 701,
+      "saving": 148,
+      "tip": "散片/渠道比京东省 ￥148"
     }
   },
-  "ssd_zhitai_1tb": {
-    "id": "ssd_zhitai_1tb",
-    "name": "致态 TiPlus7100 1TB SSD",
-    "category": "SSD",
-    "type": "new",
-    "notes": "主流在售PCIe 4.0固态，主查京东自营",
-    "updatedAt": "2026-09-28T14:58:18.093Z",
-    "jd": {
-      "status": "failed",
-      "error": "No price matched in DOM"
-    },
-    "taobao": null,
-    "goofish": null
-  },
-  "cpu_intel_12400f": {
-    "id": "cpu_intel_12400f",
-    "name": "Intel 酷睿 i5-12400F 处理器",
+  "cpu_amd_5700x3d": {
+    "id": "cpu_amd_5700x3d",
+    "name": "AMD 锐龙 7 5700X3D 处理器",
     "category": "CPU",
     "type": "new",
-    "notes": "千元以内装机常青树，主查京东自营与散片底价",
-    "updatedAt": "2026-09-29T00:11:37.350Z",
+    "notes": "老AM4平台升级神U，大缓存网游利器",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
     "zol": {
       "status": "success",
-      "marketPrice": 944,
-      "msrp": 1210,
-      "dealerMin": 944,
-      "jdPrice": 969,
-      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=lebdemabVpqzoDli8Tt_CsC-1zKSgwzHRxrhiI19mmSzMb5-ZNI0KAf58kq5m9cwljyUYuLO3_p7QSBD5d4iFNROC7mgD9iwwjcX6MK1rDwX-sN_cROBRLAYCdwvzD0fRW7x_bb7wwdciGpLNsK1CJbmCUIs_emRNDyTq1m1ezVsjgctUrkpZzv4rIhsXZtZmk9VI6fBaXOfRt69ieUPCSje0gvN6k4OKmabFJGWTWlq4hPSV9jzXiSgFbB2id2tlhAbFWx9nznioAZYkGPg7CpEHN3pCeuRRmayhsZVuy9Tsew0I9jqjL153WhRRasXssjGKU0HQ7M2xM5npMcm5N9tJIzSYNFJ0DYTxgwo2hM_JdxdqXOvcDsw6mXB5audyUESZYIvyKH8_ya-t2sv8PAja79FXnH8KQ9_yQMYydYXCcHV-9z3kwAfuHE06kQ1wKyES0SqbvUB7o8BANMtF4-6UiS08dR-JVj-_q5ATOWerF7J307P_3VeRflm0nypumKU2u_3YqRhYlPZLW5ssGfVoBTxIzuveaNNHtLPmLd7EPdzA_-RsntIlQoNbzrFeIyymJhocWpsRh9slIKojRRH3Qa_VTqbsVFxBkh0RJAva8IqioaxAcI6lfMfhPzm0fO4PayXLCW3rlFlHXIo3s2c6IKmmg8sFmBv5xy6rpZ09ZGRBF-Db-xsKMbL8_VFtJMtF6on2Pc3AjK56kpSrJgaOdTYOoEcgPi1SDVbboTVs253uXQ0DtTkxEkmmsBS8TPdfOo9EZg1GCKc9_KIG2qmADulukxU6DUp85qKhWkYqP9X-cDQ7ICRQgOvlfF9V5cQo59qVlD3tpECDVe-WU8XZDFnRR-O-DrwnTps-BsQPKU9To7ItQk3lVzDpLDB6CYeLo1dBTeFuwGigzayyoNmQCqc7kKprpxmAGO76UkyXh51gYoqqhJ56Y4DY4mq6qJc8lrJ25rq5R3Vzp4LaRe7aGtZSFl_qhwaxHxvrMUFSnGt3pj4PNzq0WbYGjVxlBktigFWhB8fc7d0zxm0KZuhjMnRny9I0L5b1pMD855A5H6QOlZBg-yL8XKxYMg5a7LbFACO2TJ3lsgv66P6bpQGl0ssR0j3Ug5Wtsbtx9CpBOiqqm3SEn2USGe7lNgXxdOLoHNQEU5g90aMHfikAcNu-6MQUkhowmzX0v7_nEx1h4zXZ2T8NJ1dwIbi3aEL2qXAZzc7c-OVB7JdFoq1v7eoI3HXOGRVYszHp8NygByYZ0652_tA9Ii6N6X1OT0JP62Kxiwv_lwozhm8CCv80Ii_BEYJagRYbQTiaEymi3xOFjvDwuIL9osL7aKYXx5uIGNT6B98Zp0BeNXms4EBHynmRhTYQCNdYaVftaFVQwk-SJCY9fBsDc3Qm_up-290-m1ByOWSndIIlcDNWD79dwii1geg7FO3Qj_lac5YGO35Jl5qwSJqn1641pmJfp9UNA1fW1M763xcZ6Z0DeaS7HQdx5EDfBxfxwtxLNz779FZXo3-IEUe_08gqK1ocvZVXonY2SgYo0s1D1ZEsjRrSFmrYSyr0K-_5RoS4-i-ksN8HlZowLn5ZOdpVdqRtoAp9fBB6U4Qk_j46QRTSOuQxi2PVIa7x79eEIvGFc0-8ZysF56jqwFHgW7GMaqZWJyEllzsHXboWW1jNSW0uLyTs5ydFfeqUotQ-lPf0sNCPPQTK6iTbHjiSJQWHln1dDYut3EaZFieSDk5gweuuU-PZ0eLF-5ZKLU4nHd3K6fe6-4yooJFWbmhVQLVP626DOqc5iUc97y7s7_gsYaAnFjdDcxZUvOoNVFy-Fek_F4xXB9BaknbcNWLK4eMzarmjcnfwmdGw9oybShHdIW8ar07Zg6fAPs4nVpcgoJw-nrCBMRzAIdQmk0ke2-aH__UdF2HAS1l7tB9Xfwwgp7LYGYPz9aZsq60A0_BXxmgsPUUmQAcsJvR54_ETWh-8hdp_KvY430xpUUb_E-HJHONCqjs2OhPZHxceOGeVjt2GHjgMUZcX9K-AdAbj2zfP-mrZuzvSga0mOOiY9X6uC0Tx5wL5MT5qR5QC1Nnot-OMZYbH8kjFpN69rtr2Fod-lRDI0d-aUTbWTNkECTdJn3WTNe3GwtAOg20xmv3cUe_6ahXsD5hAAg5PVhAd1V6hM3I1vYDMmpL3m6bkI5kx8Tav7d02ZfNhFVQPh60lBvobFgbl1UsCNnRAxWS5kpoASKgRE_9kDSePSnGOpOhuQ-6gQKPpaErt9Nkr67979AtZjMseVaQ02Ncknvk7NZNLTk3QEqMWJZFXDO-sOeMs0K_H_ILaWeplE5X4n7uPSCyeS9Cipnafp2mX5i2Rt8Fz3lHAU8rhFHyynjM9qOTlZ0G8LDZtes6n0cHwLNvt5Fj7opFJDvusigz6eSOyg0o5xmc96aMaBkx6zwuK6iNBf0dD_ZjroZvbuf8I7CAqRgE28iYK9rVWx0D2FvP0GwGruvPQH4dbdctWcDGyZyQU0rlBB-rF1aIX4PJQonyM4NEtH7aaOV91GSg5iHcjD8nqNwPhmYKtQHajqAgT9jzmGMg5N8tAjlZe7j_yN8vGNFmEGaL8dU4Rk1wraDeGUfij3j51Ue5ZuaWIq7XGH9sNl08TtokiAHl_&st=1790640718680",
-      "sourceUrl": "https://detail.zol.com.cn/cpu/index1338644.shtml",
-      "scrapedAt": "2026-09-29T00:12:00.306Z"
+      "marketPrice": 1439,
+      "msrp": 1599,
+      "dealerMin": 1439,
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/cpu/index1794821.shtml",
+      "scrapedAt": "2026-09-29T06:04:28.716Z"
     },
     "goofish": null,
     "recommendation": {
-      "bestChannel": "京东自营",
-      "bestPrice": 969,
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 1439,
       "saving": 0,
-      "tip": "差价极小，优先选京东自营售后保修"
+      "tip": "全网渠道行情参考"
     }
   },
   "cpu_amd_5600_used": {
     "id": "cpu_amd_5600_used",
-    "name": "AMD 锐龙 5 5600 (二手/散片)",
+    "name": "AMD 锐龙 5 5600 (散片/二手)",
     "category": "CPU",
     "type": "used",
     "notes": "经典老AM4神U，专攻闲鱼二手淘宝捡漏",
-    "updatedAt": "2026-09-29T00:11:37.350Z",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
     "zol": {
       "status": "success",
-      "marketPrice": 1359,
+      "marketPrice": 675,
       "msrp": 1359,
-      "dealerMin": null,
+      "dealerMin": 675,
       "jdPrice": 769,
-      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=l7b84z_WGQwarZ9ViA52JxyYn6-E7CG4cvGmJlstdwwyOY2e-e1c2cgvlQcg41j4helEUze_8-efcAS_fQXnvzF40fEsi-n3eLSJGZMw7I9n7h8RKHFJzEIlYMQK4I1NVKPEVjAxDNWmJ29NMqaTQGh8FUmYpf_uWQ3K6sH1ECcnTiTt_1VLhtCsd7LAuyvJh6gqJ31ot_QKEDmhE9F5Mk7kDJOJtV5wv0VLE7LGLFgtPbDxxggIHCOnxRD2B83sJ1Bn3EffRFSZlEi1AjYdj8-yfArfl0Rkbx4xZ3iZ13fUi5cX_1VMRHHq1KO2aFoniKazjR8FpG3z4oCW6yZMvMz0g1lKaCFrLDBSnsom0CkZTyG7Bs_Y29trpeK045qqPFg6l0B0q_iKULx28u2-7tLda9dPOlswojGPrhDDVEsi7xVdvrMA8rGuA_sVQVuDMjqq57Kxf7XC30ci9ESWF2Zyqe1sA5OZIS_pPgmJprNdeHgSFESBvwwjkRGdPKRcdeaXl2N8E-ystj8BIoJRRapd20Jq7LqTFGnh79mLJTatumbNcDMezN6PCQD6BHHYKh7SqzhZ0fR7219r78QMZRbmeK9B7WkMw5En7dIQGz2oMWckVz4sr_vYf85otZ7PcxK0FJpzbJzz3EsHVMHFMccHh4RPXA2mCBbhLDI80kH7ISPYYxFkqTkRVEAqKmRKs-tKrzNlanyPihLx5iwdOUHE3Epusfolz7Si3UHUhDFhyH7laiWCPGM5-o210ZjZiWA3ZIMirYtyMVuZ7TgjfeTqOP5M3W8x79q21U5mB-lk41bFcy-AzshLhW4Yxy-NFxdmy1rwzlyZba51W7yOPyOFP0pD0VtrCghSoPBLR90q_yjsC1FDdxKqysCFML-XADP8DV0cplCRqkcGSOxqJmmI_LeQmugz0cJyPd8PYtZ_ORc03jWEDJvFLULg_SthF4Ku_-asLnLdQAW5XWJxz0oQOM8tkN_MLlirJvSNXWJGfkurD-NJqLpUFkGi3i_tGZiGk0RUzHvNw8aAk1WI_E0XE3FFvgcXz8RgT1-8LoTY3dgJmRflDlmy-c6qINIYbsvrrtthXpM90jugLIkBIV1n77DHkytPfdsdT_rB9IIJeJBG2GIA7aOY2IHDLlcBinmstcX32X8zz3QZWKTn-SuEjI2Td_nmIymZKH2Yw3Rz6LcLO7d8dj-1G9SuFRtyVFlpm2JCHOJfWFqwu-5USvny8RXokHtKVO0E6rIR3siYHXevrYeVv4_xIGu1m5vNBFU1sYa8jMI1ueR3Q6DYTDhglzDTQe4Km1Gf5hm2FnHYaHhTGN3g95XC9qbDP-tH3IlyuTVYHx4pKCSpSmC_BMlpURgc2mPQoRWLUh3mL-ZM56gXS88zpiuu0SHRj236WThwuFA_wSa6e1FUMOhN9pwGuQbleTETdGC6X8jLwvdsTf5k_XyBjVOPv4mmi_mVJnZmezX9uqa_VDeSVckpOmfT65M3Oh1W2-ccCEws02Dvu_ePfGAoLNsbgXENkvRu6pkIBWL_87T1_8sRgjKbnvCHcQitOOegmGO0w9NS37v7gbv2MaIPOmFkqnSuDOdldrxRDQmogh8ULCs8oWxgC_XClXg4mwWUk1yCqKe7_3Q1KRP9TFrrTxHbpKhBkFyzqhq9hT9BKZMCvpi1bn6n0ZEX0RcC8oPMmv_oDrJCev8COKpOKqbOIFW1Vvd1l63umjuTyy4GHePXXwPXIr0qT7j0hpxFn0OY9F-00Zmkb9PJLwB_qIXKzJguHhOm_UJK_QzwnjLS_ZCezrhQZrC9RIHOjJfsg4OTHWTC0tDBRGQlfyLaQB81OJ_O317YKYrQtDJDc6zf1rQKsmq1Gftz-kdncUOuWc1Z46wrhgT7Dr_Xiqw5jdHA-Z0_6BrjuuvDubW7nJxd4wAjUDnc-Vnjp47H23f1nyp7f0RkVmipyjATUTzH0YcFXVrhNQ8SJHfE2Zz7GxzjCoUMX0zkV39h1r7nF0z_xxWKlmU2eTfGmaTKKd5TGZK5UWu0dGPDwh9hj3qCjNYyi_OhJ7Tku_KDgFRdpSN348Q7V4Pvs54hRidHu4ipnnxJ4BAzEEh52m1KC2vfjk1yMOtYir4kt8PZEcSbr1i8mJ6KV6icPvAKnTaW83zRjGgE_yrSiGX4tUO2Dc3za0IrCjfmNFApCTy44p_-6d1m1J_nRRNcTcfMlxlt11chB6oZvlzck3udQ1cpipsRLGwPFwCQjATze0V26ouoghh_M9DilCksgNKMe_d1vx_TwwF5txxxqaihUqwKRsh_3en42MDhzecJ-dMEbZzXGgsHKhX5I5Y1K246xURhGQFyQE72b5f8-OI4hk20g4WPGluOpxMUuNVFu5NIeB5WMGML3oFYkI-DBdGDyV9fP7SEqag2RUubY4Gqb2KJCXhJPxKfrfIh6Jt10mIjuf-OxjBaPri31hjrMZboRNxDbCbaUjRR3-yMzVcf3PPkp115uilIcSZ7R6gXBV2uwAPTZMw97DwTPA7peEtL1D75C6nv_8VrpoGhBySeAQb5H2myU5Vq7V9aQrIUud3tVb3_4HWUscyzQgEhHZFASk_Z2FpAsLHklfBqWO9Ii3HYx9ygw&st=1790640734882",
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=h3d00fZFloYPO4b6zJCXfIUpUo9XYa3bzTfcc5LP4cZI8bZh1goL7T6ptOCcPf-bmHbovbvO9yKvXt3-98UvpUiVBLKJf2afCUUvsMMJqnpXABjN3P5p6wg7NKZrSqEz4VokrqWmdSbTOfpnu0SDSlD2Hk-LZ1FZlu5bbEKYNb6SRVASUj_SBUF3Wt2BiFBTWlOjVG6j9sFflVURZx8RSmmGXPf6uO-Ft7zc0MLyslo0okt3lHmt_k99685Mpe8LH8ZRCRosJyCUL8fqHXjKR5dV1xfqiUtNaEvbWZwoKTHq1YxaSGKPXzjUkveiu5ENpPPdFULpi50MZ7HcfHzk4ENJYe6Gs5THM1Dm2POmbamRYXVi32nKFvqBmgk9QcZgV7vdVHX-6AbDdLJsqwbucT3pQvwJ8BMvOIvBEBnEmt1IfznfL0fVvlifZF5N3bKHri8LYr_rs4p6V_a8_EF0XNCMloMPX_0tEAbPNM1dh-_zzHj46hKH2fIAVyPsDzuSrR1RNTRh2usTHSh4ngZc9F3C0P2HpiYu94C7ztyjinHo77VvzIfZyUCtBrN1zc3-xJYtYmHgMTy-Xjt67YOrKH9jXzhoQyCgqUrrPG4aarKjIUIccHHZafjTrIMObvBqp0bSfqIEDVo47kuR8DYntdk_9praFkaM_Vj7g47kUmlm246dO5zYk_zAUu7VGdQqYsEYjhSAzOWelgRThbGj3cMwcj6qb1206mBDzvZafGeMzGJZYUinPm3IWOl_haZ2OAjwCKsdJWFF0iK6BDMOPFuuaAtNCgB-Vbcks-yMYmO16c7TwYrWXoi8jmzGoN0rSVB4swb8DO7_3zT5K7Q4WPu0nTTtNrG6OAqN2RhjU8JDcIRuwcQ2oZ4uoFrNrrP_csOHBt2q0dv2v8JrbjDRhoQpk6WYq9E4AQXtCBD2Ps8ctHFLiwM1m8yI5OowYR8JxI_RP6XtQkffFTQOe7Z6okfsftyOCGZxhOQzDc_5Knh0GOGfhjt3JsC89TZq28jEPDNlPUqdaW7-dmTpkG0kk1ROd7j4h4GvKEzFb_7oM2UePdkbEJ3E5RzGih-beNKoyhmEZ-zSQc5m5A1nyjRaqfNogGRsJ1_hxvdl0a4h4gaQL2QRvCupa8iQ9S7Al5e0Bfb4FPD3qpZBTtXMT61HbJcKC3CBIb1VikcNdtHvrfGN1aFSsKa4PWYIJ01HNjSfwDaT616-hFYuqq4u5RKWOywSPL2IIubsiTN7eHa10LPv1vPgMBoZssnh_kV6sm219HgoaSNzOc6dHk7-FWMWtGuXKP2CXkJEhr3f9gplpGx2NdF55iOLaC7Adsxzlrx8O2k3YB2hX8UKwMQrmsg51DgqwOFjF6DmUEUESfLWNsislnXjMWLxUbflCOqLEXNCv2w9sU-jyl5eY3BFNVAJiEUHOIwHy1ATnqvcalBIzmD0MhrdOYAsyT8WdwylRTmMHhyenLgnkurHtFdwNGrPXr27AS3eWTorGk2EPi5NrHYudV4sqIWW3Qplm872HWASUgBer9x6dS6bV-Hs91lx6n_fnvEYmqNSnruahlAIoiTkqyMsqo3Td6Me4vhsqK-uPSIcCV7ETb0yk3K9nY7hOwFQFw6GNV28dHg47s7u9izvDxZje9IK8BXyk-rh-04dX8HP2myOk8jP5lP9qRTlYej3rAZ7_gXBNpTxqUR0sJZ54shiXjiNoB6n-CHDeumfeLBhWX6y2812u7M__ziL8_tChUpOvFCz6GwELpEwDWA8mUAg8gK1UzqMzd0ye85l1CSiLpVVzKmSuOdwNhnrEKGx9WfiS9F5iKzUijKRZ4hmvdQ7CUgQiazBSL7MGdpxLHQVW8PAP1WiLa6GEJBLqrKz5v_cuEOXzNwM0BLb4qYa9O7uQAIluduAKwvOcqC72zCnsMfpg4hscN1QeXiyYdkXcpFMwpPF1zNY3qP4X3K-JV55YoW-6DAxbimSp1Rfmw03aJRqPI4VKdDjdVYOG16NvzaGG8H-Iq1a1NvsGTWcDbaeMcakaKYVXtOv7tV6pSn6FJxByR6ctQq2Mhb8YB6jzle-YJCZSiYjd_ffp0Y7m43b6IWrGgxKOen1KVsk1Q6g4DOHEWA86r4-StjcH13_xIEAa52YayZjwM49P98V_cw7jtIOjsGL2_AVGcz57CcFBPeBFdnqYsO2qCIccjXozhzhOANFY9OdHVUWHyGz0euffyYnazU1eQmvQb7Pc2s76GH5YiH8fulYeFh5PvpHvrT96osx5z0SjLZeymX-SU98G5AxGB1kKPTRRYMeodAyQyXEk5Wwhon1WzrMfk_GS8okcDe-tBzjZ2vP1kENL1FIPw7jDeGbyfzblXnUSgjb5QDZGuQ6_V-eFOF4TI6HZ9N7CZ6-qBjanZEVCRGYuu3frwg&st=1790661870064",
       "sourceUrl": "https://detail.zol.com.cn/cpu/index1403088.shtml",
-      "scrapedAt": "2026-09-29T00:12:16.674Z"
+      "scrapedAt": "2026-09-29T06:04:31.633Z"
     },
     "goofish": {
       "status": "estimated",
@@ -138,7 +156,7 @@
       "medianPrice": 520,
       "url": "https://www.goofish.com/search?q=AMD%205600%20%E6%95%A3%E7%89%87",
       "notes": "基于当前全国大盘二手实际流转均价",
-      "scrapedAt": "2026-09-29T00:12:21.042Z"
+      "scrapedAt": "2026-09-29T06:04:36.108Z"
     },
     "recommendation": {
       "bestChannel": "闲鱼二手",
@@ -147,22 +165,513 @@
       "tip": "老配件停产/溢价，闲鱼淘二手性价比最高"
     }
   },
+  "cpu_intel_12400f": {
+    "id": "cpu_intel_12400f",
+    "name": "Intel 酷睿 i5-12400F 处理器",
+    "category": "CPU",
+    "type": "new",
+    "notes": "千元以内装机常青树，主查京东自营与散片底价",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 510,
+      "msrp": 1210,
+      "dealerMin": 510,
+      "jdPrice": 969,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=k75c9eMH9C_eHWcdyHmB1R6Kb0yz6EZfCQHCdN38evL-8-bfgDxA8nMCR5xenFlEQH-SoSaE9zgBgAeZiaw-hNt7piZzItWrQ8NCkzRGPZC92ZcWk08pUxCpY4CPePLtbmmxRCxY2Sm8ObGvQcrF-PMoMvXvZOpU9eloABRGfM0bP47fT1tEtBtxHd1y3V3vc8PBuIc_jWWM-09C57vNbY3W0_e3YMqlImMN_ejwQwpaCdfeHVlJgeeWCmCPwaZwDmoiO14nhMSUqedsnKYjtu9qvIY6kndlEXEl7kj5aL1a7i1yF4XLZ9aBhmnhhS--8taB7aPp8YcWZnWSYbJMv3AFHhFdGtetfftjen3X5WvhMtyi8ouaExPOKXwO4UNsak34t32s3DUQJUUISWFfEHJnvnQ5Stl5-EZ1dCAza10780A4DVQvKbJiWG49svRw6HEZP0ss5TEyQkxt35FwKf5BvzLXjKk0mxoI0r1MW_YKwuMPhb2-eeNzyd7TNUVulEEV9O3L0uD8X1RsanzJkNoMZ7eqAH7FGJGa7wZbG5RmRmuE3xqIsPFMC4OEeejvq3Oa0X7ZlbOaWnI493UCioo2oAEQRWOqWCSsl675Q0foDPIdlKuxyYtegbtp2v4NxaMrbTf-QnvCU4xKjCJfvewjvbf2OCbqafMn5r_hHIeUDq_CjOVba5K_zput1ZW-m9LDEneTsVYyOliSm4VCKSHrnKeX-VuVajNlhRUBX6ow8QgV1b7jCHhh3H93ScXpl1SyU9MrIw-8MrHRFsLHntjhK7tZS0Bg1sWeShBOzD9fvbxqR69hqFGrbXtHwLTmi2lw7Ev0b-m4Zy2cAS4tkuil_1rka_uhw46qHnXDr2gT_UdpE4c5YHYVOVvqs3GhwP5-U7Dz29oHKJCC91gAsIVtGosYv6Al29CyVX9igD4E5J0n8n1sHCJnG86-M1WP03dByHwW-6O7FXsu42JKM1y4GAGu_Ejg-fw3BnRegFnDr61jOjmM2Zx_RapkKenBiZsp2NjJTZNL0ARVgKztEQTwZ6v-_bagJWsVj_JIeJL2gkDgaS8uuRgf2FGtVpfeRKdnelyBviRqU4MQ0HLAslQ2bfZIF2ntZRAjH3eycj8hmAHpyKsXnC-NHiSGipqaGDwkiK19FUikgl3KjizKRgUgOlRifluP4_McgrS56WG-cFLdUD6s8_S1qqXYw46-9G9qeRz9QvV_xXfFJVMJLSpHQ_YBHmQ8PRNJtqC_y3W_jcnLOzPO1ODinh1GCt-lmykzfHd6DWKIBp4s15tXX-s0DQsyFSJww7IsWFItMf1BlASgk-RzGTyUU8vlsL04zdEbt5q6gnF6tmymKIMaF8hNDF2LHyVJrSXjKD3JHuHhsv-B1Fd5a_VuaXaR_xQgLLavm2z4nhro2-VLb0T6ocLjJZB2Gl1SJcn0DfhTR9nN9vx2CLyuM_LiknVOtpjFbGZ4Rpxs4QbZaI_vBG52C3ziMsm0yyXlLbwNofMUqbJ3PkJTnpPs1y_M9Ytz1KWu9_ik2VyRjiK1KblnjUPjflqgq3v-GwUvGe9NT42wfHZmGNGKfyZrBtBV0Dm6OBJrSre5EPtA_ijqX6egNE2694GYlkCnhLS1G11kJkbzDl9nXSEIBgbOMzzZ2w8Vj1YunPTZj7rt-stbXHIDG-pfFxCbn4gVDd4mG1FnS43WfTZALmRrqvk2nJWcvkYxhbJg0xOf2KEj_25QfMhYejdNOGB_cA4znJ5OwH1mrR50qRiqT1rJR4OREWSDJMXdhiFN9RatymXSZiik34nEGAoZ7Os9IolrT-v1zCQO1Pz7an4QZaW6SdfkgAeKcbxOjQGHwb26z8BbF7lspNhOFvqaRaNgwE--hOyXsKrN-KVNceuug-HKSq1Ef2RfusyW7cId2s35NfeNF8fdIIgpBl3-uFM6xrtVwfXR8zA0ouv-f0Apt_DSKVYQiWvxzYkE6_el6rTQz9l1iU9-YIFuwJ0UfDyvLHdynLPyzzACjXPOsG-oU9xavv_9UQTFH8Nd2vZ0_LAZ7ssseDISLQDKA2upwYqHoaw0gcKtH26o4kRrVol-CN4EJVJvVQ88IX6WQSjmeo2d8-PDDcfV3l4ot-KzKIwKNB1I8hgKVZg3sxENk3dXigqe9A2e7HgMCJFY26WHaMVQm9td6lfmrd0Vjd_mH6x764X_b_ELaQBDDUqHmeqjk_2DmWZ6Ukz_GvUhSjN_39Eo377B3mVXVbHAQJh0aIHOcAKCtMt2bmPhqFUgV3n-mq6pg0w8ajiSSTApL7Mo_Es3iS17rjm5Yn895ZHkr3uXPPY5qXAjb_vbtWaCIe2fViDY5Sn6mIp5GOpx8n1Y8MX92DNhhWWt14fP3RyktuHB8Qqg1nuFAK0-IH63-vuc2Grl5b0EJ72wgJOMUYet-563-OsXZxkB8YBiNv0Z4e-TJWdTENwDTAx6uTfV4EG9SMfW8zZOxt754iPV23MHwqxjpbWh8YNtivL_-Eq74gI_ojFhkVMD7UWJ0-PKkU6yPK6kba4Y5u0h2oMtM7iCM7DGecvGRyK0RGE8vYPaCE11pRR4L__i1kWVR8tRq1FpA0Q&st=1790661877572",
+      "sourceUrl": "https://detail.zol.com.cn/cpu/index1338644.shtml",
+      "scrapedAt": "2026-09-29T06:04:39.121Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "多平台混搭/淘宝渠道",
+      "bestPrice": 510,
+      "saving": 459,
+      "tip": "散片/渠道比京东省 ￥459"
+    }
+  },
+  "cpu_intel_12600kf": {
+    "id": "cpu_intel_12600kf",
+    "name": "Intel 酷睿 i5-12600KF 处理器",
+    "category": "CPU",
+    "type": "new",
+    "notes": "甜品级生产力与游戏高性价比U",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 692,
+      "msrp": 1830,
+      "dealerMin": 692,
+      "jdPrice": 1319,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=i7dccquxPk2XMTcE6Ct6jJdKoUJiOLvDfvBB_kDsaTbCBVRMOFV3P5qfZtHzjScglmoli5KRhHxNwV72AHDbzU7a8rOxKltIIok9YHt4yuu2qV7rKxtOAqZM_5bqAwPePIkrN72SKU4IUD8oY4R8EKgCi-v1N0WrIlR8qEEXT41xroa8p-xdG6dstQNetFDt-piaxGr5LTWq82Co7Ow8G5a1vGad773ZB3hVr41bYbnB6dcVcd2-d9XyZLSSKDD4hseI3kHLbliuzgzKKg3g8qXY8ERak0BetxDP9w7qdy7jJgkXiW7WS4ShTqqGquPeQVqW0gfOQRllWqzwJLB7_7aGcVhs5DXYc_c4wgoKk4d1hRhrxWoIcgtCAU2AVvm_CNN-F88w6_cbfHz1qvUwbYPGem9FWLYRRqXXvImVl8T4GXMi23qp6zwGYIv41s3Waz8qrMDvxq_4RXp4fjum_c4J8kMlYg5SrE3H5Q3QA9DRwjzutFkP_-qIQ24Ko3dhKuqQYteIIDi6vBx6uwvrqcNdeCQBBnRvmgBZdoKq4EYC8ge5A5o3JGZ7T-vT-dDsTgEr-RsdvBU_ESMKmN0VA4MkIYLrW9kkOvKUfNvhiBiVJNx6zy7c8LV8NZ5JbkM-vrzLCtOjkopXBVRCOoqTmgC-LEPZEzDEjYgQ5fQnSypjBiZB3uCKg01-xFnJOpRYYhU4Muex7GmZCNWGPcerV-vbSZ0O8AohTTLv05cBW9e_azZXRG3qmWeHp7G_de8wLpt69qiR4DrlBUCkaS_7pno9r_-vowod5hBoLKb-4siGVbYHuKfo4W1EFkj9mK4XwWL8q-TKDfTIRIMEGdK-TjkxyyOTMcB6thMmI2nXqZaVEXFaxVe3LO2YJy05vfbcvmzrbY68QqX5jM-FVSxr72g3MHh70iwjUnu3FwSa4AZyyM8ZO8F_P7y7KaiRcDHWAEiwJO6NUqkjI7_oRMtuL8P8kEJqxb-BmBiupX3Tk6f_ZlRhv2LzTn4raTDIdfn9tWsGQ7rrN7W2b8MuDZE3ggZSsgNxgFacLIw0ZnpLI8c8rfkPaA6uo6tlxSxdPTuYBYdl0h9yeucgKcYbx68_u6-PhKBNLFRawFWDUCGmr3pDQSbalUvXBfx6Gns_6AeiUy9dZND6YaWOXwHwHuP4HFunOr7DQlqBYqUA25bDP6xsi6Bh7nnmm5yArxwtLhzkW9QYO3VDKYC7T5BXei3kWcGIXkuhjruAsV5T6UwOJgpcBEWyAlSZmoDOgbHPsE2328ie_vv2Vs66nLJ4D9DYT4AZm-SToasF66qAfcUoAOSjDVqpqJwteVoTz4gqKrPG88lpbDhxZeNEyEpcGOsdzVdKJkZFaG8VPscWLaT-1ymqosl5tR2hCW2vvrl3DTSJpXRRF-OZw7kjpfuvHuDpM4Kqub3yagJMhQnMJyEjkToN4ZFeWX8lvkqY56YrwzD237GMrtTVh7qDaazilHRt1W-X8gMHhng8f9oivd3yB37M0urNpLVEFsDDoxOtgQi78IatvVWjT-hqovukZz22iGUlZ1uDC7q7UZFZsMOTTS4ucmV5GPhpAKIQzUtTl1vTVZvOX1gUK_UqeU-2o0VlgSDysN3biQJRdIfAD6nSwigutgx4khbpacjjpqJsHYQhpFqRlncRWS0sdShguqW_Q_b4lQ_oBInOE962VljgymygCpMAr2IPCNAT-M5viJrwoPI7RkJug46IoAV2XwvHPp7BE5j9ChVFk0bGyo6MtklGq5c20MBPRDmLMB_pAqeVoA7aTp_NgD-jaldzsmZfCVXA4k88nAF8Bkk4lvoCjMX9h45gZmH7h1lSD_tapTmEGsTiHeSHv-pdioCQ5nSYtY7D79gAs--0lrD5XfJDdH1Leiab1k_FMADB4f_sS1GLN7VXSq4xVzkCZmKaUtXoRes0kGwGeOJYWUPj9I7psDGSZ8Us8Ef5WGV65uEM_SWDXDJ9wgB0dtpO3lmzEKjAFqrRWkG8WLTJnmw9nJaMTsbnWXy0lJoC-qte-twLZ8UFmGT3Wmc7AFo7-Pl5wz_N0-GbtIJu6n6Rtf-cJ3h9zT7-mGT0b5zAy_wn061lhse6Sip9HJhhAcUOhLtWjsDyzFu3udsq0ScLfwLuSZOCsha1S-wmUygi0YSW3RaKSrp6Ig7WVaPA8VhoKdwrluBounlOwNFCEXSNs0lLJ7b91KptqAPg4tj9X5XfcGQiYl6MVDKJ4JNxxhkOEE5taZmP32IFf-TXOjJfMTxLMtkW4qhwa4-5l7six8dgcwVR9SFvpoz8pWbY4DyWW0dtfvFhE2cxVZSrsDWOdUoaZeZ5K0HnfGwIDuLhd0BvHKru73LBkKmq6QJza2Xtzfa6i8yUTdD5A7ONS_oJRC7dUTqGUEu2NV3HNS0bdlL86aay0UaAiqbsLrg0UGTqVADh00IToV7zTfnWuNtMLEfbJ3ur7xABxJZrYpUfXWw67yPYQpXHFYofLqF2LBe5ibmFAxWH3Dw_T17rE7fU0oHjxTbyd9NT58Q8OQR3coiDdrpimlcrAgNOU5ebCAlKccdSd1wK4Tw&st=1790661880630",
+      "sourceUrl": "https://detail.zol.com.cn/cpu/index1393371.shtml",
+      "scrapedAt": "2026-09-29T06:04:42.178Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "多平台混搭/淘宝渠道",
+      "bestPrice": 692,
+      "saving": 627,
+      "tip": "散片/渠道比京东省 ￥627"
+    }
+  },
+  "cpu_intel_14600kf": {
+    "id": "cpu_intel_14600kf",
+    "name": "Intel 酷睿 i5-14600KF 处理器",
+    "category": "CPU",
+    "type": "new",
+    "notes": "中高端热门主流游戏与生产力U",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 898,
+      "msrp": 2499,
+      "dealerMin": 898,
+      "jdPrice": 1619,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=l89f9Q_OsP2YQ20leDpFGgXQdag_7MOFP3lsqSRLbTANVrkk8xrMEdQ7Tz5uJr_Je9rEpDQ7qItzPiNBauhrmldeMarPmuDedpO5_uojVwoKwDejCXf9knR-YG8THFO6lF_sSCOudqgW4vZbOjsZYV5IZyj2-4imLELqoCgP7NOTN3w9EIc7JZQv5gb04M5hPGTrID_O4iq80tDyzd6rBS7SinWAQyrQue4_3jOTGFCxUncgpCf5833VkFZZNkRQAHQysyMifSA2SHSDVTx2iWspDoF-6HanQQ5Nu-hoVC0sYh_uMknoLFDGCNDn3x2IsFeQ_bn0-2V8HcvKgHIBbr1IJxxnyFIV23BCCuz7IHs7y7uh48faHHsp3OQzkaGHuZ28l5sdFivBLcmJ2VQYgHazNg9BZ9bCqXCOKClLTWOZo0Va9LKlTNGCtWysXt8LpdkkOgCIzqOUDecVy_dsbqpO0REHC2L0yi-TC80mry7LVBZxpivT7dtIqX4tqgMGRc1sqhde5xgAO2f77Fra-0D17xfSEmrU3SsBDGr1z2bQ3ClZDDrvLI17U_rMYNhR6hDNPOcLl9oFUhI1lj854bnO67nbYBgoSVlZ-HKXofS2Il0WdHPTGdrO8WCGhIb-9N2hdIyuxWB6jgs41cVl8WxK_U4waTHSmDWZCm9kqhuHY_2HfvFF60oW33WQSWXrdUBjUHIL6gW8-TMe3JyN1IhZoBk8PAWmO5NbU-9wFLdbjLbHf1lCIR-2dYqGZweDnvzePN5H7-tOPtV4QPCiWZi9T4ancogqXlCk21Tu0Wyn5sKqr259itP6OgVgRUho4nGRX2TP2uFGA9Ma-CuXkk9klPFDDNDXwTfsEqeg6SB627AOB5kXEDcvQ5W9ZheTLa76cmSTp_U_NzsEzaSr1S-e6_ql1ZmmxGZNRCXKz7gle3RfCMVP0yiV6qcCSIMEKHolgJhH3KvdtdG7j-ErL4VdqUbwWiKnQTbaiKGDX2Eg4T-F1xo8_vWfvuv8m0ph2qNkwCo8Vlgu9rVNdfIx7GivXI__eAWsaLzRf2nKMybJLNe4_ME35TcztVsGI87eyvXsf2lb_pRTSghQcPUZ2ge-yfsulwxQr0viKDvAfr0XokMZmcRK8LdidS3mOLmgjuC91ESEk49qiREv5huj9xTCCXHlN65JUZYX2Lt-Qh4bYylcRgUX_0Hp8NzIZJTFBs8h_rIX2F0snNQ-5l0bDEoaqUa_c4d5JSgiYjJWOVFIqpIUIAD-wSydbzV7dZc5laqLfo7dMx5t6E476pX1VMbhBsMIt0QFN6z00A7Xjqprs-nYqLIGUKEPBT_-KT2_8HUBccrX5-GiHeFOqkwub9OXH5umPqxdRzcti0GvnRvQm3UH3L-LWYyphR-PfmhH-_0wM31OrL0kMXOZs9c83kqzFLZSkNx_afZ3ZFa7Zd1IBXi8botk2FIAgfCi4yi_XTlH-dRsA9XeW5mgLmXGhe65RdeDnFyYUGC9hi22Dspve8SvCVD0LGd93vpZJVRmdHkN8yj5rjq3_PiJlXol7RXySyoDxJGmGn6Y88UPtgDWDPmNDqg84z4Ld87UUuCmlaBtg28yYuGSkMIegfuNU6g0w5BKDfubVdta2S66jQBxc0OLJKT6l0GxBxsoCE0ykuFmS67DUc2R6eF7x5e9aYkIuD4LkPEYQsppzEWNXaVfcvd3WVjLgbaRyrASae88TVYz4DtPdDwbg0Ge2UBjvlC7nS8ArYVbVJyAbfhga6PMi9DgZUMjztdajdwUIxgfHuabPm9rIa7kJ0vErlSSYfbipdiTyNtwmwUQS6LiPkPZ9PbZdMhFoKpBb6cBhE1cIh_u_8DER8gQPRcjICN9awKGSW1Wu63oL06Y8PUxY-9vuTmI8yvsBNKK3RmmnIwnfR5IIzrN7VNjJIyyrRJKy0Itn8NnIaguSkBhMN7E0S2phySC2MvF66DTAAwNjnTJb84aLPAQPsHcF_3pxpJ37hO4ltYJpYrhkdA9BzRqAchvexZA9zUajPYhGGRCQqsFIp51UBJwpaUY58Kr5ZVuQCrjwlCb6R7SEvG_pcDuVMSdwHsiuql5-HVAgdgYuP0kaySTS-aVAnZp8mjLaEi4rVBuCKTeATe-l6okjUp62W0qkky_jXt4PJn-afUQZ9ksxtCt6FyK2Xbko0FPWlMVqgjvHplFMTeVjoeMGuSul5GoybS1VRZUzCx7R6UDGEqiwr-eag-zVOsylyDmvObzwgaJuCe6ZnrHA0QqPY9pMZPA9KhmjgRrOF_wQp7GtDYXdXzzi6A0USzl-1jPnqofBiyxocpGZZ2w5Nu5cXgvoO1yorvxZB4vxBpyP-w2qrjjz2nQgylDfH9Ufzbij6rI2T7Tv__0BBT_80LW_3iao3BxLw5-I954ZvpCyLFqq3bvq7f5VCQ21ZbDU1K4WEaiPjcLCCef8qwkGZU2xR1Z_Dxt5iDFf2q5sv9cUdpWZndHHoKHaBOLNrrOPln9fwIUPfV9G7NbNuTXNJA25YwgYOpTpwq4r91w8DdJU5OA5uwgDz09pTA9gZnV_H5c3_U8CW_Jqw8xFauW35DNuu63Er5fP&st=1790661883459",
+      "sourceUrl": "https://detail.zol.com.cn/cpu/index1929615.shtml",
+      "scrapedAt": "2026-09-29T06:04:45.002Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "多平台混搭/淘宝渠道",
+      "bestPrice": 898,
+      "saving": 721,
+      "tip": "散片/渠道比京东省 ￥721"
+    }
+  },
+  "cpu_intel_ultra7_265k": {
+    "id": "cpu_intel_ultra7_265k",
+    "name": "Intel 酷睿 Ultra 7 265K 处理器",
+    "category": "CPU",
+    "type": "new",
+    "notes": "新一代酷睿Ultra 200系列高端U，LGA1851接口",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 1378,
+      "msrp": 3199,
+      "dealerMin": 1378,
+      "jdPrice": 1969,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=i1e20oPmeZBXOdMhVit2pFa9XMN0RdoHGY9PXFwvz4c26gMuWbfW-_d_RFz2ybnvZ2NFIPlDWrTsIvT3gEpmx86kCtVQek3oeSnx6l6NlOG1XL0k3CtHScBfaKXMDutyDuCaXuDpnZgeaIx2NCxdQh-ISWVchm_YVI-VPdq1WYf_QczabxJ7PuYxVyQy9VC-ZGJ7-vM_lEREivXl9Ghy4lcs_pAytLVcOliDMXRmLRyOHohdmVAkAmQ2dRkFIsyRtzR3TarAMZLd0OGef5UsFQ5hJNuQzlKnm_k1yTBkvxL6-wzFLeXYKVVT4C2X37q1f-BSRqOGObw_9kc9UKpFodSwYAFZSQzCKuXdoiLWrq6XuOzueLlm2H2L6KC3zoKA0E8czMo0qD0_P9StyuAI5xE3339DwnXEWphXxUEOWcFODIutU0OoAWBbUYNTQfEqEAysj7m6S-P5E_DOov_ARyrwP32iiAJeCba-ykevWQe26UxHOvn7pVXlNvg-k1uHjm-7u3yH8j8dKKG_jwuMnYRNF_TqZQ5XdsgdfHXHdceGIUTab0aLxcEjSEeIwjkG1UkWY8qOuW1d5BqCuyCCKELzlKpUTVpxl1pcPwOdFw8xEFUY3Ugm4qjg-d1Rb9PgfXm6Py3Hb6JPI-JlBboqkmeeFP-o2SC0oGZZDJ4wbiCSerCdhR9cccJzHrBkoReRfSVJJ6UbkioNzuUvi4MQmuQddYr6kDipmmfCqgoCfsU-CfWAa7vBBtrizhdeJVMDXKsxvL8qxJCNCBDgJHGQRajJ9dA3YLzWeRLysrYaUAsiwTx9E87dTG8cjZfk-J85UieeG2WGuD13FdK-QtOP6c798menclNw6Juma5cP-Me7XjxPpyQlk7DTrG19p5WRt7oE_jqR1pq-67YAvzOi7T76hc3MDLSMjdOzEfXWPjIXe5fR6J4cJWjr1F2M3KkDLBVrxM254V1FwIfOPW0fJ9BTV_Mbgd1GgK1CrR_cc6sLwT8xPcJLWMpxauUP90GmBPkZiu2qdezIxQ8osvs_KBkSv1ttXfSB4_Nf26sPAGRDWgsxDVwmOzqpxe3PRw8Js09iIVSeQhHffSej1rB3LLohaexrPVaixH4WQBYsBV91rX8h330y8ubxlG2Kczeit4QX189O65ucMHvUm00vkF_G9fiTvDbTRqur-mC47IcJCDpCKCHiqNU3aAUH2VJM3kcDgzj8eNSrTTO5fYdYlTc3nM2KpqW9NwkwO6oLf0flfsYBrhZ43y1h4g_uJkLVjgw63XJR9DOfvvL-n1IK2WT87sHhrDdlK-KA1d7JnvsHB6HlMNoGlQhQXFZMPrwzJFZVQfjCEWYZbE9vWXeDRZo5bJs08BCTj77VtIh3UgIy7YOMxciDA7jPjXcR-0ueVVSLeBpFkVDjLhksXir0Pmv4FX6wlXInoV_Q_QY5Z1FbODhe1PZVoqPx9QPYz_K_z3dXvvZL2drev90TqzKWbj_HdgG2Nfv6W6ccxiv4CnvRWpKE2TGn2fcGXrG_NujRR8fjnHimnCbzpzm5TC4Rw57jejkokr2UBnU3E0C2_6CqRJwS3s30VcTv3K_K31IKlg2M-683OEZ41f-YhI94QwQMBU8ADzPw2v-TCebJ-Hh-ezANROJO48g17o3NUS8lXWvCYCwZOKU0VNu_MzoHtAxE7J_HcwktJsgumQwRVxyJItuhay0ASS62J21qHKPWTsIPsOp_1RY1qH1avbQxbCghOpNLEhRmZi69jHcGEuAgB-b-lE4wAJZL_XoMpJrSQzhnPKN-lbUHEzC-Xs-0Cc5lsuktWuBqN7NH63Jo6NRqd0g84skQPzUCwj10zWBJeLpKVDzpeqa5Og3wKwQLU98IDkFWjXo5zBgqNbhh01dU8Q8z8jg_slxM2sprYZEYnRvCe_ZAlEHzoCrgaF74lL3VccBCjZPGePSxnVZe33cBotRhRu6bryZYRkEl5NdviWpXRf-9Dxc7sR2Hk7Rm3fMY-aQUGN5qh-SBn_r8k_hBx4pd3QAOAOEBGtq8LojqGV8jwLEHoaNoPhbOmdipYIGE9ORWtaMAWqJ9F1OxsuFGC4LeLDszsli7zLKrxDtc2f3qo2H9LazSLCa5EJlLgFFJaRnR8dG_oZ5xzgh8TObzjqeREVSQgT5XIMWnXBFxMIXG1xXVKcMLIViWKcJXvTrsIlmcQh-FhZABtRtma2KAKgdNL4xiR5e5fkRjAFo6RAml-ZdeXaxtBbOF817NvRaqft3A9vjH9VHfRQvyqeR3WvWnuuzDMcrTsEfkIifJvrZ_SikPRvopsFqQ5DtHqB3jELuJ-FU9aI0Wmkfhz6_3X8SHTGETiaRltAXJtAsR89RAvYl4HAcbdGe9-vhD3p3mh0TUhL3RZ_ESTuB5P5GGw5iIPyD7nW2xn6caDZhX27nbHj0rCIMcTF9NKrs9RnoO0nbVmvjGey-aRE5Zbl5EJccw8sHmT4WjNUg2Sp-_Ay_4Js-ey4j9gO2G3Oab0hGNCwiD6-9r0TzLnIZwOBhswQoElr6DB&st=1790661886815",
+      "sourceUrl": "https://detail.zol.com.cn/cpu/index2110067.shtml",
+      "scrapedAt": "2026-09-29T06:04:48.355Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "多平台混搭/淘宝渠道",
+      "bestPrice": 1378,
+      "saving": 591,
+      "tip": "散片/渠道比京东省 ￥591"
+    }
+  },
+  "mobo_asus_tuf_b760m_plus": {
+    "id": "mobo_asus_tuf_b760m_plus",
+    "name": "华硕 TUF GAMING B760M-PLUS 重炮手",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "Intel 12-14代主流装机首选主板",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 585,
+      "msrp": 1159,
+      "dealerMin": 585,
+      "jdPrice": 1159,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=h02650_SXppEnQXHVaAatsZlyfeZf0zXLpPaODWnLCi1G8NDXYoFr4dYuL_tUgmcC44WuklsrMZ_FElKwp6Z8jNsET4-mXqWjDlxNgaKAVLj95WDyJU6_a-nqwOQ4hHCFLvX9-SrWbAroZX_PKU4oZhNiwOifbxCpwC6hAhd0EBJfhh60dApepDjprPu2amOUPqh-e5BMSBsZeRcFGla15t8uoy_iNCiF_x97AfdVnug3eIswG_KztSvpiqKBRFhheK4gQqnoEeDX6aA00dui1nqvqs9JwzWs3xeUamA_aRdSGn7uRIcfYjTimipwyFmbCarYWoGh2frPTZQfPO7uFHQpnmdQzCmyR0-OXEMvdBjvQVx6GK5NRO6RvYvg_E6Apkj56xPGjh_PQp34CH0W8cV5_P01Zbt3PLo-BEPVe9mq5GzikgmWR5m7gAFx2yR0G9fueuplVUfXl0xp1Rsp9azIChhPARd5wi7i2ZZnmHlM0fr_ti8G-OJRgvTojd94oqDhrvV2NCxF9b9VKqJ6seXqToemDy-jh3n-cx1BU7pCXE83sKqPaUP1TC98j5RN6PVivo5i3Wd977ufHgLmxO0ngViSVxiFtxCXdC29tuXxIeXIOFxY70RNZzH29etqKRAoiWEnSr_xUqzfi6VObbvOZiXOX04wZ0oUD8TL1XFg0FoBOARcxfqGPauQd_XMZHvAHTnPm2sHyHRtXOp5yYCu3V0W_Pkc-j_DD36v53Trao2GrSevmf-HWF5V2FWZueatgixEBm9lg9byEp0JiMEOmv26ZjTgzhMtAP-j28FqYtLgRom7NYpmzTpel4f_Ro5ObZ0-5SyNNpMpak0jBQzEFG7MkLoq1ACIlDXwZjDDrviuMMShrhjKCwugEFWQf5N_eQ_HlqyF0sTEk3ZFb4YDhcCGg7Q_uFBZ2k2FKeSzjGyjp7vm4a93SRUWijVr2KauSiLqJ34YPxjNLfqm1DwCJBr5rkFKrEFY2EgT3lmMUHbZ4H9zEMx7EH6ApD-4Jk-a6PEvtPX8Y-WZYuYjcR43iittZZog1cJT2GSJn2p7HK4OyH-ZjzNk08AeFiYFNdKyIqclErNTQ6ZJgGzog_HoilMERjDmr6yxAqeGUpNniLVQTQtj5upgWQr6iRcfB_1ycvXHqgmuNtC25-N278nkWfHZpeoRS-aQGwX4xDpiRoLG-74a-MuEJvyUQXRyA07DAQXrmrdWyDAGT0h3ZDA36LHagycAe8OexzEMb9EaupUFu93Ra25_Oeh3ixX77I8YOgnC-iAOmzmby7iXY0YHYHFbyIlpM_rbYzH6VEixgx5w82rqfg_vcxtyDRf2uVm6gQ5ujhg7JDuAA9U3VnzIoYT9qRgxBkqQP9xQfMLKh3Kav5PY3AbuSiVgtdVRoe9yi6TCL6Zf_dyU4EKOYH278I-4Kcfzyyu-V0L9XWElOf9UvjWXZ5F_MtsXfgMyEKUcwLvDNMMzBfV-EXBNAs3Qaf2zOqd6XlpJDl53NWazc7TpDNKi3zzbSUzMD7OIEdv8D6pP5HMEdQyc_0ChDYSUXVm0LmQB_QBjr1TqI3FotbX6iR-EhtVvdXpMI20smQoYx4xNGyTwUcaN5eiaAdUm8D7PzR5SP42z3fNzhksEvvM7Rll2lCeAqFxGzeZ7id6rgrUNx893cFTGH9OqZ-cW8gTT1QnoLZzBqSxwC1Y--G2IwqXBc9TVmDtqvPeJgD2UleCkHdtW80jpQG8J8GWqFxTgojfUYQVEKIxNV0tX5gBNxl6ScfRlanJCoERP653ZcloUMTpRxtcYWZoQ5BjWaP28B13GnbPrWQuXIFG1H2pHnMml2zRgL2QrbQoQqe21vZTtB01AxJwYaY_EhYANdv7C8HfJmlvb1o_LFp_116OVfoCegO4jwx6LgboyEJlSu2-__oprv_v5j9CELP6GTfwefTPyxBiM_E0K47UfvNlzAtN6RTeCaCbppTyiRUgJ6qptxZ0aLXCp7Uoek1dXa0qa1C7nA-O2Qdk-GfLAzLYaXJREl1Nw8BjclGaN9UCRF-npAzg4Mc9O3xRvSdIb0ZfoSJh61SXHwdolos2Db-iQ91yo-X7FKjaGBSLinbu3yXx0sSg6IhY7jkOTorrOoecs-3HQAyXp6skb9Ytkj4x8ADvGi60oz314Q757CBzC-ctGeUzgj_8eqY4wL3ThVcj7BRp9i5VTfjT2Dbv_r5exhLiCKWM60SLKoTB4V5gqwXZnJexTpLd43pYZMV-jDwjxCxFC7X4mwmK6nk9MDZM-ZU3zp-OkPQm4uXJTAdloFynbn5YUI-Pt6t88Zf5b0bnS_ZEQ7yTzTzH9eIuJYTyapMzi_Re_Yio7CXuft0LXq99FO8mjvTvzdcaOUcgGiUno7fltdOS0wSr8tD9BzFRDDWCkbqY77E-JgfQ7ZD2Iq1HnZHYaMzqIpoiO8MbGzSMcKJklYRGYFA5fXaeOocfffpYTgxwpfSx3amQXphlX0UXhs20&st=1790661889621",
+      "sourceUrl": "https://detail.zol.com.cn/motherboard/index1440076.shtml",
+      "scrapedAt": "2026-09-29T06:04:51.164Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "多平台混搭/淘宝渠道",
+      "bestPrice": 585,
+      "saving": 574,
+      "tip": "散片/渠道比京东省 ￥574"
+    }
+  },
+  "mobo_msi_mag_b760m_mortar": {
+    "id": "mobo_msi_mag_b760m_mortar",
+    "name": "微星 MAG B760M MORTAR 迫击炮",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "Intel主流迫击炮经典用料标杆",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 603,
+      "msrp": 1399,
+      "dealerMin": 603,
+      "jdPrice": 709,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=i524agexQTqLX-fchRnnBBy5J4jL_Tef6jG8jdEzB7h_Dhj7o5ZYLYf83gAm53WwGsMLwcclk9gGTdZoef6rPUUoiLljbvEoRS2fsG2ZK-LpGmWPR3TSUdUEfN4YuTw7z0sgrvq71cNALRQwi-NjPgkTjoc8hI6z3G4lrHSMyH-QzvTZ39XDnLALRSN3-Pym8xd2tpmuyTta16YPnCX_lbpmAUR8UPnD7Iny9bVZErI2l82yG4oVUEAaEjg_zbZ136p7KYWUIBtpMhVqTH0rfliT2DjDTZnxsaLv592kHaGKCN6Ovaka-nF0_YD3rRCEY1a4XCeEkYMr0YwmocE4Aq5JGmnNQ-bPP-Ys0vON4DSOPiwt770UHgNc9zsqK2XpnJ2Lqr8iM_rGKUTFB8z9Q1y-JantnN0VjKZZoSJOdWIAW9rQNrZPj6BTdQTgbgcYcN5y-3yFo0HSxw33miWI-ZpUFiAbk_Lu3CBwqALW_Xt0A1EoQk-7dQ7dZRGhCXS-Q1mqGPbpN8edm5ywOMbs7dbjD13fX7ciMWA3s_kxA3oV5RcMPbDl4IvKdqLqa3muoKeY9r7h7DVM4EqKDXtM0snGax6OhM0jJYuaQjnQOj2MU0IvJmC0Q4C8o-jqdFLuDfaAMAFGMCOg8tiZ3Jh51Jd2sVHo85CQykuDbasG29mg25MNQEFkIBd5KnCtqyu2g55Smk9fYMxeAk4W6A1dUwbOOPbueJI3QhWqxE4HrEFUf1z0YhIuoWtXqv6pPR56ERES6QdTg_X5lQELqT-bfOP7p53W_HP-DIyL-OYZaUbrXpsrB-XdpqMumryerTCsHUNBnJiC9tT4zWbDdYN7lEz_ayEC5sEjWcwJ0-ccLmZJ8eiTKmPCcXfKZMoaJfnA6ZtjKwMZzyEj4DFzkYcIFIK6OVGGjwiDUfin_C5-Ekci79ahsIpghRMKCoyHQ55NbcxGiu_nszSwRH1B5UuF_-IstSnnkO7dnkZYMKVn4p6JlSUIJiO94HEL08gUCxN1NN0IdUHjilrrb9EoK81qqzH0FS09FcyiZq6WWPSoWiMFzHPV4DniDORTKmXgyw0d9rzlV57nXqt_ulR3I5EY5qtgPuMX3utssn-TUAaGdvW4ujSPWmmdbMGOEy6lvDGwcd1Ej9ZpG8C61S0_w2cqSF11eJ5U_4aCDZpf2fP13ygX-AlVCnIdsjs0tkq80Zpk6raojehAaJwU3PyPKKV8I9aIHRGCqgw8eN7WWzUHeYqEv9TOZ3pwYjx5TTO3wtw5izAv7xT0BdxC2IIzBcNDhrO0q4eiPuOGAXkiVjHDVXSzHgFLwRMtJnkMdQZMt1wrUWC4ZTBvf6vT5U8r9dj4-p8pgX-CrPmFNJsWf0vstI16V73cF21FwO6rW2RoFIyq0ALSCCBxfNt51FpGtUrIurOPmLbXNXEFms3R8F56kk3M5fPTSPw9KUsigGRkIuuoTWMG0lcpD-qc_YQOGyyhDVbDV2A2hWV5srj6XGcmhXN7ReUDQrOJRLXxGYtDtmpmJX4YRrFhj6YTkr30Rxm9XarMu2muw05WCEuUHjJV6bcqAV7pD7oTEocLEf36g-wG9j4za8tMwbT6mnzqgyMwa3CYTAJ5dBObxPkziXHnH5fYcpfmUzYDVBdAdX0C6BPwBXVGIfNZRfZfxNRWFCGs2oUdOPAT7nu8Nv9UM8_ya6MpueykoujBi9hifTkDn95ciUtZf66zjfDmFP6zBw08UviZn8NqLfDPTDVxj6tS2AumhrRuhPUMorLxZeqODdEKvUyctzMT7W2pZyn3egB6Tbf5_JlbhWBBoCk0-FOv1Y8BAektivntic9xarmbD9XQuw4-_uiDApUcBggdWjeZSI5mps-5UJKH_n3r2cjYtuergzz1sVJpsArnOjDHxCg7u5oG3kCPoRU1p8VwkBxWR0UdaOWJrOy36wxmVMUsmRKBwpv2pxoBWkqozUmJg66NqPNmTqq975LKq3I8YXfeHmcAyC6_AeEuyB2w12XInvPMWoImXnJR4z-eth33a9Yrf23DBwKLpLaERvFYgefspVWnQi8sy7bvgj6eUv0Hcjhcit3XWZFrm4ADcejmocPdGSTHQ5VuJSIG9IqQRcExfPfLuE6vrLa_3dzf11bD3eD0_aUkQB0YfAuwz0VjOOFIgLf3aekOCZjwdWeK8QKukQCOIf2jp0R8vyjAUcF_6KH-bt3c_WO--c_T-XeMi4mRbMSp0MKMEEGF-Jvs0cL-CDIBVEMvF_V1oGZ2dONtUqIvwvO5i9EQlnVhXb544xaT68MpIAoDbwiiahuxfLPxPDr24ZOMzAGNvwFcYEwBHvG_yDdRs1p4J1xWiDoPawD23ixU3KaoiNE60A_AFd6WS2RePwzUkJxWGu6PwI9h_BT4lcp1eSrCSaayvqql7NWPOEjnchHPiIRMLeSM-DDULIspV2Cv8HoL1gG_LPoWnrNzuih9v9etrbYevhR9cRml5fbocU8d38FSufuYovl8SiAfQ5nAHClO06UVjnStk6DQoafLEJhmT8K35I8viYoA-5mwX0GDxKI566xItP-L18g&st=1790661892573",
+      "sourceUrl": "https://detail.zol.com.cn/motherboard/index1440303.shtml",
+      "scrapedAt": "2026-09-29T06:04:54.112Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "多平台混搭/淘宝渠道",
+      "bestPrice": 603,
+      "saving": 106,
+      "tip": "散片/渠道比京东省 ￥106"
+    }
+  },
+  "mobo_maxsun_terminator_b760m": {
+    "id": "mobo_maxsun_terminator_b760m",
+    "name": "铭瑄 MS-终结者 B760M D4 WIFI",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "百元性价比卷王主板，供电强劲接口丰富",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 655,
+      "msrp": 999,
+      "dealerMin": 655,
+      "jdPrice": 769,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=id6c06PVxTjKp9MgEmEaORXUbi6KzWpP5Dda8SAa3pXVs0eYgCkuGOqs00scIbzpDiw1wtFwOzMRl4i11XViZzglWyTRl0RgIXChQsFTM4bQUCsXXWPxHUbpq2OMEhF2Ggezm4oEN1ylQy6JI8gAs3TGXrIswDJFR5fsTfGznNRulPbTug9XKhnywUIi_B1UZjDjP8cJYhWSfItsCJg8BMPwjufI9AHMEdPHikO5PS7H6XcICKAL-g3xb_WqYLuwES7NtXTP7uTh-9I_N4I6H8hvQyZWzeDYbDKMB__2oda-fB3aUK6hU_oFqk_pss2OJjYhXcTDTtht6FvWjO3kZF12XWIzR1CEMATajH9ViEo5bQQcgI_rq5Ic6DHeb1TO0_Vm1j-mPRsgGp_lHIXohbb1B65gaDgDpl_yE5hrmlb-sWA0T6cgiV30RH_zKqfOJzvTR8pJv9Nc7Vp0ene7taA_bOYvhANV-RIX3M2fpUYlM_3TKGTZBEX07FCBaZn6YUi-ylXc8zAUcyBCKyMDYVQx453yNtWGIM7KLdC8mMZEUwrSZpJG0s1-tmODN1iPHhZ3_g6KW1RioqPnX5gofmhGKLl8PlfqfTmClC6eSjC7QCYdwy6C14ZKZ4s70iGh0f8CQfwYdxAlQytEKtpYFVLHs2uKmUMtlmmDPK956IMBQRfZXaXmFtGOKoFzzDD-0kqibGEWEfz5JdlCH5Thtz58YooOQ0WvDj01rPgy_YKh8jasN-wYMf3kUU-H_G_VgnsA2KKVetqAy4Zl-uNyU_MlQs5hUWcUv5WpYjXlqXbwjhSmVnS7H2Rd7Os623Yzd9Q00BW6pWze81NByiWoJJ-4UiaDcymqUvkwwHFgP6xxyCBCwiegtmn_deP0s6qsJ639Rj99lcICTKzC7xg0WUiM9Pdvp1oNrhyHHPSaPNwCYp5GPjRqurUIYsnqYuKkt4cjc2HWCZWXW_N56YmbXqEkKcQyBhncA-dUEnyRBVs5YRoRsEbaZdd6AZipbiFsu-JCYrQjpM2IYUFqBTguAI_bW9vU9gHXSSCaed8bQqDQYmtga6OUPKNppa4fVc823-1b5eSEqGT1PpVou9ELdU-2q4ekF_FANaSWDYHgH2hmoKyjJNADrYEKBsYlzn5AZ3OpL4JnH_SW5DghDKGVBE0CLisXRWx9pSn9JWDWJfq9UoCJaNTOMsP_CtGpd9VDHMxsoJZWxZc3K9Jva43cZamdxyk1NOSFl9wX5YYjHeUe6_Fns4jOmelyFceSEFsGF5QiUi1E86v8EqT-kLpoNCnUmhk-bbXeaRGXJOO_j8F1t0HLalm-oxhiMxgnlwOBHhmLI93wMUqgHSTF9wT8zcdVvXhloJ81epB99PI03JTVsI7Dv34rAcFF12-DrwlXNxmbYSX8Scy2pfVqTQRg4jjZCA_8Udt5fDaDbLG3OGEJMLDc49hHO7aLDAlxvSAbpmM-Mf_irO2yaljaPGva_R0ggVpetswnpx_eNrY_FBF0k_4sB2X0Xp7DA49WVFhazglXgyyFwOmcW0iPL8lCQ3qlpPVh6ZXeq6ACyq-nNURew7BXgtV_oCwG-SEzXiWLl_I5q1_NP1ZdNMv2WU2PkXyk3-YorlLsoGc8wY9Y7tRFMhrXa3-UTcsxvcC6bAkKbB3DsV3DYnO8PWERD8AIZSeLKBxJPjZerxn2-pqzWJEa9QZ4Eg7vAhKWbnYLxT4fO97TiUAD52W1NbBNZLZR-2-u6fNB9sqqIyUxK1FF6lJ-UV-V35wT-P9vHyUvoq8K06M8j-htNThtXrQ73iJ4Ohni-OD2m3QGnDm2kX-kGITX0GCe9hKlhdhrqT6pqQi-35nYdEbbe5HGVgGy06UT4QZzNeRqa3CAfju77-1k5jQyYHMLwVtNCv_fR2eZCQ3NzVK4q_NER7MyoPFrJlpAsWiMHjim7wfKe6lMXD6FkTlQNcDMXxJmdqHSOLUR1eBfdZo8O_DNYaJeANpa0ojAhoUh8JlkPW1Wmff2eneqw9Njf8KSg5-DspLGxh8NVQ0y4O1RpZHlKX87aM4cty4TDU7zVy_LyH-rniE5ApORwhQM3q5ZAIKZdzYQsewVUNyWmnuvAESjk-E6TYgu75tjhbsNMrE26KjQcMK54hD3DQJiePpkt19NiZypGg9DKedeoCxSDktV5f-6zR2eCzIZUZ9iEQxNH0mmFF4Sq4reWbIf16olHrLZY6B-wAdp3txDwlEhXvQ56vtt3VJTlucjEC4n0NCb38lwew9H25wgOxuoBzeWNG8PuC9kMeoe7I_gcMKBxnLDa5mTkxgAVbu2DOWZwJ3KvIC7kJeaGY6v5OgwkMCUzTIWNqRSARmWilVihGpdmF18cvbYDGEltj3K32x5WiQ&st=1790661896522",
+      "sourceUrl": "https://detail.zol.com.cn/motherboard/index1441184.shtml",
+      "scrapedAt": "2026-09-29T06:04:58.322Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "多平台混搭/淘宝渠道",
+      "bestPrice": 655,
+      "saving": 114,
+      "tip": "散片/渠道比京东省 ￥114"
+    }
+  },
+  "mobo_gigabyte_b650m_gaming": {
+    "id": "mobo_gigabyte_b650m_gaming",
+    "name": "技嘉 B650M GAMING WIFI 主板",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "AMD AM5 平台最走量高性价比主板",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 569,
+      "msrp": 679,
+      "dealerMin": 569,
+      "jdPrice": 679,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=k0cf5c_N3HKkKdQ13il4rAYwuEFMZuXkIDkNYeJP00C43qoEMFQybPKMtGd0GfDpoRsgPPom3f4z81UcvBoxXg0hF1g9q7c748noV4uWzMbB2b1BRdUqcwqNTF1v6pBk21TS4juCnhz24uqKOpCqb9KyLnBCz3pyupSeN9A_vhob-MNVnAscs_xy3kAy0Rp-d_jTL2vDo4HSKXdaCBwFltyzFvVj4Rl7Tw7rcavKK55uXg_RPCwbTOYumdL02ObeCymgjKM-TPBE81XpaRs-vwPhjMQan3pM2_155xjmFBaRu2fZDOYetDHpbllqQhAjr2t7CqQt9aJmEEPk9fKPhiKScsf2xjO8Omjp1ztLx_7tmDA4b6Fjvls-xIs1BXuGTuRa_h7SxCi1b2QDPAq_C7ZWDQNdtDUvWQTnzcZa-MlYC13Beiy1VrjSKSGAU5z0UnazRmdArZIPi1pwRcW88NaUqNkorful2tzHA-qwMqGA1wtO9Sb6i_XuyO7h6KOp02Cebvj4EU7N1iNmRtZn-m-fulJmbGCLErWtEXTQ_nZYJ861NBBL3cUMh4nPuz3f7oNzVhAoFeu4L06xJ6BNkRXsYvmWeKXSrZViqSoyTajTDu9VB-Xp3yA288c1KT7uApX8Jxirlg4XXaYqQvA-qmLoAC4nSX2yssYRZUuI8qIP9G9xHHIgC_oKe89dk4mypal5F5zQa8pfHxZgT45ocl7v8TkzXY5ALgzlBGxyUzUowayic-1uF60R5g4ROZ7FJap7mH-ycM28JXIxGNQumseqEoYb8RzOLiA-EZzv4U_yV6mOeg1NZUnGBLu1s4_BW0dp4bBRqSEc1ikMDPRpPt_COdDEeSkBC65vmj6Ea6nDRL4xsd9s0sV-rplhqjUpmrT3W7MUWtql_86YtO_94A_raaBPsj5NEvZ74DEVDGlcvTn3sJmXp8eTsLNygYGWwxqyyXIhEJWU4_yf-h-gHY6heJ70qQyQWS55RLLfxCwQBfN5bZO4Mzh8oZ7gb_jNtyLJS5b1LxFBsDnX3b1KyZ26uca-xR4j2BCeSRq_BZS1fdzY19zer1HIRj0BH2QzP0mu7JHe_ldZLXjiZB73J5Hrj3ODPt7ODCS0RPoB1FAWNESRBxA2ZlNjJjoHOU0vO_pekfRVSe_G-02RXoiOyY6oLePBRslXWIl3G1XSNJHifAHsY7ykdK312gQUf6ORdH_dqQmur8KrawW8LSu8d3SMZIG7m6pz1pUuMVrwOvOxjUcjmKy4Dz5ixh6Wm6ZxJEygqJi5CUE4xCkFc5zysNF-rqNuSSTqV1HZe1vKmWjxNNxukXeHzdJrRa6O0gUCGtS-hRu0vR95UNmtFlXmGbn1J0GgSo44hW5Bd8z1900gqDkfm-Kj4_LImBKezo1Qi-eU6nrdqIf61hzArO1sT_we9eHTvt8YdfHyA-IZDNSClvEhp93MvRGJooRntARuXsp4Z3gpA4LCZ9jd7w8qg4r-_Jl08ewWKn_jBzxa5sN_R5IzQdn1ZEnQx8NJkhTL-uNGKtXueVPToGeY0HxwjtFZPGjyGvz2WjNw5Xb1fj8g31KGBuOVfBR8E6rC8kKgzOvEiDoA-7MrIkEIzTFQiCNOGgnZcDiD67rrPmPus3s3Izeg_Yu9slrTgoE6mYLefhC9qr3Fh-6dIhXjnMBbnq-fgFa3UT40_m_VUDdsu6EGhGXmVWebNslrn6deujKaKfY1qAzPxohh8HmQLO3ro-yuQYdj6WNKg2bZK0UHICID7V35JLzWsb-jtbebdHb_TVQy6jkXG-o2KUtWGWvsNLl1Ei-8LDf1o__CJvNTZZ19nxwTUFn55gqLtYfy-yez-RO4_3CZKtx5tUpQ2Qv_aHrxgyNqWcq3RyOV954brd6U43BXgEGsId0UPJc9hK4g0r0SR3cWei6whvSz3c2VvaR9RIWACebWsXPNujD9kTwwslFIi3ZyPnt5QGaCN9ROTItmmJRKOSmnPA37djWGim9hldGoOYg1VdrRoe6w-6mNezWcPeTFZelT0o-dPPd7TXM4NIwTtNYYyqko-PGczSEWhVqhAktIQdz3YoYoK9QRtngsWwLpZHQTLYOMeiFHOJhoWZGzwtKz13-7FQuRqBEnLoR557tcYhWXRlWeRsF1kAwmSn2QOV3lAhs1Ce361P07P53swYcmq6Xx7ipS853gwE2TxVJuEsbIZbl9a4WuktxeFfgL5wDdwac4BQEU7ciGmwXzzhnyxvBvFd5qGHtUnEDXEsvU0nZPnjAdgywJISrD-f1TXT_SiORnrslxLjUBaJ4tBwGfkNeDq-xJkIs3oPtueWOXpSSSsL2njWeFoY608o_Be55c23TmhjYDRPilkx9D_jlkN_x6dV6MIEEeKIWcgIZ1G2m7xGpZeGsb3XhjhKd77cNDm7KiREMNhBK4AUjPbYuJOFIY&st=1790661899868",
+      "sourceUrl": "https://detail.zol.com.cn/motherboard/index2106519.shtml",
+      "scrapedAt": "2026-09-29T06:05:01.407Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "多平台混搭/淘宝渠道",
+      "bestPrice": 569,
+      "saving": 110,
+      "tip": "散片/渠道比京东省 ￥110"
+    }
+  },
+  "mobo_asus_tuf_b650m_plus": {
+    "id": "mobo_asus_tuf_b650m_plus",
+    "name": "华硕 TUF GAMING B650M-PLUS WIFI 重炮手",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "AM5平台综合用料与BIOS标杆主板",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 621,
+      "msrp": 1499,
+      "dealerMin": 621,
+      "jdPrice": 730,
+      "jdUrl": "https://s.click.taobao.com/t?e=m%3D2%26s%3DbCvzKc2dxB9w4vFB6t2Z2ueEDrYVVa64juWlisr3dOdyINtkUhsv0A0DnW%2FXnPPuzlhp9O5mEHO3X1ppMM1K6W43HgsOowWtE8vsFAIYQZxrXvJ6%2BqFxFKAWqcsq3MkwFBoMXOGuG5DkaqczTKGnOrHyct%2Bnac1FzJ%2BQUROo5hEerFMxvz3J%2BisGxiehgOx5IF8h%2FDKS%2FZYTzl0TypN%2FbU%2F%2Fk2sf7Edye6Tlcvq7kPl9e5AP0TM2GfnzoarC%2FaK%2BwmGyhPCFe2TGDF1NzTQoPw%3D%3D&union_lens=lensId%3AMAPI%401790538369%400b51539e_0e09_1a0e4674b6d_9644%4001%40eyJmbG9vcklkIjo4MDMwOX0ie",
+      "sourceUrl": "https://detail.zol.com.cn/motherboard/index1430243.shtml",
+      "scrapedAt": "2026-09-29T06:05:04.167Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "多平台混搭/淘宝渠道",
+      "bestPrice": 621,
+      "saving": 109,
+      "tip": "散片/渠道比京东省 ￥109"
+    }
+  },
+  "mobo_msi_mag_b650m_mortar": {
+    "id": "mobo_msi_mag_b650m_mortar",
+    "name": "微星 MAG B650M MORTAR WIFI 迫击炮",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "微星AM5主力迫击炮，扩展散热扎实",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 934,
+      "msrp": 1699,
+      "dealerMin": 934,
+      "jdPrice": 1099,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=h1775MbuUSo4kyJleLSfJS99n051CEKoHLd7k_lexHdhgPJZZbb9Ro-hqfT-O_yM1La5CNJXjpKOr1FaIFL2BfccYdoLofForKV_rNP9z9rLtqRraTKLNuQNoaMQE3sSpTxSZRTZi1g2-4ckgJ5tsFIDHtitCSxdF9Oh4IrSI5a9sw1ZzsQoHixs5kh3zu1NnZELml020zE6pH8hV5EMTxhU57O31pGgYX9tVr4vh1z2VixttUA8cG9A3B797u8YbtCQhg7__AKfL928G1VBwTjk_SNLBld6By4WWpDzPVQwp9IkShlcVE37N7EtLfAmr88_YWMGn4iCP8rqdFMchC0aWGCMdD7-B6e8bXYsuebSFFvEQuQlOormvLRdF3AwmJ23T0NBQunHZUpv4hXj3TOgxHCJn80yFmtHauCQV82ugsayX7__upG5uxJvI9NH7f3AMmGx2cqZesbXslcSOt35wmsr8uCb6wNEFhhDlRPp5yc1dKAt7Mn8sBzSdsMQziozCgM2wrZUA-4We5Yfd9_JtBvSfy9x0OgiRuL3Ph-ostzOmIW2wadftnE6Z0K77M_QWhoEKVeTIfNl1dMcGa3CTnxw26gsRsor69X-zd8Or8bKZBcr5HYLzqyGek3SrNkoEeAI1TVBWnWq_alAMNkFXQTEvqCCP1GxsQj3jA-FdQnAO5eiVeYUmVOd0ru8UmcX61Snkv9TKu9dmAORyXcNWygHktE03Eci4ntc6N3PO0vkLXMBeh229vJ011-aZyGnCnrVgSFkSPmQikW5ZcMlFjAP_mjftQppf3LIJP6bV94-HXciy5k--gNwDS5ts9xHpZMtrGUIlmYnfEYep9ozunKAB1fwTn2zFTJ4VODHt2EBM2GJbiv6UW4XaakF81TzbSKl_BZurcdNykQkeK1VrlWzuZk-ZirBOmOjBVjzUDOrapzVi0KAs_HhQm5hTSI4Cyt232Tj_Wxnk_yNd9z7dTf6DlfULeykvvg4zlC8yWrKs-T2GQIyhQHQJkJCxPUCD--r6ijyc2H_p0sIzdVp7iEBjXKL5HgV6YT6Av2AfMhWqIpOGag6-PSKV7Z8uty0WOu4Y56lgXBkNp8Ofwp3mglWN4pC4RY2M6QxrkpmEVozFLoTHB2kDhjvHjPmKVCMJa_059Qy7crLlz2sVJP92nO3v6JeWoldN3eGsiY90d-wpsEOJIVO12dB5QNDXPZKl5RZoxxXrrYeIUX3Vy2aRy25v5QBbAAAKCXrQyW7ntUl4kPn5M92OriV0cHNnKM1bf5CDIfVzhdO6TPXOweXzJN-b0yd5eXrxKEwqnpv05lk0QxNyOEKfJduGLQcY7cmuJov36gUnPO8xFnsUcK4f6jU2TOIoSmaQIN27a8vw7eHFa-sDv30pGmSweH9QUeD3OvidCPDorqansU2Q9HTkYGIO5x_0qHu5ZJL_SQkL8bpDbZja3xuPfAzf43UYGu5PjXijLEZ93BIf4xsEfUCVHDQGkPSiuwhmYqZT2XKRYMQDUtsgdPjjSNzDIC_uSbT9dmMI4yOsDTMCtM0lkzt2HPRdJcHyhrqUAYnMTdqkVMUWX-o90AXl0qtNMqlq9JMdA7EdvblROAV9VIvEaieguDZg5vM81CU8xzP9SarY1UJsN2YxJ6wrYkoBfhp2G3IZIpoNvGXwdQdDIX9OpwINoeAkdIjy9GmXnP9hkdxh5ggGudA0hnnRrMcOwoSWluC9seYdA9ccnbMZvX-UUeEGubpaeX07NtbFfFASQvt5gsgh7j5AWxpUfjr-K4N17GAEuh8zkus_8a5TyyfKyJ54AmPixzej7U-jtiqmuBvSu3oBwlF2Z8tjKPHmLkyuqR9J14C4QRFUC_LZFUc7yizjqnCJOgzGpi5WX9ws1MdKW2HqsedV763KMVlUVYbjKg1PYJ4jAIPbZYET29CdiYducTJeTgP5TOkAe0tNXPIhfNCNCbIzCoLkq_ba_YTnYa0774Ob3xgZGG-eWK51vjsQppHaQOBMh4pbS5r1yrxQcYuN6ai-prxqlLPUDG3vJDtie0FhMQtCMwMdyvmV6ntNphtX3Z8Gx_BsXCSfirabXo7AUWzX1szNuJ9cr_ULcGDPrB3hpUlK_xGQYxUtMsW_QlMkeLGXfsW_6CQ-WKeIo6eaiQ6-vvjN5NCeUxnJhacGWzTVReZfAaFqF6TKeflCTFwvYUU8uzpEaVrYDMT49h-mFihM9-B53n63zyO5HNXJMS44hwIbngSg8GJsaIPbO4zb7vmcIgj7KFCmVOjAyg1ATAiiGPpoSv-kvnPkeUFvsya53zJRU4EaR4bMgSjcJ3MdG4ESavrpUF-uk8m_XDLciYMznOErlg_bcUHfZhBL355fqpVGVQLmMY8FQNzpTjbJuhLUzQ7Ny7FbFoYDhcRRWrFYIzFncIYxOv-kKZ6I_yWRzJcb91x6xmqAGqwMUHCmQQXavypRQ1b_bjEXHb-szKNxSAW6p49Of3Hd5yUBWzvLWMaHZYZE3vmxco6xRAxAvYFFmOip67I04h7h-VoF-O_UNBuPd980n58aUaP2MwQ-rkhcx46HHb-TVA&st=1790661905645",
+      "sourceUrl": "https://detail.zol.com.cn/motherboard/index1430732.shtml",
+      "scrapedAt": "2026-09-29T06:05:07.178Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "多平台混搭/淘宝渠道",
+      "bestPrice": 934,
+      "saving": 165,
+      "tip": "散片/渠道比京东省 ￥165"
+    }
+  },
+  "mobo_asrock_a620m_hdv": {
+    "id": "mobo_asrock_a620m_hdv",
+    "name": "华擎 A620M-HDV/M.2 主板",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "AM5入门百元极简实用高性价比板",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 699,
+      "msrp": 699,
+      "dealerMin": null,
+      "jdPrice": 699,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=i8de0jAColXopMrAuX-wezvqOJX3CqaapduxIsbo9_EwLYz379OpKgAcLj5xPkfj32ubxiqXiroURPPLpy3n-v0KQBbaAzN8xtFfrOggMeCgeTQj3oI_ihAt6vZ3rZG82ZtQelGPtvOCZQTuovfXOVI8Lg3KLZTvz4G7yvFtq3q883ej5pz9EhwBfkwYefPv9p3w95IpczGz2QMeWfIj7VpFbMfOA53jgl6baFldGVZoKkYU6sTEms0UOeh7O6lWO_KuQGuCu2oSFkVNUKNERqlYaKPcmSbP7xqfdE8vGP4ELgBW9BL7jvmmn73nei1cFBr0eIczsZALGauwNnX21RDw6_iz4KCbKQLodPNiZPT0AIh9knz6SGi7q3Qxr4BqDBMengkHjsucnfckcBbXGIl8-wVpWmYQdk-U-_rUQfTPx521F23VjKzxU2J4A7ggGFoF1chPy4299M6Vu3l6_nnNwjqo2T-bvmclsHL-PvUZPoNUYN-Q-ZBSx-PZMxFdk8ZMd9H6Q7igMWPXuUwYs7IvQjdZzfi32hbs-onCeDuUN0CW0b3ZseHyRZX4oREL90bP8qjHQDy95H_cubO1tiOuUd0NwQT5vRnevVaPbZba2GrgDUbPOitYkVuHrXfk9sqTP_Wy0rT3nVxuWvlXWFC2Oquhmj7STdhcj9PjmT1FEXfGNcwuoEn6q8B1NjuhgLwZajvpWadj_K8VRRV9Bk6uWFzScRpC7-89lxvaYPYpJzJIZv-UB3rIYH-AKCcn0mPwFQEx7kwDfQVFnRoXH4C5PGDKFRsj2OFkoH65vpCNCb-_yvU_zfNUspBm35R2IRGxLNVN0hqeYiw8yhGHYnox_3MRCPf30ePO2hOP6oJc08ssXGCkDoFkz0x1RQOYPsIRDVV7XdIGUvpEj4tVECwO5pjL2Uo93rIcYCB_eOYW57AL2_cwXokjGtARAsTlVVj6cojAy6HDjsQh-yXUaNod72Fzj-2Dc_sd-MBCz4iN3gyPf0RpclOIuUCMBu5DI8fyOjRgZoxPcBgerKpsyxR84of3kxYRkBTznuMU525JV3XLO_mnX0zuFVRCwfeZPz5ckjuVrBl6S-5uBRQaKK8UkJpNZoitFIiSj2PKErAiN_cZtSjZW-9IX9qVPX1KSQM0VXomafOysvs-r9ZeYcR3wix0BSsXkbqG8ABlLvxEQqHHhI5skjuehkqA6sbiuxm79Omo6MQ3EucamNZZ9mDHPSedtc8Zm-ZzOyJSNlNiQCIgNhicoOWtZGfqHJ0gTEjqaffxyFW3zMULD1z7Dvrw1saM7kxg1XB-AuvTElJLiU6hxiwLkAaHtQuNMCeXEyPCpSJaHWChf1WjPXk96XhfR3dikC-pFWQ1_Y8edW-ArWUompYXaBXmv-FYIv5OwJazHbtU-l9LSnFzxGri5ltPfOnM3UBaubz8P8oqjrkbEQJXz-eCJWKQjdrqvnkqTZnaNvkqk3l24Zy0I5YnZZ6jgGhTwGAk3X0Pw9UuYTN67AKfoRIBHUirQj_pNzWXo6_Qcxaq_etMdErjKyHvIScYVe9wwhsLQ1Ox4GWKHAP_H6CTSzfChgEKfD_DAno7fgje4MbCxEmYQ7aOmx1gl9FsHitipLJWVd3EYF00hCKuC-76TxcPmbdr4u9JK8uaJW2_GDKFdtfNASrfJUMpQTjUn-ItiyQen58U-asmU7XF5PCORBs6zJg_iSyBdkswtHG0fL-sTNGLybPQL-GaDtKGvpQ-LL0vCuHav9rrRYCos4U_7pLaqbqyH4l21QJcfO9jtuHWR8NRbn4geK7lfuNMtOcS6rpNjq-VLkDfvvsRUD-QcE1hnzyV3ye9CxCD-hZtJJvbgKRLxfaA5BABYU-jGopcZwolqIUDbj83lhRzf4yS3xqBzTqeri78KKd3HnDaP965RiiUE2rfhx69Lky4vTmzYHMum4mvD2klSJX-LzJg_NjQoZXiBv-THMb-FH70z50lxrBrVMyV4i_sIO4EBCAkR464r9CaTMT91ZASXErnS5zPoCvr_igTlbKczlgqeFbp69xEvL9_MTcQ_WP3dAKU2bpAPwcXQAzeXWdxTwzc-D1y_Albxi7-ylIiDNwL_LnEpKCK0k9bvyJUAIql0ULfBXaqIo1KrA4xzmATgIli0jEYoEeWb0EjcX69omwuzySH781vmoC6uJXiReZvvjbcd4RE0jkAQewt5QPddf7oDiWS47Y7ydx-gxqA0V9dNduwjKffy_whlZzBc2l9MfgjNUrKx7NPQjLBl7Vj92Vn8tb94ncoiAPEohXgIDDb7lK6naedm5Y5oFm2NEDsC8VFumhFM5rI73BAm-URgE4msPr-UkCX5dkjsyaebeQxPF9i_Xl3bMAdjsMkkhstW6UOTdHXN3kKueEOC9HVzmx59TkXaYOu4iO9I54aleagKB-kiVeXyD3gHs6xqV_TY4zfFKXDJ2XNwN4_494VueDa_vJarHFyeclkxJsIYVe8-wB1B-2nu-F0R8d0clvK5y3fyKDE8kIVwRMbrWtllfp04-DQHHyVZeSjlfDZhLMPSL78&st=1790661908443",
+      "sourceUrl": "https://detail.zol.com.cn/motherboard/index1991949.shtml",
+      "scrapedAt": "2026-09-29T06:05:09.998Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "京东自营",
+      "bestPrice": 699,
+      "saving": 0,
+      "tip": "差价极小，优先选京东自营售后保修"
+    }
+  },
+  "mobo_asus_tuf_z890_plus": {
+    "id": "mobo_asus_tuf_z890_plus",
+    "name": "华硕 TUF GAMING Z890-PLUS WIFI",
+    "category": "Motherboard",
+    "type": "new",
+    "notes": "新一代Intel Core Ultra 200系列Z890大板",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 1699,
+      "msrp": 2199,
+      "dealerMin": 1699,
+      "jdPrice": null,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=k46b5qg9S_cA5ALiaIHXJ7Vohd9HeL13opcnhJO2YSpp4vIB9v5hkB-j1WM5um7KTY1bm5WLrLaZTZc6_mWjg1AuJlwph6Q3LTyt7ShVdeHij6z5Hmhu755Axwa6IZIMI-WjxapLfmY4KvO2gCKLKKq6Eijf7-zqFB9pzPd_A_innuzueEzhuvC4bvuTB3orMABQHP0WkfuBEdhafeWnyMVYdbckvLl9gv7mZ0-Rd8NiyNvNhmUc7qFVhcfj0x2WxU1MsaK3b_awkP0II8pcAet8ovk4tF_aBzRD5hIfT8fhf39CD628QRD0MhW-ca39SJu2v4YeodyY6yfUn-ADAvzKoQFWSO7pKRRMSt0HgmukL_i3Cb9InEJgqI2aY4d0x5G1uYH_k5MGhrLbkW2ME2WPzxvUVKkIe2Eox5Mh28EZGNpLC8h147niXgPEdEEh3Y8mbzQrKaW0xnTHkluuikfBiwBUr8z9c6lEvZrILG-1mo40OOfGxra0DW66ZSz0H_ciFJkEuOkqdXtOBTeKk9mUuC_vMVtIjMD9cmpWf9zx-gRQd2avXxGze8PySWk6iUwBkN2B8Ez2cQaZu_d86aRJ5YzuezTy4izkRDTVZhSmfr50_EAhYrBIZfH_myv7lsjOjpq4t4n9iZuCKyuueX0jd0wcBpyIaVjlkdtsVNSMd8uDywdC3t2XONcc4YQdRHhLrzufZzQkPOJySOkfhaj1gera_xNYMjElJ44ZltizAy3TZuSQom1ZUTqRilGX-LTDPCFzLKzdg2pf-cm13tgl3OPWpyEvlfTh0p0A8goB1fz3HL5N1yAT_EUOysE2T357SqKiHPUGyXhVsAmSAwvHlpbrsAbVgCuDeppZF7fH5GTGOwZD6XfVuEouR4N55AInMO7kyYL1C9rmqMUDuDc5BPe41mz58DyHsMGFwGkkhZaGv_tBAIFCRyNDHuyGFY51LstVI0wh5c3ig4GeJ4tExHedT8zm_SGWsZSk875RHBR4xhrXFLud4FXxMeAhya6nFiaDnTgC3j5lPNQrOcPUqGy8Dk76Mv92jEBLLQWo94eQKQpYdnoNSwHQsrpA3uecQjXDeHZU_yRjGsKHM6ws6X53eaJqYXJ96YBakXQCqxsj2C5ypCQoBrzB0zDHY3L7Rd4B-zpx26Milm3tntWjzCb3dxRXJkEaZvkVgegfeChVPVvGEx_gWREw2Wumhcc5ke-LUgN0hbA6yGuKFlY-eZbx83LyFmAEjGVU0x6oZ845D2r7qffXGC9b8c8x2pIqoetRunPPaT9ldTxHWKhdYBfroFOrCnS165b03yIqXXQ4-wGDfQWsKxKubsZQazwkxOap16AibA8iFjQoQntxedLUB5AlhyVxt3TW-ser31wBfaJ8c5vePijqUtpowVCxxJpzu4LrF3A9D_h8OWnhqmpuDTqrWMdUToRjhEfyvaZt0j8ragY5XH0mGxVIGX88FY7n2lErCPUiYGRbX38LGnrOZqLFBz_mTZL6uGA9pgJ_IOkPNfvgoE7yzserixopJl65ZlZqDFxzQNd5JgVC-2eU8rUcY0TGr7fdQH0O9ps1vsTENZ_WqXywkhXqf2Cn2aupEfBWGRPTXUQM-v86E8dy429mZAqlTm9jSXDSZw0qpPLGPCGe3hjbnuWASfFeB0JoBjN4dp05m4E3bfkx0cHnir59FhwUTjuEoF5TsBQnyjS4Sj-3FfFByUdK-6ZTOBWe0TF0Eedt6-mCaK2zxGxd_WAh4e9Ri5qA59wy67dM5XrCh6IzfOdhFZfcnn-ktg7QjQTucVN7esHGyPvHdvUtG-RgqmnmLX4D2lJN2Tjy-nFcq5sepuA1FSsgzpJLXTFYNj_hySwQcyrhZn5E3nqGg8sX-IV4qirPuVa2NvbpU2khf0u27bJuqFYoVkEwuR4-MSEa_daRhhUpb8R72O0Nix1oxAcaP9hgdGJ7SrYr3FnolEUS3HrlAEREAtLDK4_wZ0dYbGBZ09rTVRksMMpWyhumsQ7cuXUdhJDkSrFVqw5cqyqyLbvAAq8_RT0yeolaBLGyifob0XCvUwuWGYz-GrmWWIlI0HIAPs5xpHAw306uz6PtHYDtinKvehPi9sPdslmeB9MtcGaU1950nxndFcedNFNkAwMCAJCZ_a-Q030rqmtAiQFPdV6_agl9mGHOn-_lDZFm0IgmvzxfIl6j0ZcRzPMVABEQhEY3qOXFg5eop-yxfuzPWHxZ8BqOVMN6wl3JMr4JaW51ZKN5Nk8uHFml0hENTDvA9Yrnwmk6zpKR0I1etS1ou7KHQaIZu7-BIoZTIqanEQnntmZynRdvyoiJTfmSo9ra9anTE9ymrWoda31ig97a1dcXC7qMMz-mRhxPvXg&st=1790661911625",
+      "sourceUrl": "https://detail.zol.com.cn/motherboard/index2109716.shtml",
+      "scrapedAt": "2026-09-29T06:05:13.155Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 1699,
+      "saving": 0,
+      "tip": "全网渠道行情参考"
+    }
+  },
+  "gpu_rtx_4060_igame": {
+    "id": "gpu_rtx_4060_igame",
+    "name": "七彩虹 iGame RTX 4060 Ultra W 8GB",
+    "category": "GPU",
+    "type": "both",
+    "notes": "当前主力在售甜品卡，同时监控京东官方价与闲鱼流转行情",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 2124,
+      "msrp": 2499,
+      "dealerMin": 2124,
+      "jdPrice": 3669,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=la42fFIyMBe25Dh2r6-P5kGVhPooNxvUO-jVdw75oGd0CcAQJRX5O5Nf-QQP0ef8G8sr5_FptGdk4-hxv0J4RnpuK2knGJIZFTFWycWUm-YN1R2c7l2SF1nH-ZiCAdC-P3MDhxImu8aV0ueAiAYBbukTeKWgzyyPiB0bhqYc6gEfsKpI2LPrdShBngY61zL7Yf7EgckousIl25N0SduiVCq14reno_3qoRWvyaT8nW5k-CmH9F3KQXzdB_9WCOK25BLU9IMJmWfEZ7lf8Y3inayUZ7L0CFP0KaOQ7_PBET45C9lrn2NaLUQb22szLrpfKS9MZ0fJOX-Nl1Fr49f9L4GxBzQhQ7pOFwY1iVT3E2gNrsl15ASxV9Txt5gI4biPr9IdVTI4ilAb5qlyEEkjl3ncUjehi6_yKfDbcnGueBznNRcKhKfaeMCetrrSC0X7k_gKTAGFb5o8A9N9iJkcT_F7W3o_JE-vKr7ODIDWTwrOxEXfBWtAgjzJ22OfK8mRK84ng2v8tXroD-Pqvom2L9wbl52RcBVhOrmfrrE4Fke3dLTOJjFjWhYstKPf9_boZpH-2rXZjFBJh3qMlcruu7dTkKYqh_Sx_vP0hXWbdezoiWbVVfTBtk23pWnOxCyWBabUm1A2EOO7U38gkMG4tZAZ1uys_2jpEwaPwnYky1c6H1a_3fx31hrruBNXMJROiSsv2NeOvxNEt-9hDAnzZ-3kUdP4XRTMKhrWgUyGD5rel4F2J1x2kmHFh1GJS3-tY4Q-YsEIporusSzo_Gozeh_V1-GkpC98v7rr-s4l35ZSdrJpNMZxXauWZOrk8npakVYga2xr1NctoHhmwyzVXtxgDYuM6fapXJ0FomDK2Xa4-iVcawfNXpPQFQ6zZMmVz4TCo0v09pLdlk6d5--SC-PKA61cHu4WDuiRLfOoh0CgGmMywE_T4ZxQp4N-VCICb2MAXvap7noX5jxHNDK_GaW8Gq4ntOglF1gsQ1kR79ZAmNe_kJGBlv3_Dx0SXMXmQUvj3IAg6NSTkHcxZwuw644LTn11M-vVY4O3bI_Wl1Cq2oMld_o0GJStOsuuSm5Of8pEKOV49x1kqeY_zEHj2GLscy15nzR2yoiv0seUS3LBvDzduXqJXxsxjhH0qxefp0IzUMnPCpNS7ixHnTqJWrDYh7BoaPyKEIeBJNQiXZzye0BI8_6aQ_XFAbTHDiBwvpbtIx2RzZfrA9ZcYV_lQcBgN3MqgO1HXtlX53qhrMaNPRgBUtz2Iwgc8LwutYgpkuwyU67m5y-7znlQxniFg7sn3WZdigPNnuG7lhEJX4omMBpuad5BqoEwNwSsGBdWcFU0gz_IH2un0ALq264224wsjjqeKJH-Vj_B7WmbqhT85AtP2qD7Lq0Rnp06SpYboeLfwaaKldrITHhSMNFrOKfHC-44IgT-wchHXb6nHC4aRYTYE_z1SMwpt84iUJYECJR3ZO1cHNbiYj_MfJLOrSrW3OkadbWZ4zQ8A-cGdUWDlAOf04sBOmmZXfPW84kjlw1ZQzPZ0w70anFr_YttqEZDsnXpgFMXtmK_3DgHqQpqtUEGyi1dkIMa3Wt-3ANxryd1yoPf7gn5zLNL0tHjjuAqWeVg-TFULzYNcXY0u9m0kQYekpclHduBlzv7dUznMXsf2bjQCe08DbSKFsyTts9_45Idmc1c3FSI9rpAiEzl67u2oD63IfTQZaiF5Lrk5bIGdmjmTf8EVrrXCla4A6jiRJ6O-H7d5yGshilT1KjqxIZWKYQ6f0ZfLy9UQU6uwXDjBZYOswFVF4eC58dwQ0G0FsUB6uf_QTHOHpa6rccYqHcgz81zRQ5NkDviaymcYCK0PVAwuZmCUwNeUEXUlgTZIQweA7FPodWplz2V33ZE24YSOAOY-BInksBCwy20Dep6qoQtIMZhSvpzi-cTMNHgyPR0osvl8-sc6KpAGLQNpotaG-cKjv59Fi2dbVdC8w76-w_rdwiCKap17o5opfs9iNRxCkrCH_WjZEf16J8z22nZdONS0wGg-c4FUgo4MrohEwNoYH75TthwCxai0vuD1u9mAXpPaOwLyTzU3fEu-IjUE7j4p8ZtQ9ei9y_1zmKMXN74azrpDd_2GUAAf8LqNCMI5waPyoxR49UqSjf4FYzlGLJnyHpH3lpFSHZsyFk0jb6r0CeOYGBIJ_0r_RLhHPn22eJKb90Lgk5taKCtLvPUMdJl0XXG3ya8iXwbbZeagvT_pEHeeTtWAtzwmWBC-5EUtnadZy7OwY2bA7NxFLk9cNjsn-mPzK-dqPZN1WYutkmGi7dFLiJ9l9v97Bhq6HQMyhI7Nw2usQ1mAgjMClU6TnLNMOT3-a70sOzmtcFw4ynPfBYMJ&st=1790661914496",
+      "sourceUrl": "https://detail.zol.com.cn/vga/index1794057.shtml",
+      "scrapedAt": "2026-09-29T06:05:16.049Z"
+    },
+    "goofish": {
+      "status": "estimated",
+      "source": "benchmark",
+      "referencePrice": 1950,
+      "medianPrice": 1950,
+      "url": "https://www.goofish.com/search?q=RTX%204060%20%E6%98%BE%E5%8D%A1",
+      "notes": "基于当前全国大盘二手实际流转均价",
+      "scrapedAt": "2026-09-29T06:05:20.522Z"
+    },
+    "recommendation": {
+      "bestChannel": "多平台混搭/淘宝渠道",
+      "bestPrice": 2124,
+      "saving": 1545,
+      "tip": "散片/渠道比京东省 ￥1545"
+    }
+  },
+  "gpu_rtx_4060ti_msi": {
+    "id": "gpu_rtx_4060ti_msi",
+    "name": "微星 RTX 4060 Ti VENTUS 3X 16G OC",
+    "category": "GPU",
+    "type": "both",
+    "notes": "大显存甜品主力，AI画图与2K游戏热门",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 2699,
+      "msrp": 2699,
+      "dealerMin": null,
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/vga/index1958490.shtml",
+      "scrapedAt": "2026-09-29T06:05:23.529Z"
+    },
+    "goofish": {
+      "status": "estimated",
+      "source": "benchmark",
+      "referencePrice": 2850,
+      "medianPrice": 2850,
+      "url": "https://www.goofish.com/search?q=4060Ti%2016G%20%E6%98%BE%E5%8D%A1",
+      "notes": "基于当前全国大盘二手实际流转均价",
+      "scrapedAt": "2026-09-29T06:05:27.951Z"
+    },
+    "recommendation": {
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 2699,
+      "saving": 0,
+      "tip": "全网渠道行情参考"
+    }
+  },
+  "gpu_rtx_4070_super": {
+    "id": "gpu_rtx_4070_super",
+    "name": "NVIDIA GeForce RTX 4070 SUPER 12GB",
+    "category": "GPU",
+    "type": "new",
+    "notes": "2K高画质高刷全开核心主力卡",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 5461,
+      "msrp": 5461,
+      "dealerMin": null,
+      "jdPrice": 5461,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=hc0e9a4769hEMjT_qq9ek46rC9Ottii9OqYbd00wvPT7coTI07WXLoUy9UHlJaTZ539H0xmLwFtetoigXvJf2Bva7N04GWOy_kn-sRbNwhlGK31HNOo4UhNymtdss9h7-acIX2x-WaPY3ZH-jFujmfsarROuCkgLR5xO8fMZ6AKRdTBI-MtDk293IPZPTb-vWIVdQo4dXeRGOwSoTxjn7g_h4lT-i_XEm-TbZluIV06r2OKofcQFeXxW5NkkyazbJQ5GkTSOnUTni0hDjE1qP9iTDQlMhEVDEm7yM2OIYgDompHIW7dFU6fGhnS5c5DgvDJQ7jDXuJD6U6d7zqIrKhkQ7CSwF0GMi4ESU1GhYGgtGLoQk-SLcoVdCXTiHMYiaBEknh734O8nBnfCTG0xbRoLzEPqn9QHQkGZMnFtxmNiKIP_jcujwtuJ1e9MrQPgnXEg0DhBM-3e19dE0s1EUwG7J05MFmXdLijcFIwWHvyHM_tJd8fGhuZcNpLl4sg1dv165tKsSqYT27BPw-eVgaO2-1KcQCNlbOK6orxPNTa7Xz7ue-qR3O3kSNlODoQd9I6s0L9SidGFB16BNCb_lhS84AnhYucRpNe-RpQmnSz7SmyxYqM8qbHPN-R26_awExX-86MWK-2rkNoaSRG4Se-BnBeY5yYlVgioUxTi55_Zxw6szJEcA-r0gD9PIW-fqrLQjfL21UicFGhP6UhF5G0xcb3I68QLZZbahDMD85W8zvzAg07IMSzVNhVy_W085f11XTBdoQbD2trJEnibwYINYZgOxQIaiF-8TlBplmcA6CGrxeaAtxVPH7avHJV7BnR847JzoRGWOX6gKHrYFjzjviYZn1KMPUEWUoNihqGahBS9U2Zoxhq7q8Y68GlYfc9KDFcIjYgFsGxB_mPHC5OD6_DyaqjKAbggxQ1Jv4GMME6mQHsUMXk-Al90H-ATzIj5JD6i0XVndJz-dfLWqcBzroZ2I5VCQcn3AJ7QCKuellEeFN1lw8JqtZHmMaK8S9Ky6Ghm2P-L6ieKMJEJfZcIoYj5NSaSsMbS5GkfufPEHCb2PYO33Nq3drnFaxx1sjxDCgGgZFCFJmxFj7-_mQ8Dacq3ZbxI4QytMKEmYYuz9jvaBLoe3JmbctF2wab9nfeyHTfAusp4S6y6hpUVufo2APDnynJuv8MX8a9ToNG-X8X3Z-enlr5b8p3vDaB6DLgUJXuLF3EtDDBCssnBQPfRDObzOAVz__fLBkTd3scLw1jPxtIC9WLa85N5XFK5BP1xcFHsjJKXW64yTbha_y3TpoejpBRNczVbx1klUZQA5C_0OuzcOzyapeCiO1H0sj3P9S-0IRweT0vJxetJr21OlSyyKBrKHplYu0K0vSB6-DEV2ZvoYqYiNi0rRdwwjrOAkkDP-Om7yTgeW9k1tZ6Hj_1dQLSnZxcdug5YmaVo7E97eCB38bzf3S5WJkwuW_eVerP9jlpTUqovWMNaxlWuYmSvd_ivHLR7IewxgUF0uEEFf3ihEzBkZEbGzUTSJQzyaElJ4c9E0JP7WpE2-i0u1RRJap7Fw_Erlpy1T3nNWV3CmYXy0B79N9DY4v1niT3O1F2jkr5cil7Rt9va6bw2xAIo0zHlxEUgmgoUtBWN3aji2kNqRdlNIsvy2tvKooYQuQa3DSbqzcP6swAdLHlo4Tv-CG60jXQRO0EA91oa4aW5Ixv4ZGBxFJPo-DJHS98kaJMIy1pkpXHmm6FptlaNsDQmyIieulK1I8HP7QlG6Zqzwl8VJ6tympHFhhAJhQ_FLANvkBp_aoFqxgLl1b9VmUL8tn61kDPTm4RbcMnY2cJFYw00hLACTYWqgS5l_vITyL94MM1JC4NUbbgRTU7RqapwJGUCfcYHxxOGXbEaQg_bhOm7gt395WcG36SpIxY4i7Yq7yXezktEtJKcO6wVH-xPBQuj42RASv_j1Fafzt2dU0QJicQcgCG-uJ3Y2OZmxfAN-IcuQQEL2h7metW7FM-CKRyCWAfhdB0txr0isRXgSc9r6d8AoTWt9wZq1pVPwMwrn3yQyiD7Kmq6tU7bStOayx0Xp0tiunSTbjvfxNkSPRQ_dOUbP3H36Kvg5fubVWH-rb68ZB3hQ-zkV4TqHmA8CA6_zK8uve0XbvmlrX3vr1OEaoDREmBIQB8tTxl5mqCWfBX9YlY7ECdZEeVoD-3OlI_F47gJBYnXPMY0J0Yraow__VVHsdYRit7DID-w0bMheJDUimbRe3YT4TKWxK4Y-gUtAgcTuIvS3vQMU0ZXxAn5ldNxaZwcseSC0XDC6moTAqmGfpkLRCWXFRY6ncG-FHsT2mHsv8YK5RhhPGDOsZRiyXSiI2ibjRp-bPjOLFhqDotW7eXg_Ga6jW6YX0OnMKfVIhvo-rnO9IJ_ax-BDblQj9Go1TDkTPDCw71ZLG1nEUBaE7yrOizI4LzNog5QSCtTm4D2KNaNXD80w-YQ5qTG7XW01ISm6rEc7f3lRqu7AIRaDBoG5OqNNgCECKycYYKy38VG-4IxBYhcl7HCXoBY-xRVbjlTp2bpV4kbbR1s&st=1790661929449",
+      "sourceUrl": "https://detail.zol.com.cn/vga/index1972474.shtml",
+      "scrapedAt": "2026-09-29T06:05:30.998Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "京东自营",
+      "bestPrice": 5461,
+      "saving": 0,
+      "tip": "差价极小，优先选京东自营售后保修"
+    }
+  },
+  "gpu_rtx_5070ti_asus": {
+    "id": "gpu_rtx_5070ti_asus",
+    "name": "华硕 TUF RTX 5070 Ti 16G 显卡",
+    "category": "GPU",
+    "type": "new",
+    "notes": "新一代主力2K/4K高画质旗舰卡",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 8499,
+      "msrp": 8499,
+      "dealerMin": null,
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/vga/index2121275.shtml",
+      "scrapedAt": "2026-09-29T06:05:34.199Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 8499,
+      "saving": 0,
+      "tip": "全网渠道行情参考"
+    }
+  },
+  "gpu_rtx_5090_nvidia": {
+    "id": "gpu_rtx_5090_nvidia",
+    "name": "NVIDIA GeForce RTX 5090 32GB 显卡",
+    "category": "GPU",
+    "type": "new",
+    "notes": "新一代卡皇，顶奢性能与AI生产力标杆",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 24399,
+      "msrp": 24399,
+      "dealerMin": null,
+      "jdPrice": 21200,
+      "jdUrl": "https://s.click.taobao.com/t?e=m%3D2%26s%3DJ7Hejj02eOdw4vFB6t2Z2ueEDrYVVa64juWlisr3dOdyINtkUhsv0OtniOXQ7PPCWqRT4zZPvzW3X1ppMM1K6W43HgsOowWtE8vsFAIYQZxrXvJ6%2BqFxFKAWqcsq3MkwFBoMXOGuG5DkaqczTKGnOvOwNngl%2BqX98HzoCE%2BoP9%2BJut0po9TCBC4U5NDYr19Nr8snVOLkqrTlsWdkN5DwoHkeqhAzEtdD1Cd%2FQAJY8bl76DQYAH%2BMeIYGEQvLHk3dwmGyhPCFe2TGDF1NzTQoPw%3D%3D&union_lens=lensId%3AMAPI%401790620159%40213d590e_199d_1a0e9474f4c_159e%4001%40eyJmbG9vcklkIjo4MDMwOX0ie",
+      "sourceUrl": "https://detail.zol.com.cn/vga/index2118113.shtml",
+      "scrapedAt": "2026-09-29T06:05:37.196Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "京东自营",
+      "bestPrice": 21200,
+      "saving": 3199,
+      "tip": "京东自营价格优势明显，比官方参考价省 ￥3199"
+    }
+  },
+  "gpu_rx_9070xt_hankai": {
+    "id": "gpu_rx_9070xt_hankai",
+    "name": "瀚铠 Radeon RX 9070 XT 超合金PRO 16G",
+    "category": "GPU",
+    "type": "new",
+    "notes": "AMD新一代RDNA4架构主力性能旗舰",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 6699,
+      "msrp": 5799,
+      "dealerMin": 6699,
+      "jdPrice": 5799,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=h3b452wTI4o_jQtzKs7uzFfmXDKCAX3vkscemRRBPynK66i6L9GZpNcBRux_A5gpHhvBs2ENXDtmu3ezD3KpAt1NG3qdf-nXA5ywu8HYLmXrM9w0SJ_XC6xzmYY23REshOn_YFr0UnnFJHkA5CtuWH6AbYryJ-Ygl1SfCx1kBeAx_Ysr7pHwBv0rPyfTT-CDJ2-xO1ZJZl-k6vywzU8n-dnHxhWxF3CLnCFzT3QmsNozy5kZ6KS36hWfMgEZsAWhAaWbhC6i8SbE9rwZhGETegHVvOVcY1R0YPNA820G0PhaPGs5ZcVznlHz86sGOip4m0LGJ1wDpSy6mjw9buUVP_St_tt-451oim53FORkBKHw1zvrdtgcJaSy_e6M5dgFNQ2EmjCQv5-TpmMVSy67UgmzkZRd76J1ccVvHhI7qk4n2U20Z8Gh1o2T2MgEEZTA59_pTEACJXPvjwfVXA6KVXNLUVji5AIZ4vjn2Bz4CqgHGvXunSZQS141hFNASxNndiBVUXqBAxMFV1-F6_5MFRCrcH3EV-tbA1zyDIZdEnofv1UchW_-iG5SQXI1bAOYR3jiS-rT3vCNVjYKXQOjMB3YXJBHniG3_Qui33CUP-t4XQfi23SA9sQ2Lgi7KZlKOI6mVPdIzVhj9a_7SJMKY0z-qHlenziVpC6W46WXTsDIXdJzWwCVFsH0OFixE0jScPA0YRUd9lBFTktoXcAD5XinpaSdZEdyddv30DbPS6Uu1cTdhylDtRD-JCDtHBlukpXrM5u6AcOdpSCiV8_HGIT2bp46zo1DFb1ru46oF0K-_c1O04PrGjKCSrNjqi8hnag3kcPcAfKv973KUfU3GmG-rnwo1AXUamD6h5MHnlqkc71sQ4TjutJWX-3tA0dWaVDBNnK2y1DHaPhvVvhWwpSeZtB-G7RO-1sor5Q3G6TjZdcyyy2xUpBc59G64GX3N3tofon5a4srEtNV0Yj2fOrNViby7pIZm3azxzs-f1vb7cncC5i5WGBA6Ei2jAOlnmUTdFBooeplDcE7o3bNzWslP3Sy96Zp2zL6Yqv17sd_zC5yOZwMa3Yrsrv-oS8KcMEvUTDBQmENTs004edvxoGpcYEQ6GWtFJceiJVBD0ujN8MtGdkS8hi2wDUMjKOhcSeZoqn5f75smarnAUjyX-VNcog8jnpJ6RK504pP_iki1noB6O6cXK8Rt3yO7gFzCXWJiudKgkAxx4rkBvqg_fWAOGD6RZxwoOcaAkHCqk3_CE8WV2sBzOZuB6WT0eIRZecp8QepCrzArGL9Z8IcBVRetzEUEyO0Y7zShFQjNu2FUrSKridAsyy4Yn39hRAeIbCiSK3KyFVrszDgkF2kfdsYE1K6a4iwS_YafDPovzkzHcZr5liZTRw23SduthngmAywXvaeghF4GuMBrrXlIDtNbkDYTeSDiCITe9EgrBs8I7ZlHEo5eUaNRqefwSwP4D2ebQpBcPOE3imWl4nzsbZStDJKP9SIPksZOhUUyyQSuZGD0ECCIo0skCFfzZznLffdywSV87AMVDn7wNNZsg6MRjXsrpSYCfAIgxkues1OnKj1tzgJbv0oLFsX3ywttski6Yv7VBMDYygEJ0dyEb8Ki39Wgp-HxCD2H9mfONPIcNGLjhLzGCykIHd6mzVDIApB9rkWPwT5Ti8QncwQlFhXBP-v2CZ-NyItzvVAgoBSGRKnzh1_9MgFG1ewXNjGvBLhDYzc4UgZddY0XS3mqqqxqx4kC6yT8saNLD1JU0JiDPDOpxGzsFaBO-xX5ND7metUENCa7aekr-bN2SFma3IccbvNOerr2Uehg5AkylvRZeidllhGV4DPFVF-Mys0_3uoNNOLLTut6ez76ac1DZE7ArzW6NnK4sKBEQucfbW2mpJhqvWgx6-IILrTyWoq4VCgwZveXamSNP2UDQK0fEkMQrEld4mDTMdTe3Ajw4uYtto-hc0P86jGsVFg-XwhMlXdbFhXXqC8vWc9mtXZsmhXAug0i95WjgHxh-j8v2sggDbNBOjxSQbFbh2xT4Zr48LudJlUA3yTeecEqR5XTtm5cWc1_SqevNF8Gd1npCijqpHT-kfDOo6CfZ5cnlTVHx4M8U2Bi9KtJH_Nr3ZcgJMVKDvFMplGAa_PpnyzA9fcyZyA5Berp0eZ8v55Dzb5s2O0T40Jcml9Ebv1gU8Wr_4YImN6TZJDCn1IDoFoxR7I9w79fPPVGt12DPmTMviL5sMkvlQC7usXrO4tdQTqQC1Z0t6svkJph-B9iPN4chEIMXVpQQ3cFcXMuE9EYNxR8vGay3WbCT4IOcn_mN_Lzvz7qKb5yqSqPGdZPCGUK9rbtwiQ0fZzuSZ_fd_ic9oxfgAr-fW2hth2LYpXpmbHKOKLWokerump7mzgWm2iQKLwJgF_P8q8Vg-MCKBa5cDacmgun5jhhgi9plJUPP7LeSy__z2ErCwNIyilK2IMXj_Jc833E7WTNrIPZwIhK6DOhFQEipOD0sNI8wzefq2RqEs7esBtcTUEgggV4frTVbjEW8cdP229T_7kmJ6_B6rYYJjly8bGkCA-Y5JWO1Xc6A6DYpf-xJsIagz1wESzbsN5BnvbRU13UrXO3cuC18HRMJrGmr713756xm0XZnGht5S-OdTxSjXqlq1kk&st=1790661938391",
+      "sourceUrl": "https://detail.zol.com.cn/vga/index2141540.shtml",
+      "scrapedAt": "2026-09-29T06:05:39.947Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "京东自营",
+      "bestPrice": 5799,
+      "saving": 900,
+      "tip": "京东自营价格优势明显，比官方参考价省 ￥900"
+    }
+  },
+  "gpu_rx_6750gre_amd": {
+    "id": "gpu_rx_6750gre_amd",
+    "name": "AMD Radeon RX 6750 GRE 12GB",
+    "category": "GPU",
+    "type": "new",
+    "notes": "两千元以内性价比突出的2K游戏卡",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 599,
+      "msrp": 599,
+      "dealerMin": null,
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/vga/index1929728.shtml",
+      "scrapedAt": "2026-09-29T06:05:42.771Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 599,
+      "saving": 0,
+      "tip": "全网渠道行情参考"
+    }
+  },
   "gpu_gtx_1660s_used": {
     "id": "gpu_gtx_1660s_used",
     "name": "七彩虹 GTX 1660 Super 6G (二手)",
     "category": "GPU",
     "type": "used",
     "notes": "百元级经典老卡，专攻闲鱼二手行情",
-    "updatedAt": "2026-09-29T00:11:37.350Z",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
     "zol": {
       "status": "success",
-      "marketPrice": 2399,
-      "msrp": 2399,
+      "marketPrice": 899,
+      "msrp": 899,
       "dealerMin": null,
-      "jdPrice": 599,
-      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=k23bd8TkIMYrVRJ-C6ix4bkLwP_dASz5SmnBf0p660ZDYsRY0v5k0X0S7jeoz0exoW8V6A4uaOO3FeV1BUOIijoC15R8uT6ZPFz2hL3gQwvCSKABss_b1SSd9zEin9o4OlQAPzaJcHflKvQA_hbbqr5S0NKaXVSsqzyNcvfyrsZA-BX99_8tMEfMQt40Y_5ryF_x2EjYAD2porttFw0sY87qXeY5ErCgXR-pF5J1xbAe3BZDb-ypcxqfedqNopBuGi8MQqJgpQJ9sx4gckA3X7xl9DNJ8HDvbti9mqqtU_qdsKqP9DUU4dnn-ITlVP8E8p4izT4J0SeNscfVp0qqZiQ0covFcKTTevf2_hXQt0UXxQTHN2d1x6SZ8FfJiE0_AmKF6COFwrksnqcyxnn1yS7NssY8XvAj133qfvdQf7JZosIjmAikx86if4M_C3UVkIycIHgXLOAIcJ8rnRbz4sOcUnptt0mPsiSRtVch8QkT5RzN09JCo6Bzqh3Ga6NsKCa8cqbdZ7vEQFP1CwQcNIix3XiExGaewtIPLpEprEpEJiY_6lUNQABkcK3m4eXhXCzHOeMjfWsD-6CKqnMLj3HapVAyzPbwLfFfwhwuR-Y81VEmDCqabaDkxhtfbW_KmFhT8OtC5obnGW7mBBpxtBCiFn5HsTo_NeJV5awIcWHt9rlpaf9iz7hIIQSazv-mLJD7IqqHHGshg99w_a_5XNYv1eJJTDRmPE_sutwLnCRuwPQqDdGmamTw1QsjPs0PRdXfIU5a8jaa4BCwWiKUrJjbeYf2-2UT9pXUrVSm4IF2vGeezzRY37-jSuZI2Uk7lt5AzUsod7SYvqTroTEE5uk0TpTeE2VwzXKz7wgdDVelr5oNcFLURuAp7eBLbgYPoUs8ZuCkwi2iMMzTaV2qGbtwe3wXw7rfdtom7-dD5RVweBJqk7KmiW2Bzx5eZad6Jup7fpA2exVPq6tuK2UT4lty1CXDFLD4mXmkyhTqxP-owXxE3tTW-Psc86bGhHqHwNb4YYcblWOpdYpZ4gHNQPf4r5sbG8psnjt0zSEwYR_xCKn3ESohW9IBWJ7l6iccj6n8mCnKplENN-QYanGGb0Yb3nWpaTqdDqBSuXzaLn3fLYxj9l-IcBBykVljMctG-lBrd3uRKtowrLX5EBhGMz4nqJqT0yT4aX_7O3Q-Guqb-nNnf85Yc8RWQFqJfoc4yYLyVHCDZWVo0xWoQ5VSf7HZ07uQytgQbzFn9-mrARgA6kthmZLUgzjVO7DRwG8nxYu21y8nriHMTXgPGzYAGwQKn-utZnIwBI4w3pJXaQpYAsc9f4LfEbGZ8ZTgjs68rWTsf067xYGCtb53_icxMYBYIDMeEjzOUE0LQhJ3Z8MybXaZmzq7AfHrwpp2ukYzUBYWJhzqS-gtxz2gdyv8ynEGhWHVMe9XNSkPf7Po2y8pI6r3aAn4og7SjwcPE3vGXHHEmrqxawDtti-42nRvgC0orc_XaD8aoAiMmwfp_7BSuynwn7Bjn1L2VesYWv_M1UnAOXBGv6rF-dbVLYEWRTC5PCFlvrdQ8b3riJmyJ56qFp3M0GQc105BrVfzYn4DLX8w0txUj4hZFZ2h1Nz-rBDlj_7XWqx0aTlwvKRmMnsDRurfTz17iXoZ7rKlFOrzkk0MBvJyTWbKOG80sqmHkB21hFehmmnxgp8mDO2avI6ay-Wxg_nyPwg0BkOGfhDctZ0B3SUap2gg3hGRiED8WqiOAv8LltS-Z-ernhlDlRts3ireC0g9AL9461bP-rOf-lslyjhCx2awsoNAvr_ebF012sW1baPtT8mbNM8Z6zyumakRsfofTtc1fziPjzngzADHKdR_ozN6ae2Vd7qN6Y8QdVThcmWmFVFTF386U5Ucb_QbXRsAjKsFGednAiZqDqUeqLZxBRxQV_xXyXG3N3sl_LSIk4Bwpcpno-aeuEzR1cqHDrV7LUKqhdUw8N_5LJ0pXAzaIkY7S8kK92YDMluMi5qpuuL9-o9PnFFa5dCth_zI5vi-2FEta4_QVr3dnTyoHOQIbvp_zpVuh-ruYrQorih5Pwa6g-e1vuy7fObJuU9ovnORWh3_dlRlYEEglvSMhQeZyHS_KeL_0TlLflBYQ56nTSwRFvXcLnJIgP9r152v8ti670nlOoG0wvpTlgDjqSbi1quQYzJF-iOEwAhEzoDLbEOfgddUfkQTrVj5ZGnY7Po3WzwpMgwMcR5KV2AM-H03aE9k-MF9MYvUy7epT0LtnT7VTxWopw9XZCXVtvtxdAYNbsdS02JkfY8o9Blnr99T4SmsBoCOQaDXJuZ3KEIx9JTAlHrgVy_6Nud7AdyWNT5_V1fZsHYN4p1xaMj8TVR2oc0Ph3q8U3o1E2MTqPRNP-WRpGBEN5vT1jkn4IFagWBbvnIDcJaX_98qZIhD9qoLvLA38ZvPcSHU92P00PdKQBnRanWeIw1hr3DK5&st=1790640744020",
-      "sourceUrl": "https://detail.zol.com.cn/vga/index1298480.shtml",
-      "scrapedAt": "2026-09-29T00:12:25.508Z"
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/vga/index1350324.shtml",
+      "scrapedAt": "2026-09-29T06:05:46.103Z"
     },
     "goofish": {
       "status": "estimated",
@@ -171,12 +680,12 @@
       "medianPrice": 580,
       "url": "https://www.goofish.com/search?q=1660s%20%E6%98%BE%E5%8D%A1",
       "notes": "基于当前全国大盘二手实际流转均价",
-      "scrapedAt": "2026-09-29T00:12:30.112Z"
+      "scrapedAt": "2026-09-29T06:05:50.692Z"
     },
     "recommendation": {
       "bestChannel": "闲鱼二手",
       "bestPrice": 580,
-      "saving": 19,
+      "saving": 319,
       "tip": "老配件停产/溢价，闲鱼淘二手性价比最高"
     }
   },
@@ -186,16 +695,16 @@
     "category": "GPU",
     "type": "used",
     "notes": "千元以内经典高性价比老卡，专攻闲鱼二手行情",
-    "updatedAt": "2026-09-29T00:11:37.350Z",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
     "zol": {
       "status": "success",
-      "marketPrice": 3399,
+      "marketPrice": 2889,
       "msrp": 3399,
-      "dealerMin": null,
-      "jdPrice": 1499,
-      "jdUrl": "https://union-click.jd.com/jdc?e=jd_10065360417210&p=JF8BAS8JK1olXwMAXFlaC0oUC18IGloSWQQFVVtdDkgXAl9MRANLAjZbERscSkAJHTdNTwcKBlMdBgABFksWAmgMGVwUWAYEV15cFxJSXzIGXwRNA1l-AAsFWC5HVWMLdVp7XTZrAR9HSw51Yw99UygPDWN5MwQOekJ3D2M4HlsUXQYKV1xcAXsUAm0LGFIcXAYAZG5fCUwWA2g4WjUVXgELXFlfAXsVA24JElkSVQELZF5bAU4RAGgBHFgRWgcyVFZaOADCiPIJG1scbTYyV25tOEsnAF9WdVoSWQRVVlxZZhdURWpYQQZTMwQEU15cC04fM20JGlkXbTYyPyY4Uk5MXBFYYyUTPmZUCB8NS0oRYA9eRxpFHgdnOlwofxtoWTRMTxhOFH9SKyQEUHsUM2gOGms",
+      "dealerMin": 2889,
+      "jdPrice": null,
+      "jdUrl": null,
       "sourceUrl": "https://detail.zol.com.cn/vga/index1282319.shtml",
-      "scrapedAt": "2026-09-29T00:12:34.550Z"
+      "scrapedAt": "2026-09-29T06:05:53.943Z"
     },
     "goofish": {
       "status": "estimated",
@@ -204,163 +713,813 @@
       "medianPrice": 1050,
       "url": "https://www.goofish.com/search?q=2060s%208g%20%E6%98%BE%E5%8D%A1",
       "notes": "基于当前全国大盘二手实际流转均价",
-      "scrapedAt": "2026-09-29T00:12:39.105Z"
+      "scrapedAt": "2026-09-29T06:05:58.589Z"
     },
     "recommendation": {
       "bestChannel": "闲鱼二手",
       "bestPrice": 1050,
-      "saving": 449,
+      "saving": 1839,
       "tip": "老配件停产/溢价，闲鱼淘二手性价比最高"
     }
   },
-  "cpu_amd_9800x3d": {
-    "id": "cpu_amd_9800x3d",
-    "name": "AMD 锐龙 7 9800X3D 处理器",
-    "category": "CPU",
+  "cooler_thermalright_ax120r_se": {
+    "id": "cooler_thermalright_ax120r_se",
+    "name": "利民 AX120R SE CPU散热器",
+    "category": "Cooler",
     "type": "new",
-    "notes": "当前最强旗舰电竞游戏U，主查京东/市场渠道价",
-    "updatedAt": "2026-09-29T00:11:37.350Z",
+    "notes": "百元以内单塔风冷标杆，通吃中低功耗CPU",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
     "zol": {
       "status": "success",
-      "marketPrice": 3799,
-      "msrp": 3799,
+      "marketPrice": 89,
+      "msrp": 89,
       "dealerMin": null,
-      "jdPrice": 3299,
-      "jdUrl": "https://union-click.jd.com/jdc?e=jd_100147630258&p=JF8BASQJK1olXDYCVV9dDU0QAW4LH1IlGVlaCgFtUQ5SQi0DBUVNGFJeSwUIFxlJX3EIGloVWAAFVl9eDEIIWipURlVRAl5cCyIJXRNHZj9eF1h7XGgCZFggYQt8Vxl8fltnAk8ECg0dTS1HdB8EF2sQXQcCVFZeCkoeM2wJGVgWVA8DVFxtOEkWBG4IHGtDMwYDVV9cCUoRAmg4GVsUXA8AU1ZaAXsXBWYNHVgTWQEFUV9dOEsfBF9DztCIXAYCXW5tOEgnM18IK1glA2gDU1hfCk0eBAFUWB0QHFlcHDBfDkwRB2sKGWsXXAcAVm5tOD0QYxZDbjtHDVYBEioaXxZQBisJXS9SCltFURpcaCUVXiR6GBJ0HHlKLSo5DCJuBg84GGsSWwcy",
-      "sourceUrl": "https://detail.zol.com.cn/cpu/index2113342.shtml",
-      "scrapedAt": "2026-09-29T00:11:44.814Z"
+      "jdPrice": null,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=hc9739fLdNj9IWrEGs67i2IeR-ta4IyLT9l9eM5uvX6D56nEWrZXZN4IRfaWQzEuH1ufUyHOnWGTgJfx2n6CZc8gPRNxIKesrXeMGyyTTR0IRp9r_uuTiYfOBXzbl211809QW-WJUm0au0MfLnuMtGKDvB9dy2h8r11Ly9GhyrXdlHwh-MbrQUSXar1ebqOS-qAhilhxstq7a0NIFNygzIOHrDXLJjYd20Ncn0crVZtQMdjs__6Ap6nc1kHLo_BooxRqNW-YX4iy2p75EqJ1ZDqTezs5a3fFv_c32JK_kB3RA4KxDb8cpYzDcDizXIojjL74rsV14pDZlXogAurNrwOMugZxh7Sym03zsYBo96vJsIIMMbU3CQJ9bNsDpw6VhG8Yb6tNBVDxF-5ctqHhDozQhWyO1Yh0gUoJh7BBZqbzeM9Jf1CCe8fRcqGScFUOOSUwjzfJW2Ju-6qSnfdnPCPdF-GdhAPB9bkVB1b0QZASxQCWe4xSlJmNhUmlz7ZQUaaVsgdvhjmZzEC6nWFMhGBcPlYePjW8cWKDzUZzTpQhbClOx1F0kQT0IQl9Kt6mGCOJDCXGPGQFecCGn8kmDflDs-XAfB25y9xyyiAHXg-0nMxa2rZf8uoT0BUpIPIjbmFUbG3I8qlvvMTe7gWcQFD07bbZ0SmNgFuIA4t2h3Gm3MLb6644rbF1P6R4M9SrpKNnYitLD4saJuUO_Jda-VfTxS0msjOn9UJe-l_e-p8rU8yhyUbnaTh89YpMK83ftYyPayGZ4BNd9h3gTAbzFgTukr7xdMJiBxkLISdQJ9GEn2eOHv4Io7sv-vXvCVBRHRLttzwRnZWGbHXeyrkZ3XEuOno6zBdPwSF0kjCwDDNKOhz3y9UPHQaztAR0_69rxsILInNPBzCpVTgzTAQ1cwYpwqQlCd8BjOecbqEIpErbp4C6AlK5hF1qRBW0lpyZpkZUkVRs9y0bWcNKl4HKyN0bHJmZ-Ee3xeKHGVKolvJuhzxtS-1wBAXf6tSljbdlsBmcPopuKzb3pMKAuB7keQ-TBFURiE8xllILNRY45eo7ZtyIuP-ZtUbq72Vx0hjYu5vzSs7957Ia5u7FT2g72vTEzZMtWLlEsrDDbRyU5WyL0vYgsq5oz25tyhUJTguvmkbIsevyqy7Yrrls_d21qwQPKEzM4QcCZiStbEjqz53FFdeFWR15auhGRvodBfkzJXN1x7QYylNRvyYiflPJYylHaEeMAiksazTCgIdcN8SL_Zw_pcaUEEIjAa5S13vVWYkDwwnCw97uCwQ3JwjRGWdgNLWLhjy8kYcvcVweDrI9TpZUc-JQolPEYFDNAGWB_1Ilwb17QLERKucryFl-9YYm7jOhaj5u3ZL-esy3TelaERt1T8yFmdwxRXyVPRVu_8npM-V_ueOfOs1mxUYIWgFQ9P0xLZe0-7Oj9OJI82ol_KoKheelLqjVkpLXC5NGeQAMtGKqbGdLL0zSt498m3OYg1n3pSlkez-Rp30oqQgBKpYia6gsNUPYBr0Owbl20igtIBQiAfB3-obpmMJqlNZWZHbM1-OVtqaUpHGwymsxltXMq0ihw8GxCXpmEo9lFP3WVw0uIb47-v7cy4YWb6W1eQrBxXjQPmnCSWL6ADztulKu9_kNnA7_XtpWAqCr4EueL4P95bTiUKQMgAxdVoneIBNt8L2vemToTISWgqtmhZQX_X-OtCUphZj5QktAPzQF9DpA03rfgo_X3nBH3CFJVy5KFwQtyOtF8tktP1nnbuqH6WhNr-rvDPd3cZYj9RfVUHvv3MW5GlrKIFXoJqF4bar9ESlhmW64urUKtxSyHTkMUQMNjaNN63EV1aq31LqoRomGYXpFNEhiJ7eiWSyawcffoKnG2UJpoMFqSDTx7uoA9QYWixBcDAVRynuqpbY-8qTFAPraXQp8VgzsxvnmYktW3VVIBIW5YsM3tkBgLaA5zYxzcUHAUzBJ4wdMLcYs9VhnNWykboPutqI1LBag-PMfTRjUrWmKf-07PrUtGJyBxQlo0kCE3CEEVsQ9aTPD8k1UCmGhvSiAZUJ6Sy2iQp11XHswGtXQc6ek62Jim-gfu_nxrFshxX5DmqoFWM8tpmX0vkg1JddCIoBSL_W_7P_c0dFgSmrGA-0PUMDuUPDEkGGhA7MfpDOgPfTXpIPC9FqGJmJoa29WL1dUcnkKWOnYT0UC8v23RLbpmR5Ojt8FCDkYkJ_otCPdZPSLIjSIy0KVkUmHOi2RXaVRgRbOkKmHiHUb5qsvuVQgmfG5fn-um7lu2NdI8Sjm9iKCDyHZ653UHtcOMro7T8P2WU0Ny5tdUcUU5NcO3vj5IIvwB2r_ZLdEoIYO2JbTsWRK9ps2ZXPEDSq9iY1eRUiwrBHK5n6P4ufqaUtOQ4kcMeSxbywDyM4OnTenkD7Gi5sY09ZS-a12fachIeex9tRxymCpvgCRYgPGkr0gG2ZqqVCBFIC3w6JwYYH89k6rS&st=1790661960330",
+      "sourceUrl": "https://detail.zol.com.cn/cooling_product/index1424114.shtml",
+      "scrapedAt": "2026-09-29T06:06:01.872Z"
     },
     "goofish": null,
     "recommendation": {
-      "bestChannel": "京东自营",
-      "bestPrice": 3299,
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 89,
       "saving": 0,
-      "tip": "差价极小，优先选京东自营售后保修"
+      "tip": "全网渠道行情参考"
     }
   },
-  "cpu_amd_9600x": {
-    "id": "cpu_amd_9600x",
-    "name": "AMD 锐龙 5 9600X 处理器",
-    "category": "CPU",
+  "cooler_thermalright_pa120_se": {
+    "id": "cooler_thermalright_pa120_se",
+    "name": "利民 PA120 SE 青春版 双塔散热器",
+    "category": "Cooler",
     "type": "new",
-    "notes": "新一代Zen5主流高能效CPU",
-    "updatedAt": "2026-09-29T00:11:37.350Z",
+    "notes": "百元级六热管双塔风冷神塔，压制主流i5/R7",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
     "zol": {
       "status": "success",
-      "marketPrice": 1499,
-      "msrp": 1499,
+      "marketPrice": 179,
+      "msrp": 179,
       "dealerMin": null,
-      "jdPrice": 1349,
-      "jdUrl": "https://union-click.jd.com/jdc?e=jd_100110580225&p=JF8BARAJK1olXDYCVV9dCEoTCm4LGF8lGVlaCgFtUQ5SQi0DBUVNGFJeSwUIFxlJX3EIGloVXQcGXV9eC08IWipURmtMG3wGNQMNbi51SxZNHh4VKnt0VCY9BEcnBm8JG1sdXgQDXW5eCUkUAGYBGlsXbTYAVVlcCEwnVQEIGloUXAcDUl9aOEkXAm4BGVwdWg8yVFhUDU0UBWsOG18WVDYCXFltQ56cnm4IG1IlbTYBZG5tCHsUMzFmGlwTXlQHXFczVAhRBi5LRA17XwAEVltZDE4nAW4JGVklbTZCFVsPQCIeXShNZDNQXmdaET4BUiNSAA5QXjtJBwNsViUnagJhBg1yQwlQKHBeAAUbOEgnBGkJKw",
-      "sourceUrl": "https://detail.zol.com.cn/cpu/index2018967.shtml",
-      "scrapedAt": "2026-09-29T00:11:48.630Z"
+      "jdPrice": 144,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=k399e6gX0yJ8afmXGCLcDGIwA6P-3wLBcaiwQQB4-H5Yd3FtVMuD3faLZoDGnBKOYWK60jF7KZUWRZylsWZ7AeraTJL9hLBdas2OAsYn1Umd5YQmgQm9845H4dRj_oC3jCRHWgR7ufLDveUEa5j059uaAq2sWie0rdd5-_Q6EJ-IpUzZEsiXbti94hfXRd-tx0npgnfNZK0C8_4EbmiW8aQHfoBor6NiDsCHvhkdNeAmF-X2ggrgrY34jinHa11e-i0bXa7pQjlhUPoG_7zdJOkVmLmmc8OW1UNwHGkGxQnFM2LCs6RJwcKx_eAoL3eALoM3gwNTw0gRoZ7LUuEGhYQiPFRNFsZVF9fgc1-4CmDPDOoMRTmPvKyPSqUntDuLre9oCPNZCSi6-waMDCbB9Y74tsvNCNSRhGfRDP0G0JO9L-jnFezhs43UEoKbNiXCdx21qLIny5jISnPGLGmyjCFK6PT5QQjINIBlkPAxA0eQzmcEJvIa2xWGiAjgs5a6F82x9xEbZkTIXe8rsvIcyf1g2nOQLU6H7sSrvWNC06VI_vZy48nKQFHztkrJSPgnoDG8AC-6r9BQkpm-H6Z8oEGYD-KGlmoROuuWDLv3yBXUuV0nbxV2u5zqbCZMM28MVRcNKt7m9A8bXES4oAJxm9_o4Mb_NuJ2gcqWCzW2zADCG8ptlyeNp2Y3-POdc3DjklIzNoq8bDR8-w9vHmnsCZbLuKmrjdX4XT_O5m8tRUfqwdBCSem9o4xF80vmjEb4-PeUu_dmIphu3aiuANd_Br8kEWONO0PIVQ1SEJleAo5n_6XuqNLvd1YroQRkZ1e2Y6TwVT8TUyosMt6GTBKoeUhi3gwbu4KzhIt1tS_qvxw2zOuF82DMFkSzzGNYroasvpSiOFakgaRxuV_7262cdpwIU7QN0-5gcHUqNxYfEJM9geyS6Y8hx05PNcAAYrLR97EA4dl8COokt7a747eGttUklBifgNBC2aqP9w4TezclS1g0Mre33tLJqUFMYjSethha-wQMsMxCJ8nF_cJryPT7lFaQPliNp3DfqZekF2-1cTRigbWq4QEvfwN5xcBEH0f36n4H6ATGjGoAHO95oDosHa4MMLZjL3PsDzr_9r-WO9mGM5mr1jLtFg5RAAn5dE0YXO9XCXS0Bm59vYrc_UM9IbQu-4bW4tJR4377zmoXRNhM0TPNbnBTG8i7F7Z0YjuzUSYRzbVL3kbudxooA_85h_a-e-dDY1eyr2HP_213QKYomloTw-rP9VFx_qM-yFo5IPGsc8WN1EGTDFIOsrUtWwk0F3TWxfHxJzl7Avw-eHq-X5yGxewutJ3Ou0jfOpj9pioPBz4RpfBHOBqljHwFT4vzK0yqD3VYCoJkLfgNx9xuhqCg5EIxnXcqQWcGlhiTFF9hEO1WZgnhlDUsm-DGNhTwX8oIGfS6nhFHHU6rmKgYf_Ci0vm6Xg9_DdfSTwM4V7cTazk7KI7HLWA2kqysVeuV-uXfORtppgED05qWbCyiI3CcVix4Iyusaus5Me7omTyi-kAtkM2OaP4YU2Usu5NNM-kiDe30c5yIFiuRRyXq5jdhAexNKpzjh-in-5WSz8KBSX9YkvXMC93vHf0AjNMzgCgAM3GNtX9BWuw7vqB5hUVIFbksxb8byw65PfutZ6X-Pd-wVvCS4xCXWELGJ_NDjDkmTMX5AbTrLhGG1N8meHFqNNAiMYAVF5cqWBCR1T-BreutVmFCwR8ahUKqCaniByYw9EO_dBdZzi26hy6H6chTJHQv3UsdD6kdTvvTOORhNxloDOkXkk27Cswturg9o-mZfWvB_ot9bFZjZnw1-2BekOKM9wmOgymOU6E-tfqEad06-IYaluCqvEdY_kqw4Xwwo6uENukoeC9dg1fOx2Iv-Ihzlut-YLrqfxad4ucJ9SjvA6hA6DMw9fwwUxOreKC4F_I-rnD3wALnVD3CEYSvr44gpiepz51CwqqAtEFIFsbd6boy-_BuMRVOmlDvvcks9jvSSyT27SZOZQk7yiLUilmBtXN-rAXoBK9jxZga_uwWf2ABZvW8H0viYlsU0NIMb-C4FOdhGfZOwgXPDwdRyyiYHlGtW_7XcfDIanchhVvKjpORLOOYb6aVGq7vZ9XHaACmQ6ptUKcSialvk8Q5w7GtFxZ4ehmTlSCeLDTDuaxBh1bU1dkWbmnI0PJl2f2uOQxY24BZFI29Heo0mpLOm8o1Pn3-fPmnAlfYIYdVeouBStnQOIDj1ZOR-mfBT746hX8uOmCURJvIai7V6wEHAKhGkGJLv_puM3aNEIKWfsz-1QY99XvTTzTUdTjfpnkKPwGEcf2l6YqWrYe5FMhXmLbdIt5mJigTivxzJWo7Ou8Vyl4-WFYvzMFY5QiDgT_aZydeiDp747LjmJfb-vaKC9wIMEtgvf6XFwFsfixdFqqE6AqefwwSxkd5uWMbV7ks5wcU6fPtxN2cxxYOe5ObSfwFZPdLyeetNIK2e0Eiqt7U3gi8mMZe39xvzHvvODb1kv6gLixEPEkQI8VUzChdzoBzzEqWcKfvuZ1tGLECXaOKLJWX3eC47VN0Dpj_VY_dSbSUQod_WycbMqQFJOr3BNe-AQdwgihTVMak0F_x6qMQJkzr7xcINt2k5PkdPAkAREqUwNVSeg6Bw9V1U58gSrNDNhm7WVa_uDyFuCUoG1VKQlv8W4PGbyGEKuwyLW4GJkXFu7eUGkgILvUDSPQ_7z7F-PGrRNZnOqEFHR6hwfMJSrMpSdsbPssl_i1CERKWURteHnZBUHSdM3e3LATRKKYSPDiGqWT8ZBnMag6Y1yMs5&st=1790661963479",
+      "sourceUrl": "https://detail.zol.com.cn/cooling_product/index1424264.shtml",
+      "scrapedAt": "2026-09-29T06:06:05.106Z"
     },
     "goofish": null,
     "recommendation": {
       "bestChannel": "京东自营",
-      "bestPrice": 1349,
+      "bestPrice": 144,
       "saving": 0,
       "tip": "差价极小，优先选京东自营售后保修"
     }
   },
-  "cpu_intel_14600kf": {
-    "id": "cpu_intel_14600kf",
-    "name": "Intel 酷睿 i5-14600KF 处理器",
-    "category": "CPU",
+  "cooler_deepcool_frostwin": {
+    "id": "cooler_deepcool_frostwin",
+    "name": "九州风神 大霜塔 双塔散热器",
+    "category": "Cooler",
     "type": "new",
-    "notes": "中高端热门主流游戏与生产力U",
-    "updatedAt": "2026-09-29T00:11:37.350Z",
+    "notes": "经典高性价比双塔散热器",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
     "zol": {
       "status": "success",
-      "marketPrice": 993,
-      "msrp": 2499,
-      "dealerMin": 993,
-      "jdPrice": 1629,
-      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=ic56cUF0tIFtSLamB2iPlLcSXnEe3Ef82V8GntOxnVJcelNiarBSFgzgFGsdwx8eueT5M1h8AWWW10h6XVQZCyNgfmSzbivZFDOlomIYjGsj6uRccu-MVRGY2EL-TpcQkdo0fkXewqkVjvOC49PUhDQ-OVDK_uwl_m7duIM0PByDWOuWWUe8PxSoDivihsm6yHId_YQwkRUaX3HAby-MfA-vK0jyVTmpTH6R5QJ_iQjhZGEfyZJhheGPBfCaV4mUkHreWSLndrMjotZi5KHGKMxCKcrZKlRi7fnaGnDyOJnEjCajY3HChUgYuU4s0heEqb-z-oocD1f6GLE9et6PPIZJ9ByTkMDYkuPEz6VGQVN0_gBrk380CM2y3sa4It9O7Iec_eGbqQL8XXmh7DXSe16HCrm-9vD6sWli5wC_D2Yq8yP2yO8nNPaXFuutKgmkk0PBOtG_7m7tVUbJiv8L2ZLut70Ys40M8bi7_-Xz5fzibqWO_AxCPfbPR_HbiPXdClei4IaAVQuOCf8jsk5d33HJtcKrqp4EfrtE4hshy7txDlTQdTER_9hN7qvAHB94Yc0UmpTAzCmHPC-mPbdATukK35ZKCt-CHol8g5muryy1ickkOSHRmQHHzNUtMkdIZ5u4Go_4GcjPCfQQlpLU9GdCox4S59bblFcvaAmFDK4x7XXFuxWLx_qxzRFhC2aGFtIhCePz02xj7JJ9MQ9_rr8Sn5x8L33ApOzjiZpDilgmGWI2PE9KJam3tj1TzwLVA8aKVzpFtyYaxHlw7hiE4YPzevY-ySOxvN-kljEle1pXjqguKqn5ZBpBUMNudVW6NpOBW7DSCZDTCXHBi8ORCtb7ijbvBE3uull7n5V_oNdiGK-CSlpuy8uWiULDUicBQOJ6C0r-ISJuRJ-61w08LWsFl608aP0LIt3ChBv0h8MeWQa6fB2RQhoXqP51Xq_BPfCqwy-EKmP6lr8Q5KjhpYuxE-9XdmOE_LceFYWgKfyjve6zDeGfB1IpQJslfUb4PeJ6gC7tFfBT_XqYarCuTjfKpOFOfjbVNQCvKTfSo1scko3dInYEFcCy_1RcTj1YeqHyCPdiOD9p3jhlmSiZOFMD143Mpd1LRF9TJEKFdfy7PVNisSrZesgOh7TURD0zVKtfqz4VFZ_32WkMFSPa2JYLHkx33OVZNeRKg2Igl3WnL89eI4vQbPmISMpDTDywwzExOJxyz-_6gnvONfxQ58SEQkKTlDVNuO5FfKLRqRKjMOyoLZiAmLI5rIFfs0MVi7fZk8CTlDzhyu2aNJsLZ_EsKg0XvX_0Zx8yrPMLOP5HxOI21sycoPX_-uDgIPLndveauh0BWWsu7xXqEkedjaKpEOeBsoG_KCwlWZjBKTfDTn9blWP19w0bt4uLZLoVWT2FmGJh_6nr1bS0WQ8n3Q8CG_hpMmyCAEw5BnxNq5a2pg8SwgmPmjQuEQa8wqSEZnY6blv1xnKZEfCw2MykQl4IZcOZxVYg_8DcSKCdaK4W0I1h_USu5Jucb96Ot7KjL0wpernrWfCANn7ii_GxdeRPJ4_A5flvrPvImgCDOLDrBKTw2ND-WgwR7IEXB3AUfiRku-FOigzjySE-wwg144hAK1KgkQU35arNhvmuszxY0a11mqQZiBFU_ttppZdqspGg1cYapzjCJoY2MxkCr1ilCgJgfZ8dEIr8KNeu6kCO2dB0BXLe1wtTbOKIcy9Dec4I6gqlsdjflRzGJDf7vyZC_I56gEathATi1Msu_oCTSfzREdE9JcF4I-D_oq3hrjtPFeTmBxiwsW9mwe2NaPgF2FSDrHnI1xIfHXGYt34KcjE3zDDo210Ha4NyDtMoBlU1WZJQ-XBvogdWmm7hn1ZTXNBdHOOEukWqp0-HIoTeH0wHQLY1DgaK4thJhzrcNvyZ1DzXj4sDuUt1biAiucMNKZj4zdPRQ4KcJ5cyrAvJ2vS7ogx5gwanuV-Dj_I2dANx7N08g7MybGk7J3xx2ksckiMK8xzV4dJKmyDkFkftAX6ZpcRBL9bEfhF3VF4ZTFO4mambg3Fm6f7WStgkgTkVYRV5rdpA4m1iOFDQGoNlZAYV5K5mHSi9cMafzMx2x4IKMbOKQFQMZhRSqdAPCA18sIyumE6LM_pXhCiq2KV6FBrv1LutFHnMvqJwuyXpanXQuStrhwPbBT5k7G8TFQ9Iv8JBc-ho9RlwdylX4f1WrDTo3DoFm8rAjdBh3EUOpgJwGjeQdvbVxQcK0UCpJd01LCJGGw5r7Mi6zu4DTy7KdEWka4WkUxXl4KfHxyr0LLa_gruvUPSjJwDYPwmgd0Bi_f3Ica-bQ_DDKoLfHPkybkRNeLWA4m2A48Ggk5BuFsfeSTMW2_EN46XNc_Tk6EVJRR_4VluW33-5XHEQNvMm4DdYAEe5aFUbsET_H7_D3VgYy4fKy4e5xboV8CtsA8c7i-bPnxrlr7e9JoGCwwlvzP3f-L30ASoRXJ6rEy0X3vBN52qcmKLpHqvBo6_HhBXom-NitDak8rbFaZgzmLju55L0qODd-3sGTjScPtojFvpAzyCOa9DvqBrjIS5R0Ft_WjO0&st=1790640715493",
-      "sourceUrl": "https://detail.zol.com.cn/cpu/index1929615.shtml",
-      "scrapedAt": "2026-09-29T00:11:56.835Z"
+      "marketPrice": 219,
+      "msrp": 219,
+      "dealerMin": null,
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/cooling_product/index330336.shtml",
+      "scrapedAt": "2026-09-29T06:06:08.203Z"
     },
     "goofish": null,
     "recommendation": {
-      "bestChannel": "多平台混搭/淘宝渠道",
-      "bestPrice": 993,
-      "saving": 636,
-      "tip": "散片/渠道渠道比京东省 ￥636"
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 219,
+      "saving": 0,
+      "tip": "全网渠道行情参考"
     }
   },
-  "gpu_rtx_5070ti": {
-    "id": "gpu_rtx_5070ti",
-    "name": "华硕 TUF RTX 5070 Ti 16G 显卡",
-    "category": "GPU",
+  "cooler_deepcool_lt720": {
+    "id": "cooler_deepcool_lt720",
+    "name": "九州风神 冰魔方 360 一体式水冷",
+    "category": "Cooler",
     "type": "new",
-    "notes": "新一代主力2K/4K高画质旗舰卡",
-    "updatedAt": "2026-09-29T00:11:37.350Z",
+    "notes": "多维无限镜高颜值高性能水冷，压制14700K/9800X3D",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
     "zol": {
       "status": "success",
-      "marketPrice": 7054,
-      "msrp": 8499,
-      "dealerMin": 7054,
-      "jdPrice": 759,
-      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=lcd48bQwMI13dHM9EcvLzNwAfTV1PdEbwjNIkJhRVHmR1xwxyhhh0ZVoqF1eSWbVEbI80qE1-0xdRMc7US3LJpDDv13fqgX7Qzoju7cVjlQyZN-7vvR3MD81syQlI8-OtHhbohT-dg-XK88cgale-6cm1_N1xEEVVaUixzxW6LW5SuL9PdPCQG0Ly9A7SSlp_7bfvrVITBNwr9npejjEccT0dFk5SVrmQxD-eD-fjNUsu93z2T5UIgNsb89TpcnBrFnf5mK0VgOx-p-ZS8NqV_Vyy1ZBMI7gTj2OqyS-nFgmXptVDSTjedBo0sPSNPFHzC_aFUg1oetWj4MK43b9BMjlBjNnSFWsEHP65XawifxWuxPBMvMkLTbktrCAzOSmg5P-QJZ8bX9pnENyphkfyZinQHdMhAR-BM9MWJ5t8Pe5XuF_StIeyFhjtjLrA-ihjQo4JNMyHS3XnLAEjN0J0eWIfluoGAa3enyP9lAcQE56w6yc5JK59ONG1eoV2e0MfOIcn0jI2YgWd0oqCpDrWI5fbijqu7yKlvZb2M9Nw85TXG-nIPTXb8ccAh9o8wGO-8Hl5cMZ5VXlRXF2xcPk_FDxqz1yLzMmVOAR-n0yD7_6e8XfcEW_zvFKOSFus32MaJBn4QXOlGSs32E53VASdz8OwMkLJZvsZVIkbHSh7UvUDhH56FbBMafdt-MD6oo7oWTdYW6hWPXKlT2VQB5SBbt0EDI90NoJmHbW8F5UI1s9DjL60Uz18TUmO4kChUgKVJk2bpiS9OgAmd_VSn0-s2I94VjYP4LvF9V3meaDICWdzcFng30eqMVrkNEH66Y5Zkg3YTu8ybj-Qg9PqCgtbbZkZh3LYlkpvT7U7e8mjNPd2RXIRXqlzvMNA9iTHMnY9yTv37OSckv7NDCfNWh64JILU2pTDB34d4lg5VXdTxov0qCTY91UFLfo1UssrRk7r9lIMpIbvO5HBhUYOxXD3OUZygzb9dvoN4_UTM8JZNowdrltfizx9fumEjXdxtR1zVb1UProp3DdZ0NNm-dxPWRVWM-oC2shNxuOZzTwwJtBAaZVtaEqUBYpZJioIdYhlgWkopO4x25oMVuoTRq_S8VsMU0_fONPDNwLwfFiYX_3DGMpP3emKPK5I_M23vjQPvXIx_1fdBab33ebCieRqrMOdOlZpaD_s4TXGEtBPLACT9q0UYEloCUv_33EBf4WH2FLtoomuF5ihwMB2bZISNAkbhW0fUGP8B4uZuFg_gj7sREK2o82r6Nq6sbReF5ppX9jTLZL9u8Y2TavCWA6QBm4FNkjFXkUymmpvg2yctCypfp2Riv07mo0ow439dMMdzoIDvzAayZSRDHKGDrZ4vQMSCod8uvD0U6j3veZiYa31PlfWcsAu7N_5-Og-ftG3aaTO0p2HRdDsRAwqbVAxDJGJfEqYd92y8XHMcQvSF2EBUE8p7NiRoa1CaMWUhV64hAAduehZTkZV64mrzeX6ANeNTIsvAkG2YDN1LUJqeFWh2GOR6sJbo_BH4zjv34GutmxZbQS0KwhpxqH11_ZrBuE2d46_PkfG4cm3V7TmWj2vsIb9cVhMVnJJfCNAcVt9dhjzSLCLlQIOmDbE8pm8cGFSiJenckvq35PrJxpr1eeX1FCZJ1NJlU2SuLhFwkc66AqeYuaWBNBJTKPzI1TUEunG9GdsGFKVwt66BI9io6QZcWob0pRr3Qn9Zldpp2hitPAFK4rO2QLdDcHUo2pzpnpPRvc37Y0o1RsNMv6HBN7zHy6hrVG9rraG8N8PP4cjPp5_fcOMYW-AsyuBX-okt4cYSg1ezkKFzRMpgZX_MJgWgmR8YR-uG9vKLOeut5pbKCu0zVJpuUXSyyMQg7CEYDl4Apwk6tnJy70lL6jZTOnfYW-rIJtBgKgNMubfvR_o0yGV37s8mGhUeBemvAMOQKERftcHPnkl_zusRuO5wGsv3zEKxlqTnOxpF_taHyRS8s0TL5yv1jHlUYDXPOEFxo8EtpVEHw0Hz_Qsj49ZKVJTqdzomtId1nxS4BV7MCcrurQoc2fdFfeczN0UBpacSJFOhoGrFs8aUuhsobVLMY1KWIDFiofnj3FDGaubMnYMu3u1osfwHXlXQ-YfrFHr4g6ZvBJ-nIUrOBBgxMeKxujknH5GvbnCQjRKNKdrAO0kmkaR_m5OdYB4TbW4qdv2OsYYtjopESjfax2Me_HPHJAAnD4ZUsNplIbNIplSuRC7dL01hSQ0DN5F9SEiEVcwBnB7aR_qlxD0FJU67MtGpaNuWHlLujuFMXKL8ND3M0v5DnpV_un_q5mhKyZxOQbS1JmlDNRjm6oGy0E1H1LcPzY5p3qresCFzWqcBTsfO24&st=1790640731868",
-      "sourceUrl": "https://detail.zol.com.cn/vga/index2121275.shtml",
-      "scrapedAt": "2026-09-29T00:12:13.319Z"
+      "marketPrice": 499,
+      "msrp": 499,
+      "dealerMin": null,
+      "jdPrice": 499,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=k556ek1jS94UeW8K6aR7wDJq_6L9zY7aMzU9Pr221JIapxGi7wv3NYTXWjDGtQXnwORGoaFhDak_vkS7Irwvnz2oP2Ou2GSI-h4165IkSUrh78j8_78JlaJgeqbDF16skSf6cUa2_UskyNajnEhZ0cGsOozZMMBnY5qty6YtqqAJ04M_AZfIDgskL3iDNa0WT_pOkOimJs6t1eMk5WBlimDjtJc-aCgoxmLSBqIDIPkg5NEiL9S32ouMtct-v1vXaotB4rgC18-1TnCC2h1hF7M5lVE8AwN5oC27P3retADIC-TDHXOHsCbBm_EUSutJMqaosXzwxg-ke4J3CFpCheLmSHlXxqS_opdhfND1EIH7_UhRtT2F7Yh6yFMQ5yEyHNaMP1iArvHDgWurocxV952g6gbVXpbg_l8-kf5lZpmOkWbCaVga4qpmTOd34L_8xv0YcEiMdNVoJggLaSJshOk_8VviqP2FpuOTXxExEkHfXlPAC2n-NTNeVpWJaEjwDHkRrFMgYWU4usetb1BeIirYTvRl5-ZSYbkNA1CwbDmG8NXZhfQAjSU3Wi-Ty9RdCZTSuhyEhgy2I86h2Gjk8BqhuFOPiqwB3y_oGQFEfoZnWw4nuQXjwSzvbYmoiDfUVlPxxDy9trp1HQPvpEVl9OUx4advRWMFfblJulr8wjA4qM5pViwwyktJvD5KOQ60dIRq5VBsFfySr2r0ANn5_-Mwuv-8-aMpQ27DHaiQVjqP5_Kp9oDMl67uNPxqlbiFPbKZtyG5bgk4lwjtW69cF9zTeU1RTu9HqkbuaVDtLAOsBcVBEWEWOG7Ek8P8K0jfSXoL0yDoLvnCDTuzj3NnktRjvrhKJrPJtkzNUuJaIwYWLmg9bh4r4_GhD3DtK5nrY45tz5479fDiW78hK9BXjWWpVVDMpOCyDv-24KfHfA7q0-QFH0mfeAHPOHaRN5T20rI9yinu3wQjqR2D8jiiOo72m28ih6JjyiIeRO_U_reOsGnrqmg4_aF7BMcLyDfgBWmizU9ZSPNnTQVxxmbS-PuavgAY0ZdN5WrbhVAuP6QVvgKws6lDbNb3bI8Ze80Hmgu4TM8-f6PfdhYFoOLvewbtyeC2dehcQ0mrk9sYYP5xyDTQtNhyo1IAAxZh035iEDs8E2_6q5A2koThNksukdwMPpnH6jcEp0tTrKtBMRm3O6wrraV8mJkh0tm91wftI15GHgMJiGj4rNWqkwGflT6VK6anUD12JCWfic5HdXs76mdvLyHHe6A6yYWHkh3kLMcXf1SKTG7FnrfrVpxKPdUG0gCoPERfjJIRHr4L3HvCVTPJdSXkfq0sttzvizUzKJiwnvHkEfMQ7c4INdCQYH7XnwKAophQGn56dtmqO3MfN09yETLEHDBFxpMbrahMM_zwgiGH5iL0pDvcyg8r_piD0X1j88Y0WecKpNqwPSbEQrx8baF2rT2m4GSu4fpucRnolJcWd3kCtMLXlbgwTZigmXvnQwg5ZeElZXnA_0B2VjtZTK9UMdb8-_171NqBrjEJB-tk26WpLR6DLkjy076f7uoxU2rg8IJj342XUWQU30h65xHVQZ2uvkovR3s09QV59nWj2LpYwwsKdFW7-HT-SGD50uTb18yQlhF08JlQbYbTz-q1tvFFE_7dnfkpYAspTQGFYVFAQL7P62_PZ7L_pCK54OKXFSr9w6ad9XUZSkw-CxuSOfkJLGKfEBIisncNKhVweniKQSry_Sp208-sNIL9Ge9AS_gbC6EEpxYhRn0HvWhYa_8JKOpEkpPp4M1W3SN1leZj5bG6Q3sr6GXPu8QAPzYpwz5msXCcf4Bka4_avHO-G-Szx3TYWIlbbrSTsNZzWlvCqL7mju6FU90XPXWciY_0lR7vmPjQCkK95fRG4l1i52fYsttAowbO2-53JtPQlatIVgaRV5ghil0MyNtKvQRDc2LzByUN4o2o6fBOGunnaOSMRPXVR5QSaHoxJKfw28VQV4ZHmV0NlZdF-F5FohkLkbWcXcQwuhozwAZ-PzeRzTPN_dZEedRUtUhT1DtvvB10KT71U73vQFEK3S50TjoKJfCbpMUvsKYBSMqnA3RYagvS2VNvbTTKwIU7zv-kEPXGAwiDdpLTkbPNqUEQXEKkm7X9xwYEWGSmtH4zOBdfyH-9V8yLmTjojh-0xvi14MrHpGQzcqM9FBh1Z8_5ZBq_ztHY6nPZgQpbYNZ0GH2dM8AvtI3RxbBu1AWfNla48X5IBGWaincsHF-bUUV7Urdb2ibvVk0UcSla9GsRS6DnKY1NuhoxHVysja3m3HyX3EWxjcqXngRrx0IkyEnqfM-fXFWOhe65IFRMd93QYtLhLr1pxVjJ3WSsW05z-kpQPNW_yUSyMv-QJB_Nnm43Ho88OhiqUKyipnjv5jPtuYq1mwMiauWxAkukynqV6pLBtz-b_BVAw1Exi8wJ70VgEDaA4U83v-SC6mcpY8EakmNKmttQaxuXKgqs2TXonKZkSvCgQmkrn_XtECccedUY3QhBXhEbMRR5MZxf8XiYv9vzdBW5CY8TTLdJI2w0pBBPRjq08-k8hDGE_FwLZvcoEKoD_Ngg7rZoIpULa&st=1790661969584",
+      "sourceUrl": "https://detail.zol.com.cn/cooling_product/index1980618.shtml",
+      "scrapedAt": "2026-09-29T06:06:11.302Z"
     },
     "goofish": null,
     "recommendation": {
       "bestChannel": "京东自营",
-      "bestPrice": 759,
+      "bestPrice": 499,
       "saving": 0,
       "tip": "差价极小，优先选京东自营售后保修"
     }
   },
-  "mobo_b650m_gigabyte": {
-    "id": "mobo_b650m_gigabyte",
-    "name": "技嘉 B650M GAMING WIFI 主板",
-    "category": "Motherboard",
+  "cooler_valkyrie_b360": {
+    "id": "cooler_valkyrie_b360",
+    "name": "瓦尔基里 B360 一体式水冷",
+    "category": "Cooler",
     "type": "new",
-    "notes": "AMD AM5 平台最走量高性价比主板",
-    "updatedAt": "2026-09-29T00:11:37.350Z",
+    "notes": "网红爆款高颜值高解热水冷",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
     "zol": {
       "status": "success",
-      "marketPrice": 569,
-      "msrp": 679,
-      "dealerMin": 569,
-      "jdPrice": 679,
-      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=l3bb41KhdF4WUOIWnTNFI2sHIK0seqVYVoPlrUbjkLbSC4yAt4-cPKBWN6Zdfq2uqB6asTnjlO_RSX6oehJt3OuFOg4OvKesZslWIUHz0tkozqYKBJFm97CUPxNIV0bK_Zsa57XSKqCJed5FNx35-QTqxwrVa41zHBvmMG8-20k555I5RzBswjV5OSt6qwfpAwvTZOKzYGf13iK6U0ycWqlJINaBhl1Z40blgJ4mfcmxfiCIP-eKXFs6N-vT_FKAYeVC9CJNdTmyHFoHF8oerEA6iLvAdn12ekagpeJdkIiQFYLkTy4NwKLcf6rmyOVO-EYwHieSxpNThS_PWRuwo_yTmFuhyN6kOm-lB7uZ9lzoWGdLLuJnVVRePp6Q6HB8hnawJk6Lz3HJ1XwKele1RSRq84DtA7fA_e-VZRmww74dp7ejWY7Js7cfeyuJuawqITe_cBeqjmsIm3EUTMBTZplmB88a-lJulQPb7-G7j7mIL6oozVNQS34FMvL9eDE0lPzA8uXyEZCFEnV-ma2AT8M9N5LJGlFng89c8DGuLgkYPR-zUzAQ5I6hejJ8P8279NwoBC8sFoCoYP5KFlFpRXJmy2QQOyh7JdcyVdPCW2AMX6jc6M7_9zlWl4jcFzVZPfqO7kKDOnR-WluWPDz2qTW4Ayrj2KIGXsiMyWzQ0ShG1OqfBRP5NbC-bxxihSediI6JWJcb5iYIRhyADjECdEnAnKZf7rrdef3ADXVBrAuhxQqdnouidUz9aA1IDovHgYeI2Fv3TGN7DF9lUXQDiwdO5jFX_omqmO5AbqSV6rEEfVhqNV90es_hVz8Om9_ReOyyvASG1mnuAIB6haDoPqRT0GwNgz_ep_pw-Ojzqo-J3-GpsBMIXZStkGIH4xBAr4LvO28rfLwlWatCCqE9QSVLaT6L7hzNYNFFzqW36WHa09fJ7GZ4saOVVxyY0g3Sl55yLup7bMZ-Wps1XBOZgTQ4YwnUwfvfLHDeDpXLRlV_ljzV4TnNl8-IhR09BlsZurxADHbG-l4lwF8fvAV9qWugnZVukfhFy-Mk9LR5Ftgc1U1xGp3WHllA5So7aMLCU1luudr9VxOjjKaS3P1Ezk__3qdgEgXc3X7sdrHMe2ggD3buWhfXRaSJiO2UiMDWntmdTiEZ-EQIG6odDkkRjPapJziclvJLy-vniiWaJgJxyDZ1oSXxoCXfRQdiB4uoKj7n1xFf6lr5rSW0fGAVOyJNyC9OGU38demWnM0h6DRLxlO84mR11R5zx4nK74rnhduhlyiAZFVcndP1gsTtAuISCk_vVMjXubJ0tv5CUQ5sU76MWtNP_E9XDyZjSQEqzbfCXnr2hQ6uaiWl4ByLkq20SYKmxBUaa-EWXnYDr0THt3Gu2v8lSpKVu9i9ttOxmQJTtdjCP__tCSv_OfaFnrw0GSJ4oArs_XRnVfb3sgnlN7eDMz48uDviV7MHof981zEpEzAA-bqx5veBf6JsR4WnbzCySNK0FKjd12qRLkehYQlV9gnmM05VMXmrLHTRPwf0F7yYiQkk40NuwNbJtA2Gif5BJMxbrXJNIGuiA4Iiv5XWv50sOLR1AA--THfsL8qfa8iiEwAOLvv9tCcEHefcF6_Q4GR28myIZlSdqjTWSsyZI-o_pZDJ0pouvIuleELdVPQyVQRgENcm7VP0sK3Oyahotc6EtJilqW0ch88zYG2VpkBssK_an23kMWOxJIKE6UbTkIEQPMIa4BQA8mV_ZyrAYf9HliSIGR4KY9n6FIfjLBUUSBdvJFd8Dq1rOVIokhr9l3U0oAMpxVQ9FuAeBdVqE7JA_RAu1Q5YJjDYjzVwUwxhhsclV9JpEiwEkZaKz_M6NQCFtpRrtHN0Ql3WPVslHjqWbj20btnsjZrx61IQHMWR6ooD90sP-K159U-GzW69O3OQIaT3EhwqUxOlDl3FVOpe8cjmYjvtptkMAhszs-BQ6g9SZeAWJigN2nU1YYxVtUKpnLPlkq5sRY1saGARar-5rEK_B5zgffzdJlOpfm1Lr_oItaKA-BtpihqjaAU9LuiN2O4j40VIGdJLSkQdrYypjgnLKVc2VM8n8uXuOQtsikm1Fw26USENaG9z_OHzDiL_X-rmsqu0gvTTdQHxVYTJR-GkE_-Sh1z6GM4uhMRxV45Enake0RrhHIxu7f8EoRWWt5igc6CC2vBpZIzDxv9AOtAaWoBVdfSlxOdfVcSI2hE_Peo8_sMMGEUwqy6OTue13vN00z1vAHvITnXg0h12NcXgrV0QHCwbBFrS9nnYmUDqwD6PPZE8wsXzBBLOaqKB5EbzlJF6-KSnIh213LQUzfbAsEYuLnwMVxujtTQzbi5DwJqRZcbQn7HDsO7NTxuf4is4OjdiodM-bWWmO7dodUzf_evj6tbdojCJ4z4ZwvvZegKWeY7PdJ7VcK93KljHb3qDGfU48DXIhworMQzSsOB8ZuLAEo-ugTzS6N7xAZ4XI7N5Nx4j9pHovGtimkUYKK8lzFzhELD8VA8wRciToCnanB0uxATNibKeUgKBjRDE4uw&st=1790640761900",
-      "sourceUrl": "https://detail.zol.com.cn/motherboard/index2106519.shtml",
-      "scrapedAt": "2026-09-29T00:12:43.395Z"
+      "marketPrice": 498,
+      "msrp": 498,
+      "dealerMin": null,
+      "jdPrice": 444,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=if42evWMAoqbIUtzX5goj07V4CexUabBbRwM1H35QLgOIsfsjTqJMoD5HEY3UtIXqhzuPmEZPL46Y5Jjxy2EVI5yp74pccSJcUQz9T82bxT9zPA_lRizcRLyk_EUA4vceA_dkfwcKfJfzrp8-uH9qSi0ZGuC2EJhyQpG5qBuzjmcCGBWaiqVn9iC6rgsUwhRwbcZkP-gX1ol27tQ5zWhnCz2LPbuMJD0vfxDwVLuC4s7sxUoiGcfK-nHe-7RXOsFsDq-I1exFqka1VaqLIR5ePpGUROSyGOV1oG7KTy8EhVNFkIKF1L5Al8NyBPpakXoPBIBqt5MhQY7eSKWrSO0o4emFLWKcEdH4N4tnyJd5zJXOFSPj32luOUSXOuyNCRpx3auDP4pmgkz6BITTbm6xd_bGGelL8AoKX2_z3g-YvHqhVzTlyaG9iqOF9h1RN1vb4hQCnm9RPa8pd4WKRou3_UNpYRDkC8eDyppZt2F_-xJaZknhso5l7vIfd8qQAM7pZMY0rh2voUN0s2GhDCtCepQwSXHRa6TeNiJrJ1v3URhsuxM4gCZ_garqLS8CbRxg_G93qWF5SyBXOORdYm5kIVaVrsg8OArlXHgKNHYDG8T7n535CS_e9_rmjm4PcHEa2VfWgtS3N9igdu-BRoycqHOWrRtgaYnlWRQ_2dVn6JdnOgKIVGnHiEM_lmSqAr5hglgTkomM6PEx2aCIDXAjqvq0WdxyC18TZQQNyqODXJf6Fg0EEEGqb2q7HEe0u5TlxZsWXd6tBin_vB755yd6KKPMtITabOfTlgmfHK9hol8ac82Arf4YRILzpQf_9y9cO9II_POn7JJAMQTbBA_j0QLOIDzAxNtSf_m7-PLvwl9VOtg2J5---8Nl8SxLmlwaQkv4zazdU2_yNspIKjGPDCD3ORrF5W6rGxguaAHN162pn5MOCZB-qGHw0i-hBKy3CcNn1gjXTS5Y9HmOhW4mDWzqPnIGGu8HE2nhwZJ9PjBc6SqEZ-1op8T7VTfLugcWDSSVKYwqovqZtYr8Hi1YGuFzFvVRs-izY2abh7lwttzlV3epawlTifq74twHZ-_3MmD3FIHbVYPUPaxQx68aJGuzBAJyVUfyc1Pcxk31v0ZWhRwpbJIHChQsG0z94jGfItoc9r9wzOrRNfjjaEAtz15hoKIvFMQLdvcgjHIfZiVtErOYOHfLNt6XynfJgMTcNrwfbVE3cs2l8QPnW7N8uJcxfwCBzDeAOxcTkXNiAGhtE12F8d9MUUdMEn32jzI5N9J5Cc0pwnrwCALIQ59WcUzefrvm1E5mqHX3kEiXYrTfyUzgryJREZsaSJMvC_4HQRJ8lCRze_zP4WoKeMLPlM93OoyzuSYlgvIuEVzEtt3H1YqMZvx4ZlPc2N1ThK7g-R5qmfz751bd_cRj4mBt09vI-ks-ThzmlS1_V1Gr8Z6evkfcNDMJaOjO3r3ugAYqEQghA3bI8kzwx2OkBdvzhLWWjC16up3lPFciqE_YSk6OufhuweMMtKSqHsnHdPeXxbryTkQMs-p2YscLpLxbnQNIcNcxaIfdjfOuRL287kO4rVW0yE5ZDFCNwE57_ukMzcpGqT4FIZvhL1ZCr1gP51i4-yLo8mZkLaO9vtvbxISNeUryScrwIle6OR5e8JpLyVjEFsVY-EogffrsQjo6vCls21eugdu0d6LKWvVYiP3umsnZ59PrTm7g_wKJjiJIZghh9_C1BQ_XA4Vxb1SfdkrTW6FaafJsRHw5Gxl-QYrtIEkAg7ndAxBmpEu5WataVfhgioze2ySyHIN7CBMdXTxD_NovPrP_YAa8t09WwlwYQhXyoTtK8-uny-FyiR7pEIwqF7Hodk9TWS_c6mXt9SxxUZ8stwblQDYLoQKJQ7J7jQXcE05VT0aapy_Iqa2lXsE6xfiQzbiKtjB9mYF28RfhsodtCAbDcpLxwD4kBjt6XRjC5iQEeZk6lVkPfESCTEd2SGiPd_ehzFauN3zP-KdiJT35VdfR5C7htTreqxEUaz9uKOqU-CktbTCLDAE4mOqZMN24oNPcwr6tsGzI2qItqCBHN46xLrJYTpjrQ9b4xxJPaz3prDg6zOCxwt5dsbc5sBqVRR9iTyUVF4D_QRPkcNJldgNd8L_qw87gJUgJwSZ6RRMO5y30dJW_UTEmCwqYjexw6YUaJDyhan-LBvLadO9IY0MZQm9YZFfZa0Fpl3uGiGT9PvMgQCStp7PRL7dLL5wiybK-BmkKjyTl1jeuulxzDyvoGzqe9Yr3ILeEdMmOgVUjWbkKLtynJDRbsJfjY-kCmqeWcKjxmHfRPXDjYrc6SzED4nLmuWE-7Z5UFhBP_J3NXNq-WQ6Yw2GBhN0Jjfwbqqvhk5pggWsDmXxStZngu-eJipTl1j4JYdTRsIlcHTxZtVP0XKZoBa17CMI0jAyfClxhIBp9TUNlgxLmIs00nMAvoOPzmWCC3A&st=1790661972543",
+      "sourceUrl": "https://detail.zol.com.cn/cooling_product/index2034278.shtml",
+      "scrapedAt": "2026-09-29T06:06:14.219Z"
     },
     "goofish": null,
     "recommendation": {
-      "bestChannel": "多平台混搭/淘宝渠道",
-      "bestPrice": 569,
-      "saving": 110,
-      "tip": "散片/渠道渠道比京东省 ￥110"
+      "bestChannel": "京东自营",
+      "bestPrice": 444,
+      "saving": 54,
+      "tip": "京东自营价格优势明显，比官方参考价省 ￥54"
     }
   },
-  "mobo_b760m_asus": {
-    "id": "mobo_b760m_asus",
-    "name": "华硕 TUF GAMING B760M-PLUS 重炮手",
-    "category": "Motherboard",
+  "cooler_thermalright_ae240": {
+    "id": "cooler_thermalright_ae240",
+    "name": "利民 AQUA ELITE 240 WHITE V3 水冷",
+    "category": "Cooler",
     "type": "new",
-    "notes": "Intel 12-14代主流装机首选主板",
-    "updatedAt": "2026-09-29T00:11:37.350Z",
+    "notes": "紧凑型机箱专用240水冷，兼容性好",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
     "zol": {
       "status": "success",
-      "marketPrice": 994,
-      "msrp": 1159,
-      "dealerMin": 994,
-      "jdPrice": 1159,
-      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=k6ac8rqkxv5qf9SngdTmt2bL8ucLVs3R5cLQBkYma6XMnD4fO132JksZnZcsEhekiqPh9NYHfU2k0z98jdqC26vE92Rsu_TpVgY_PxanxuTR4haWXjW55HsbMVBQF5q9PzJR1XkX6dZeQF3Rg-OzJLBnWXWXo3W0gxfbeew9LXiYYlx_49SZ3Re6G4cMPnmqrkJ3LNj5fZvgOUyLAxdGAAvCOkrzjEZycG98F6C3P37kvIO8cj_PvSoa_NV_vnhgDkryw0aK1-xnLUkWiSLmSCoYIi3EGxlVc-So5OZyvS4kMIna73AE7Be86q0Zia-9dFnj7vcinHl4NYjcIG0LgTNfkXw8_Oyy48yxSSAbZxvO5oUEayoVVHQoIVlcMjO-2wVFcN3oaFNMHGjwu2v9Pe0WoKpjNN_AIwoB0lQCcYkTMho5Q3URGz2IkfaeENs4sgLh-nH0hcfft7ptPH-LqOfJp-fPnmBHAj4eewO2IBtVSIe35_V3gOCCVnmMJbnYj95tUCHNuscwwgEQJi8jP5L4kZP7FzlyLoCSVudd6TJKfzx2hoFZsYEmjZf_T5BUdZlR5qtNPHNdWtqEO-XbYITsD0EAR5bkybfl0wAPFPO8vM6eQrcToYKcHpRQx4usbWhHH0QVWiBa7dNVYokOh-2sBioQ49y7d_2AT7XnJC_LGw4gcwP5aAo2ojVd6EmdCHgVXyUbU1sHEOyo_ZYQYTU6gi6Bo4lSVTvNW3CasfsEFFdLcgPqLpfMKatKad-qsnDZ3524efkBkcNNAw3mWaKsxmyvqvvCf-hF5V6WAW4aElwtcWZ3jRDFQoicHsOxBlisrfuUCchi_9hFN6AcapjeJXKv86hnZ_Dw2Hk5S0C9KTSmIj7VMNZ91kpzEgo96tpXxUA-d-q9IuNr3g5lUNLYeEXx1S9jEmdGTTppS2J1mf3msIjJnfTZ1S2SdlVEYPLDTNllQJF0M850xTKAb1pKoCw4fHEMBqMMx73tIFldoxiWlYKYDyloBBqlxcDIUqqDQ4Ic2ClhnPzw0loG1WH2A6PLZRQ14By83SwftwWRyf57HzPEUewVE-wT6O1panLrzxWaN3QSWhY9DzF_JSxqjXrwau1dd6LaCjXX0XANQTBk_9-mfCyPYHTTO-cWHMhj7khSBEsTaz8yce4NmnwPDnabXahEoun-R6WyM-gY24VKUuzbvWdYv2lrSMEbWu8atrVfEBTRbzugEuoy309D1ngxqB2RVe-AwIOBvkojShnoTFupNba8mdpDAO05agfrRuCRXd7JyY5xZh0yRfHMUD-_ymknZsCP8k2q5n6nviNDkTKbNCGk5TlR038QnSNRuvvBVdIbsjuWARzigGVhr5etdMAr-OCL1nWAwLpw3-ZR4Prnk_DzNiUkTFKJmdNWXkH5t2YZ_DRLNyqu8BmlVWOVjMTj2uoS4SmXMFGstqEYot0JJXXbe_jbrzCVL87T7mXiC23k5cOC_ifWxn7_NJoQHS55uYOe9xGKvv5Gdw-CZs3xt_GRxd3PSNIBU6zAm26mI3JUu6B3TWQAH2HQxoo59S9J3OrGKlHJcZL7Qx1qAv4y6Ekr1M_b2e10-AVZc0f6u2PGeguSaSg0d20p0Vz10C3_oX8Ujm-YQaJzGE0a0rmbpHxNh9l4RoBemH1afprhZfBddy5R8QVuKOB4RfWq1jHqITftjwH1_vznBGXkmKyHcq7nzZAmpUNFVhqKEY8HPYWA0E2ZmPjBWrG88JYyfho8jer1h-OwOonARAbHYLg1RACpLZZYd6r8bhEeCBF6ZxYH48rLBNAyHQkklFODyStkDU2IMqs0cb7jIY4-Q9IfIZFON-p9K84HMnuBIT0Bo_5OpXTXh9Cmf6EZrVLdpxDl7sFP1mGE9_3eW51P5RGDOQmtvud6PShFfFjGi6jkyVdk4Ohis1vpQx6SHYdY0h7R-6vLvRo7_Ey-34t2YwNeAxcH3GjOtDYDr6kzquA9qWxup1xTVR088hGEm_KYKRJxxtpsX-SmB4arKyHj6cqeygVtZlAGq4qhc5Nhy7P_pwkgf3IKR5NCsA_kezoxAt5mbYYe37LCjxgw1_yjIbbHiDxYeiQTv6ixqBxB6yNnrBGHpFFJEZOa3xHQnGnumN9nLG6ZKyN8JQgowmKKBp2rc7hNyWhDWU8j4Ir7AQIDcAfTTcMl5_gQWpQKghuHK3BCVHO7Ewe7NuwpGJNXg_mDq5g6jnL6KB4PYWgEQJ3UEv0eEoN5qGZTSnYBypitN6f3Wu3CGTtol8HMruhAV6UGGl1XU7vhbAaMSjVxM7mhyWwLXaLVYQgapG0XqGdaAnc6iyhMv7TLeLZ2ofN7Nfn6NW0rympR7INAFhcKy8m1a694hlmriG6KWBw_VxJmkC4omv5p5yb053DhpJstBffHMyfRiOI3cuL3KWdUJKNFjT_lf2FMRI78KUvG1h1K0-pteVg2ovanrom4HH4FeFKkVkPL6sJGH7C9RmbrbT-1Z6gwBJvUrPDS9uahILPfqj6K_yaxaF4MODdVaae4aRNUc8Qa-HBzRo7FGFh2AAHgZwu8sawCY5lbHL2WE4KdvA04LJVgDB38i7ZTdSwyd8esyOKR0sape9TLB8IfqaxFM8HJECGkJdzY&st=1790640765306",
-      "sourceUrl": "https://detail.zol.com.cn/motherboard/index1440076.shtml",
-      "scrapedAt": "2026-09-29T00:12:47.091Z"
+      "marketPrice": 265,
+      "msrp": 269,
+      "dealerMin": 265,
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/cooling_product/index2004654.shtml",
+      "scrapedAt": "2026-09-29T06:06:17.011Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 265,
+      "saving": 0,
+      "tip": "全网渠道行情参考"
+    }
+  },
+  "case_jonsbo_z20": {
+    "id": "case_jonsbo_z20",
+    "name": "乔思伯 Z20 紧凑便携机箱",
+    "category": "Case",
+    "type": "new",
+    "notes": "带提手紧凑便携M-ATX机箱，兼容363mm长显卡",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 379,
+      "msrp": 379,
+      "dealerMin": 379,
+      "jdPrice": 379,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=hac8b_bhRzj_btAqUaeiEWoEa6cB8qV2C_8SQJNXKUV1gf8mwjsuFmTzzG9YoZh2UiCcc0n-TYaOS9OseK5WA4KxBHe0qwUatQQ_CN31aeI9m2y4sl2lWOtaSqwX4RT7hu-eHeq0DqrDaqaUPZEmwxC0wuFeJplrZAQnh4MbckMpzRUD6rj4Mk2VHJvMVi3IO5-pQmX_muGWGEsmXVl0ICDxLDd3MMEegw4pf6oOEp2J5VmZ8ugN1jbfIhZILqvSle5kLzu9z3mu0o7lWooIA-hdJmCkkQ6dMEwDdzB1pcMRcs8033mIhMN5Mu1DPCa7LyeukQUcwBjnDxGpyYT814kDFvBRE2a3jPHGuQnsVvbK-QflftuqFYM1fpSrWYUM3GbC47L3bXh47pySgA4i5woGA5Ye4djFZUr9O2uvqJfaSWpOB5NzkCsVm581OOTAw7tpRPxVxyNUVwAd3J_9YvrWN3S_c650YHmbeReXM7f-K6yKgPfgJWKVpE_upza-csGKh2-RDLahFGvuyWqP1j3x8ZI9fEz9VLIn88cKv4ZckOMPDzimPQ2HqazCFroWYgovu0WMGi88ALSSZ-Um0U3nLBSkxXz8zOi6S5eUW5zSeDpv61_FdRbMzgT7yPDmVt6nY2ZyqP5wuGXKkbTBgwSiTxJu-t7xTnED_VuljKWy4dMPgCPQv3oCVjm6qDmzJDh7ytr2sROqm9MhHSTJdPEuMs4lxa31-L9UpOmjVxHrYHqTGwaUqsCXICO-qaMQMdRNNMg9zk6FFs3rjTQnvogyETe0AjoO6CawT38G8zloxBnXlyRvRgTyI8YtZtbddoczrwMrJckz80pPFD7u4OKOTUeblAAtu3U3A9van6hmMhUjLPlZGS0tT60jG_HsiZIO6YH0oi7BD73MCbJOYSKvevE1BNxepAI1cZ9DjO0x94wIt6IR42aV-RtO-7MioZeijvj_4qiVRlcaWID7Ot14yUE95fRa1AtkOQ_998B9mGvP48sYyjRmiGRXALBapSd_npUrK33rn4Up7mCcIXd7sFLddw9i_2NFPKjuKrfudiNKQgT0fXIKWOyeRivwLBrs5lFpOGJTRY7FGApEw26KaEL_M4CqUes2PEPYNi_cowUwaaXiCNoVokRjb00onT0fgKzXTMG47b05fiUXsezBUWO8MKFfp_zt-zkheKoJzq9hmqoY5D95croqdCBq6bg5qNmhGrx9BsnJaeDHAfWmhSdsoj48FCiCxDVSaMaj5EkbaqcmNFsdKkj9MRK0Vfcj-gFE4-c73MGuy1DhL9WgrkpY68miAZ1BYJ8wQekiGJiGrEeNsDxklSSWSTMsNalMPy2ru0Y629HIGqS_GQqsSeIFiwH8yTYzfQn2Ywlj1bTeDydBoyFmd4iS3ZK14bSmj7mPIm6AZLgJ6EpG3wzrh1ZjOEDbAspKhj8_CnOQfj3qL-0YPdiBCR-jc-RSBO1aSWUfLXPPsM4qO8TWZNEW2UqOfrJCqzvEW7asFxt5UHfs1KB0KIcNSN-hL0Bl6raZUnShXo3TPd4pnkBOjY_vyRMHCAI2WFzHQbJzp5ELrdAdpIELvL1m3uoZ_Ne3Mlb3FkyYrEo89AvcFmxhGik0BBspqnljrT-qDhbkzbLaDQaemub3a-nfIOkRk5b_cymYfcEJyAVXv0TrFAzTz4D8VbJgYu47vlp-Mvt3yk15szwMDwLq2lUIez2wXAlOrNC62KlwBnVAgfDl2mDgL9LLqeFbBUL3oS_rNtOeTh0ftp6WssocVBJCqxfKUtsDDBXs1ncFU4elGPJT-U91iHCOo5PIpB2oEPs-83mIFDjNs8R4xGcMZqb-S0HBZdAA8JrW7UyBPcmgW_W6isRjwQwx1SwpzXxFhqhhz07FWXTggKc0xPsip-fSyAptj5veGHqitOFY1usUVSr3sMw7NCWRp6r3VawlrBiGfjHkqmKMWfysVeUPZQqBpl-GKq5fybynRuAtw4UGlQPPYs70-lm7EqHl7v4OQt104GPVFkJmuUMFWbaau4psRITICJQ48Ty16ePvNYvB6f3GLO3u1aa4yABnBuqbUuGEj7lyULWTznnm2_O3yevZWOUfles0HVZa3VK5Vhir3U35t53IMOsUD5ESIFiaJxgjvwOPvOj7rxzk8LPA8MbiVNrVTMjS1-1pceBtsync9Peo5f6xkrCTlM4cDw9QsabQHFz7y5F6niW4BJQQ8F9-MnKhR8vDVWYSKr5JgftZqdfergiEO8IQosLNW9ZLP2tSNe5uo73PPharH4eSeq5oCXDklLS5cucve-Nokll0TE0MzIbujlJAjkLMnfoOuIH6Ru7w1gyOSIzaI3mEi967fVxEm5OAm6LSM0EqQV-Y5ZDE4gU0HqNC5qd3e6ZkeN7nqgq6ymHDp8_XR6zYT_sXULRzNDLyfhTvEj_dUsgyYGiQebZJvZwiq3S4jntIBnsVJuiJsfWHiygus_3si6JmBwH1n897sHzq1oCMval_ZvbwDZM8oRMj4dycDwgs_4jnUOEtU7jWOKq-8Z_80i_31HBOQa2KIFjEDQlado6bl160J4jPOh2gWY_if0pyKan4GI2kaOAuVdAv6q4dCvtLvuxDheUPRyo2e4MWHAwsSHCOSyA&st=1790661978680",
+      "sourceUrl": "https://detail.zol.com.cn/case/index1970858.shtml",
+      "scrapedAt": "2026-09-29T06:06:20.218Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "京东自营",
+      "bestPrice": 379,
+      "saving": 0,
+      "tip": "差价极小，优先选京东自营售后保修"
+    }
+  },
+  "case_jonsbo_d31": {
+    "id": "case_jonsbo_d31",
+    "name": "乔思伯 D31 M-ATX机箱",
+    "category": "Case",
+    "type": "new",
+    "notes": "主流副屏紧凑M-ATX箱体",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 1399,
+      "msrp": 1399,
+      "dealerMin": null,
+      "jdPrice": 239,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=kce77cZ-0rBcuZS7q9ZP7bpKbHyU6eEjsBs6oRuic6USHTaw2o73NGQ95G0qC9U7GKuuexzZ2PF_iRa44S6b0LCAGkvcKOURay09mMRgrZKMkEx7zEv9GMVeGmvYP85ZcKvpz9PtbxWMGRIXHMNY087lwr6ZVx5GF_kdTRVLVval8zRwgj6cS5xH2v0zfqVYRYI9-eqRkl85yL0Bj1W9D36vOkzx6ibRRRte9noDf9OS7TuOHerTYQNJfDrScZwgo53lIrYMcBlOcvFxksuIsZodXiqaTKgzdCfYrYZbBnWr-pk7P4vt1Me4XkrHOUtqn5QhJ2bIKLDZRyBNtewnrMvxuXO0Sc5H-fxO_Hfj7henDDYVWyLrVoot-cMkkKBJtMOxiqm7U8e6OUt_5JhD0NbZoa0P1HZ3-W87DkAC2MlbelWkOn_tnxXBSsEBQAsT3hOq8nWfpbJotQyfcNQCSXH6hyGgXpDFZP-dzO2RGt3-ttuw71eWIZ3eyp61FJFq7VsiEgkCuU5t3u9X7rHATJK-FC2slXLJzBw9h33JamK7rnoU1TzWr1FaxbCEjz2XENS4CiW9DRWj49FDBQWfYOWe3nx1zPTjfKF1l_19VOu_dDfTpa39ONFdAJ9fYHiOWchnljImKUG9DGZM3fYSyGJYpkN4_b_A6DyQVEAO4OXx1yshE3F0PEhgc2Vw7k-BLv1-NXwF6CTX92I8iNuPtiaGGCc9phuGJLlxQXe2sZXvfsRw0UsT0XvgB_wI4X0X38jorFnYPNvrbMRsvlihj6yB6KsQvRzzBQ4n1Kh0LB89MCXKTESI17SXO9lP3h2E8oT1sYjTpDI10eDbiBZq4SZkmdKRzona5R6ZNF3b3Tr_E54j2SjtaifzGzR30i8b15Hj8VBYaeccWeZca2Hz7YvKP8nKo5830eIIwYlWIYO-t28gJQoQXvYP2vP1tmrPDKbL0nXhUbWP8rPRoqPMZfYklJp3xxF_os0zy4wqdTWfqKMPitnQCFTyk7l75USBd_O7Ml0PxNkVI-haskgXueLUhFlbp35tDWarEpVs52cJiHAjVsUbBL7UvxTcUAlHdKN7mfwhWI_jhRp1O_BD0KlHzfCUoZs2nKROd0V5Q4LHPrMCBV_6w6OySuS-1OTNEz5n0RKcURaSY4EHC2YPkGePioZelehFDpIKGdwoQX0ERj23SizlNvahx_qhhEQKLeGDEZt0plAInkOPLCaFCmJgQXy1CweJ307_O2G0qPJLdHGNzIj0bmprJ9DK1XK56GofhjkAPJcHB4R9omwA1oSLvrMlCZmx3f3moZWFbnvFIPBvlQhUVDIkXI_JDPQeYnpWHRVswhKoBMDzefqupxgwEDgiKqlGDukRyMc6XJxy1lEX-Hqx09CopVrbqHhuNNB02KpPjjrBKKpsQOlzY0Wzcnbhl6lLHcWo-5StVZGeIw9Qwr-N11Us4kPBVLKXHXNDtJXBilB8XS4H6z9aiupuEEA6XrBNm9sYOTn39nouIWsAad39p7jJLhzj3HzBeySxh0K2dS3YK0qRY2DP9fwcaLn1_AvBpVoiMF5NKcnUqwUrZB4mFO5vRwhnCZ-tQTKUOwnmDyqBvD4jag0km5honQQTsWaqWQW6GyC1YWqSkormgV_ZoobZJBbKHK57LWr0Z0wCkDuxquMKeRCxOa8AkoQ1R0kfGkEfjEdhxyJrOrov_hzlkRN9nPbrstjS8Pp-sG2FVccjZy1U9CkP8BLzP_YYkKMQoHoDwzBW6Gtz2krTWD54BmtdSq5wMhxYOGxyLYsJ9Uq0IZDDN7vzAu3jpNYFerW9g857kk5Gmkez371R8b0bOi2vbbP002wkoaxLVIQ_AiNtFrGwTAPRkujRqSvDOCzqWIStb2BegDhGHmmrjOHfhxKzbhQEs39fS_-RW_qHk6tV0T2rkkeq7UB3KOgtkCOjF4rkTheu7FWZ0_ft9UHgpi8aFDsDM4mBvzQjlVRT2rKUB0tB6QjR5KQKYHCVzfh--J9g200K44WMa7kbLwSbuE17gQ5xlVkm8ptyAk3iKhirU3vP_I7L8tV9OIg2BzKp4h5VNXdjxVTclA2LcuHbdA_-_d7cilFtw1CMKqz_lNJIORb4vg-47w9a9EO9hQcYaSUxVhaMF9dqxH9H8-tkE-0eBXG_lJ8ZVJ9bN2kz6jRbywUOkHJSEEGHQT6P7hgiWms6lT88P-aiQyx_Ba-yrKOLeIm9rDbdA5dmrgneGAaIq970S9g8y6ziI-WYC8SR_9_b3cISXwSAHCPPeoMDpb6qh-IrmMEb8t0iE5_axH9oSBlTITHZQnJUw5HVrG-HPZr8wOzpHYWDaT3jU34xzNdiyuBE74ZFDMqTDZubfmdRH0kng&st=1790661981461",
+      "sourceUrl": "https://detail.zol.com.cn/case/index1948884.shtml",
+      "scrapedAt": "2026-09-29T06:06:23.004Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "京东自营",
+      "bestPrice": 239,
+      "saving": 1160,
+      "tip": "京东自营价格优势明显，比官方参考价省 ￥1160"
+    }
+  },
+  "case_sama_new_border": {
+    "id": "case_sama_new_border",
+    "name": "先马 新镜界 海景房机箱",
+    "category": "Case",
+    "type": "new",
+    "notes": "270°无界全透海景房，支持背插主板",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 293,
+      "msrp": 379,
+      "dealerMin": 293,
+      "jdPrice": 214,
+      "jdUrl": "https://union-click.jd.com/jdc?e=jd_100045628697&p=JF8BARoJK1olWAYFVVxZC0gfB18IGloUWAIFV1daAE0nRzBQRQQlBENHFRxWFlVPRjtUBABAQlRcCEBdCUoWBmsPGFISVQAdDRsBVXtXUHVJGihOCGVJLjVZdipBdQQNRQxlUQoyUV5cCEsfAG0JEmsWXAQBV1dUCUsVM18KGlwUXQEyBjBVAEMTC28MElIdVDYAVF9cAUkQC2gBK1sTVAMEUVdVAUIeBGk4G1MSbU3X38NcCEseM184GGslbQYyV24DZkoQBW0LHV5FM1pBEgcLTR5MbW0AG1oUXA4CZFxcCUkVM184YBIcL3gKNQk1ayMUcy16YhtXHwUBJBwvcQtVQWwBdVlKAUJUIC1aCkxlcwRzHQYSCTYBZFlbCXs",
+      "sourceUrl": "https://detail.zol.com.cn/case/index1546838.shtml",
+      "scrapedAt": "2026-09-29T06:06:25.951Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "京东自营",
+      "bestPrice": 214,
+      "saving": 79,
+      "tip": "京东自营价格优势明显，比官方参考价省 ￥79"
+    }
+  },
+  "case_sama_quzao_2": {
+    "id": "case_sama_quzao_2",
+    "name": "先马 趣造 2 小型变形机箱",
+    "category": "Case",
+    "type": "new",
+    "notes": "模块化可扩展紧凑型机箱",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 182,
+      "msrp": 339,
+      "dealerMin": 182,
+      "jdPrice": 339,
+      "jdUrl": "https://item.jd.com/10106171998686.html",
+      "sourceUrl": "https://detail.zol.com.cn/case/index1948017.shtml",
+      "scrapedAt": "2026-09-29T06:06:29.109Z"
     },
     "goofish": null,
     "recommendation": {
       "bestChannel": "多平台混搭/淘宝渠道",
-      "bestPrice": 994,
-      "saving": 165,
-      "tip": "散片/渠道渠道比京东省 ￥165"
+      "bestPrice": 182,
+      "saving": 157,
+      "tip": "散片/渠道比京东省 ￥157"
+    }
+  },
+  "case_sama_yingxiang": {
+    "id": "case_sama_yingxiang",
+    "name": "先马 映像 全透海景房机箱",
+    "category": "Case",
+    "type": "new",
+    "notes": "百元高性价比双面玻璃海景房",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 319,
+      "msrp": 319,
+      "dealerMin": null,
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/case/index1990875.shtml",
+      "scrapedAt": "2026-09-29T06:06:32.414Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 319,
+      "saving": 0,
+      "tip": "全网渠道行情参考"
+    }
+  },
+  "case_lianli_o11d_evo": {
+    "id": "case_lianli_o11d_evo",
+    "name": "联力 包豪斯 O11D EVO 机箱",
+    "category": "Case",
+    "type": "new",
+    "notes": "旗舰双腔海景房标杆，顶级走线与散热兼容",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 1028,
+      "msrp": 988,
+      "dealerMin": 1028,
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/case/index1466488.shtml",
+      "scrapedAt": "2026-09-29T06:06:35.486Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 1028,
+      "saving": 0,
+      "tip": "全网渠道行情参考"
+    }
+  },
+  "case_asus_ap201": {
+    "id": "case_asus_ap201",
+    "name": "华硕 AP201 冰立方 机箱",
+    "category": "Case",
+    "type": "new",
+    "notes": "极简全冲孔全透气紧凑M-ATX箱体",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 450,
+      "msrp": 450,
+      "dealerMin": 450,
+      "jdPrice": 450,
+      "jdUrl": "https://item.jd.com/10057361608482.html",
+      "sourceUrl": "https://detail.zol.com.cn/case/index1422299.shtml",
+      "scrapedAt": "2026-09-29T06:06:38.594Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "京东自营",
+      "bestPrice": 450,
+      "saving": 0,
+      "tip": "差价极小，优先选京东自营售后保修"
+    }
+  },
+  "psu_greatwall_x7_750w": {
+    "id": "psu_greatwall_x7_750w",
+    "name": "长城 X7 750W 金牌全模组电源",
+    "category": "PSU",
+    "type": "new",
+    "notes": "国产高口碑老牌金牌全模，台系电容稳定静音",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 420,
+      "msrp": 599,
+      "dealerMin": 420,
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/power/index1629088.shtml",
+      "scrapedAt": "2026-09-29T06:06:41.483Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 420,
+      "saving": 0,
+      "tip": "全网渠道行情参考"
+    }
+  },
+  "psu_sama_black_diamond_650": {
+    "id": "psu_sama_black_diamond_650",
+    "name": "先马 黑钻 650W 金牌全模电源",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高性价比金牌全模，压纹线好走线",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 559,
+      "msrp": 559,
+      "dealerMin": null,
+      "jdPrice": 344,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=kd7b2UUwVHXtw7q1RvF57LQaZ4czFJXZf-kjkOxc80f2aVUab1JFNcu8G_DeL58OEZiuS_1E_Nasrlkyr5BKluEhlrQSapmDxttSMcp5klPXd33uM1_bM4aB6du-l6ahMKpzFmJcY-xdpnfuHfyj5q8Lx3WEv9ZXdc30d7tTIqJNB-IlMEtzMCO57clPwEHGhmSdf47wHI63tmemfX3KZFFvI4SSXh4nlYzIII773mXPhCNhPxoyklnsTTrGH9IkvzcIlrb3oMOcupNmZCJYUPaNBxdDbXoTEi7Lz8D5_zB5gWTT19vZ2RnRUmAf7kFIrpuP2C_oY2AIn5NjptNqGZ60KcrTiKkVGA_FjXs5Was09DtV1srD1Bu_o08XANOLT8-vqodeXhE0fD-LFSQG1RxKcDvNhqCvepy_Qf1EbK9VVS0nPunKGpFxRB7H9lMGcywxg_bLR5NAAcXSvwTfzxobjWamregcxVjYhd5ROB5hwJcM7u4VzpMXBBPaM9Z3j_DfYUAev--xyB2hJ80IGun7wcb0RwP6t6xXxkDHpDWZF85QYBbzp1OQWMdCEKy2ncmO-FbcsLs9d2pgk3tr35zZ4DGPpq4zLvBBj4GnEUyiGaNvaV4OAJt30khPMzTHkn3FPI92xb4xFaSyCnpU8Gy8SFBg1Ne2IT0o1T1XerYifUoDlLECsBDaawZYpQoRbpXpThD1N9F-KpSKo8ld4M-zT7jnsPpDnDgNn1shQH-jQe6RLqsPnycO_FHrvENP5wQ8mkOd9lpJFc6rwvqzB-DfJdpcIT_1mLetrXdIhr8GPys9to2SgG1fxo-Aec7jkSvytrtbkxBeNFxaCQpsGcmxSma2HcMi8memQgNMAKlO31OhyKtCf_YZgT2Cl8SLt5Y6VK2BOHVixSG_5iw8bX8ys4loDEz-jSh5SgJ5LpbMjmiNvnm1qyiip556C1PVyO82Hs3D-D5VsVp0pNDk2RaKJ8J8tVp4bphk7INGC-Q_GKBmuTfbbYUM8rDxUuWitHXohrcdge4Tc0zm7Bt9-AroAFhPdvhm-OXsFnMHmtb4P1Kfy8MjUVz8Xj4vNJhRlRMxHgkqedjzy4X_cPeXppTgWR_kfgHgRgkM716aGU2kUZymI7pepbF6SFtljFNxvLTGZZNeKWbOrTtEsH3bDs6RwXkDxFHzssAD_-AiBwbXVJdjW-Dewtto8luvaYQ92Ltga9AJcDcTR9IFWNWYHXODsgnqJZ2bRU08b505-h10pMmr5jBju7bWdJQG3fISdLtWcYHK89JNbH8QxsFv5S8RkiR2M-xqY7aNw_Z4v1hJWraBQu2gthCt-aR_RMjXuKW3VxjfRElgZR-VpCrQgK1KZCbxcafz3VX-wng3oDKwkLBgJqPfjC4y8NaADfVumXmexLk4h3xdhqiqz3LERDHkMalqUT96lN8Zxl6gBoFiiSqNUIfna0pObCiGL3BEB4JdkGGqAB9LfCrK_-5JrcpDdcteVMNbFfRtQ-vDvEMYJISusl81CBXbHPp3YZXryP6PJ2i_FeycDXuvh_TZm3iNPF6GK2URi22I8Fovk1UmqyHhURlRWg1X4YEyAEbmGCYnk7lHQLgvcNIuBhc5Cll6ZxtWIo0gxBYPI6YhTXOlzYtxriDmnF8uSvQWpy6E3TZckom381qUzgX7hhtoiIDxZlAcFeKJLzuGi_rftowyXs6TJfN7DtXWg9cSFVfmssFZMF4Hmkv5-NPvlfnC-NC_36kPsmcjCRcPE8yo1RAwuV0hs3vL78rT1TIXk-jlgY67l8qC0mm6INyExu4vtAHvkdBYsprwoTnvffmpW0610OfBazsKd-3C8TM-LgUTh6JtMM5WwFv34VwUOTcAgs-uaHodWQByhUc70DRCvvISQQFckvZDyNPNEvm8hCAHx8tSTuhT5QsHmPLNKspWZfDS_g8pCqrgwEjp9S0LKH3OFa7grfFEIy7fvoP-ffGiflwWXRGGvACJxxBE4OG5Jmp8ike5RU49xYQuuh6Ue-AuYPKHqkc66wyat0cV6y71f2V4Lyj5-d7ULUQOe_UbA0Lx04NVXdEukkhyVsd_1N5XngzdgxNznvLvEc5nExTWjkEYI0vw43Pt_2G4WKthdIASmIABpbqwKZeTEkLUCoLwie8ZqrtHtD4hYOxQehZoRf9kQ1eN57wVhcuIlpADfzd-l5LE0taAJhKmn4xFixIZ18qOiurUaLRIPVjusvL9NlY-sGP9ZpsbuTePTFDyNdyXHXIGXfjfsExDchc1svrmdTxddrlz-A5lEmb8dg1XS157etxszm_QH-WykmG7XTVBZ_UX1XM-KaBjne8aw8H3jK4_8POgp_jAlgpDOaChVakPteEaWTZUr7lhTu7G3XVmTv2gkg0u4dZPemmgw2C8pSHzxTO-oBq_T5f6PQnuBaAWh0mVsUeJRdoWtws-dC7KUfaNw54QGZDvcfcWSg6623rsa52izWO4FHbDfFW73gyQYfALynVsWhZpfpzvUZxdl8i8h9E87Eg_nQpgbNu016SEnpCDWRaFxs19dNpq43DqNi6EFFKp-2jP2wo2R830puBxqA6Fs8t5xldWAJ3Jh9ZmI5P7oN7TO5YhTQCOn507usy7GDRcHBasQoFiWCJKnV8Bii6Lhx0jpctIKtaO7pC5-YFx0x9qteQeLCIw2jypjrpC7bnIdS9masAp6RAWC9ZuJEYWMDBl0OJ04C0P5K7rilysKc3995w_9FJw6aRRUjrhpdLnq5Yv7dHnm&st=1790662003146",
+      "sourceUrl": "https://detail.zol.com.cn/power/index1975190.shtml",
+      "scrapedAt": "2026-09-29T06:06:44.727Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "京东自营",
+      "bestPrice": 344,
+      "saving": 215,
+      "tip": "京东自营价格优势明显，比官方参考价省 ￥215"
+    }
+  },
+  "psu_seasonic_focus_gx850": {
+    "id": "psu_seasonic_focus_gx850",
+    "name": "海韵 FOCUS GX-850 金牌全模组",
+    "category": "PSU",
+    "type": "new",
+    "notes": "高品质金牌标杆，10年质保售后无忧",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 763,
+      "msrp": 1079,
+      "dealerMin": 763,
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/power/index1379628.shtml",
+      "scrapedAt": "2026-09-29T06:06:47.936Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 763,
+      "saving": 0,
+      "tip": "全网渠道行情参考"
+    }
+  },
+  "psu_superflower_leadex3_850": {
+    "id": "psu_superflower_leadex3_850",
+    "name": "振华 LEADEX III ATX3.1 850W 电源",
+    "category": "PSU",
+    "type": "new",
+    "notes": "原生ATX 3.1与12V-2x6接口，高端装机首选",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 699,
+      "msrp": 699,
+      "dealerMin": null,
+      "jdPrice": 699,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=k34e0TWrkHBRcmzOqWFMYXTKSPcXDARnVivIzKJlI1OCg8kfz3Y3EyDFH5fnDE-I_FznR_UzMMfsyYBtpBIWLnYAV7kC9rPcMKB_bR2ZoG6O18SoJM0YZ5E95KJqOZDTwNpdkEjmdEuLWv-b9ShG7NI9krQds_Hvn9b9PpUFgoFTe3cckU--FHiBCD5ZroufJIqfO4yHlN4aOWYkvRTSJ4RCGhrZvkY3WVb5nL4sEOFFAndqWVymPyC1a-XIH-zpv4qmG6QEAupeB8Bofg7J4Y7eQ7PYmsulVKvxzTxKjks7fa_SFqBWTFr7fYpb-aIIc0UgCR6FVs4eGmkL2HQxuE8XFUh0MhlHk_-vUr0416nr-2GjZ3aeRFOqp58aAZ_Jhti4Y5zVTv6QkUe7hUunI_NIDbPj2rPkw_UMEwi4pwH7lT2eMw8f4QwdVugaKjc79S4S0vB2RDqGNcfHlIlWQ_WodWp0XP0vLwR3LkSCGMkKkBQIgIxyVvRxVAnUctlcHNQD8CbMUgyOAnVClaZw5s-Xv9_3WC7fS049HzaqK7cPs_ZefZnBng9-88qUbsS3CJSI2SHiWUaEgF0THoENfNR0MBb-nLFaJA02WTUWaKEZ_akkP2e7C4nva2QH-XHUF1P9NnVcxLqAUIKavLRzp2KwxZvBfJyks40SqwaX-shyAOq7Giozt8Q9fRkhDA2Hd6SGROIZvrhbqNLK4va1z6P0gon82u1y4OzpXdOshHFXH22eNilxpJfWUbwwWIoji0N4guA_f2MKT9UjtxWLCgIKPw0HAx6_BFAYfiH6XCdQHcFXF6lLB18s5Z3yOC0CtdJaAtQi2nC_mlHAOBkntM5iqyYFf5XIpbX4WsOQQhkqeIU-uoD-obu0fuIZ_e1UfFslCGQN0TaiH9-i0gX7hoer_5PQUOfOMyIlygP243489ZBzKQ_sC2f1Pm64C_38Cm-4fJinJT1e02qNPr92XVMX0Fh89MB9837qnsQ2QSt4xf9s9uimNQAq5SxrAJ-hdbs4_WVFfUe4ktFyqyKbH5u68lyZX6EhyI4o7EXspHu5pivO-2FZFBVqwFiRHTdxlPDf5VWeH9YbfSZCBcQR21_7g1HNwp7wJEShZxUA847r5J6hWYNCPt9_4CfHtTPtOnKCcDzTiA8OpB3FCWfDdP5PlkEm_VtcT43qKdnwimwl8bnUbQ0AKQObYaapRJ-rPS-792uir88zACLpyI55fqCMhbpWtvdzC5JjhqqBR7-VqI_PX-xt39u0vU-pi-9_b0DlE4dt1HkQIrq3GdokUCV6myQHlvzDsaYyIjeGVtynl-mQT0jdV-O4RJkn372N-wqMj82NEPb-OIqVyi1KXEdfGGo3F9CpKDFDUjwK6LFFQ3w80EM7SgjA6eW7eBsY58TvKO3RwO3XFg7rFbgvx2dphdaGwjHMqIuVrumNwZDAFasKrsGg3avoKNIzntFn9brSxdwsB__0tL87HQOP1AAUPCA6M2KwZCEOFMqq1rJmgzFg5RH-iYldGw1x2Q_y8h_22znJohJpitnN0fR-fzFPAt4b0e_JbEjpK5rBPqioDyM34-9XIriZQpvkOF5Jl3fdSKpELXbiPc94KKwrjFbFDBs0cKRJoKjNj18HcJx8IfAMB_c2YtfrGhEJj5Nt4G0yiOdbkXtZPx50PLqQSnacx4RDfz1nW_Db5QoCPCnw0OMk5dXn-UOWOTAFoRpk1Rnw3eUP8Ul5C2jiI541xEZbWqCa1lzQc9rE5UohjHmXVAeojwp3krluh6TF5RU7fWP_9Q4cHV-uyFiIJvJh5jmsD1bXcd9lTFLHO2RLRa8ItcxP30oWK7Rx5KGfWX_dVVsMWU6-neeFi_b4nf22dKTk1Gq97qt5BkIjEhCDay6nhZ-MLpwWxNBp8lRiEWGcfkPVvZbElm7igc_xVmL013zpUZHhgGjJYGB-rz7G1pGIIkD_QDR_IfwpudU2lPfe9-kPDNLYbK1--oK3eMq4XJLvlnv4b166_i_xo5reZivAoxTqVVqydm7zwLNKYkqu1MI_RkA9WBKhLTo5SyH-wMpb6WfyN7qymJavJaD0AZFJvaCO76P1oGlIxpZEwqmbZsFHy8rJXqqWgSrDR4tnBEwiFl0ba4EMgYpmwu9Mcp3CWWFe9i9Meez11NQBa5TL7EX7UzT3Oim_8VHNhojFb_UjIVmyzT63DpfVuVB5IhHJH4dUTtjF_zvzFrsQgdIgCjJodbBHROagjxl7nqoVfG-yGqOHByGa4XWSZr0JOeJkhfT9Yz4MhibQCluq3-uISQkX8kYmiPoLXADQ-4VojpySmI61sQbME9brRT-mHMr6NuTcbm7DCFu6VYHD01Tzy4V_tY84VFrSQZv6zjXqmgrUf4ZF_IsS0bXPSV2g&st=1790662009549",
+      "sourceUrl": "https://detail.zol.com.cn/power/index2085593.shtml",
+      "scrapedAt": "2026-09-29T06:06:51.099Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "京东自营",
+      "bestPrice": 699,
+      "saving": 0,
+      "tip": "差价极小，优先选京东自营售后保修"
+    }
+  },
+  "psu_msi_mag_a850gl": {
+    "id": "psu_msi_mag_a850gl",
+    "name": "微星 MAG A850GL PCIE5 金牌全模",
+    "category": "PSU",
+    "type": "new",
+    "notes": "原生PCIe 5.0接口，支持40/50系显卡直连",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 629,
+      "msrp": 629,
+      "dealerMin": null,
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/power/index1935434.shtml",
+      "scrapedAt": "2026-09-29T06:06:53.941Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 629,
+      "saving": 0,
+      "tip": "全网渠道行情参考"
+    }
+  },
+  "psu_sama_gold_750w": {
+    "id": "psu_sama_gold_750w",
+    "name": "先马 金牌750W 台式机电源",
+    "category": "PSU",
+    "type": "new",
+    "notes": "300元内走量性价比金牌电源",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 398,
+      "msrp": 398,
+      "dealerMin": null,
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/power/index385267.shtml",
+      "scrapedAt": "2026-09-29T06:06:56.735Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 398,
+      "saving": 0,
+      "tip": "全网渠道行情参考"
+    }
+  },
+  "ram_kingbank_silver_d4_16g": {
+    "id": "ram_kingbank_silver_d4_16g",
+    "name": "金百达 银爵 16GB (2×8GB) DDR4 3200",
+    "category": "RAM",
+    "type": "new",
+    "notes": "入门DDR4绝对主力套条，低成本首选",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 229,
+      "msrp": 359,
+      "dealerMin": 229,
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/memory/index1403967.shtml",
+      "scrapedAt": "2026-09-29T06:06:59.517Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 229,
+      "saving": 0,
+      "tip": "全网渠道行情参考"
+    }
+  },
+  "ram_kingbank_silver_d4_32g": {
+    "id": "ram_kingbank_silver_d4_32g",
+    "name": "金百达 银爵 32GB (2×16GB) DDR4 3600",
+    "category": "RAM",
+    "type": "new",
+    "notes": "DDR4大容量主流套条",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 499,
+      "msrp": 519,
+      "dealerMin": 499,
+      "jdPrice": 1859,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=hd6a2xQexl6BWGjDa9h1SaikB4dgwRsGXMe2Jl37nIGyPqOgEEJDZt8hFk7dBhu-ERL3nu1K9C-EuUfEaj3aEdcYjQBsUnTwEDndygR7Wh4L_xReDZKSsYbBMcUYef7su05z11IxLcZsfzzcMl-G7tYSfk5VX7C9qLTqWoC7m9TwjM3veF5lUj7D8WbCfzfHbJ_NwUv91HG6mT9vbpcJoXUKXoO24IYZ6vviHCmIMeAtxz7cuI5WdAljZwLcpCPf_qa2go58gcTeN6c-6UPbwntH17EzEa-ApbKMLebSEk_0y14Orap0-OSG1pVuxsYLzvUirsQoMqUw2b84BPrGvC4hXFV1ziVT_-3mY6Pf_3zPoPudRp21zsn2Omw4SgHvqAWZE0C8dxTgGAXjs0hAAlbif46yKNL6reQOjvJeek4pA_vg8Z6rrKNgubk57q2ly3JvbGBK90-q9ZQv7uLQXFEXfXoYwPSwekSz4ng11kkd7S3eMM06ifH9G4y834qsItGskj1YSSNC9yJz0dm9sS_FGAOmEi2jF6UybabAEWo8SnNHlOIhzLjY0rqLm0o7PFdDCnn3LRuQAsb7ur2j_pdl2M8LcpRUVu_UtvXdUeqgTdFuWUKzQap91zcda232zzJeAoXh_T7PBnif2ZUV9iQxm1dnECcpR4j-MpZ8t3VWIix1CAC_q1YULgeq4OpfgltBzuaxBRC8wNHhyinAY30952oYCwxMcLt9oN_Sk9gy4iPTkOBtRHMMPIS0OUk3UYttJwdVu1qELjR0L-e-wDprLdzBFaioPRR6uS69sIYbJKY9FVDFSKzveUMPY1eD6LjULOp5WmQVdHYxlj12MfRR6KKVsvEgkbKMnQmjmQA2jGBK3IJBoBmA-cl60o_ojNnvOgRJ40HlI0k-a0YuWLreWbFDwiD2urDWA82JuwLllWIP5Z2CGDcQaTewXPmGBJ4bzapYyRBHdmPqiwJWRLO2mXR_Y5kQB7O7CC8zLAOeRFvdgl9aRf8qAgxHxdltXJ1BSIDrwX4ywgvyxCzxbavMkISDTsM4C92qWcEssEzwF57f0P1CTHVybBUQKp-Qvmw_oZMS6F-ZGjwjmit_DFGnRDAixKEx_mgbZgBl0HJggpUrBa00KGaEgkOaJEiGSXPMMXXZkzJsA9OVsDP6JzZeYFJ4_E4L4sbKrMz0OCPmify0e8vVXFoD_fB11MdoTG1FHVEdZZ4qu9sITywmxpWp9H62qoVZMdQz4UOoLF5BBHBfg7gWlxcCtfUbDTvXP_H_4LAKBQLDQ-veR2y4RXYYttNNzP0cft9Ffxw7oEw2n_wvcplJFTbw_bdq3Jqhiv9WhFuNipSWk3UDSm3jMvzP739IsyIPKzTaFwRMEBUmZXSdMmzNes8MHbcZ4cwG6Ymo7eUq0ASkRPJKWumjETNzKy20G_Iq9oheC_4mwz7BE1aNGCcunf_KVo_pMErkX4DfeWINlI8uPqUeYgMp88TnNR3_mDRVXZe8rlC7RVWD0W7jhFGs9UXa4HM15S5xeeK6j8_NoWZjAV9KqTfeCshqMIntpIGoMnd4ARtH4boCmOEdh6jnrTvKM2w9tdKVLOC7E2GOY2-K7dhQdCqKYlOPjk_nhA91GtpELp3imQYMNF3OFkwn_e3OZQbUlMYjyUKOQit5e4kCVVYH86SKF6pYFWqe9iWqKViqNEUI7qHN99QhQbLBpepm2LWsdqS9s1J0NB-TSqf58-JXY65l3LeMG2CwyiZpZWep7tNdmdNZxRxU2RI5ld_VlpsjJvfci2_7G-J7_aAqXilxKHQIoQ8UggsCKTMlU0ygRdOgE742vUgW4HxdWliqKt6r7uyI62nF-lJF-Tnsbn_NQ7EkqeG-jvnZh7dJ4fn9XG2Cngya4Ra67fqMYha9tj1XtREAJub1df8wGneO2H8HrPEiuq2eBiBnJWQExfiiTpuGmLaOtsMfgw1loiTxkDglNQT0OObv4dXI6WdL8dfAQb3htjO9oQNHwpgBCB7FTM1E1FknPUCljEb00ZrmDI_13f7y2DtKbID-RISXjOKDymj04kZMGHn258XKuqeV2VbVwY-PU0bLkZwmZuS2iT9ZgEwRKY8KDJNPTNxkBzEgz-NTwLu-ncI-rfNOY-t7atcb0FcnmUuzzDzf621faRz5vuge3uXDWIgYRe9jCwkqgYtxBUS2BJritULBnfhhgWNaRu_xmL-kY3vgvOQAaH0SPj0eHlbJC-xG-ZO5RblPanUUScCKBm2n7FeLIDwE2VXJYS5liH02zM8VeNGQQfIaBa3xKy8rJLzBiML1JaY-KWAuMtSJxsgzx3XVp8SwrofoQu8WJTIrVFs9MeJj-uJow89aoZ3SHKDHbpz3rg1yBzn9LJZlHd1XwOT_7KnsyrdSFeYaBGCmbNWXnmjBCTEfUaKIBtPUuPfsV6UJHVo0LaG9iwD850KLB_dCBfXfdL5HJNXDmdVbLojGsRfgT8PWifWEWtWYkJ4NtPZV8IpXJDH8TeP7WzszYqjhCIKTzs1FlwiAmxDLnWgA8EN7_iy7HbJjggJCmfNO_ZbCz0z3IathJlrFm91qMvmYMcJYOpZVs7_0WdoCCKZXaS7LhuAJ73xICxePviUzSdsB0pbQYJZbIB4ukHEiBXejOF64tCib1SoNqY7nsK7TAfLrv82az9OFEm9Kbw96YAIDgRmafl9x9MgrYToaRtCDP8FcZytqNzEqdJa5CoKAaH8VjPHnN9PzjM3hZOgFmfXlTNOubuH-7dQdebgQNRt3NF9Ef4JdDpfJf&st=1790662020972",
+      "sourceUrl": "https://detail.zol.com.cn/memory/index1465801.shtml",
+      "scrapedAt": "2026-09-29T06:07:02.508Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "多平台混搭/淘宝渠道",
+      "bestPrice": 499,
+      "saving": 1360,
+      "tip": "散片/渠道比京东省 ￥1360"
+    }
+  },
+  "ram_kingbank_blade_rgb_d5_32g": {
+    "id": "ram_kingbank_blade_rgb_d5_32g",
+    "name": "金百达 白刃 RGB DDR5 6000 32GB(16GBx2)",
+    "category": "RAM",
+    "type": "new",
+    "notes": "海力士原厂颗粒超频套条，AMD 6000甜品频段",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 699,
+      "msrp": 699,
+      "dealerMin": null,
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/memory/index1984986.shtml",
+      "scrapedAt": "2026-09-29T06:07:05.620Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 699,
+      "saving": 0,
+      "tip": "全网渠道行情参考"
+    }
+  },
+  "ram_gloway_tiance_d5_32g": {
+    "id": "ram_gloway_tiance_d5_32g",
+    "name": "光威 天策系列 DDR5 6000 32GB(16GB×2)",
+    "category": "RAM",
+    "type": "new",
+    "notes": "高性价比DDR5主力装机马甲条",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 649,
+      "msrp": 649,
+      "dealerMin": null,
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/memory/index1983943.shtml",
+      "scrapedAt": "2026-09-29T06:07:08.480Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 649,
+      "saving": 0,
+      "tip": "全网渠道行情参考"
+    }
+  },
+  "ram_gloway_longwu_d5_32g": {
+    "id": "ram_gloway_longwu_d5_32g",
+    "name": "光威 龙武系列 DDR5 6000 32GB(16GB×2)",
+    "category": "RAM",
+    "type": "new",
+    "notes": "海力士颗粒低时序高能效马甲条",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 689,
+      "msrp": 689,
+      "dealerMin": null,
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/memory/index1983942.shtml",
+      "scrapedAt": "2026-09-29T06:07:11.354Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 689,
+      "saving": 0,
+      "tip": "全网渠道行情参考"
+    }
+  },
+  "ram_gskill_trident_z5_d5_32g": {
+    "id": "ram_gskill_trident_z5_d5_32g",
+    "name": "芝奇 幻锋戟 32GB(2×16GB) DDR5 6000",
+    "category": "RAM",
+    "type": "new",
+    "notes": "高端旗舰RGB灯效内存标杆",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 844,
+      "msrp": 899,
+      "dealerMin": 844,
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/memory/index1395770.shtml",
+      "scrapedAt": "2026-09-29T06:07:14.248Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 844,
+      "saving": 0,
+      "tip": "全网渠道行情参考"
+    }
+  },
+  "ssd_zhitai_tiplus7100_1tb": {
+    "id": "ssd_zhitai_tiplus7100_1tb",
+    "name": "长江存储·致态 TiPlus7100 1TB",
+    "category": "SSD",
+    "type": "new",
+    "notes": "长江存储原厂晶圆无缓PCIe 4.0标杆神盘",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 639,
+      "msrp": 559,
+      "dealerMin": 639,
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/solid_state_drive/index1432187.shtml",
+      "scrapedAt": "2026-09-29T06:07:17.257Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 639,
+      "saving": 0,
+      "tip": "全网渠道行情参考"
+    }
+  },
+  "ssd_zhitai_tiplus7100_2tb": {
+    "id": "ssd_zhitai_tiplus7100_2tb",
+    "name": "长江存储·致态 TiPlus7100 2TB",
+    "category": "SSD",
+    "type": "new",
+    "notes": "原厂颗粒大容量高速游戏库标配盘",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 910,
+      "msrp": 899,
+      "dealerMin": 910,
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/solid_state_drive/index1432188.shtml",
+      "scrapedAt": "2026-09-29T06:07:20.085Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 910,
+      "saving": 0,
+      "tip": "全网渠道行情参考"
+    }
+  },
+  "ssd_samsung_990pro_1tb": {
+    "id": "ssd_samsung_990pro_1tb",
+    "name": "三星 990 PRO NVMe M.2 1TB",
+    "category": "SSD",
+    "type": "new",
+    "notes": "独立缓存旗舰固态，4K读写与重度生产力首选",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 1099,
+      "msrp": 1099,
+      "dealerMin": null,
+      "jdPrice": 1849,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=k322bmrkK32sE9tWFEPDOEJXMWkr74wOkEZmTzpd05PbilKz_qP26-BZJ6K_DtagOHINf0j_Q52EAUl277fCbfJDomtVM8sgKndVKfw6KJ5mXwjT9DD5oFUmi3H4gSyVeZH9a5E-9nklczPDeUEFz_1ZgcJHzpE6NODkfsfQBVm49aHsaoUN09wjMuw_7yigMB-oaSkn5qRbdT9C92_CitCJBqrJ02Iw78t2Nin_vgieExICRvsg9eoWMcqx8nIP6fhHubFwT8RSAO_7WRksz7LVDhLFSnEkku_MpXxxaNrDKVWdZMqJcevQ_DeTmXY61IQLQgdDuuFG9KNcqAWAJEAK_QWa2UGQT3UGUTadqYUNthItXrOZ2Zkvj3EPZvrjmcQhHj7AuQedFa3xRckH3QUOJvIOIJGBazfg3ZcgDgLjx1f5LrnuEOkNhkeW0rSzyrvRUkPppuy19PoUvHGIstzq7rdrFEn8tFTiCq71K0mDEi2-O5uESfQGtHTEVAGM5uU7Rc_-NOoiytYDrfHqhsEqvcjyZV5122VMe5_XCQ6u2-l2l4GF63ZgZAlpk3QZ7gJMFfbcn8xxUlj7wxJUzg46Tp9dq9t-AXIYdCI8p8OEW7InsniFgSnLF0i6YcDOxzuT56r3Gn5MGLv95kXw5v5L3YeHwGEedOuUzYPryqVsok0CpvEv4-sbP8z6Tc2Z2CszNWJSK_Q-YmEtytmS8182Ul04IVAt_xAPQ0xN-tEedNOf4XKZA4uLahpKaIYKUGCUhT1SPzjbEEe-3MK0G3y73AL1CVi3GC9OKZ7k41eFx6C4eDpCUKq-FeIbrokM2KHSlneDWHudM87RGr_MP7ld3Anakv5h9nmVcoLpWr4Y7fhl4ftgnQsGWqn8Pa5Z_X9cnP8P4BFl2KDbeCJ9pspjXwo_bAAhwHJIs6lTO4CInkxd3PSGdETabIsbJ9DsA6HXfa8uWohAUuNAjj4_P9O_up8607YZ-1RiCkZx82AtZdAVfkgs7FWyQU2TlyDQ-5UBs94_zQKb3LeJYvcyIlxCHyN__NdCK6qvy7onVg0GTwTX-FEhv_MqZZ6HysOtWkEvXJg1fcx3stbyefxkMwhqMtym2l6D6uHPwx7o9dVdm-w9Zx01i0qe_nsBiZEEzRe6Iyz40HYQyjlPGi9Sk3_i0tvsl2iaB56Olx00Jp9MdqvSFovzDU93wwmlsGqUJGWNFIi-VoCA-WIKITQm58KEsYChIJGiBtRpavhuRD8t64rPP02yynHCkfVBH5tpiyYhl76RXuSGDWaWZU_KgVp_s1c38ncGev_a6C12brFQUlFAWarPIRmPawYOOpVPW6SHEMJgd_ux5BubkcpddP8k5FNOfJTwfWQnbGGjT6i-zRMlDI1RzQjc5hPipxDGGfSQ1Ss-QzXzRPmWXpsyebP4QSUAV40NDE5lFB3KvTWUXfA3puBqdNpkW347FoUywsQRzR_Jv2_8GJUaXX48Q5HAaDgzN9v0Ca4G1inSP8IXryrFzwHv-Yyo7WFq8fFiRoBQi-JOqV53bYSrazRs66KE0DKdrGO7f-ze70vTI8LSIQkuxJVIdZmd61N1jTpW31YSLfQkTGhP_r6tepB-Nq4OmplWG8DVOCzkCLQbV_PWVKErWb-M1KMZzdPZlBWApOvhzPV7rIPy7HyI5k8lOpeERbnxNiLKIhqj0tCPb1BSDos9eX2JUqgbhg6DWXqSGFW6PS18tRQx5XZejA-6ZINRaNaum1DyxcDMkPF99NDCkLRWrx01bl8OhWRfku_sSBv8zxg-WqhZlqbPJDcmqeGjj70-D0H8dPGbHenmA_M0f5LJXCsp5zCEGQHgGrldWZEa9i0trbAYYQfhHa7PtvLNdtG2MsO0AzX6faEL-1_BhpJj8vNHxsQC1MsijW_sVOmI9Wk_2WGIVdbXP87X2rHR2chedndchrpLexpj-9q65oMgQYKrzWqx5iY4Tg5xmpXXMOekhb0XpDbz49F_5hAXJ_g-jWnBEhzXnoit2V8VTKF7CmnD02x4Z39mzFOGe9SZt1LS1AJlDNyLDMZmmlz4_ltRhKUTUSS7iOzXjdp08JUBNkQet8YJ2hsV15bU_5RQ40nPZVIJVOIWky959j743HJR4hc83No3ppB1FWV0a7RJtNqqSjAaBNkSdkym76hlk7jj-1WVsU_zY51r6QZvpH9JDqBlVRGlPTidey9yOFSxaU40uG2d85I32rbvrkP7-s8HpST2NgFk3tC2c1YFo1kXzgG6U5assWDuEJJti3qeyYPqRTwrWXM2eAywC5OZPbIgBp19cmNdhQL2QBt2yW3jbIkznufcKcCGC9KQKTpG5T6-pEmG2ikIK6piTw0eGxLFTrChQGT6c530xZJk-BDvMObkrE9GgPNkKqlK9s5YHH1dRQZzz_PY_5WAt7MuJdR3Uv2nlptGvv_lLXAdd4jPQMAVZLZWqYgqXwSTOXCKMQzJjx2brcHdkoM60N-r3IUC6a0CIpx1qPfAEQjbkjG7sDRJka-VwmmOx_SVUL_6ym7kWKfFvjXz5HCNo66T1gHIoOF_eceU0EsgdkQbUr7FW4xJiWrCrnpfgpQkHlmlFh0MyjJhCCP1vaK9pWnYjO4XnpBTnQd7iuVw8ewyLgD3oPTy9w6nUCgqby-TVJwofRsc&st=1790662041817",
+      "sourceUrl": "https://detail.zol.com.cn/solid_state_drive/index1425885.shtml",
+      "scrapedAt": "2026-09-29T06:07:23.360Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "多平台混搭/淘宝渠道",
+      "bestPrice": 1099,
+      "saving": 750,
+      "tip": "散片/渠道比京东省 ￥750"
+    }
+  },
+  "ssd_samsung_990pro_2tb": {
+    "id": "ssd_samsung_990pro_2tb",
+    "name": "三星 990 PRO NVMe M.2 2TB",
+    "category": "SSD",
+    "type": "new",
+    "notes": "旗舰独缓2TB大容量顶配固态",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 1119,
+      "msrp": 1119,
+      "dealerMin": null,
+      "jdPrice": 3149,
+      "jdUrl": "https://extdd1.browser.360.cn/browser/clk?m=h2c29TswboqVmyASe6g7tlfNsoXTDPsf1G5uACJ5F3Mui5SmBQ7ddAEMMDAIf-e2U53aIT8kNMHVvENSntIyTWDSDflCdVyn1YiuUY9p15aOFmAvNkhfged9kr_gjfWlaDukx9YhVMBjF5-DCVw04VZoa5p_DQTQ7kyMqSvO4AbZmlLOf3tI7GErc6whbV8W6VLr9zbYwtkfjHLtf3TE7IurmH99LV12dN7vJpaaKqJMSizSY4Hf9Mt22CMfjk0IMxdf_nfqQDt_EKouEhJ0MA1NPhubpKMiEsc1R5fwLMoVeUCnNxExlgGxKmG1Muud3WKZjcmLb6sMyKRDZJ5abtjyRzg4eC6gc3WfJbKSqgU8_crBsAcFTmPx3VNmTYBOwftpSd4fWXp-nkP48-vScePz1CnQ29R06lSGWpxS2zPSACXyEmTq-4dRAI1VC8WBZ2Dam_iZD5XgWScuTQgPffqxqQcsQ0CAeYq2lxFcv1RbADE1s18Kl_nXObWiM_ay6flBUyBid6sdCc3qc6bfhMJaKK4NAQjzSRMoJ0PMQ6dLUE3wHYd-xb_mayie_RClRFDe1J_BsGohJgWJjNshjWNSSC7fYCPV0MHyZhLAjTQBv_MCq6dSrsIcxb1yFNKJ-M_VVPG8n6PlHkprdwvZTHiqkXH7S7Cypv7vlr1JR0QS1wLDeG79TzG7Aa7jB1tMbxwupc_-mCWsezX8wFoRGp-yDaVLsxtvImllerQlB3_6c34-igg4vrEkHdTGWNyOlixxAo-3m-GZq0SCQRR-6MAq-uDzAUay88b4oC3Az_QKZ5sjnzjZFVEwwWWOJl_RJyiZ2J2mw0C2YjPpcrV4qsuchkfYE9uyV0gB9nSvBjmfvt2B75Ez0kriSqsYmoZny3YeeJPFTQFiDD8xcX1Y02rToYMljnGZ9wj7BVfmWtG25mBhjBV1uo7lfRmWlwyh68wILAnMxZDj-cO2rRr8up4PjLhgf1IZkh6v9D5jXGMwXzq6AtA7PILFuqFxRW-A_aIahrh3fLPt908kePlP7BsN-fiXGhiYReNllD6nqLZK_WC3PO4_ELd9igiYDpWojhoW5tiL-dRhZAtwWeoqCcon5wszRSos3sOxmI0GtDOBjUL0dM5QqJyqrHfiSunWEM09-E8zksgWrRBRLyag1tNBpGBvX2xPmKqvuzJ9VeUcUXipsMHjAGBdBGu-TeP4jIBboCRT2AwYsSBLXIxuKTKaKcbjWj8sPi1hS6BtZgMngDqBehLSL9O5XaMZpKwSiKhFb7jdEoqJTm8nhkHdqpHGXk8xuEdpis2YRb54ATXb2LKWEFnhonSi1nimT0YJXcRJaLsoasyPK-CugtuTpEwKw95oXwMWsB4f5ZUxdXeOKUqh9uOzfHnWK_cuzx9l2YtKFJEtSvVObcXta6Yb3lIMIIT1UmHZhgPdqVOSgcDxsYkUJa3x0e7o_SeKgNDVCgQKIw8aT_mKmuNOMRCcJPdaDC2EWWFCImkmfGJqMeixBj69aRYGNDgw3zmnnBRfK2g5OC1VYYFGs4-8kju5IMIqR7pL74CFqz_nGpE11rL5s_svb6LHyc95jHnxxfAy56l5TT9iQDmD0GSIeZ0tsxBaTTjV6G2Qs2hyhRg79jIpmnbnrzSqiTNaxtCStSz9iCI6K8hkjPpF1EljFA8uj8kN-9JFaDdTLUt2vgdz8J24zkX3LmMjiI2fYg6x7wOFXG73l864xPqQC-Kyr_J6f2dzJgkjnN2zPaV83Ge82nEPTTp56epwdLHavMUF1XLlv_fRo_LvAOqSzKQ6I6bk0-4dhplUcfyyUr08ggCdo8_TASIhYN02twCLj6siAWsYP31wsKNn6h6JbpomU80nulUao7aVMWaeZyM9RTkK79uX9ezokTrWvPE7s4fz4rJw4YhAhiBpK3LMtCHFw2i2mfs7GWIKXNa9-6l7ck550FbkUG8nyMlqUm08rJa3VV0waeh-ltuzeQ4ptSR9PXWU58MKgjL2VTcM4OBtP7K5vYf8iwQ8c-ZYABE1BO5L_Cu7mQX23U7sYApYuRpPA99sDgl6bw3nTqfEyYAHMOkB-DR4HBELLvOqNCmgaD031C0XV72vzKf5HrNJn-MMZLuEvHhOzZGgO7Zc-UzAZwhS6akROpYM2Xvj1SJcWCxbfMibXzeU9FcGOVBMpDmpeuIHjPSJwqTjr0MPHzEUWPG8ZEjUtU_qMEbVVpE7dkLFnsDerh66Az_rupGsb0RY40fMGSok0rrqYzcVXeV-vof6DDgJqLVXSfnWN7Fbx_RO5WrxAX8qFx-IHGc67I_RfVOWq4FkW_o3hI7vidn2TNbU_mx_s7iAYXruHXlsGk7Q5vLP-JVaplxEQyK_zWkUvPOTQnq3Qfac5mdsiwqHmPNE3iWoXQP035vdCWrvyWAfvF8qhFFyKz1k4KX54XtCdwb7TNAfSDf6t7DH5qbGGF5lI_oBgIYL2AcQB&st=1790662044813",
+      "sourceUrl": "https://detail.zol.com.cn/solid_state_drive/index1425886.shtml",
+      "scrapedAt": "2026-09-29T06:07:26.361Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "多平台混搭/淘宝渠道",
+      "bestPrice": 1119,
+      "saving": 2030,
+      "tip": "散片/渠道比京东省 ￥2030"
+    }
+  },
+  "ssd_wd_sn850x_1tb": {
+    "id": "ssd_wd_sn850x_1tb",
+    "name": "西部数据 WD_BLACK SN850X 1TB",
+    "category": "SSD",
+    "type": "new",
+    "notes": "顶级黑盘游戏加速固态，带专属Game Mode",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 646,
+      "msrp": 659,
+      "dealerMin": 646,
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/solid_state_drive/index1427476.shtml",
+      "scrapedAt": "2026-09-29T06:07:29.394Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 646,
+      "saving": 0,
+      "tip": "全网渠道行情参考"
+    }
+  },
+  "ssd_kioxia_rc20_1tb": {
+    "id": "ssd_kioxia_rc20_1tb",
+    "name": "铠侠 EXCERIA G2 (RC20) 1TB",
+    "category": "SSD",
+    "type": "new",
+    "notes": "自带独立DRAM缓存高性价比PCIe 3.0系统盘",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 429,
+      "msrp": 429,
+      "dealerMin": null,
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/solid_state_drive/index1380785.shtml",
+      "scrapedAt": "2026-09-29T06:07:32.201Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 429,
+      "saving": 0,
+      "tip": "全网渠道行情参考"
+    }
+  },
+  "ssd_predator_gm7_1tb": {
+    "id": "ssd_predator_gm7_1tb",
+    "name": "宏碁掠夺者 GM7 1TB NVMe M.2",
+    "category": "SSD",
+    "type": "new",
+    "notes": "联芸主控PCIe 4.0走量高性价比固态",
+    "updatedAt": "2026-09-29T06:04:08.254Z",
+    "zol": {
+      "status": "success",
+      "marketPrice": 419,
+      "msrp": 429,
+      "dealerMin": 419,
+      "jdPrice": null,
+      "jdUrl": null,
+      "sourceUrl": "https://detail.zol.com.cn/solid_state_drive/index1977299.shtml",
+      "scrapedAt": "2026-09-29T06:07:35.302Z"
+    },
+    "goofish": null,
+    "recommendation": {
+      "bestChannel": "主流电商/渠道商",
+      "bestPrice": 419,
+      "saving": 0,
+      "tip": "全网渠道行情参考"
     }
   }
 }
