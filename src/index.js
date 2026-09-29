@@ -2,7 +2,7 @@ const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
 const { scrapeZOLHardware } = require('./zol');
-const { scrapeGoofishPrice } = require('./goofish');
+const { pushPricesToCloud } = require('./pusher');
 
 const TARGETS_PATH = path.join(__dirname, '../data/targets.json');
 const OUTPUT_PATH = path.join(__dirname, '../data/prices.json');
@@ -191,6 +191,9 @@ async function main() {
     if (s.京东自营价 !== '-') catStats[s.品类].京东直达数++;
   });
   console.table(catStats);
+
+  // 抓取完成，自动向云端商业服务推送最新数据
+  await pushPricesToCloud(Object.values(currentResults));
 }
 
 main().catch(err => {

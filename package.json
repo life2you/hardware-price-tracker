@@ -5,6 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
+    "login": "node src/login.js",
+    "sync": "node src/pusher.js",
     "test": "node src/index.js"
   },
   "keywords": [
